@@ -9,7 +9,7 @@ With this library you can call the Travelport SOAP methods in a object oriented 
 You can install the package via composer:
 
 ```bash
-composer require filippo-toso/travelport
+composer require arslansheikh-2coder/travelport
 ```
 
 ## Usage
