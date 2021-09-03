@@ -8,7 +8,7 @@ class FareRuleCategory
     /**
      * @var anonymous807 $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @param anonymous807 $Category

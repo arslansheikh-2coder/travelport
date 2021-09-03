@@ -8,17 +8,17 @@ class ContentProviderRetrieveReq extends BaseReq
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeShowProvidersType $ShowProviders
      */
-    protected $ShowProviders = null;
+    public $ShowProviders = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

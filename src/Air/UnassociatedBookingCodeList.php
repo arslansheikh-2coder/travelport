@@ -8,7 +8,7 @@ class UnassociatedBookingCodeList
     /**
      * @var typeApplicableSegment[] $ApplicableSegment
      */
-    protected $ApplicableSegment = null;
+    public $ApplicableSegment = null;
 
     
     public function __construct()

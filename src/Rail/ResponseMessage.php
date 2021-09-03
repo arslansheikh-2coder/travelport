@@ -8,27 +8,27 @@ class ResponseMessage
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var int $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var anonymous102 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param string $_

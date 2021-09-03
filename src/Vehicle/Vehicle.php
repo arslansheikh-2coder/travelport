@@ -8,107 +8,107 @@ class Vehicle
     /**
      * @var typePolicyCodesList $PolicyCodesList
      */
-    protected $PolicyCodesList = null;
+    public $PolicyCodesList = null;
 
     /**
      * @var VehicleRate $VehicleRate
      */
-    protected $VehicleRate = null;
+    public $VehicleRate = null;
 
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var boolean $AirConditioning
      */
-    protected $AirConditioning = null;
+    public $AirConditioning = null;
 
     /**
      * @var typeVehicleTransmission $TransmissionType
      */
-    protected $TransmissionType = null;
+    public $TransmissionType = null;
 
     /**
      * @var typeVehicleClass $VehicleClass
      */
-    protected $VehicleClass = null;
+    public $VehicleClass = null;
 
     /**
      * @var typeVehicleCategory $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeDoorCount $DoorCount
      */
-    protected $DoorCount = null;
+    public $DoorCount = null;
 
     /**
      * @var string $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var anonymous548 $CounterLocationCode
      */
-    protected $CounterLocationCode = null;
+    public $CounterLocationCode = null;
 
     /**
      * @var typeRef $VendorLocationKey
      */
-    protected $VendorLocationKey = null;
+    public $VendorLocationKey = null;
 
     /**
      * @var anonymous549 $VendorName
      */
-    protected $VendorName = null;
+    public $VendorName = null;
 
     /**
      * @var string $AlternateVendor
      */
-    protected $AlternateVendor = null;
+    public $AlternateVendor = null;
 
     /**
      * @var typeFuel $FuelType
      */
-    protected $FuelType = null;
+    public $FuelType = null;
 
     /**
      * @var anonymous550 $AcrissVehicleCode
      */
-    protected $AcrissVehicleCode = null;
+    public $AcrissVehicleCode = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var boolean $ReturnAtPickup
      */
-    protected $ReturnAtPickup = null;
+    public $ReturnAtPickup = null;
 
     /**
      * @var boolean $InPolicy
      */
-    protected $InPolicy = null;
+    public $InPolicy = null;
 
     /**
      * @var typePolicyCode $PolicyCode
      */
-    protected $PolicyCode = null;
+    public $PolicyCode = null;
 
     /**
      * @var boolean $PreferredOption
      */
-    protected $PreferredOption = null;
+    public $PreferredOption = null;
 
     /**
      * @param typePolicyCodesList $PolicyCodesList

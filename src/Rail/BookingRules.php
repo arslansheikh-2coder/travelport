@@ -8,27 +8,27 @@ class BookingRules
     /**
      * @var BookingRulesFareReference $BookingRulesFareReference
      */
-    protected $BookingRulesFareReference = null;
+    public $BookingRulesFareReference = null;
 
     /**
      * @var RuleInfo[] $RuleInfo
      */
-    protected $RuleInfo = null;
+    public $RuleInfo = null;
 
     /**
      * @var Restriction $Restriction
      */
-    protected $Restriction = null;
+    public $Restriction = null;
 
     /**
      * @var DocumentRequired $DocumentRequired
      */
-    protected $DocumentRequired = null;
+    public $DocumentRequired = null;
 
     /**
      * @var boolean $GenderDobRequired
      */
-    protected $GenderDobRequired = null;
+    public $GenderDobRequired = null;
 
     /**
      * @param BookingRulesFareReference $BookingRulesFareReference

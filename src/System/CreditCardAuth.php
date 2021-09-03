@@ -8,57 +8,57 @@ class CreditCardAuth
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $PaymentRef
      */
-    protected $PaymentRef = null;
+    public $PaymentRef = null;
 
     /**
      * @var string $TransId
      */
-    protected $TransId = null;
+    public $TransId = null;
 
     /**
      * @var typeCreditCardNumber $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $AuthCode
      */
-    protected $AuthCode = null;
+    public $AuthCode = null;
 
     /**
      * @var string $AuthResultCode
      */
-    protected $AuthResultCode = null;
+    public $AuthResultCode = null;
 
     /**
      * @var string $AVSResultCode
      */
-    protected $AVSResultCode = null;
+    public $AVSResultCode = null;
 
     /**
      * @var string $Message
      */
-    protected $Message = null;
+    public $Message = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $FormOfPaymentRef
      */
-    protected $FormOfPaymentRef = null;
+    public $FormOfPaymentRef = null;
 
     /**
      * @param typeRef $Key

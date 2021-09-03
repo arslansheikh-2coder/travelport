@@ -8,17 +8,17 @@ class typeLocation
     /**
      * @var Airport $Airport
      */
-    protected $Airport = null;
+    public $Airport = null;
 
     /**
      * @var City $City
      */
-    protected $City = null;
+    public $City = null;
 
     /**
      * @var CityOrAirport $CityOrAirport
      */
-    protected $CityOrAirport = null;
+    public $CityOrAirport = null;
 
     /**
      * @param Airport $Airport

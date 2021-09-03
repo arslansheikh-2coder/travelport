@@ -8,12 +8,12 @@ class ProfileModifyFieldReq extends BaseReq
     /**
      * @var ModifyField $ModifyField
      */
-    protected $ModifyField = null;
+    public $ModifyField = null;
 
     /**
      * @var ModifyFieldGroup $ModifyFieldGroup
      */
-    protected $ModifyFieldGroup = null;
+    public $ModifyFieldGroup = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

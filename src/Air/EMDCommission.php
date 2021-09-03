@@ -8,17 +8,17 @@ class EMDCommission
     /**
      * @var typeAdjustmentType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var float $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeCurrency $CurrencyCode
      */
-    protected $CurrencyCode = null;
+    public $CurrencyCode = null;
 
     /**
      * @param typeAdjustmentType $Type

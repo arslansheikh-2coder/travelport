@@ -8,12 +8,12 @@ class BedTypes
     /**
      * @var typeOTACode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var int $Quantity
      */
-    protected $Quantity = null;
+    public $Quantity = null;
 
     /**
      * @param typeOTACode $Code

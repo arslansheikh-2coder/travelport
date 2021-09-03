@@ -8,17 +8,17 @@ class KeyMapping
     /**
      * @var string $ElementName
      */
-    protected $ElementName = null;
+    public $ElementName = null;
 
     /**
      * @var string $OriginalKey
      */
-    protected $OriginalKey = null;
+    public $OriginalKey = null;
 
     /**
      * @var string $NewKey
      */
-    protected $NewKey = null;
+    public $NewKey = null;
 
     /**
      * @param string $ElementName

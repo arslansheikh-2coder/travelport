@@ -8,7 +8,7 @@ class Provider
     /**
      * @var typeProviderCode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeProviderCode $Code

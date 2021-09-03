@@ -8,47 +8,47 @@ class FlightInfo
     /**
      * @var FlightInfoDetail $FlightInfoDetail
      */
-    protected $FlightInfoDetail = null;
+    public $FlightInfoDetail = null;
 
     /**
      * @var typeResultMessage[] $FlightInfoErrorMessage
      */
-    protected $FlightInfoErrorMessage = null;
+    public $FlightInfoErrorMessage = null;
 
     /**
      * @var typeRef $CriteriaKey
      */
-    protected $CriteriaKey = null;
+    public $CriteriaKey = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var date $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var typeClassOfService $ClassOfService
      */
-    protected $ClassOfService = null;
+    public $ClassOfService = null;
 
     /**
      * @param FlightInfoDetail $FlightInfoDetail

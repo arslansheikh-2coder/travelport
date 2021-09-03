@@ -8,12 +8,12 @@ class Journey
     /**
      * @var AirSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var duration $TravelTime
      */
-    protected $TravelTime = null;
+    public $TravelTime = null;
 
     /**
      * @param AirSegmentRef $AirSegmentRef

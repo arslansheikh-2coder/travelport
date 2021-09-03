@@ -8,112 +8,112 @@ class VehicleReservation extends BaseReservation
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var ReservationName $ReservationName
      */
-    protected $ReservationName = null;
+    public $ReservationName = null;
 
     /**
      * @var VehicleDateLocation $VehicleDateLocation
      */
-    protected $VehicleDateLocation = null;
+    public $VehicleDateLocation = null;
 
     /**
      * @var Vehicle $Vehicle
      */
-    protected $Vehicle = null;
+    public $Vehicle = null;
 
     /**
      * @var SpecialEquipment $SpecialEquipment
      */
-    protected $SpecialEquipment = null;
+    public $SpecialEquipment = null;
 
     /**
      * @var VehicleSpecialRequest $VehicleSpecialRequest
      */
-    protected $VehicleSpecialRequest = null;
+    public $VehicleSpecialRequest = null;
 
     /**
      * @var PaymentInformation $PaymentInformation
      */
-    protected $PaymentInformation = null;
+    public $PaymentInformation = null;
 
     /**
      * @var DeliveryAddress $DeliveryAddress
      */
-    protected $DeliveryAddress = null;
+    public $DeliveryAddress = null;
 
     /**
      * @var CollectionAddress $CollectionAddress
      */
-    protected $CollectionAddress = null;
+    public $CollectionAddress = null;
 
     /**
      * @var FlightArrivalInformation $FlightArrivalInformation
      */
-    protected $FlightArrivalInformation = null;
+    public $FlightArrivalInformation = null;
 
     /**
      * @var Guarantee $Guarantee
      */
-    protected $Guarantee = null;
+    public $Guarantee = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var BookingSource $BookingSource
      */
-    protected $BookingSource = null;
+    public $BookingSource = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var string $SellMessage
      */
-    protected $SellMessage = null;
+    public $SellMessage = null;
 
     /**
      * @var string $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $BookingConfirmation
      */
-    protected $BookingConfirmation = null;
+    public $BookingConfirmation = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $PassiveProviderReservationInfoRef
      */
-    protected $PassiveProviderReservationInfoRef = null;
+    public $PassiveProviderReservationInfoRef = null;
 
     /**
      * @var int $TravelOrder
      */
-    protected $TravelOrder = null;
+    public $TravelOrder = null;
 
     /**
      * @var anonymous541 $ProviderSegmentOrder
      */
-    protected $ProviderSegmentOrder = null;
+    public $ProviderSegmentOrder = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

@@ -8,12 +8,12 @@ class VendorInfo
     /**
      * @var typeSupplierCode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param typeSupplierCode $Code

@@ -8,47 +8,47 @@ class HotelRateByDate
     /**
      * @var string $EffectiveDate
      */
-    protected $EffectiveDate = null;
+    public $EffectiveDate = null;
 
     /**
      * @var string $ExpireDate
      */
-    protected $ExpireDate = null;
+    public $ExpireDate = null;
 
     /**
      * @var typeMoney $ApproximateBase
      */
-    protected $ApproximateBase = null;
+    public $ApproximateBase = null;
 
     /**
      * @var typeMoney $ApproximateTotal
      */
-    protected $ApproximateTotal = null;
+    public $ApproximateTotal = null;
 
     /**
      * @var string $Contents
      */
-    protected $Contents = null;
+    public $Contents = null;
 
     /**
      * @var typeMoney $Base
      */
-    protected $Base = null;
+    public $Base = null;
 
     /**
      * @var typeMoney $Tax
      */
-    protected $Tax = null;
+    public $Tax = null;
 
     /**
      * @var typeMoney $Total
      */
-    protected $Total = null;
+    public $Total = null;
 
     /**
      * @var typeMoney $Surcharge
      */
-    protected $Surcharge = null;
+    public $Surcharge = null;
 
     /**
      * @param string $EffectiveDate

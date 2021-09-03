@@ -8,7 +8,7 @@ class MealRequest
     /**
      * @var anonymous65 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param anonymous65 $Type

@@ -8,7 +8,7 @@ class RoomConfirmationCodes
     /**
      * @var string[] $ConfirmationCode
      */
-    protected $ConfirmationCode = null;
+    public $ConfirmationCode = null;
 
     /**
      * @param string[] $ConfirmationCode

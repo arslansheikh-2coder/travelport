@@ -8,22 +8,22 @@ class CurrencyRateConversion
     /**
      * @var float $RateConversion
      */
-    protected $RateConversion = null;
+    public $RateConversion = null;
 
     /**
      * @var typeCurrency $SourceCurrencyCode
      */
-    protected $SourceCurrencyCode = null;
+    public $SourceCurrencyCode = null;
 
     /**
      * @var typeCurrency $RequestedCurrencyCode
      */
-    protected $RequestedCurrencyCode = null;
+    public $RequestedCurrencyCode = null;
 
     /**
      * @var int $DecimalPlaces
      */
-    protected $DecimalPlaces = null;
+    public $DecimalPlaces = null;
 
     /**
      * @param float $RateConversion

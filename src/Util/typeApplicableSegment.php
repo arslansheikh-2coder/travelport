@@ -8,17 +8,17 @@ class typeApplicableSegment
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $AirItineraryDetailsRef
      */
-    protected $AirItineraryDetailsRef = null;
+    public $AirItineraryDetailsRef = null;
 
     /**
      * @var string $BookingCounts
      */
-    protected $BookingCounts = null;
+    public $BookingCounts = null;
 
     /**
      * @param typeRef $Key

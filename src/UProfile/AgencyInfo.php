@@ -8,67 +8,67 @@ class AgencyInfo extends typeProfileInfo
     /**
      * @var Advisory $Advisory
      */
-    protected $Advisory = null;
+    public $Advisory = null;
 
     /**
      * @var Address $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var Phone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var ElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var ExternalIdentifier $ExternalIdentifier
      */
-    protected $ExternalIdentifier = null;
+    public $ExternalIdentifier = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to8 $IataNumber
      */
-    protected $IataNumber = null;
+    public $IataNumber = null;
 
     /**
      * @var typeProvisioningCode $AgencyCode
      */
-    protected $AgencyCode = null;
+    public $AgencyCode = null;
 
     /**
      * @var boolean $UsesTemplate
      */
-    protected $UsesTemplate = null;
+    public $UsesTemplate = null;
 
     /**
      * @var anonymous545 $URSyncData
      */
-    protected $URSyncData = null;
+    public $URSyncData = null;
 
     /**
      * @var boolean $URSyncTo
      */
-    protected $URSyncTo = null;
+    public $URSyncTo = null;
 
     /**
      * @var boolean $ProfileSyncTo
      */
-    protected $ProfileSyncTo = null;
+    public $ProfileSyncTo = null;
 
     /**
      * @var boolean $ProfileSyncFrom
      */
-    protected $ProfileSyncFrom = null;
+    public $ProfileSyncFrom = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

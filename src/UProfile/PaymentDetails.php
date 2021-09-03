@@ -8,62 +8,62 @@ class PaymentDetails extends typeKeyTaggedElement
     /**
      * @var PaymentPhone $PaymentPhone
      */
-    protected $PaymentPhone = null;
+    public $PaymentPhone = null;
 
     /**
      * @var PaymentAddress $PaymentAddress
      */
-    protected $PaymentAddress = null;
+    public $PaymentAddress = null;
 
     /**
      * @var typeDateOptions $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var typeDateOptions $ExpirationDate
      */
-    protected $ExpirationDate = null;
+    public $ExpirationDate = null;
 
     /**
      * @var typePaymentType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to128 $IssuedToName
      */
-    protected $IssuedToName = null;
+    public $IssuedToName = null;
 
     /**
      * @var boolean $ExtendedPayment
      */
-    protected $ExtendedPayment = null;
+    public $ExtendedPayment = null;
 
     /**
      * @var typePaymentSupplier $PaymentSupplier
      */
-    protected $PaymentSupplier = null;
+    public $PaymentSupplier = null;
 
     /**
      * @var StringLength1to128 $AccountNumber
      */
-    protected $AccountNumber = null;
+    public $AccountNumber = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

@@ -8,17 +8,17 @@ class typeAnchorFlightData
     /**
      * @var typeCarrier $AirlineCode
      */
-    protected $AirlineCode = null;
+    public $AirlineCode = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var boolean $ConnectionIndicator
      */
-    protected $ConnectionIndicator = null;
+    public $ConnectionIndicator = null;
 
     /**
      * @param typeCarrier $AirlineCode

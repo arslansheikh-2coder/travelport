@@ -8,22 +8,22 @@ class typeHotelDetails
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelDetailItem $HotelDetailItem
      */
-    protected $HotelDetailItem = null;
+    public $HotelDetailItem = null;
 
     /**
      * @var HotelRateDetail $HotelRateDetail
      */
-    protected $HotelRateDetail = null;
+    public $HotelRateDetail = null;
 
     /**
      * @var MediaItem $MediaItem
      */
-    protected $MediaItem = null;
+    public $MediaItem = null;
 
     /**
      * @param HotelProperty $HotelProperty

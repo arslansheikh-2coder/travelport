@@ -8,7 +8,7 @@ class PaymentInformation extends typePaymentInformation
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param string $BillingNumber

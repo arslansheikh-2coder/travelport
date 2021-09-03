@@ -8,52 +8,52 @@ class AirMerchandisingFulfillmentReq extends BaseReq
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var HostReservation $HostReservation
      */
-    protected $HostReservation = null;
+    public $HostReservation = null;
 
     /**
      * @var AgencySellInfo $AgencySellInfo
      */
-    protected $AgencySellInfo = null;
+    public $AgencySellInfo = null;
 
     /**
      * @var AirSolution $AirSolution
      */
-    protected $AirSolution = null;
+    public $AirSolution = null;
 
     /**
      * @var CreditCard $CreditCard
      */
-    protected $CreditCard = null;
+    public $CreditCard = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var SpecificSeatAssignment $SpecificSeatAssignment
      */
-    protected $SpecificSeatAssignment = null;
+    public $SpecificSeatAssignment = null;
 
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var string $ConfirmationEmail
      */
-    protected $ConfirmationEmail = null;
+    public $ConfirmationEmail = null;
 
     /**
      * @var MerchandisingPricingModifiers $MerchandisingPricingModifiers
      */
-    protected $MerchandisingPricingModifiers = null;
+    public $MerchandisingPricingModifiers = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

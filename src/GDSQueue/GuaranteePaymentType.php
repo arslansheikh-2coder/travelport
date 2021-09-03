@@ -8,17 +8,17 @@ class GuaranteePaymentType
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param string $_

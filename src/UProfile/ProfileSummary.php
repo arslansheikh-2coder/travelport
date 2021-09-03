@@ -8,27 +8,27 @@ class ProfileSummary
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var StringLength1to128 $ProvisioningCode
      */
-    protected $ProvisioningCode = null;
+    public $ProvisioningCode = null;
 
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param string $Name

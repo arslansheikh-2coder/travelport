@@ -8,17 +8,17 @@ class EmergencyContact
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var UNKNOWN $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var UNKNOWN $Relationship
      */
-    protected $Relationship = null;
+    public $Relationship = null;
 
     /**
      * @param PhoneNumber $PhoneNumber

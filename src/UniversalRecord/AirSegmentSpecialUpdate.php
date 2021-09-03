@@ -8,12 +8,12 @@ class AirSegmentSpecialUpdate
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var anonymous1390 $Action
      */
-    protected $Action = null;
+    public $Action = null;
 
     /**
      * @param typeBaseAirSegment $AirSegment

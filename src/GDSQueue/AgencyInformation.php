@@ -8,17 +8,17 @@ class AgencyInformation
     /**
      * @var typeStructuredAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var Email $Email
      */
-    protected $Email = null;
+    public $Email = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @param Email $Email

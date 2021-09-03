@@ -8,22 +8,22 @@ class RoleInfo
     /**
      * @var anonymous179 $Id
      */
-    protected $Id = null;
+    public $Id = null;
 
     /**
      * @var anonymous180 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @var anonymous181 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param anonymous179 $Id

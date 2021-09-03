@@ -8,17 +8,17 @@ class SystemInfo
     /**
      * @var string $SystemType
      */
-    protected $SystemType = null;
+    public $SystemType = null;
 
     /**
      * @var string $ApplicationVersion
      */
-    protected $ApplicationVersion = null;
+    public $ApplicationVersion = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param string $SystemType

@@ -8,182 +8,182 @@ class AirPricingModifiers
     /**
      * @var ProhibitedRuleCategories $ProhibitedRuleCategories
      */
-    protected $ProhibitedRuleCategories = null;
+    public $ProhibitedRuleCategories = null;
 
     /**
      * @var AccountCodes $AccountCodes
      */
-    protected $AccountCodes = null;
+    public $AccountCodes = null;
 
     /**
      * @var PermittedCabins $PermittedCabins
      */
-    protected $PermittedCabins = null;
+    public $PermittedCabins = null;
 
     /**
      * @var ContractCodes $ContractCodes
      */
-    protected $ContractCodes = null;
+    public $ContractCodes = null;
 
     /**
      * @var ExemptTaxes $ExemptTaxes
      */
-    protected $ExemptTaxes = null;
+    public $ExemptTaxes = null;
 
     /**
      * @var PenaltyFareInformation $PenaltyFareInformation
      */
-    protected $PenaltyFareInformation = null;
+    public $PenaltyFareInformation = null;
 
     /**
      * @var DiscountCard $DiscountCard
      */
-    protected $DiscountCard = null;
+    public $DiscountCard = null;
 
     /**
      * @var PromoCodes $PromoCodes
      */
-    protected $PromoCodes = null;
+    public $PromoCodes = null;
 
     /**
      * @var ManualFareAdjustment $ManualFareAdjustment
      */
-    protected $ManualFareAdjustment = null;
+    public $ManualFareAdjustment = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var BrandModifiers $BrandModifiers
      */
-    protected $BrandModifiers = null;
+    public $BrandModifiers = null;
 
     /**
      * @var MultiGDSSearchIndicator $MultiGDSSearchIndicator
      */
-    protected $MultiGDSSearchIndicator = null;
+    public $MultiGDSSearchIndicator = null;
 
     /**
      * @var PreferredCabins $PreferredCabins
      */
-    protected $PreferredCabins = null;
+    public $PreferredCabins = null;
 
     /**
      * @var boolean $ProhibitMinStayFares
      */
-    protected $ProhibitMinStayFares = null;
+    public $ProhibitMinStayFares = null;
 
     /**
      * @var boolean $ProhibitMaxStayFares
      */
-    protected $ProhibitMaxStayFares = null;
+    public $ProhibitMaxStayFares = null;
 
     /**
      * @var typeCurrency $CurrencyType
      */
-    protected $CurrencyType = null;
+    public $CurrencyType = null;
 
     /**
      * @var boolean $ProhibitAdvancePurchaseFares
      */
-    protected $ProhibitAdvancePurchaseFares = null;
+    public $ProhibitAdvancePurchaseFares = null;
 
     /**
      * @var boolean $ProhibitNonRefundableFares
      */
-    protected $ProhibitNonRefundableFares = null;
+    public $ProhibitNonRefundableFares = null;
 
     /**
      * @var boolean $ProhibitRestrictedFares
      */
-    protected $ProhibitRestrictedFares = null;
+    public $ProhibitRestrictedFares = null;
 
     /**
      * @var typeFaresIndicator $FaresIndicator
      */
-    protected $FaresIndicator = null;
+    public $FaresIndicator = null;
 
     /**
      * @var typeCurrency $FiledCurrency
      */
-    protected $FiledCurrency = null;
+    public $FiledCurrency = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @var typeCarrier $OverrideCarrier
      */
-    protected $OverrideCarrier = null;
+    public $OverrideCarrier = null;
 
     /**
      * @var typeEticketability $ETicketability
      */
-    protected $ETicketability = null;
+    public $ETicketability = null;
 
     /**
      * @var boolean $AccountCodeFaresOnly
      */
-    protected $AccountCodeFaresOnly = null;
+    public $AccountCodeFaresOnly = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var boolean $ProhibitNonExchangeableFares
      */
-    protected $ProhibitNonExchangeableFares = null;
+    public $ProhibitNonExchangeableFares = null;
 
     /**
      * @var boolean $ForceSegmentSelect
      */
-    protected $ForceSegmentSelect = null;
+    public $ForceSegmentSelect = null;
 
     /**
      * @var typeInventoryRequest $InventoryRequestType
      */
-    protected $InventoryRequestType = null;
+    public $InventoryRequestType = null;
 
     /**
      * @var boolean $OneWayShop
      */
-    protected $OneWayShop = null;
+    public $OneWayShop = null;
 
     /**
      * @var boolean $ProhibitUnbundledFareTypes
      */
-    protected $ProhibitUnbundledFareTypes = null;
+    public $ProhibitUnbundledFareTypes = null;
 
     /**
      * @var boolean $ReturnServices
      */
-    protected $ReturnServices = null;
+    public $ReturnServices = null;
 
     /**
      * @var anonymous806 $ChannelId
      */
-    protected $ChannelId = null;
+    public $ChannelId = null;
 
     /**
      * @var boolean $ReturnFareAttributes
      */
-    protected $ReturnFareAttributes = null;
+    public $ReturnFareAttributes = null;
 
     /**
      * @var boolean $SellCheck
      */
-    protected $SellCheck = null;
+    public $SellCheck = null;
 
     /**
      * @var boolean $ReturnFailedSegments
      */
-    protected $ReturnFailedSegments = null;
+    public $ReturnFailedSegments = null;
 
     /**
      * @param PermittedCabins $PermittedCabins

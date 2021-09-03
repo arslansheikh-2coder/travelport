@@ -8,27 +8,27 @@ class BranchCriteria extends typeProfileSearchCriteria
     /**
      * @var typeWildcard $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeWildcard $IataNumber
      */
-    protected $IataNumber = null;
+    public $IataNumber = null;
 
     /**
      * @var typeFilterControlAndWorkspace $BranchType
      */
-    protected $BranchType = null;
+    public $BranchType = null;
 
     /**
      * @var typeWildcard $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var typeWildcard $BranchCode
      */
-    protected $BranchCode = null;
+    public $BranchCode = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

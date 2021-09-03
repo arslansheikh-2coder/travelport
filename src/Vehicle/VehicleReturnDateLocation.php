@@ -8,22 +8,22 @@ class VehicleReturnDateLocation
     /**
      * @var string $ReturnDateTime
      */
-    protected $ReturnDateTime = null;
+    public $ReturnDateTime = null;
 
     /**
      * @var typeIATACode $ReturnLocation
      */
-    protected $ReturnLocation = null;
+    public $ReturnLocation = null;
 
     /**
      * @var typeVehicleLocation $ReturnLocationType
      */
-    protected $ReturnLocationType = null;
+    public $ReturnLocationType = null;
 
     /**
      * @var string $ReturnLocationNumber
      */
-    protected $ReturnLocationNumber = null;
+    public $ReturnLocationNumber = null;
 
     /**
      * @param string $ReturnDateTime

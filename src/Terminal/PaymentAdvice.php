@@ -8,27 +8,27 @@ class PaymentAdvice
     /**
      * @var anonymous472 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anonymous473 $DocumentNumber
      */
-    protected $DocumentNumber = null;
+    public $DocumentNumber = null;
 
     /**
      * @var date $IssueDate
      */
-    protected $IssueDate = null;
+    public $IssueDate = null;
 
     /**
      * @var typeIATACode $IssueCity
      */
-    protected $IssueCity = null;
+    public $IssueCity = null;
 
     /**
      * @var anonymous474 $OriginalFOP
      */
-    protected $OriginalFOP = null;
+    public $OriginalFOP = null;
 
     /**
      * @param anonymous472 $Type

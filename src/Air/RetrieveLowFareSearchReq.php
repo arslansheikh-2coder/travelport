@@ -8,12 +8,12 @@ class RetrieveLowFareSearchReq extends BaseReq
     /**
      * @var typeLowFareSearchId $SearchId
      */
-    protected $SearchId = null;
+    public $SearchId = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

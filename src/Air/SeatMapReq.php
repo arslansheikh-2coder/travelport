@@ -8,42 +8,42 @@ class SeatMapReq extends BaseReq
     /**
      * @var AgencySellInfo $AgencySellInfo
      */
-    protected $AgencySellInfo = null;
+    public $AgencySellInfo = null;
 
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var SearchTraveler $SearchTraveler
      */
-    protected $SearchTraveler = null;
+    public $SearchTraveler = null;
 
     /**
      * @var HostReservation $HostReservation
      */
-    protected $HostReservation = null;
+    public $HostReservation = null;
 
     /**
      * @var MerchandisingPricingModifiers $MerchandisingPricingModifiers
      */
-    protected $MerchandisingPricingModifiers = null;
+    public $MerchandisingPricingModifiers = null;
 
     /**
      * @var boolean $ReturnSeatPricing
      */
-    protected $ReturnSeatPricing = null;
+    public $ReturnSeatPricing = null;
 
     /**
      * @var boolean $ReturnBrandingInfo
      */
-    protected $ReturnBrandingInfo = null;
+    public $ReturnBrandingInfo = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

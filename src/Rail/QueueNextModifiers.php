@@ -8,22 +8,22 @@ class QueueNextModifiers
     /**
      * @var boolean $NextOnQueue
      */
-    protected $NextOnQueue = null;
+    public $NextOnQueue = null;
 
     /**
      * @var typeLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var boolean $ReQueueCurrent
      */
-    protected $ReQueueCurrent = null;
+    public $ReQueueCurrent = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @param boolean $NextOnQueue

@@ -8,22 +8,22 @@ class FareRemark
     /**
      * @var string[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var URL $URL
      */
-    protected $URL = null;
+    public $URL = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param URL $URL

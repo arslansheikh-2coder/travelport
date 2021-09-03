@@ -8,107 +8,107 @@ class Coupon
     /**
      * @var TicketDesignator $TicketDesignator
      */
-    protected $TicketDesignator = null;
+    public $TicketDesignator = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var int $CouponNumber
      */
-    protected $CouponNumber = null;
+    public $CouponNumber = null;
 
     /**
      * @var typeCarrier $OperatingCarrier
      */
-    protected $OperatingCarrier = null;
+    public $OperatingCarrier = null;
 
     /**
      * @var typeFlightNumber $OperatingFlightNumber
      */
-    protected $OperatingFlightNumber = null;
+    public $OperatingFlightNumber = null;
 
     /**
      * @var typeCarrier $MarketingCarrier
      */
-    protected $MarketingCarrier = null;
+    public $MarketingCarrier = null;
 
     /**
      * @var typeFlightNumber $MarketingFlightNumber
      */
-    protected $MarketingFlightNumber = null;
+    public $MarketingFlightNumber = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var string $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @var boolean $StopoverCode
      */
-    protected $StopoverCode = null;
+    public $StopoverCode = null;
 
     /**
      * @var anonymous834 $BookingClass
      */
-    protected $BookingClass = null;
+    public $BookingClass = null;
 
     /**
      * @var string $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @var date $NotValidBefore
      */
-    protected $NotValidBefore = null;
+    public $NotValidBefore = null;
 
     /**
      * @var date $NotValidAfter
      */
-    protected $NotValidAfter = null;
+    public $NotValidAfter = null;
 
     /**
      * @var anonymous835 $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var int $SegmentGroup
      */
-    protected $SegmentGroup = null;
+    public $SegmentGroup = null;
 
     /**
      * @var int $MarriageGroup
      */
-    protected $MarriageGroup = null;
+    public $MarriageGroup = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param TicketDesignator $TicketDesignator

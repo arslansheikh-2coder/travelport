@@ -8,37 +8,37 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
     /**
      * @var anonymous736 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeEmailType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeEmailFormat $Format
      */
-    protected $Format = null;
+    public $Format = null;
 
     /**
      * @var typeContactPurpose $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @var boolean $Provisioned
      */
-    protected $Provisioned = null;
+    public $Provisioned = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

@@ -8,7 +8,7 @@ class AirFareDisplayRsp extends BaseRsp
     /**
      * @var FareDisplay $FareDisplay
      */
-    protected $FareDisplay = null;
+    public $FareDisplay = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,17 +8,17 @@ class BackOfficeHandOff
     /**
      * @var typeBackOffice $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @param typeBackOffice $Type

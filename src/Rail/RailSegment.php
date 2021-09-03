@@ -8,117 +8,117 @@ class RailSegment extends Segment
     /**
      * @var RailSegmentInfo $RailSegmentInfo
      */
-    protected $RailSegmentInfo = null;
+    public $RailSegmentInfo = null;
 
     /**
      * @var OperatingCompany $OperatingCompany
      */
-    protected $OperatingCompany = null;
+    public $OperatingCompany = null;
 
     /**
      * @var RailAvailInfo $RailAvailInfo
      */
-    protected $RailAvailInfo = null;
+    public $RailAvailInfo = null;
 
     /**
      * @var FulFillmentType $FulFillmentType
      */
-    protected $FulFillmentType = null;
+    public $FulFillmentType = null;
 
     /**
      * @var typeTrainNumber $TrainNumber
      */
-    protected $TrainNumber = null;
+    public $TrainNumber = null;
 
     /**
      * @var string $TrainType
      */
-    protected $TrainType = null;
+    public $TrainType = null;
 
     /**
      * @var typeTrainType $TrainTypeCode
      */
-    protected $TrainTypeCode = null;
+    public $TrainTypeCode = null;
 
     /**
      * @var typeTransportMode $TransportMode
      */
-    protected $TransportMode = null;
+    public $TransportMode = null;
 
     /**
      * @var boolean $SeatAssignable
      */
-    protected $SeatAssignable = null;
+    public $SeatAssignable = null;
 
     /**
      * @var string $TransportCode
      */
-    protected $TransportCode = null;
+    public $TransportCode = null;
 
     /**
      * @var boolean $ReservationRequired
      */
-    protected $ReservationRequired = null;
+    public $ReservationRequired = null;
 
     /**
      * @var int $TravelTime
      */
-    protected $TravelTime = null;
+    public $TravelTime = null;
 
     /**
      * @var typeRef $HostTokenRef
      */
-    protected $HostTokenRef = null;
+    public $HostTokenRef = null;
 
     /**
      * @var typeRailCabin $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var typeRailClass $ClassCode
      */
-    protected $ClassCode = null;
+    public $ClassCode = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var string $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @var string $OriginStationName
      */
-    protected $OriginStationName = null;
+    public $OriginStationName = null;
 
     /**
      * @var string $DestinationStationName
      */
-    protected $DestinationStationName = null;
+    public $DestinationStationName = null;
 
     /**
      * @var typeRailLocationCode $RailLocOrigin
      */
-    protected $RailLocOrigin = null;
+    public $RailLocOrigin = null;
 
     /**
      * @var typeRailLocationCode $RailLocDestination
      */
-    protected $RailLocDestination = null;
+    public $RailLocDestination = null;
 
     /**
      * @param SegmentRemark $SegmentRemark

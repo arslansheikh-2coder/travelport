@@ -8,17 +8,17 @@ class MCOFeeInfo
     /**
      * @var anonymous180 $FeeAppliesToInd
      */
-    protected $FeeAppliesToInd = null;
+    public $FeeAppliesToInd = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePercentageWithDecimal $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @param anonymous180 $FeeAppliesToInd

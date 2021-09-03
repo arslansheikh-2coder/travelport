@@ -8,17 +8,17 @@ class ModifyRules
     /**
      * @var ModifyRule[] $ModifyRule
      */
-    protected $ModifyRule = null;
+    public $ModifyRule = null;
 
     /**
      * @var anonymous324 $SupportedModifications
      */
-    protected $SupportedModifications = null;
+    public $SupportedModifications = null;
 
     /**
      * @var string $ProviderDefinedModificationType
      */
-    protected $ProviderDefinedModificationType = null;
+    public $ProviderDefinedModificationType = null;
 
     /**
      * @param ModifyRule[] $ModifyRule

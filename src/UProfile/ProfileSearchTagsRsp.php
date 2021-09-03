@@ -8,7 +8,7 @@ class ProfileSearchTagsRsp extends BaseRsp
     /**
      * @var Tag $Tag
      */
-    protected $Tag = null;
+    public $Tag = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

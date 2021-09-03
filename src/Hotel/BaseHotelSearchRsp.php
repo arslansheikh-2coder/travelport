@@ -8,27 +8,27 @@ class BaseHotelSearchRsp extends BaseSearchRsp
     /**
      * @var typeHotelReferencePoint $ReferencePoint
      */
-    protected $ReferencePoint = null;
+    public $ReferencePoint = null;
 
     /**
      * @var HotelSearchResult $HotelSearchResult
      */
-    protected $HotelSearchResult = null;
+    public $HotelSearchResult = null;
 
     /**
      * @var MarketingInformation $MarketingInformation
      */
-    protected $MarketingInformation = null;
+    public $MarketingInformation = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var int $AddressSearchQuality
      */
-    protected $AddressSearchQuality = null;
+    public $AddressSearchQuality = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

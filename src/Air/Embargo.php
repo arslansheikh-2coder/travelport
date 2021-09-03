@@ -8,47 +8,47 @@ class Embargo
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var anonymous1126 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var string $SecondaryType
      */
-    protected $SecondaryType = null;
+    public $SecondaryType = null;
 
     /**
      * @var typeMerchandisingService $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anyURI $Url
      */
-    protected $Url = null;
+    public $Url = null;
 
     /**
      * @var anonymous1127 $ServiceSubCode
      */
-    protected $ServiceSubCode = null;
+    public $ServiceSubCode = null;
 
     /**
      * @param typeRef $Key

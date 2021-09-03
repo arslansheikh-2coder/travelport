@@ -8,12 +8,12 @@ class typeDateRange
     /**
      * @var date $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var date $EndDate
      */
-    protected $EndDate = null;
+    public $EndDate = null;
 
     /**
      * @param date $StartDate

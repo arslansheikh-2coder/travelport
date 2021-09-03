@@ -8,57 +8,57 @@ class CustomField extends typeCustomField
     /**
      * @var ActionRef $ActionRef
      */
-    protected $ActionRef = null;
+    public $ActionRef = null;
 
     /**
      * @var string $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var UNKNOWN $Searchable
      */
-    protected $Searchable = null;
+    public $Searchable = null;
 
     /**
      * @var boolean $SearchOption
      */
-    protected $SearchOption = null;
+    public $SearchOption = null;
 
     /**
      * @var int $SearchOptionDisplayOrder
      */
-    protected $SearchOptionDisplayOrder = null;
+    public $SearchOptionDisplayOrder = null;
 
     /**
      * @var boolean $Hide
      */
-    protected $Hide = null;
+    public $Hide = null;
 
     /**
      * @var int $MinOccursOverride
      */
-    protected $MinOccursOverride = null;
+    public $MinOccursOverride = null;
 
     /**
      * @var int $MaxOccursOverride
      */
-    protected $MaxOccursOverride = null;
+    public $MaxOccursOverride = null;
 
     /**
      * @var boolean $InheritableControlInd
      */
-    protected $InheritableControlInd = null;
+    public $InheritableControlInd = null;
 
     /**
      * @var boolean $ReadOnly
      */
-    protected $ReadOnly = null;
+    public $ReadOnly = null;
 
     /**
      * @var boolean $Overriden
      */
-    protected $Overriden = null;
+    public $Overriden = null;
 
     /**
      * @param typeStringRestriction $FreeformTextRestriction
@@ -74,7 +74,7 @@ class CustomField extends typeCustomField
      * @param boolean $Encrypted
      * @param typeMasked $Masked
      * @param StringLength1to255 $DefaultValue
-     * @param boolean $Protected
+     * @param boolean $public
      * @param int $DisplayOrder
      * @param boolean $Inheritable
      * @param int $MinOccurs
@@ -91,9 +91,9 @@ class CustomField extends typeCustomField
      * @param boolean $ReadOnly
      * @param boolean $Overriden
      */
-    public function __construct($FreeformTextRestriction = null, $WholeNumberRestriction = null, $DecimalRestriction = null, $TextRestriction = null, $AlphaNumericRestriction = null, $PercentageRestriction = null, $ID = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $Protected = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null, $ActionRef = null, $Label = null, $Searchable = null, $SearchOption = null, $SearchOptionDisplayOrder = null, $Hide = null, $MinOccursOverride = null, $MaxOccursOverride = null, $InheritableControlInd = null, $ReadOnly = null, $Overriden = null)
+    public function __construct($FreeformTextRestriction = null, $WholeNumberRestriction = null, $DecimalRestriction = null, $TextRestriction = null, $AlphaNumericRestriction = null, $PercentageRestriction = null, $ID = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $public = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null, $ActionRef = null, $Label = null, $Searchable = null, $SearchOption = null, $SearchOptionDisplayOrder = null, $Hide = null, $MinOccursOverride = null, $MaxOccursOverride = null, $InheritableControlInd = null, $ReadOnly = null, $Overriden = null)
     {
-      parent::__construct($FreeformTextRestriction, $WholeNumberRestriction, $DecimalRestriction, $TextRestriction, $AlphaNumericRestriction, $PercentageRestriction, $ID, $Name, $Description, $Type, $Encrypted, $Masked, $DefaultValue, $Protected, $DisplayOrder, $Inheritable, $MinOccurs, $MaxOccurs);
+      parent::__construct($FreeformTextRestriction, $WholeNumberRestriction, $DecimalRestriction, $TextRestriction, $AlphaNumericRestriction, $PercentageRestriction, $ID, $Name, $Description, $Type, $Encrypted, $Masked, $DefaultValue, $public, $DisplayOrder, $Inheritable, $MinOccurs, $MaxOccurs);
       $this->ActionRef = $ActionRef;
       $this->Label = $Label;
       $this->Searchable = $Searchable;

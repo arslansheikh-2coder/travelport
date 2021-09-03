@@ -8,12 +8,12 @@ class HotelUpsellSearchCriteria
     /**
      * @var HotelUpsellOfferSearchCriteria $HotelUpsellOfferSearchCriteria
      */
-    protected $HotelUpsellOfferSearchCriteria = null;
+    public $HotelUpsellOfferSearchCriteria = null;
 
     /**
      * @var HotelUpsellQualifySearchCriteria $HotelUpsellQualifySearchCriteria
      */
-    protected $HotelUpsellQualifySearchCriteria = null;
+    public $HotelUpsellQualifySearchCriteria = null;
 
     /**
      * @param HotelUpsellOfferSearchCriteria $HotelUpsellOfferSearchCriteria

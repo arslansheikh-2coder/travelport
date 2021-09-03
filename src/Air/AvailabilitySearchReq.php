@@ -8,27 +8,27 @@ class AvailabilitySearchReq extends AirSearchReq
     /**
      * @var SearchPassenger $SearchPassenger
      */
-    protected $SearchPassenger = null;
+    public $SearchPassenger = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var boolean $ReturnBrandIndicator
      */
-    protected $ReturnBrandIndicator = null;
+    public $ReturnBrandIndicator = null;
 
     /**
      * @var anonymous1191 $ChannelId
      */
-    protected $ChannelId = null;
+    public $ChannelId = null;
 
     /**
      * @var anonymous1192 $NSCC
      */
-    protected $NSCC = null;
+    public $NSCC = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

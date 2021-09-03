@@ -8,52 +8,52 @@ class Penalty
     /**
      * @var boolean $CancelRefund
      */
-    protected $CancelRefund = null;
+    public $CancelRefund = null;
 
     /**
      * @var boolean $NonRefundable
      */
-    protected $NonRefundable = null;
+    public $NonRefundable = null;
 
     /**
      * @var boolean $NonExchangeable
      */
-    protected $NonExchangeable = null;
+    public $NonExchangeable = null;
 
     /**
      * @var boolean $CancelationPenalty
      */
-    protected $CancelationPenalty = null;
+    public $CancelationPenalty = null;
 
     /**
      * @var boolean $ReissuePenalty
      */
-    protected $ReissuePenalty = null;
+    public $ReissuePenalty = null;
 
     /**
      * @var boolean $NonReissuePenalty
      */
-    protected $NonReissuePenalty = null;
+    public $NonReissuePenalty = null;
 
     /**
      * @var boolean $TicketRefundPenalty
      */
-    protected $TicketRefundPenalty = null;
+    public $TicketRefundPenalty = null;
 
     /**
      * @var boolean $ChargeApplicable
      */
-    protected $ChargeApplicable = null;
+    public $ChargeApplicable = null;
 
     /**
      * @var boolean $ChargePortion
      */
-    protected $ChargePortion = null;
+    public $ChargePortion = null;
 
     /**
      * @var typeMoney $PenaltyAmount
      */
-    protected $PenaltyAmount = null;
+    public $PenaltyAmount = null;
 
     /**
      * @param boolean $CancelRefund

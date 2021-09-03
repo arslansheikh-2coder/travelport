@@ -8,82 +8,82 @@ class FlightInfoDetail
     /**
      * @var CodeshareInfo $CodeshareInfo
      */
-    protected $CodeshareInfo = null;
+    public $CodeshareInfo = null;
 
     /**
      * @var typeMealService $Meals
      */
-    protected $Meals = null;
+    public $Meals = null;
 
     /**
      * @var string $InFlightServices
      */
-    protected $InFlightServices = null;
+    public $InFlightServices = null;
 
     /**
      * @var Variance $Variance
      */
-    protected $Variance = null;
+    public $Variance = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $ScheduledDepartureTime
      */
-    protected $ScheduledDepartureTime = null;
+    public $ScheduledDepartureTime = null;
 
     /**
      * @var string $ScheduledArrivalTime
      */
-    protected $ScheduledArrivalTime = null;
+    public $ScheduledArrivalTime = null;
 
     /**
      * @var int $TravelTime
      */
-    protected $TravelTime = null;
+    public $TravelTime = null;
 
     /**
      * @var typeEticketability $ETicketability
      */
-    protected $ETicketability = null;
+    public $ETicketability = null;
 
     /**
      * @var typeEquipment $Equipment
      */
-    protected $Equipment = null;
+    public $Equipment = null;
 
     /**
      * @var string $OriginTerminal
      */
-    protected $OriginTerminal = null;
+    public $OriginTerminal = null;
 
     /**
      * @var anonymous984 $OriginGate
      */
-    protected $OriginGate = null;
+    public $OriginGate = null;
 
     /**
      * @var string $DestinationTerminal
      */
-    protected $DestinationTerminal = null;
+    public $DestinationTerminal = null;
 
     /**
      * @var anonymous985 $DestinationGate
      */
-    protected $DestinationGate = null;
+    public $DestinationGate = null;
 
     /**
      * @var boolean $AutomatedCheckin
      */
-    protected $AutomatedCheckin = null;
+    public $AutomatedCheckin = null;
 
     /**
      * @param CodeshareInfo $CodeshareInfo

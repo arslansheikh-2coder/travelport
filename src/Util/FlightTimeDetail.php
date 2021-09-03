@@ -8,127 +8,127 @@ class FlightTimeDetail
     /**
      * @var typeDaysOfOperation $DaysOfOperation
      */
-    protected $DaysOfOperation = null;
+    public $DaysOfOperation = null;
 
     /**
      * @var Connection $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var typeAirport $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeAirport $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var time $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var time $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @var int $StopCount
      */
-    protected $StopCount = null;
+    public $StopCount = null;
 
     /**
      * @var typeEquipment $Equipment
      */
-    protected $Equipment = null;
+    public $Equipment = null;
 
     /**
      * @var date $ScheduleStartDate
      */
-    protected $ScheduleStartDate = null;
+    public $ScheduleStartDate = null;
 
     /**
      * @var date $ScheduleEndDate
      */
-    protected $ScheduleEndDate = null;
+    public $ScheduleEndDate = null;
 
     /**
      * @var boolean $DisplayOption
      */
-    protected $DisplayOption = null;
+    public $DisplayOption = null;
 
     /**
      * @var int $OnTimePerformance
      */
-    protected $OnTimePerformance = null;
+    public $OnTimePerformance = null;
 
     /**
      * @var int $DayChange
      */
-    protected $DayChange = null;
+    public $DayChange = null;
 
     /**
      * @var int $JourneyTime
      */
-    protected $JourneyTime = null;
+    public $JourneyTime = null;
 
     /**
      * @var int $FlightTime
      */
-    protected $FlightTime = null;
+    public $FlightTime = null;
 
     /**
      * @var string $StartTerminal
      */
-    protected $StartTerminal = null;
+    public $StartTerminal = null;
 
     /**
      * @var string $EndTerminal
      */
-    protected $EndTerminal = null;
+    public $EndTerminal = null;
 
     /**
      * @var typeIATACode $FirstIntermediateStop
      */
-    protected $FirstIntermediateStop = null;
+    public $FirstIntermediateStop = null;
 
     /**
      * @var typeIATACode $LastIntermediateStop
      */
-    protected $LastIntermediateStop = null;
+    public $LastIntermediateStop = null;
 
     /**
      * @var anonymous930 $InsideAvailability
      */
-    protected $InsideAvailability = null;
+    public $InsideAvailability = null;
 
     /**
      * @var anonymous931 $SecureSell
      */
-    protected $SecureSell = null;
+    public $SecureSell = null;
 
     /**
      * @var typeAvailabilitySource $AvailabilitySource
      */
-    protected $AvailabilitySource = null;
+    public $AvailabilitySource = null;
 
     /**
      * @param Connection $Connection

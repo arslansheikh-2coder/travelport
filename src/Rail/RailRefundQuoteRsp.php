@@ -8,7 +8,7 @@ class RailRefundQuoteRsp extends BaseRsp
     /**
      * @var RailRefundInfo $RailRefundInfo
      */
-    protected $RailRefundInfo = null;
+    public $RailRefundInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

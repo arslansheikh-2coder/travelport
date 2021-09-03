@@ -8,207 +8,207 @@ class VehicleRate
     /**
      * @var SupplierRate $SupplierRate
      */
-    protected $SupplierRate = null;
+    public $SupplierRate = null;
 
     /**
      * @var typeRateVariance $RateVariance
      */
-    protected $RateVariance = null;
+    public $RateVariance = null;
 
     /**
      * @var typeVehicleRates $ApproximateRate
      */
-    protected $ApproximateRate = null;
+    public $ApproximateRate = null;
 
     /**
      * @var typeVehicleRateDescription[] $VehicleRateDescription
      */
-    protected $VehicleRateDescription = null;
+    public $VehicleRateDescription = null;
 
     /**
      * @var typeRateHostIndicator $RateHostIndicator
      */
-    protected $RateHostIndicator = null;
+    public $RateHostIndicator = null;
 
     /**
      * @var typeRateInfo $HourlyLateCharge
      */
-    protected $HourlyLateCharge = null;
+    public $HourlyLateCharge = null;
 
     /**
      * @var typeRateInfo $DailyLateCharge
      */
-    protected $DailyLateCharge = null;
+    public $DailyLateCharge = null;
 
     /**
      * @var PricedEquip $PricedEquip
      */
-    protected $PricedEquip = null;
+    public $PricedEquip = null;
 
     /**
      * @var RateInclusions $RateInclusions
      */
-    protected $RateInclusions = null;
+    public $RateInclusions = null;
 
     /**
      * @var typeRateInfo $WeeklyLateCharge
      */
-    protected $WeeklyLateCharge = null;
+    public $WeeklyLateCharge = null;
 
     /**
      * @var string $PrintText
      */
-    protected $PrintText = null;
+    public $PrintText = null;
 
     /**
      * @var typeRateTimePeriod $RatePeriod
      */
-    protected $RatePeriod = null;
+    public $RatePeriod = null;
 
     /**
      * @var int $NumberOfPeriods
      */
-    protected $NumberOfPeriods = null;
+    public $NumberOfPeriods = null;
 
     /**
      * @var boolean $UnlimitedMileage
      */
-    protected $UnlimitedMileage = null;
+    public $UnlimitedMileage = null;
 
     /**
      * @var int $MileageAllowance
      */
-    protected $MileageAllowance = null;
+    public $MileageAllowance = null;
 
     /**
      * @var typeDistance $Units
      */
-    protected $Units = null;
+    public $Units = null;
 
     /**
      * @var string $RateSource
      */
-    protected $RateSource = null;
+    public $RateSource = null;
 
     /**
      * @var typeRateAvailability $RateAvailability
      */
-    protected $RateAvailability = null;
+    public $RateAvailability = null;
 
     /**
      * @var typeMoney $RequiredCharges
      */
-    protected $RequiredCharges = null;
+    public $RequiredCharges = null;
 
     /**
      * @var typeRateCode $RateCode
      */
-    protected $RateCode = null;
+    public $RateCode = null;
 
     /**
      * @var typeTrinary $RequestedRateCodeApplied
      */
-    protected $RequestedRateCodeApplied = null;
+    public $RequestedRateCodeApplied = null;
 
     /**
      * @var typeRateCategory $RateCategory
      */
-    protected $RateCategory = null;
+    public $RateCategory = null;
 
     /**
      * @var typeDiscountNumber $DiscountNumber
      */
-    protected $DiscountNumber = null;
+    public $DiscountNumber = null;
 
     /**
      * @var typeTrinary $DiscountNumberApplied
      */
-    protected $DiscountNumberApplied = null;
+    public $DiscountNumberApplied = null;
 
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var boolean $RateGuaranteed
      */
-    protected $RateGuaranteed = null;
+    public $RateGuaranteed = null;
 
     /**
      * @var string $RateCodePeriod
      */
-    protected $RateCodePeriod = null;
+    public $RateCodePeriod = null;
 
     /**
      * @var string $PromotionalCode
      */
-    protected $PromotionalCode = null;
+    public $PromotionalCode = null;
 
     /**
      * @var typeTrinary $PromotionalCodeApplied
      */
-    protected $PromotionalCodeApplied = null;
+    public $PromotionalCodeApplied = null;
 
     /**
      * @var string $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var typeTrinary $TourCodeApplied
      */
-    protected $TourCodeApplied = null;
+    public $TourCodeApplied = null;
 
     /**
      * @var typeRateGuarantee $RateGuaranteeType
      */
-    protected $RateGuaranteeType = null;
+    public $RateGuaranteeType = null;
 
     /**
      * @var anonymous549 $RequiredPayment
      */
-    protected $RequiredPayment = null;
+    public $RequiredPayment = null;
 
     /**
      * @var boolean $DropOffChargesIncluded
      */
-    protected $DropOffChargesIncluded = null;
+    public $DropOffChargesIncluded = null;
 
     /**
      * @var boolean $CorporateRate
      */
-    protected $CorporateRate = null;
+    public $CorporateRate = null;
 
     /**
      * @var string $AdvancedBooking
      */
-    protected $AdvancedBooking = null;
+    public $AdvancedBooking = null;
 
     /**
      * @var boolean $RentalRestriction
      */
-    protected $RentalRestriction = null;
+    public $RentalRestriction = null;
 
     /**
      * @var boolean $FlightRestriction
      */
-    protected $FlightRestriction = null;
+    public $FlightRestriction = null;
 
     /**
      * @var typeCardNumber $CardNumber
      */
-    protected $CardNumber = null;
+    public $CardNumber = null;
 
     /**
      * @var typeTrinary $CardNumberApplied
      */
-    protected $CardNumberApplied = null;
+    public $CardNumberApplied = null;
 
     /**
      * @var int $RateQualifierInd
      */
-    protected $RateQualifierInd = null;
+    public $RateQualifierInd = null;
 
     /**
      * @param SupplierRate $SupplierRate

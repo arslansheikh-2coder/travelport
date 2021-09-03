@@ -8,117 +8,117 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     /**
      * @var SearchPassenger $SearchPassenger
      */
-    protected $SearchPassenger = null;
+    public $SearchPassenger = null;
 
     /**
      * @var AirPricingModifiers $AirPricingModifiers
      */
-    protected $AirPricingModifiers = null;
+    public $AirPricingModifiers = null;
 
     /**
      * @var Enumeration $Enumeration
      */
-    protected $Enumeration = null;
+    public $Enumeration = null;
 
     /**
      * @var AirExchangeModifiers $AirExchangeModifiers
      */
-    protected $AirExchangeModifiers = null;
+    public $AirExchangeModifiers = null;
 
     /**
      * @var FlexExploreModifiers $FlexExploreModifiers
      */
-    protected $FlexExploreModifiers = null;
+    public $FlexExploreModifiers = null;
 
     /**
      * @var PCC $PCC
      */
-    protected $PCC = null;
+    public $PCC = null;
 
     /**
      * @var FareRulesFilterCategory $FareRulesFilterCategory
      */
-    protected $FareRulesFilterCategory = null;
+    public $FareRulesFilterCategory = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var boolean $EnablePointToPointSearch
      */
-    protected $EnablePointToPointSearch = null;
+    public $EnablePointToPointSearch = null;
 
     /**
      * @var boolean $EnablePointToPointAlternates
      */
-    protected $EnablePointToPointAlternates = null;
+    public $EnablePointToPointAlternates = null;
 
     /**
      * @var int $MaxNumberOfExpertSolutions
      */
-    protected $MaxNumberOfExpertSolutions = null;
+    public $MaxNumberOfExpertSolutions = null;
 
     /**
      * @var boolean $SolutionResult
      */
-    protected $SolutionResult = null;
+    public $SolutionResult = null;
 
     /**
      * @var boolean $PreferCompleteItinerary
      */
-    protected $PreferCompleteItinerary = null;
+    public $PreferCompleteItinerary = null;
 
     /**
      * @var anonymous1185 $MetaOptionIdentifier
      */
-    protected $MetaOptionIdentifier = null;
+    public $MetaOptionIdentifier = null;
 
     /**
      * @var boolean $ReturnUpsellFare
      */
-    protected $ReturnUpsellFare = null;
+    public $ReturnUpsellFare = null;
 
     /**
      * @var boolean $IncludeFareInfoMessages
      */
-    protected $IncludeFareInfoMessages = null;
+    public $IncludeFareInfoMessages = null;
 
     /**
      * @var boolean $ReturnBrandedFares
      */
-    protected $ReturnBrandedFares = null;
+    public $ReturnBrandedFares = null;
 
     /**
      * @var boolean $MultiGDSSearch
      */
-    protected $MultiGDSSearch = null;
+    public $MultiGDSSearch = null;
 
     /**
      * @var boolean $ReturnMM
      */
-    protected $ReturnMM = null;
+    public $ReturnMM = null;
 
     /**
      * @var string $CheckOBFees
      */
-    protected $CheckOBFees = null;
+    public $CheckOBFees = null;
 
     /**
      * @var anonymous1186 $NSCC
      */
-    protected $NSCC = null;
+    public $NSCC = null;
 
     /**
      * @var boolean $FareInfoRules
      */
-    protected $FareInfoRules = null;
+    public $FareInfoRules = null;
 
     /**
      * @var boolean $MostRestrictivePenalties
      */
-    protected $MostRestrictivePenalties = null;
+    public $MostRestrictivePenalties = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

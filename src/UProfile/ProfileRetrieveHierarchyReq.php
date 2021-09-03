@@ -8,12 +8,12 @@ class ProfileRetrieveHierarchyReq extends BaseReq
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProvisioningCode $AgencyCode
      */
-    protected $AgencyCode = null;
+    public $AgencyCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

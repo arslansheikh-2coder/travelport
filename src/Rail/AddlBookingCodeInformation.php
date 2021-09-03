@@ -8,7 +8,7 @@ class AddlBookingCodeInformation
     /**
      * @var typeNonBlanks $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @param typeNonBlanks $_

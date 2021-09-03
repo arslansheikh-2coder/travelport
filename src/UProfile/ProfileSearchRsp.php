@@ -8,22 +8,22 @@ class ProfileSearchRsp extends BaseRsp
     /**
      * @var ProfileSummary $ProfileSummary
      */
-    protected $ProfileSummary = null;
+    public $ProfileSummary = null;
 
     /**
      * @var ProfileParentSearchSummary $ProfileParentSearchSummary
      */
-    protected $ProfileParentSearchSummary = null;
+    public $ProfileParentSearchSummary = null;
 
     /**
      * @var StringLength1to128 $SearchToken
      */
-    protected $SearchToken = null;
+    public $SearchToken = null;
 
     /**
      * @var typeMoreResults $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

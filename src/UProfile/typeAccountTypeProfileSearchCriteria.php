@@ -8,7 +8,7 @@ class typeAccountTypeProfileSearchCriteria extends typeProfileSearchCriteria
     /**
      * @var typeWildcard $MidOfficeID
      */
-    protected $MidOfficeID = null;
+    public $MidOfficeID = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

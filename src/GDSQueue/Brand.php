@@ -8,102 +8,102 @@ class Brand
     /**
      * @var typeTextElement $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @var typeTextElement $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var ImageLocation $ImageLocation
      */
-    protected $ImageLocation = null;
+    public $ImageLocation = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var Rules $Rules
      */
-    protected $Rules = null;
+    public $Rules = null;
 
     /**
      * @var ServiceAssociations $ServiceAssociations
      */
-    protected $ServiceAssociations = null;
+    public $ServiceAssociations = null;
 
     /**
      * @var UpsellBrand $UpsellBrand
      */
-    protected $UpsellBrand = null;
+    public $UpsellBrand = null;
 
     /**
      * @var typeApplicableSegment[] $ApplicableSegment
      */
-    protected $ApplicableSegment = null;
+    public $ApplicableSegment = null;
 
     /**
      * @var typeDefaultBrandDetail $DefaultBrandDetail
      */
-    protected $DefaultBrandDetail = null;
+    public $DefaultBrandDetail = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeBrandId $BrandID
      */
-    protected $BrandID = null;
+    public $BrandID = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeRef $AirItineraryDetailsRef
      */
-    protected $AirItineraryDetailsRef = null;
+    public $AirItineraryDetailsRef = null;
 
     /**
      * @var typeBrandId $UpSellBrandID
      */
-    protected $UpSellBrandID = null;
+    public $UpSellBrandID = null;
 
     /**
      * @var boolean $BrandFound
      */
-    protected $BrandFound = null;
+    public $BrandFound = null;
 
     /**
      * @var boolean $UpSellBrandFound
      */
-    protected $UpSellBrandFound = null;
+    public $UpSellBrandFound = null;
 
     /**
      * @var boolean $BrandedDetailsAvailable
      */
-    protected $BrandedDetailsAvailable = null;
+    public $BrandedDetailsAvailable = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var StringLength1to10 $BrandTier
      */
-    protected $BrandTier = null;
+    public $BrandTier = null;
 
     /**
      * @var StringLength1to99 $BrandMaintained
      */
-    protected $BrandMaintained = null;
+    public $BrandMaintained = null;
 
     /**
      * @param typeTextElement $Title

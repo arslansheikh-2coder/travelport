@@ -8,12 +8,12 @@ class typeIntegerRestriction
     /**
      * @var typeIntegerRestrictionValue $MinValue
      */
-    protected $MinValue = null;
+    public $MinValue = null;
 
     /**
      * @var typeIntegerRestrictionValue $MaxValue
      */
-    protected $MaxValue = null;
+    public $MaxValue = null;
 
     /**
      * @param typeIntegerRestrictionValue $MinValue

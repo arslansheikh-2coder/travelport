@@ -8,7 +8,7 @@ class FlightInformationRsp extends BaseRsp
     /**
      * @var FlightInfo $FlightInfo
      */
-    protected $FlightInfo = null;
+    public $FlightInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

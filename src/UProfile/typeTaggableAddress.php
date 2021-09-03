@@ -8,22 +8,22 @@ class typeTaggableAddress extends typeAddress
     /**
      * @var TagRef $TagRef
      */
-    protected $TagRef = null;
+    public $TagRef = null;
 
     /**
      * @var StringLength1to255 $DeliveryDescription
      */
-    protected $DeliveryDescription = null;
+    public $DeliveryDescription = null;
 
     /**
      * @var typeContactPurpose $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

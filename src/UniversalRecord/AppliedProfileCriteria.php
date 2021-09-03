@@ -8,7 +8,7 @@ class AppliedProfileCriteria
     /**
      * @var anonymous1415 $TravelerProfileId
      */
-    protected $TravelerProfileId = null;
+    public $TravelerProfileId = null;
 
     /**
      * @param anonymous1415 $TravelerProfileId

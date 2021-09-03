@@ -8,107 +8,107 @@ class AirUpdate
     /**
      * @var AccountingRemark $AccountingRemark
      */
-    protected $AccountingRemark = null;
+    public $AccountingRemark = null;
 
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var CreditCardAuth $CreditCardAuth
      */
-    protected $CreditCardAuth = null;
+    public $CreditCardAuth = null;
 
     /**
      * @var AirPricingAdjustment $AirPricingAdjustment
      */
-    protected $AirPricingAdjustment = null;
+    public $AirPricingAdjustment = null;
 
     /**
      * @var AirPricingTicketingModifiers $AirPricingTicketingModifiers
      */
-    protected $AirPricingTicketingModifiers = null;
+    public $AirPricingTicketingModifiers = null;
 
     /**
      * @var DeliveryInfo $DeliveryInfo
      */
-    protected $DeliveryInfo = null;
+    public $DeliveryInfo = null;
 
     /**
      * @var AirSegmentSpecialUpdate $AirSegmentSpecialUpdate
      */
-    protected $AirSegmentSpecialUpdate = null;
+    public $AirSegmentSpecialUpdate = null;
 
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var SSR $SSR
      */
-    protected $SSR = null;
+    public $SSR = null;
 
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var AutoSeatAssignment $AutoSeatAssignment
      */
-    protected $AutoSeatAssignment = null;
+    public $AutoSeatAssignment = null;
 
     /**
      * @var SpecificSeatAssignment $SpecificSeatAssignment
      */
-    protected $SpecificSeatAssignment = null;
+    public $SpecificSeatAssignment = null;
 
     /**
      * @var AirPricingPayment $AirPricingPayment
      */
-    protected $AirPricingPayment = null;
+    public $AirPricingPayment = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var PocketItineraryRemark $PocketItineraryRemark
      */
-    protected $PocketItineraryRemark = null;
+    public $PocketItineraryRemark = null;
 
     /**
      * @var OptionalServicesInfo $OptionalServicesInfo
      */
-    protected $OptionalServicesInfo = null;
+    public $OptionalServicesInfo = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var TravelComplianceData $TravelComplianceData
      */
-    protected $TravelComplianceData = null;
+    public $TravelComplianceData = null;
 
     /**
      * @var typeLocatorCode $ReservationLocatorCode
      */
-    protected $ReservationLocatorCode = null;
+    public $ReservationLocatorCode = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var boolean $RestrictWaitlist
      */
-    protected $RestrictWaitlist = null;
+    public $RestrictWaitlist = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

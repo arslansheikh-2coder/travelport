@@ -8,7 +8,7 @@ class typeFieldRef
     /**
      * @var typeFieldID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @param typeFieldID $ID

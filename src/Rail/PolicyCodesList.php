@@ -8,7 +8,7 @@ class PolicyCodesList
     /**
      * @var typePolicyCode $PolicyCode
      */
-    protected $PolicyCode = null;
+    public $PolicyCode = null;
 
     /**
      * @param typePolicyCode $PolicyCode

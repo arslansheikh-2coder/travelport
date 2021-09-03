@@ -8,12 +8,12 @@ class typeEditableEndpoint extends typeEndpointRef
     /**
      * @var typeFieldRef $FixedFieldRef
      */
-    protected $FixedFieldRef = null;
+    public $FixedFieldRef = null;
 
     /**
      * @var typeFieldRef $CustomFieldRef
      */
-    protected $CustomFieldRef = null;
+    public $CustomFieldRef = null;
 
     /**
      * @param typeEndpointID $ID

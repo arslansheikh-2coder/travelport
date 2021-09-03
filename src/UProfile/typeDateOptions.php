@@ -8,17 +8,17 @@ class typeDateOptions
     /**
      * @var typeDay $Day
      */
-    protected $Day = null;
+    public $Day = null;
 
     /**
      * @var typeMonth $Month
      */
-    protected $Month = null;
+    public $Month = null;
 
     /**
      * @var typeYear $Year
      */
-    protected $Year = null;
+    public $Year = null;
 
     /**
      * @param typeDay $Day

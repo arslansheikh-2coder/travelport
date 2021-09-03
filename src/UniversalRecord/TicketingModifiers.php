@@ -8,197 +8,197 @@ class TicketingModifiers extends typeBulkTicketModifierType
     /**
      * @var typeRef[] $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeTicketModifierAmountType $NetRemit
      */
-    protected $NetRemit = null;
+    public $NetRemit = null;
 
     /**
      * @var typeTicketModifierAmountType $NetFare
      */
-    protected $NetFare = null;
+    public $NetFare = null;
 
     /**
      * @var typeTicketModifierAmountType $ActualSellingFare
      */
-    protected $ActualSellingFare = null;
+    public $ActualSellingFare = null;
 
     /**
      * @var typeTicketModifierAccountingType $InvoiceFare
      */
-    protected $InvoiceFare = null;
+    public $InvoiceFare = null;
 
     /**
      * @var typeTicketModifierAccountingType $CorporateDiscount
      */
-    protected $CorporateDiscount = null;
+    public $CorporateDiscount = null;
 
     /**
      * @var typeTicketModifierAccountingType $AccountingInfo
      */
-    protected $AccountingInfo = null;
+    public $AccountingInfo = null;
 
     /**
      * @var BulkTicket $BulkTicket
      */
-    protected $BulkTicket = null;
+    public $BulkTicket = null;
 
     /**
      * @var typeBulkTicketModifierType $GroupTour
      */
-    protected $GroupTour = null;
+    public $GroupTour = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var TourCode $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var TicketEndorsement $TicketEndorsement
      */
-    protected $TicketEndorsement = null;
+    public $TicketEndorsement = null;
 
     /**
      * @var typeTicketModifierValueType $ValueModifier
      */
-    protected $ValueModifier = null;
+    public $ValueModifier = null;
 
     /**
      * @var DocumentSelect $DocumentSelect
      */
-    protected $DocumentSelect = null;
+    public $DocumentSelect = null;
 
     /**
      * @var DocumentOptions $DocumentOptions
      */
-    protected $DocumentOptions = null;
+    public $DocumentOptions = null;
 
     /**
      * @var SegmentSelect $SegmentSelect
      */
-    protected $SegmentSelect = null;
+    public $SegmentSelect = null;
 
     /**
      * @var SegmentModifiers $SegmentModifiers
      */
-    protected $SegmentModifiers = null;
+    public $SegmentModifiers = null;
 
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var DestinationPurposeCode $DestinationPurposeCode
      */
-    protected $DestinationPurposeCode = null;
+    public $DestinationPurposeCode = null;
 
     /**
      * @var LanguageOption $LanguageOption
      */
-    protected $LanguageOption = null;
+    public $LanguageOption = null;
 
     /**
      * @var LandCharges $LandCharges
      */
-    protected $LandCharges = null;
+    public $LandCharges = null;
 
     /**
      * @var PrintBlankFormItinerary $PrintBlankFormItinerary
      */
-    protected $PrintBlankFormItinerary = null;
+    public $PrintBlankFormItinerary = null;
 
     /**
      * @var ExcludeTicketing $ExcludeTicketing
      */
-    protected $ExcludeTicketing = null;
+    public $ExcludeTicketing = null;
 
     /**
      * @var ExemptOBFee $ExemptOBFee
      */
-    protected $ExemptOBFee = null;
+    public $ExemptOBFee = null;
 
     /**
      * @var boolean $IsPrimaryDI
      */
-    protected $IsPrimaryDI = null;
+    public $IsPrimaryDI = null;
 
     /**
      * @var string $DocumentInstructionNumber
      */
-    protected $DocumentInstructionNumber = null;
+    public $DocumentInstructionNumber = null;
 
     /**
      * @var StringLength1to30 $Reference
      */
-    protected $Reference = null;
+    public $Reference = null;
 
     /**
      * @var anonymous861 $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var anonymous862 $FreeText
      */
-    protected $FreeText = null;
+    public $FreeText = null;
 
     /**
      * @var string $NameNumber
      */
-    protected $NameNumber = null;
+    public $NameNumber = null;
 
     /**
      * @var string $TicketRecord
      */
-    protected $TicketRecord = null;
+    public $TicketRecord = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @var boolean $ExemptVAT
      */
-    protected $ExemptVAT = null;
+    public $ExemptVAT = null;
 
     /**
      * @var boolean $NetRemitApplied
      */
-    protected $NetRemitApplied = null;
+    public $NetRemitApplied = null;
 
     /**
      * @var boolean $FreeTicket
      */
-    protected $FreeTicket = null;
+    public $FreeTicket = null;
 
     /**
      * @var anonymous863 $CurrencyOverrideCode
      */
-    protected $CurrencyOverrideCode = null;
+    public $CurrencyOverrideCode = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param boolean $SuppressOnFareCalc

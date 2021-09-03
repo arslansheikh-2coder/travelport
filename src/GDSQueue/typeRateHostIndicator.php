@@ -8,12 +8,12 @@ class typeRateHostIndicator
     /**
      * @var string $InventoryToken
      */
-    protected $InventoryToken = null;
+    public $InventoryToken = null;
 
     /**
      * @var string $RateToken
      */
-    protected $RateToken = null;
+    public $RateToken = null;
 
     /**
      * @param string $InventoryToken

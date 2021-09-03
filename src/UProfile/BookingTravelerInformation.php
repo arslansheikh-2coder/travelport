@@ -8,12 +8,12 @@ class BookingTravelerInformation
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param Name $Name

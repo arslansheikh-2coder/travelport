@@ -8,12 +8,12 @@ class CorporateDiscountID
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var boolean $NegotiatedRateCode
      */
-    protected $NegotiatedRateCode = null;
+    public $NegotiatedRateCode = null;
 
     /**
      * @param string $_

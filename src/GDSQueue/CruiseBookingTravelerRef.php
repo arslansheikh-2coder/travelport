@@ -8,17 +8,17 @@ class CruiseBookingTravelerRef
     /**
      * @var LoyaltyCardRef $LoyaltyCardRef
      */
-    protected $LoyaltyCardRef = null;
+    public $LoyaltyCardRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var boolean $WaiverIndicator
      */
-    protected $WaiverIndicator = null;
+    public $WaiverIndicator = null;
 
     /**
      * @param LoyaltyCardRef $LoyaltyCardRef

@@ -8,32 +8,32 @@ class HotelMediaLinksReq extends BaseReq
     /**
      * @var PermittedProviders $PermittedProviders
      */
-    protected $PermittedProviders = null;
+    public $PermittedProviders = null;
 
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var boolean $SecureLinks
      */
-    protected $SecureLinks = null;
+    public $SecureLinks = null;
 
     /**
      * @var typeRequestedImageSize $SizeCode
      */
-    protected $SizeCode = null;
+    public $SizeCode = null;
 
     /**
      * @var boolean $RichMedia
      */
-    protected $RichMedia = null;
+    public $RichMedia = null;
 
     /**
      * @var boolean $Gallery
      */
-    protected $Gallery = null;
+    public $Gallery = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,32 +8,32 @@ class TCRExchangeBundle
     /**
      * @var AirExchangeInfo $AirExchangeInfo
      */
-    protected $AirExchangeInfo = null;
+    public $AirExchangeInfo = null;
 
     /**
      * @var AirPricingInfoRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var typeFeeInfo $FeeInfo
      */
-    protected $FeeInfo = null;
+    public $FeeInfo = null;
 
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var Penalty $Penalty
      */
-    protected $Penalty = null;
+    public $Penalty = null;
 
     /**
      * @var typeTCRNumber $TCRNumber
      */
-    protected $TCRNumber = null;
+    public $TCRNumber = null;
 
     /**
      * @param AirExchangeInfo $AirExchangeInfo

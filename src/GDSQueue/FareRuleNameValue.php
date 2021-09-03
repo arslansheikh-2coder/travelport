@@ -8,12 +8,12 @@ class FareRuleNameValue
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param string $Name

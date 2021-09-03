@@ -8,117 +8,117 @@ class AirLegModifiers
     /**
      * @var PermittedCabins $PermittedCabins
      */
-    protected $PermittedCabins = null;
+    public $PermittedCabins = null;
 
     /**
      * @var PreferredCabins $PreferredCabins
      */
-    protected $PreferredCabins = null;
+    public $PreferredCabins = null;
 
     /**
      * @var PermittedCarriers $PermittedCarriers
      */
-    protected $PermittedCarriers = null;
+    public $PermittedCarriers = null;
 
     /**
      * @var ProhibitedCarriers $ProhibitedCarriers
      */
-    protected $ProhibitedCarriers = null;
+    public $ProhibitedCarriers = null;
 
     /**
      * @var PreferredCarriers $PreferredCarriers
      */
-    protected $PreferredCarriers = null;
+    public $PreferredCarriers = null;
 
     /**
      * @var PermittedConnectionPoints $PermittedConnectionPoints
      */
-    protected $PermittedConnectionPoints = null;
+    public $PermittedConnectionPoints = null;
 
     /**
      * @var ProhibitedConnectionPoints $ProhibitedConnectionPoints
      */
-    protected $ProhibitedConnectionPoints = null;
+    public $ProhibitedConnectionPoints = null;
 
     /**
      * @var PreferredConnectionPoints $PreferredConnectionPoints
      */
-    protected $PreferredConnectionPoints = null;
+    public $PreferredConnectionPoints = null;
 
     /**
      * @var PermittedBookingCodes $PermittedBookingCodes
      */
-    protected $PermittedBookingCodes = null;
+    public $PermittedBookingCodes = null;
 
     /**
      * @var PreferredBookingCodes $PreferredBookingCodes
      */
-    protected $PreferredBookingCodes = null;
+    public $PreferredBookingCodes = null;
 
     /**
      * @var PreferredAlliances $PreferredAlliances
      */
-    protected $PreferredAlliances = null;
+    public $PreferredAlliances = null;
 
     /**
      * @var ProhibitedBookingCodes $ProhibitedBookingCodes
      */
-    protected $ProhibitedBookingCodes = null;
+    public $ProhibitedBookingCodes = null;
 
     /**
      * @var DisfavoredAlliances $DisfavoredAlliances
      */
-    protected $DisfavoredAlliances = null;
+    public $DisfavoredAlliances = null;
 
     /**
      * @var FlightType $FlightType
      */
-    protected $FlightType = null;
+    public $FlightType = null;
 
     /**
      * @var typeAnchorFlightData $AnchorFlightData
      */
-    protected $AnchorFlightData = null;
+    public $AnchorFlightData = null;
 
     /**
      * @var boolean $ProhibitOvernightLayovers
      */
-    protected $ProhibitOvernightLayovers = null;
+    public $ProhibitOvernightLayovers = null;
 
     /**
      * @var int $MaxConnectionTime
      */
-    protected $MaxConnectionTime = null;
+    public $MaxConnectionTime = null;
 
     /**
      * @var boolean $ReturnFirstAvailableOnly
      */
-    protected $ReturnFirstAvailableOnly = null;
+    public $ReturnFirstAvailableOnly = null;
 
     /**
      * @var boolean $AllowDirectAccess
      */
-    protected $AllowDirectAccess = null;
+    public $AllowDirectAccess = null;
 
     /**
      * @var boolean $ProhibitMultiAirportConnection
      */
-    protected $ProhibitMultiAirportConnection = null;
+    public $ProhibitMultiAirportConnection = null;
 
     /**
      * @var boolean $PreferNonStop
      */
-    protected $PreferNonStop = null;
+    public $PreferNonStop = null;
 
     /**
      * @var anonymous661 $OrderBy
      */
-    protected $OrderBy = null;
+    public $OrderBy = null;
 
     /**
      * @var typeMaxJourneyTime $MaxJourneyTime
      */
-    protected $MaxJourneyTime = null;
+    public $MaxJourneyTime = null;
 
     /**
      * @param PermittedCabins $PermittedCabins

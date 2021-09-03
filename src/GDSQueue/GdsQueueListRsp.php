@@ -8,22 +8,22 @@ class GdsQueueListRsp extends BaseRsp
     /**
      * @var NextResultReference $NextResultReference
      */
-    protected $NextResultReference = null;
+    public $NextResultReference = null;
 
     /**
      * @var QueueElement $QueueElement
      */
-    protected $QueueElement = null;
+    public $QueueElement = null;
 
     /**
      * @var boolean $MorePNRExists
      */
-    protected $MorePNRExists = null;
+    public $MorePNRExists = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

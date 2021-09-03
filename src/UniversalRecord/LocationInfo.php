@@ -8,37 +8,37 @@ class LocationInfo
     /**
      * @var typeStructuredAddress $LocationAddress
      */
-    protected $LocationAddress = null;
+    public $LocationAddress = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var string $OperationTime
      */
-    protected $OperationTime = null;
+    public $OperationTime = null;
 
     /**
      * @var string $ShuttleInfo
      */
-    protected $ShuttleInfo = null;
+    public $ShuttleInfo = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $CounterLocation
      */
-    protected $CounterLocation = null;
+    public $CounterLocation = null;
 
     /**
      * @var boolean $PreferredOption
      */
-    protected $PreferredOption = null;
+    public $PreferredOption = null;
 
     /**
      * @param typeStructuredAddress $LocationAddress

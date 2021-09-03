@@ -8,7 +8,7 @@ class ProfileModifyTagsReq extends BaseReq
     /**
      * @var ModifyTag $ModifyTag
      */
-    protected $ModifyTag = null;
+    public $ModifyTag = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

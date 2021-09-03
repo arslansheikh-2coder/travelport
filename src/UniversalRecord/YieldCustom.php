@@ -8,12 +8,12 @@ class YieldCustom
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param typeMoney $Amount

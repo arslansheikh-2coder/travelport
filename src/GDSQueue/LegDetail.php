@@ -8,32 +8,32 @@ class LegDetail
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeIATACode $OriginAirport
      */
-    protected $OriginAirport = null;
+    public $OriginAirport = null;
 
     /**
      * @var typeIATACode $DestinationAirport
      */
-    protected $DestinationAirport = null;
+    public $DestinationAirport = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var string $TravelDate
      */
-    protected $TravelDate = null;
+    public $TravelDate = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @param typeRef $Key

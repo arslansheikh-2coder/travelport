@@ -8,27 +8,27 @@ class DocumentSelect
     /**
      * @var BackOfficeHandOff $BackOfficeHandOff
      */
-    protected $BackOfficeHandOff = null;
+    public $BackOfficeHandOff = null;
 
     /**
      * @var Itinerary $Itinerary
      */
-    protected $Itinerary = null;
+    public $Itinerary = null;
 
     /**
      * @var boolean $IssueTicketOnly
      */
-    protected $IssueTicketOnly = null;
+    public $IssueTicketOnly = null;
 
     /**
      * @var boolean $IssueElectronicTicket
      */
-    protected $IssueElectronicTicket = null;
+    public $IssueElectronicTicket = null;
 
     /**
      * @var boolean $FaxIndicator
      */
-    protected $FaxIndicator = null;
+    public $FaxIndicator = null;
 
     /**
      * @param BackOfficeHandOff $BackOfficeHandOff

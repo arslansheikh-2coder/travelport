@@ -8,12 +8,12 @@ class FareStatus
     /**
      * @var FareStatusFailureInfo $FareStatusFailureInfo
      */
-    protected $FareStatusFailureInfo = null;
+    public $FareStatusFailureInfo = null;
 
     /**
      * @var typeFareStatusCode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param FareStatusFailureInfo $FareStatusFailureInfo

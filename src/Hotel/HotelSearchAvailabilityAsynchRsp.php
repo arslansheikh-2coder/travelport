@@ -8,12 +8,12 @@ class HotelSearchAvailabilityAsynchRsp extends BaseHotelSearchRsp
     /**
      * @var BaseAsyncProviderSpecificResponse $AsyncProviderSpecificResponse
      */
-    protected $AsyncProviderSpecificResponse = null;
+    public $AsyncProviderSpecificResponse = null;
 
     /**
      * @var string $SearchId
      */
-    protected $SearchId = null;
+    public $SearchId = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

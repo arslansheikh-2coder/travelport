@@ -8,12 +8,12 @@ class MctLookupRsp extends BaseRsp
     /**
      * @var MctStandard $MctStandard
      */
-    protected $MctStandard = null;
+    public $MctStandard = null;
 
     /**
      * @var MctException $MctException
      */
-    protected $MctException = null;
+    public $MctException = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

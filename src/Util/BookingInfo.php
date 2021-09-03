@@ -8,42 +8,42 @@ class BookingInfo
     /**
      * @var string $BookingCode
      */
-    protected $BookingCode = null;
+    public $BookingCode = null;
 
     /**
      * @var string $BookingCount
      */
-    protected $BookingCount = null;
+    public $BookingCount = null;
 
     /**
      * @var string $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var typeRef $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var typeRef $CouponRef
      */
-    protected $CouponRef = null;
+    public $CouponRef = null;
 
     /**
      * @var typeRef $AirItinerarySolutionRef
      */
-    protected $AirItinerarySolutionRef = null;
+    public $AirItinerarySolutionRef = null;
 
     /**
      * @var typeRef $HostTokenRef
      */
-    protected $HostTokenRef = null;
+    public $HostTokenRef = null;
 
     /**
      * @param string $BookingCode

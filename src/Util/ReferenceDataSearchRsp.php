@@ -8,52 +8,52 @@ class ReferenceDataSearchRsp extends BaseRsp
     /**
      * @var Airport[] $Airport
      */
-    protected $Airport = null;
+    public $Airport = null;
 
     /**
      * @var Carrier[] $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var City[] $City
      */
-    protected $City = null;
+    public $City = null;
 
     /**
      * @var Country[] $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var Currency[] $Currency
      */
-    protected $Currency = null;
+    public $Currency = null;
 
     /**
      * @var Equipment[] $Equipment
      */
-    protected $Equipment = null;
+    public $Equipment = null;
 
     /**
      * @var PassengerType[] $PassengerType
      */
-    protected $PassengerType = null;
+    public $PassengerType = null;
 
     /**
      * @var State[] $State
      */
-    protected $State = null;
+    public $State = null;
 
     /**
      * @var SsrType[] $SsrType
      */
-    protected $SsrType = null;
+    public $SsrType = null;
 
     /**
      * @var TaxCategory[] $TaxCategory
      */
-    protected $TaxCategory = null;
+    public $TaxCategory = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,22 +8,22 @@ class DocumentRequired
     /**
      * @var string $DocType
      */
-    protected $DocType = null;
+    public $DocType = null;
 
     /**
      * @var boolean $IncludeExcludeUseInd
      */
-    protected $IncludeExcludeUseInd = null;
+    public $IncludeExcludeUseInd = null;
 
     /**
      * @var string $DocId
      */
-    protected $DocId = null;
+    public $DocId = null;
 
     /**
      * @var string $AllowedIds
      */
-    protected $AllowedIds = null;
+    public $AllowedIds = null;
 
     /**
      * @param string $DocType

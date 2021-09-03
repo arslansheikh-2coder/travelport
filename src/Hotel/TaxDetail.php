@@ -8,27 +8,27 @@ class TaxDetail
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeAirport $OriginAirport
      */
-    protected $OriginAirport = null;
+    public $OriginAirport = null;
 
     /**
      * @var typeAirport $DestinationAirport
      */
-    protected $DestinationAirport = null;
+    public $DestinationAirport = null;
 
     /**
      * @var string $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var typeRef $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @param typeMoney $Amount

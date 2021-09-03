@@ -8,12 +8,12 @@ class SessionContext
     /**
      * @var SessTok $SessTok
      */
-    protected $SessTok = null;
+    public $SessTok = null;
 
     /**
      * @var SessProp[] $SessProp
      */
-    protected $SessProp = null;
+    public $SessProp = null;
 
     /**
      * @param SessTok $SessTok

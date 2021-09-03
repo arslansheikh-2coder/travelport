@@ -8,22 +8,22 @@ class PassengerDetails
     /**
      * @var LoyaltyCardDetails $LoyaltyCardDetails
      */
-    protected $LoyaltyCardDetails = null;
+    public $LoyaltyCardDetails = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typePTC $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var int $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @param LoyaltyCardDetails $LoyaltyCardDetails

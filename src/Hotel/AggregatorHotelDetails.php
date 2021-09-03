@@ -8,72 +8,72 @@ class AggregatorHotelDetails extends typeHotelDetails
     /**
      * @var string $Aggregator
      */
-    protected $Aggregator = null;
+    public $Aggregator = null;
 
     /**
      * @var string $AggregatorName
      */
-    protected $AggregatorName = null;
+    public $AggregatorName = null;
 
     /**
      * @var string $RulesAndRestriction
      */
-    protected $RulesAndRestriction = null;
+    public $RulesAndRestriction = null;
 
     /**
      * @var string $TermsAndConditions
      */
-    protected $TermsAndConditions = null;
+    public $TermsAndConditions = null;
 
     /**
      * @var boolean $SupportsPayment
      */
-    protected $SupportsPayment = null;
+    public $SupportsPayment = null;
 
     /**
      * @var string $CommissionModel
      */
-    protected $CommissionModel = null;
+    public $CommissionModel = null;
 
     /**
      * @var string $MultiRoomSupport
      */
-    protected $MultiRoomSupport = null;
+    public $MultiRoomSupport = null;
 
     /**
      * @var boolean $SupportsChildren
      */
-    protected $SupportsChildren = null;
+    public $SupportsChildren = null;
 
     /**
      * @var int $ChildStartAge
      */
-    protected $ChildStartAge = null;
+    public $ChildStartAge = null;
 
     /**
      * @var int $AdultStartAge
      */
-    protected $AdultStartAge = null;
+    public $AdultStartAge = null;
 
     /**
      * @var int $MaxChildrenPerRoom
      */
-    protected $MaxChildrenPerRoom = null;
+    public $MaxChildrenPerRoom = null;
 
     /**
      * @var string $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var string $AreaCode
      */
-    protected $AreaCode = null;
+    public $AreaCode = null;
 
     /**
      * @var string $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @param HotelProperty $HotelProperty

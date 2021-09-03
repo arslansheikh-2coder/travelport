@@ -8,37 +8,37 @@ class Charges
     /**
      * @var typeMoney $AirCharge
      */
-    protected $AirCharge = null;
+    public $AirCharge = null;
 
     /**
      * @var typeMoney $OptionalCharge
      */
-    protected $OptionalCharge = null;
+    public $OptionalCharge = null;
 
     /**
      * @var typeMoney $WaiverCharge
      */
-    protected $WaiverCharge = null;
+    public $WaiverCharge = null;
 
     /**
      * @var StringLength1 $WaiverChargeType
      */
-    protected $WaiverChargeType = null;
+    public $WaiverChargeType = null;
 
     /**
      * @var typeMoney $PortCharge
      */
-    protected $PortCharge = null;
+    public $PortCharge = null;
 
     /**
      * @var StringLength1to13 $PortChargeDescription
      */
-    protected $PortChargeDescription = null;
+    public $PortChargeDescription = null;
 
     /**
      * @var typeMoney $PenaltyCharge
      */
-    protected $PenaltyCharge = null;
+    public $PenaltyCharge = null;
 
     /**
      * @param typeMoney $AirCharge

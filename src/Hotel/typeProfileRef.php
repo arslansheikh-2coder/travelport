@@ -8,12 +8,12 @@ class typeProfileRef
     /**
      * @var string $ProfileEntityID
      */
-    protected $ProfileEntityID = null;
+    public $ProfileEntityID = null;
 
     /**
      * @var typeProfileLevel $ProfileLevel
      */
-    protected $ProfileLevel = null;
+    public $ProfileLevel = null;
 
     /**
      * @param string $ProfileEntityID

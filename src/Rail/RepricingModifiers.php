@@ -8,117 +8,117 @@ class RepricingModifiers
     /**
      * @var PrivateFareOptions $PrivateFareOptions
      */
-    protected $PrivateFareOptions = null;
+    public $PrivateFareOptions = null;
 
     /**
      * @var FareType $FareType
      */
-    protected $FareType = null;
+    public $FareType = null;
 
     /**
      * @var FareTicketDesignator $FareTicketDesignator
      */
-    protected $FareTicketDesignator = null;
+    public $FareTicketDesignator = null;
 
     /**
      * @var OverrideCurrency $OverrideCurrency
      */
-    protected $OverrideCurrency = null;
+    public $OverrideCurrency = null;
 
     /**
      * @var AirSegmentPricingModifiers $AirSegmentPricingModifiers
      */
-    protected $AirSegmentPricingModifiers = null;
+    public $AirSegmentPricingModifiers = null;
 
     /**
      * @var WithholdTaxCode[] $WithholdTaxCode
      */
-    protected $WithholdTaxCode = null;
+    public $WithholdTaxCode = null;
 
     /**
      * @var typePriceClassOfService $PriceClassOfService
      */
-    protected $PriceClassOfService = null;
+    public $PriceClassOfService = null;
 
     /**
      * @var date $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var typeCity $ReissueLocCityCode
      */
-    protected $ReissueLocCityCode = null;
+    public $ReissueLocCityCode = null;
 
     /**
      * @var typeCountry $ReissueLocCountryCode
      */
-    protected $ReissueLocCountryCode = null;
+    public $ReissueLocCountryCode = null;
 
     /**
      * @var boolean $BulkTicket
      */
-    protected $BulkTicket = null;
+    public $BulkTicket = null;
 
     /**
      * @var string $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var anonymous1112 $PenaltyAsTaxCode
      */
-    protected $PenaltyAsTaxCode = null;
+    public $PenaltyAsTaxCode = null;
 
     /**
      * @var typeRef $AirPricingSolutionRef
      */
-    protected $AirPricingSolutionRef = null;
+    public $AirPricingSolutionRef = null;
 
     /**
      * @var boolean $PenaltyToFare
      */
-    protected $PenaltyToFare = null;
+    public $PenaltyToFare = null;
 
     /**
      * @var boolean $PricePTCOnly
      */
-    protected $PricePTCOnly = null;
+    public $PricePTCOnly = null;
 
     /**
      * @var boolean $BrandDetails
      */
-    protected $BrandDetails = null;
+    public $BrandDetails = null;
 
     /**
      * @var string $BrandModifier
      */
-    protected $BrandModifier = null;
+    public $BrandModifier = null;
 
     /**
      * @var boolean $JetServiceOnly
      */
-    protected $JetServiceOnly = null;
+    public $JetServiceOnly = null;
 
     /**
      * @var anonymous1113 $TimeWindow
      */
-    protected $TimeWindow = null;
+    public $TimeWindow = null;
 
     /**
      * @var anonymous1114 $FlightType
      */
-    protected $FlightType = null;
+    public $FlightType = null;
 
     /**
      * @var boolean $MultiAirportSearch
      */
-    protected $MultiAirportSearch = null;
+    public $MultiAirportSearch = null;
 
     /**
      * @var typeIATACode $ConnectionPoint
      */
-    protected $ConnectionPoint = null;
+    public $ConnectionPoint = null;
 
     /**
      * @param FareType $FareType

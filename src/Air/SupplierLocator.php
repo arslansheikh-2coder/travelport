@@ -8,27 +8,27 @@ class SupplierLocator
     /**
      * @var typeGeneralReference[] $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var typeCarrier $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $SupplierLocatorCode
      */
-    protected $SupplierLocatorCode = null;
+    public $SupplierLocatorCode = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var \DateTime $CreateDateTime
      */
-    protected $CreateDateTime = null;
+    public $CreateDateTime = null;
 
     /**
      * @param typeCarrier $SupplierCode

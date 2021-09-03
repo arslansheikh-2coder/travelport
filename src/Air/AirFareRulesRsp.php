@@ -8,7 +8,7 @@ class AirFareRulesRsp extends BaseRsp
     /**
      * @var FareRule $FareRule
      */
-    protected $FareRule = null;
+    public $FareRule = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

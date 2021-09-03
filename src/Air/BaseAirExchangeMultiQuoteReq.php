@@ -8,32 +8,32 @@ class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var ProviderReservationInfo $ProviderReservationInfo
      */
-    protected $ProviderReservationInfo = null;
+    public $ProviderReservationInfo = null;
 
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var RepricingModifiers $RepricingModifiers
      */
-    protected $RepricingModifiers = null;
+    public $RepricingModifiers = null;
 
     /**
      * @var OriginalItineraryDetails $OriginalItineraryDetails
      */
-    protected $OriginalItineraryDetails = null;
+    public $OriginalItineraryDetails = null;
 
     /**
      * @var OverridePCC $OverridePCC
      */
-    protected $OverridePCC = null;
+    public $OverridePCC = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

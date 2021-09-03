@@ -8,7 +8,7 @@ class TravelerType
     /**
      * @var typePTC $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typePTC $Code

@@ -8,12 +8,12 @@ class FindEmployeesOnFlightReq extends BaseReq
     /**
      * @var FlightCriteria $FlightCriteria
      */
-    protected $FlightCriteria = null;
+    public $FlightCriteria = null;
 
     /**
      * @var typeAccountID $AccountID
      */
-    protected $AccountID = null;
+    public $AccountID = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

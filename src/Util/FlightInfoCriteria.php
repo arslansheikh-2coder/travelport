@@ -8,37 +8,37 @@ class FlightInfoCriteria
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var date $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var typeClassOfService $ClassOfService
      */
-    protected $ClassOfService = null;
+    public $ClassOfService = null;
 
     /**
      * @param typeRef $Key

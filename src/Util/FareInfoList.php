@@ -8,7 +8,7 @@ class FareInfoList
     /**
      * @var FareInfo $FareInfo
      */
-    protected $FareInfo = null;
+    public $FareInfo = null;
 
     /**
      * @param FareInfo $FareInfo

@@ -8,77 +8,77 @@ class BookingTravelerInfo
     /**
      * @var BookingTravelerName $BookingTravelerName
      */
-    protected $BookingTravelerName = null;
+    public $BookingTravelerName = null;
 
     /**
      * @var NameRemark $NameRemark
      */
-    protected $NameRemark = null;
+    public $NameRemark = null;
 
     /**
      * @var date $DOB
      */
-    protected $DOB = null;
+    public $DOB = null;
 
     /**
      * @var TravelInfo $TravelInfo
      */
-    protected $TravelInfo = null;
+    public $TravelInfo = null;
 
     /**
      * @var Email $Email
      */
-    protected $Email = null;
+    public $Email = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var typeStructuredAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var string $EmergencyInfo
      */
-    protected $EmergencyInfo = null;
+    public $EmergencyInfo = null;
 
     /**
      * @var DeliveryInfo $DeliveryInfo
      */
-    protected $DeliveryInfo = null;
+    public $DeliveryInfo = null;
 
     /**
      * @var int $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @var CustomizedNameData $CustomizedNameData
      */
-    protected $CustomizedNameData = null;
+    public $CustomizedNameData = null;
 
     /**
      * @var AppliedProfile $AppliedProfile
      */
-    protected $AppliedProfile = null;
+    public $AppliedProfile = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typePTC $TravelerType
      */
-    protected $TravelerType = null;
+    public $TravelerType = null;
 
     /**
      * @var typeGender $Gender
      */
-    protected $Gender = null;
+    public $Gender = null;
 
     /**
      * @param BookingTravelerName $BookingTravelerName

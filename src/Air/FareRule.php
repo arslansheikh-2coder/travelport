@@ -8,67 +8,67 @@ class FareRule
     /**
      * @var FareRuleLong $FareRuleLong
      */
-    protected $FareRuleLong = null;
+    public $FareRuleLong = null;
 
     /**
      * @var FareRuleShort $FareRuleShort
      */
-    protected $FareRuleShort = null;
+    public $FareRuleShort = null;
 
     /**
      * @var RuleAdvancedPurchase $RuleAdvancedPurchase
      */
-    protected $RuleAdvancedPurchase = null;
+    public $RuleAdvancedPurchase = null;
 
     /**
      * @var RuleLengthOfStay $RuleLengthOfStay
      */
-    protected $RuleLengthOfStay = null;
+    public $RuleLengthOfStay = null;
 
     /**
      * @var RuleCharges $RuleCharges
      */
-    protected $RuleCharges = null;
+    public $RuleCharges = null;
 
     /**
      * @var typeResultMessage[] $FareRuleResultMessage
      */
-    protected $FareRuleResultMessage = null;
+    public $FareRuleResultMessage = null;
 
     /**
      * @var StructuredFareRulesType $StructuredFareRules
      */
-    protected $StructuredFareRules = null;
+    public $StructuredFareRules = null;
 
     /**
      * @var string $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @var string $RuleNumber
      */
-    protected $RuleNumber = null;
+    public $RuleNumber = null;
 
     /**
      * @var string $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @var string $TariffNumber
      */
-    protected $TariffNumber = null;
+    public $TariffNumber = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param FareRuleLong $FareRuleLong

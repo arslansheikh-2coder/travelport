@@ -8,82 +8,82 @@ class typeBasePreferenceHistory extends typeKeyElement
     /**
      * @var date $BookingStartDate
      */
-    protected $BookingStartDate = null;
+    public $BookingStartDate = null;
 
     /**
      * @var date $BookingEndDate
      */
-    protected $BookingEndDate = null;
+    public $BookingEndDate = null;
 
     /**
      * @var typeCurrency $Currency
      */
-    protected $Currency = null;
+    public $Currency = null;
 
     /**
      * @var typeGeoPoliticalAreaType $DepartureGeoPoliticalAreaType
      */
-    protected $DepartureGeoPoliticalAreaType = null;
+    public $DepartureGeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $DepartureGeoPoliticalAreaCode
      */
-    protected $DepartureGeoPoliticalAreaCode = null;
+    public $DepartureGeoPoliticalAreaCode = null;
 
     /**
      * @var boolean $Emphasis
      */
-    protected $Emphasis = null;
+    public $Emphasis = null;
 
     /**
      * @var StringLength1to255 $GeneralPreference
      */
-    protected $GeneralPreference = null;
+    public $GeneralPreference = null;
 
     /**
      * @var boolean $Inclusive
      */
-    protected $Inclusive = null;
+    public $Inclusive = null;
 
     /**
      * @var typeRef $LoyaltyProgramEnrollmentRef
      */
-    protected $LoyaltyProgramEnrollmentRef = null;
+    public $LoyaltyProgramEnrollmentRef = null;
 
     /**
      * @var anonymous672 $OtherLoyaltyProgramNumber
      */
-    protected $OtherLoyaltyProgramNumber = null;
+    public $OtherLoyaltyProgramNumber = null;
 
     /**
      * @var typeRef $PaymentDetailsRef
      */
-    protected $PaymentDetailsRef = null;
+    public $PaymentDetailsRef = null;
 
     /**
      * @var typePreferencePaymentMethod $PreferencePaymentMethod
      */
-    protected $PreferencePaymentMethod = null;
+    public $PreferencePaymentMethod = null;
 
     /**
      * @var typePreferencePurpose $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeSupplier $Supplier
      */
-    protected $Supplier = null;
+    public $Supplier = null;
 
     /**
      * @var boolean $TripApproval
      */
-    protected $TripApproval = null;
+    public $TripApproval = null;
 
     /**
      * @param typeRef $Key

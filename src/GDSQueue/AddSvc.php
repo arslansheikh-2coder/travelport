@@ -8,32 +8,32 @@ class AddSvc
     /**
      * @var string $RFIC
      */
-    protected $RFIC = null;
+    public $RFIC = null;
 
     /**
      * @var string $RFISC
      */
-    protected $RFISC = null;
+    public $RFISC = null;
 
     /**
      * @var string $SvcDescription
      */
-    protected $SvcDescription = null;
+    public $SvcDescription = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var date $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @param string $RFIC

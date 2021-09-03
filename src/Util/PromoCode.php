@@ -8,17 +8,17 @@ class PromoCode
     /**
      * @var anonymous768 $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param anonymous768 $Code

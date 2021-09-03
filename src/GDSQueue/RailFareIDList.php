@@ -8,7 +8,7 @@ class RailFareIDList
     /**
      * @var RailFareID $RailFareID
      */
-    protected $RailFareID = null;
+    public $RailFareID = null;
 
     /**
      * @param RailFareID $RailFareID

@@ -8,17 +8,17 @@ class ProfileChildSearchRsp extends BaseRsp
     /**
      * @var ProfileChildSummary $ProfileChildSummary
      */
-    protected $ProfileChildSummary = null;
+    public $ProfileChildSummary = null;
 
     /**
      * @var typeMoreResults $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @var int $NumberOfChildren
      */
-    protected $NumberOfChildren = null;
+    public $NumberOfChildren = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

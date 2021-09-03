@@ -8,22 +8,22 @@ class ListSearch
     /**
      * @var PersonNameSearch $PersonNameSearch
      */
-    protected $PersonNameSearch = null;
+    public $PersonNameSearch = null;
 
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var typeStartFromResult $StartFromResult
      */
-    protected $StartFromResult = null;
+    public $StartFromResult = null;
 
     /**
      * @var typeMaxResults $MaxResults
      */
-    protected $MaxResults = null;
+    public $MaxResults = null;
 
     /**
      * @param PersonNameSearch $PersonNameSearch

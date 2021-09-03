@@ -8,27 +8,27 @@ class ProfileModifyHierarchyLevelReq extends BaseReq
     /**
      * @var typeHierarchyName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeID $ParentHierarchyLevelID
      */
-    protected $ParentHierarchyLevelID = null;
+    public $ParentHierarchyLevelID = null;
 
     /**
      * @var typeID $HierarchyLevelID
      */
-    protected $HierarchyLevelID = null;
+    public $HierarchyLevelID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

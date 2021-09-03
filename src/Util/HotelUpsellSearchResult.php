@@ -8,12 +8,12 @@ class HotelUpsellSearchResult
     /**
      * @var HotelUpsellQualify $HotelUpsellQualify
      */
-    protected $HotelUpsellQualify = null;
+    public $HotelUpsellQualify = null;
 
     /**
      * @var HotelUpsellOffer $HotelUpsellOffer
      */
-    protected $HotelUpsellOffer = null;
+    public $HotelUpsellOffer = null;
 
     /**
      * @param HotelUpsellQualify $HotelUpsellQualify

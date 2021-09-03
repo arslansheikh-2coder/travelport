@@ -8,17 +8,17 @@ class VoidFailureInfo
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var int $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param string $_

@@ -8,7 +8,7 @@ class CarrierCode
     /**
      * @var typeCarrier $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @param typeCarrier $_

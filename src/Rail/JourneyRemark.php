@@ -8,12 +8,12 @@ class JourneyRemark
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @param string $_

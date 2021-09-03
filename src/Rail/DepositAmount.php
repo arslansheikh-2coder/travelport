@@ -8,12 +8,12 @@ class DepositAmount
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeMoney $ApproximateAmount
      */
-    protected $ApproximateAmount = null;
+    public $ApproximateAmount = null;
 
     /**
      * @param typeMoney $Amount

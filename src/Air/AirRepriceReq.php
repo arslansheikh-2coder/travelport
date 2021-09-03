@@ -8,22 +8,22 @@ class AirRepriceReq extends AirBaseReq
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var typeFareRuleType $FareRuleType
      */
-    protected $FareRuleType = null;
+    public $FareRuleType = null;
 
     /**
      * @var boolean $IgnoreAvailability
      */
-    protected $IgnoreAvailability = null;
+    public $IgnoreAvailability = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -7134,7 +7134,7 @@
             <xs:documentation>Default value of the field.</xs:documentation>
          </xs:annotation>
       </xs:attribute>
-      <xs:attribute name="Protected" type="xs:boolean" default="false">
+      <xs:attribute name="public" type="xs:boolean" default="false">
          <xs:annotation>
             <xs:documentation>If true, then special authorization is required for a user to create or modify this field or group.</xs:documentation>
          </xs:annotation>
@@ -7172,7 +7172,7 @@
                 <xs:documentation>Description of the field group as a whole.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="Protected" type="xs:boolean" default="false">
+        <xs:attribute name="public" type="xs:boolean" default="false">
             <xs:annotation>
                 <xs:documentation>If true, then special authorization is required for a user to create or modify this field or group.</xs:documentation>
             </xs:annotation>

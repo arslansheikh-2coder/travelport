@@ -8,22 +8,22 @@ class VehicleLocation
     /**
      * @var VendorLocation $VendorLocation
      */
-    protected $VendorLocation = null;
+    public $VendorLocation = null;
 
     /**
      * @var Distance $Distance
      */
-    protected $Distance = null;
+    public $Distance = null;
 
     /**
      * @var CoordinateLocation $CoordinateLocation
      */
-    protected $CoordinateLocation = null;
+    public $CoordinateLocation = null;
 
     /**
      * @var LocationInformation $LocationInformation
      */
-    protected $LocationInformation = null;
+    public $LocationInformation = null;
 
     /**
      * @param VendorLocation $VendorLocation

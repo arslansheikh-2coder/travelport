@@ -8,17 +8,17 @@ class UpsellAdminRsp extends BaseRsp
     /**
      * @var AirUpsellRule $AirUpsellRule
      */
-    protected $AirUpsellRule = null;
+    public $AirUpsellRule = null;
 
     /**
      * @var VehicleUpsellRule $VehicleUpsellRule
      */
-    protected $VehicleUpsellRule = null;
+    public $VehicleUpsellRule = null;
 
     /**
      * @var HotelUpsellRule $HotelUpsellRule
      */
-    protected $HotelUpsellRule = null;
+    public $HotelUpsellRule = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

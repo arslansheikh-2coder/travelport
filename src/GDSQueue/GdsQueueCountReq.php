@@ -8,12 +8,12 @@ class GdsQueueCountReq extends BaseReq
     /**
      * @var QueuePseudoCitySelector $QueuePseudoCitySelector
      */
-    protected $QueuePseudoCitySelector = null;
+    public $QueuePseudoCitySelector = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

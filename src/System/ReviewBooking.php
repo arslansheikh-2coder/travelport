@@ -8,52 +8,52 @@ class ReviewBooking
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous446 $Queue
      */
-    protected $Queue = null;
+    public $Queue = null;
 
     /**
      * @var anonymous447 $QueueCategory
      */
-    protected $QueueCategory = null;
+    public $QueueCategory = null;
 
     /**
      * @var \DateTime $DateTime
      */
-    protected $DateTime = null;
+    public $DateTime = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var anonymous448 $Remarks
      */
-    protected $Remarks = null;
+    public $Remarks = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeRef $Key

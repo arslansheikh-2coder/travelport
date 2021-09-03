@@ -8,17 +8,17 @@ class typeOTASubKey
     /**
      * @var string[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var typeOTACode $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param typeOTACode $Name

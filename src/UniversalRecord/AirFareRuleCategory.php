@@ -8,12 +8,12 @@ class AirFareRuleCategory
     /**
      * @var typeFareRuleCategoryCode[] $CategoryCode
      */
-    protected $CategoryCode = null;
+    public $CategoryCode = null;
 
     /**
      * @var typeRef $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @param typeFareRuleCategoryCode[] $CategoryCode

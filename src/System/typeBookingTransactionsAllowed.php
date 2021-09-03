@@ -8,7 +8,7 @@ class typeBookingTransactionsAllowed
     /**
      * @var boolean $BookingEnabled
      */
-    protected $BookingEnabled = null;
+    public $BookingEnabled = null;
 
     /**
      * @param boolean $BookingEnabled

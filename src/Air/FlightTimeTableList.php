@@ -8,7 +8,7 @@ class FlightTimeTableList
     /**
      * @var FlightTimeDetail $FlightTimeDetail
      */
-    protected $FlightTimeDetail = null;
+    public $FlightTimeDetail = null;
 
     /**
      * @param FlightTimeDetail $FlightTimeDetail

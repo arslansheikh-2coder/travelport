@@ -8,22 +8,22 @@ class typeSearchPaymentDetails
     /**
      * @var typeDateOptions $ExpirationDate
      */
-    protected $ExpirationDate = null;
+    public $ExpirationDate = null;
 
     /**
      * @var typePaymentType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typePaymentSupplier $PaymentSupplier
      */
-    protected $PaymentSupplier = null;
+    public $PaymentSupplier = null;
 
     /**
      * @var StringLength1to255 $AccountNumber
      */
-    protected $AccountNumber = null;
+    public $AccountNumber = null;
 
     /**
      * @param typePaymentType $Type

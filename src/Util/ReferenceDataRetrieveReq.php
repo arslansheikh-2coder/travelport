@@ -8,17 +8,17 @@ class ReferenceDataRetrieveReq extends BaseReq
     /**
      * @var ReferenceDataSearchModifiers $ReferenceDataSearchModifiers
      */
-    protected $ReferenceDataSearchModifiers = null;
+    public $ReferenceDataSearchModifiers = null;
 
     /**
      * @var RequestReferenceDataItem $RequestReferenceDataItem
      */
-    protected $RequestReferenceDataItem = null;
+    public $RequestReferenceDataItem = null;
 
     /**
      * @var typeTypeCode $TypeCode
      */
-    protected $TypeCode = null;
+    public $TypeCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

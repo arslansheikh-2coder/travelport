@@ -8,12 +8,12 @@ class BrandedFareSearchModifier
     /**
      * @var typeMaxResults $MaxResults
      */
-    protected $MaxResults = null;
+    public $MaxResults = null;
 
     /**
      * @var typeStartFromResult $StartFromResult
      */
-    protected $StartFromResult = null;
+    public $StartFromResult = null;
 
     /**
      * @param typeMaxResults $MaxResults

@@ -8,7 +8,7 @@ class ExchangedTicketInfo
     /**
      * @var typeTicketNumber $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @param typeTicketNumber $Number

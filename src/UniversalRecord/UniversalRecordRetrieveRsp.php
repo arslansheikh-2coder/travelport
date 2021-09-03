@@ -8,12 +8,12 @@ class UniversalRecordRetrieveRsp extends BaseRsp
     /**
      * @var UniversalRecord $UniversalRecord
      */
-    protected $UniversalRecord = null;
+    public $UniversalRecord = null;
 
     /**
      * @var boolean $Updated
      */
-    protected $Updated = null;
+    public $Updated = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,17 +8,17 @@ class AirItineraryDetails
     /**
      * @var AirSegmentDetails $AirSegmentDetails
      */
-    protected $AirSegmentDetails = null;
+    public $AirSegmentDetails = null;
 
     /**
      * @var PassengerDetails $PassengerDetails
      */
-    protected $PassengerDetails = null;
+    public $PassengerDetails = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param AirSegmentDetails $AirSegmentDetails

@@ -8,32 +8,32 @@ class FareFamily
     /**
      * @var typeFlightSpec $FlightSpec
      */
-    protected $FlightSpec = null;
+    public $FlightSpec = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeFareFamily $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var typeFareBasisCode $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeURVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @param typeFlightSpec $FlightSpec

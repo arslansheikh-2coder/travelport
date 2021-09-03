@@ -8,52 +8,52 @@ class EMDSummary
     /**
      * @var EMDCoupon $EMDCoupon
      */
-    protected $EMDCoupon = null;
+    public $EMDCoupon = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeEMDNumber $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var boolean $PrimaryDocumentIndicator
      */
-    protected $PrimaryDocumentIndicator = null;
+    public $PrimaryDocumentIndicator = null;
 
     /**
      * @var typeEMDNumber $InConjunctionWith
      */
-    protected $InConjunctionWith = null;
+    public $InConjunctionWith = null;
 
     /**
      * @var typeTicketNumber $AssociatedTicketNumber
      */
-    protected $AssociatedTicketNumber = null;
+    public $AssociatedTicketNumber = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @var \DateTime $IssueDate
      */
-    protected $IssueDate = null;
+    public $IssueDate = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param EMDCoupon $EMDCoupon

@@ -8,97 +8,97 @@ class AirFareDisplayReq extends BaseReq
     /**
      * @var FareType $FareType
      */
-    protected $FareType = null;
+    public $FareType = null;
 
     /**
      * @var typePassengerType[] $PassengerType
      */
-    protected $PassengerType = null;
+    public $PassengerType = null;
 
     /**
      * @var BookingCode $BookingCode
      */
-    protected $BookingCode = null;
+    public $BookingCode = null;
 
     /**
      * @var IncludeAddlBookingCodeInfo $IncludeAddlBookingCodeInfo
      */
-    protected $IncludeAddlBookingCodeInfo = null;
+    public $IncludeAddlBookingCodeInfo = null;
 
     /**
      * @var FareBasis $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @var Carrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var AccountCode $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var ContractCode $ContractCode
      */
-    protected $ContractCode = null;
+    public $ContractCode = null;
 
     /**
      * @var AirFareDisplayModifiers $AirFareDisplayModifiers
      */
-    protected $AirFareDisplayModifiers = null;
+    public $AirFareDisplayModifiers = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var AirFareDisplayRuleKey $AirFareDisplayRuleKey
      */
-    protected $AirFareDisplayRuleKey = null;
+    public $AirFareDisplayRuleKey = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeMileOrRouteBasedFare $IncludeMileRouteInformation
      */
-    protected $IncludeMileRouteInformation = null;
+    public $IncludeMileRouteInformation = null;
 
     /**
      * @var boolean $UnSaleableFaresOnly
      */
-    protected $UnSaleableFaresOnly = null;
+    public $UnSaleableFaresOnly = null;
 
     /**
      * @var anonymous1170 $ChannelId
      */
-    protected $ChannelId = null;
+    public $ChannelId = null;
 
     /**
      * @var anonymous1171 $NSCC
      */
-    protected $NSCC = null;
+    public $NSCC = null;
 
     /**
      * @var boolean $ReturnMM
      */
-    protected $ReturnMM = null;
+    public $ReturnMM = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

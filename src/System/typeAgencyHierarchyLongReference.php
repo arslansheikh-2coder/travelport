@@ -8,12 +8,12 @@ class typeAgencyHierarchyLongReference extends typeAgencyHierarchyReference
     /**
      * @var int $ProfileVersion
      */
-    protected $ProfileVersion = null;
+    public $ProfileVersion = null;
 
     /**
      * @var anonymous363 $ProfileName
      */
-    protected $ProfileName = null;
+    public $ProfileName = null;
 
     /**
      * @param typeProfileID $ProfileID

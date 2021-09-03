@@ -8,7 +8,7 @@ class BookingCode
     /**
      * @var typeClassOfService $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeClassOfService $Code

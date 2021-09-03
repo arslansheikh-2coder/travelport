@@ -8,12 +8,12 @@ class RoomCapacity
     /**
      * @var positiveInteger[] $Capacity
      */
-    protected $Capacity = null;
+    public $Capacity = null;
 
     /**
      * @var boolean $IsPackage
      */
-    protected $IsPackage = null;
+    public $IsPackage = null;
 
     /**
      * @param boolean $IsPackage

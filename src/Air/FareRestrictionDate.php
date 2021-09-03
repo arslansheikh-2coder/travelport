@@ -8,22 +8,22 @@ class FareRestrictionDate
     /**
      * @var typeFareDirectionality $Direction
      */
-    protected $Direction = null;
+    public $Direction = null;
 
     /**
      * @var string $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var string $EndDate
      */
-    protected $EndDate = null;
+    public $EndDate = null;
 
     /**
      * @var anonymous663 $EndDateIndicator
      */
-    protected $EndDateIndicator = null;
+    public $EndDateIndicator = null;
 
     /**
      * @param typeFareDirectionality $Direction

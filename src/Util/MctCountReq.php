@@ -8,7 +8,7 @@ class MctCountReq extends BaseReq
     /**
      * @var MctSearch $MctSearch
      */
-    protected $MctSearch = null;
+    public $MctSearch = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

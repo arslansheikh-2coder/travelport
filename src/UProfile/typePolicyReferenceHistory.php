@@ -8,27 +8,27 @@ class typePolicyReferenceHistory extends typeKeyElement
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to255 $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeProfileID $ControllingProfileID
      */
-    protected $ControllingProfileID = null;
+    public $ControllingProfileID = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var StringLength1to255 $Desc
      */
-    protected $Desc = null;
+    public $Desc = null;
 
     /**
      * @param typeRef $Key

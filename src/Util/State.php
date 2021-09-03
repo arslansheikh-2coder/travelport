@@ -8,17 +8,17 @@ class State
     /**
      * @var typeState $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeCountry $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @param typeState $Code

@@ -8,12 +8,12 @@ class ProviderLocation
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var anonymous1177 $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @param typeProviderCode $ProviderCode

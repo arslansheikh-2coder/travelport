@@ -8,12 +8,12 @@ class FlightTimeTableCriteria
     /**
      * @var GeneralTimeTable $GeneralTimeTable
      */
-    protected $GeneralTimeTable = null;
+    public $GeneralTimeTable = null;
 
     /**
      * @var SpecificTimeTable $SpecificTimeTable
      */
-    protected $SpecificTimeTable = null;
+    public $SpecificTimeTable = null;
 
     /**
      * @param GeneralTimeTable $GeneralTimeTable

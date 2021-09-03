@@ -8,7 +8,7 @@ class CalculateTaxRsp extends BaseRsp
     /**
      * @var CalculateTaxResult $CalculateTaxResult
      */
-    protected $CalculateTaxResult = null;
+    public $CalculateTaxResult = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,7 +8,7 @@ class ProfileRetrieveActionReq extends BaseReq
     /**
      * @var typeActionRef[] $ActionInfo
      */
-    protected $ActionInfo = null;
+    public $ActionInfo = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

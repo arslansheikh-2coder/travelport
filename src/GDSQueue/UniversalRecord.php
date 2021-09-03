@@ -8,197 +8,197 @@ class UniversalRecord
     /**
      * @var LinkedUniversalRecord $LinkedUniversalRecord
      */
-    protected $LinkedUniversalRecord = null;
+    public $LinkedUniversalRecord = null;
 
     /**
      * @var Group $Group
      */
-    protected $Group = null;
+    public $Group = null;
 
     /**
      * @var BookingTraveler $BookingTraveler
      */
-    protected $BookingTraveler = null;
+    public $BookingTraveler = null;
 
     /**
      * @var ServiceFeeInfo $ServiceFeeInfo
      */
-    protected $ServiceFeeInfo = null;
+    public $ServiceFeeInfo = null;
 
     /**
      * @var OSI $OSI
      */
-    protected $OSI = null;
+    public $OSI = null;
 
     /**
      * @var ActionStatus $ActionStatus
      */
-    protected $ActionStatus = null;
+    public $ActionStatus = null;
 
     /**
      * @var ProviderReservationInfo $ProviderReservationInfo
      */
-    protected $ProviderReservationInfo = null;
+    public $ProviderReservationInfo = null;
 
     /**
      * @var AirReservation $AirReservation
      */
-    protected $AirReservation = null;
+    public $AirReservation = null;
 
     /**
      * @var HotelReservation $HotelReservation
      */
-    protected $HotelReservation = null;
+    public $HotelReservation = null;
 
     /**
      * @var VehicleReservation $VehicleReservation
      */
-    protected $VehicleReservation = null;
+    public $VehicleReservation = null;
 
     /**
      * @var PassiveReservation $PassiveReservation
      */
-    protected $PassiveReservation = null;
+    public $PassiveReservation = null;
 
     /**
      * @var RailReservation $RailReservation
      */
-    protected $RailReservation = null;
+    public $RailReservation = null;
 
     /**
      * @var CruiseReservation $CruiseReservation
      */
-    protected $CruiseReservation = null;
+    public $CruiseReservation = null;
 
     /**
      * @var EMDSummaryInfo $EMDSummaryInfo
      */
-    protected $EMDSummaryInfo = null;
+    public $EMDSummaryInfo = null;
 
     /**
      * @var ProviderARNKSegment $ProviderARNKSegment
      */
-    protected $ProviderARNKSegment = null;
+    public $ProviderARNKSegment = null;
 
     /**
      * @var SegmentContinuityInfo $SegmentContinuityInfo
      */
-    protected $SegmentContinuityInfo = null;
+    public $SegmentContinuityInfo = null;
 
     /**
      * @var XMLRemark $XMLRemark
      */
-    protected $XMLRemark = null;
+    public $XMLRemark = null;
 
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var AccountingRemark $AccountingRemark
      */
-    protected $AccountingRemark = null;
+    public $AccountingRemark = null;
 
     /**
      * @var UnassociatedRemark $UnassociatedRemark
      */
-    protected $UnassociatedRemark = null;
+    public $UnassociatedRemark = null;
 
     /**
      * @var Postscript $Postscript
      */
-    protected $Postscript = null;
+    public $Postscript = null;
 
     /**
      * @var AgencyInfo $AgencyInfo
      */
-    protected $AgencyInfo = null;
+    public $AgencyInfo = null;
 
     /**
      * @var AppliedProfile $AppliedProfile
      */
-    protected $AppliedProfile = null;
+    public $AppliedProfile = null;
 
     /**
      * @var AgencyContactInfo $AgencyContactInfo
      */
-    protected $AgencyContactInfo = null;
+    public $AgencyContactInfo = null;
 
     /**
      * @var CustomerID $CustomerID
      */
-    protected $CustomerID = null;
+    public $CustomerID = null;
 
     /**
      * @var CommissionRemark $CommissionRemark
      */
-    protected $CommissionRemark = null;
+    public $CommissionRemark = null;
 
     /**
      * @var ConsolidatorRemark $ConsolidatorRemark
      */
-    protected $ConsolidatorRemark = null;
+    public $ConsolidatorRemark = null;
 
     /**
      * @var UnmaskedDataRemark $UnmaskedDataRemark
      */
-    protected $UnmaskedDataRemark = null;
+    public $UnmaskedDataRemark = null;
 
     /**
      * @var InvoiceRemark $InvoiceRemark
      */
-    protected $InvoiceRemark = null;
+    public $InvoiceRemark = null;
 
     /**
      * @var ReviewBooking $ReviewBooking
      */
-    protected $ReviewBooking = null;
+    public $ReviewBooking = null;
 
     /**
      * @var SSR $SSR
      */
-    protected $SSR = null;
+    public $SSR = null;
 
     /**
      * @var InvoiceData $InvoiceData
      */
-    protected $InvoiceData = null;
+    public $InvoiceData = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var typeLocatorCode $SavedTripLocatorCode
      */
-    protected $SavedTripLocatorCode = null;
+    public $SavedTripLocatorCode = null;
 
     /**
      * @var string $LockReason
      */
-    protected $LockReason = null;
+    public $LockReason = null;
 
     /**
      * @var \DateTime $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var typeURVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var typeURStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @param LinkedUniversalRecord $LinkedUniversalRecord

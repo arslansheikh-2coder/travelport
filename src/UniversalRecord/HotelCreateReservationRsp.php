@@ -8,12 +8,12 @@ class HotelCreateReservationRsp extends BaseRsp
     /**
      * @var UniversalRecord $UniversalRecord
      */
-    protected $UniversalRecord = null;
+    public $UniversalRecord = null;
 
     /**
      * @var HotelRateChangedInfo $HotelRateChangedInfo
      */
-    protected $HotelRateChangedInfo = null;
+    public $HotelRateChangedInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

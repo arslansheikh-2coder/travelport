@@ -8,12 +8,12 @@ class PolicyCompliance
     /**
      * @var boolean $InPolicy
      */
-    protected $InPolicy = null;
+    public $InPolicy = null;
 
     /**
      * @var StringLength1to128 $PolicyToken
      */
-    protected $PolicyToken = null;
+    public $PolicyToken = null;
 
     /**
      * @param boolean $InPolicy

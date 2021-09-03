@@ -8,37 +8,37 @@ class FareNote
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var int $Precedence
      */
-    protected $Precedence = null;
+    public $Precedence = null;
 
     /**
      * @var string $NoteName
      */
-    protected $NoteName = null;
+    public $NoteName = null;
 
     /**
      * @var typeRef $FareInfoMessageRef
      */
-    protected $FareInfoMessageRef = null;
+    public $FareInfoMessageRef = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param string $_

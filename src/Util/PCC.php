@@ -8,17 +8,17 @@ class PCC
     /**
      * @var OverridePCC $OverridePCC
      */
-    protected $OverridePCC = null;
+    public $OverridePCC = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var TicketAgency $TicketAgency
      */
-    protected $TicketAgency = null;
+    public $TicketAgency = null;
 
     /**
      * @param OverridePCC $OverridePCC

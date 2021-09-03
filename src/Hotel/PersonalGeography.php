@@ -8,17 +8,17 @@ class PersonalGeography
     /**
      * @var typeCountry $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var typeState $StateProvinceCode
      */
-    protected $StateProvinceCode = null;
+    public $StateProvinceCode = null;
 
     /**
      * @var typeCity $CityCode
      */
-    protected $CityCode = null;
+    public $CityCode = null;
 
     
     public function __construct()

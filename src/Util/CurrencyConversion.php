@@ -8,27 +8,27 @@ class CurrencyConversion
     /**
      * @var typeCurrency $From
      */
-    protected $From = null;
+    public $From = null;
 
     /**
      * @var typeCurrency $To
      */
-    protected $To = null;
+    public $To = null;
 
     /**
      * @var float $OriginalAmount
      */
-    protected $OriginalAmount = null;
+    public $OriginalAmount = null;
 
     /**
      * @var float $ConvertedAmount
      */
-    protected $ConvertedAmount = null;
+    public $ConvertedAmount = null;
 
     /**
      * @var float $BankSellingRate
      */
-    protected $BankSellingRate = null;
+    public $BankSellingRate = null;
 
     /**
      * @param typeCurrency $From

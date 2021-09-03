@@ -8,7 +8,7 @@ class EndTerminalSessionReq extends BaseReq
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

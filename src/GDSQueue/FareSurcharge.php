@@ -8,37 +8,37 @@ class FareSurcharge
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var typeRef $CouponRef
      */
-    protected $CouponRef = null;
+    public $CouponRef = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeRef $Key

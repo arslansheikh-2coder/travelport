@@ -8,12 +8,12 @@ class SystemInfoRsp extends BaseRsp
     /**
      * @var SystemInfo $SystemInfo
      */
-    protected $SystemInfo = null;
+    public $SystemInfo = null;
 
     /**
      * @var SystemTime $SystemTime
      */
-    protected $SystemTime = null;
+    public $SystemTime = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

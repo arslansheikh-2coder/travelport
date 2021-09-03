@@ -8,22 +8,22 @@ class typeRestrictionLengthOfStay
     /**
      * @var int $Length
      */
-    protected $Length = null;
+    public $Length = null;
 
     /**
      * @var typeStayUnit $StayUnit
      */
-    protected $StayUnit = null;
+    public $StayUnit = null;
 
     /**
      * @var date $StayDate
      */
-    protected $StayDate = null;
+    public $StayDate = null;
 
     /**
      * @var boolean $MoreRulesPresent
      */
-    protected $MoreRulesPresent = null;
+    public $MoreRulesPresent = null;
 
     /**
      * @param int $Length

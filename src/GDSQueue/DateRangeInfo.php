@@ -8,17 +8,17 @@ class DateRangeInfo
     /**
      * @var string $DateRange
      */
-    protected $DateRange = null;
+    public $DateRange = null;
 
     /**
      * @var string $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @var int $Count
      */
-    protected $Count = null;
+    public $Count = null;
 
     /**
      * @param string $DateRange

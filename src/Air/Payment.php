@@ -8,52 +8,52 @@ class Payment
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous316 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeRef $FormOfPaymentRef
      */
-    protected $FormOfPaymentRef = null;
+    public $FormOfPaymentRef = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var StringLength1to32 $AmountType
      */
-    protected $AmountType = null;
+    public $AmountType = null;
 
     /**
      * @var typeMoney $ApproximateAmount
      */
-    protected $ApproximateAmount = null;
+    public $ApproximateAmount = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeRef $Key

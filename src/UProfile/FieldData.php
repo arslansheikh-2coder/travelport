@@ -8,22 +8,22 @@ class FieldData extends typeKeyTaggedElement
     /**
      * @var StringLength1to255 $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeFieldID $FieldID
      */
-    protected $FieldID = null;
+    public $FieldID = null;
 
     /**
      * @var StringLength1to255 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

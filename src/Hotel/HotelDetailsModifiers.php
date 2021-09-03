@@ -8,87 +8,87 @@ class HotelDetailsModifiers
     /**
      * @var PermittedProviders $PermittedProviders
      */
-    protected $PermittedProviders = null;
+    public $PermittedProviders = null;
 
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
-    protected $CorporateDiscountID = null;
+    public $CorporateDiscountID = null;
 
     /**
      * @var HotelStay $HotelStay
      */
-    protected $HotelStay = null;
+    public $HotelStay = null;
 
     /**
      * @var NumberOfChildren $NumberOfChildren
      */
-    protected $NumberOfChildren = null;
+    public $NumberOfChildren = null;
 
     /**
      * @var HotelBedding $HotelBedding
      */
-    protected $HotelBedding = null;
+    public $HotelBedding = null;
 
     /**
      * @var typeOTACode[] $RateCategory
      */
-    protected $RateCategory = null;
+    public $RateCategory = null;
 
     /**
      * @var PermittedAggregators $PermittedAggregators
      */
-    protected $PermittedAggregators = null;
+    public $PermittedAggregators = null;
 
     /**
      * @var BookingGuestInformation $BookingGuestInformation
      */
-    protected $BookingGuestInformation = null;
+    public $BookingGuestInformation = null;
 
     /**
      * @var int $NumberOfAdults
      */
-    protected $NumberOfAdults = null;
+    public $NumberOfAdults = null;
 
     /**
      * @var typeRateRuleDetail $RateRuleDetail
      */
-    protected $RateRuleDetail = null;
+    public $RateRuleDetail = null;
 
     /**
      * @var int $NumberOfRooms
      */
-    protected $NumberOfRooms = null;
+    public $NumberOfRooms = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeCurrency $PreferredCurrency
      */
-    protected $PreferredCurrency = null;
+    public $PreferredCurrency = null;
 
     /**
      * @var int $TotalOccupants
      */
-    protected $TotalOccupants = null;
+    public $TotalOccupants = null;
 
     /**
      * @var boolean $ProcessAllNegoRatesInd
      */
-    protected $ProcessAllNegoRatesInd = null;
+    public $ProcessAllNegoRatesInd = null;
 
     /**
      * @var int $MaxWait
      */
-    protected $MaxWait = null;
+    public $MaxWait = null;
 
     /**
      * @param PermittedProviders $PermittedProviders

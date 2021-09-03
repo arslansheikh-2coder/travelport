@@ -8,7 +8,7 @@ class PermittedVendors
     /**
      * @var Vendor $Vendor
      */
-    protected $Vendor = null;
+    public $Vendor = null;
 
     /**
      * @param Vendor $Vendor

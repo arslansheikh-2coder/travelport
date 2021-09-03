@@ -8,77 +8,77 @@ class AirSegmentDetails
     /**
      * @var PassengerDetailsRef $PassengerDetailsRef
      */
-    protected $PassengerDetailsRef = null;
+    public $PassengerDetailsRef = null;
 
     /**
      * @var BrandID $BrandID
      */
-    protected $BrandID = null;
+    public $BrandID = null;
 
     /**
      * @var string $BookingCodeList
      */
-    protected $BookingCodeList = null;
+    public $BookingCodeList = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var \DateTime $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var \DateTime $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @var typeEquipment $Equipment
      */
-    protected $Equipment = null;
+    public $Equipment = null;
 
     /**
      * @var typeClassOfService $ClassOfService
      */
-    protected $ClassOfService = null;
+    public $ClassOfService = null;
 
     /**
      * @var string $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var typeCarrier $OperatingCarrier
      */
-    protected $OperatingCarrier = null;
+    public $OperatingCarrier = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @param PassengerDetailsRef $PassengerDetailsRef

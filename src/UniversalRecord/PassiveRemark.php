@@ -8,17 +8,17 @@ class PassiveRemark
     /**
      * @var string $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeRef $PassiveSegmentRef
      */
-    protected $PassiveSegmentRef = null;
+    public $PassiveSegmentRef = null;
 
     /**
      * @param string $Text

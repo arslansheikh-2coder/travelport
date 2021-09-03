@@ -8,12 +8,12 @@ class PenaltyFareInformation
     /**
      * @var typeFarePenalty $PenaltyInfo
      */
-    protected $PenaltyInfo = null;
+    public $PenaltyInfo = null;
 
     /**
      * @var boolean $ProhibitPenaltyFares
      */
-    protected $ProhibitPenaltyFares = null;
+    public $ProhibitPenaltyFares = null;
 
     /**
      * @param boolean $ProhibitPenaltyFares

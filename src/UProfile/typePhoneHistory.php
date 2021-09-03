@@ -8,57 +8,57 @@ class typePhoneHistory extends typeKeyTaggedElement
     /**
      * @var typePhoneType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeContactPurpose $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @var boolean $Provisioned
      */
-    protected $Provisioned = null;
+    public $Provisioned = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @var anonymous895 $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var anonymous896 $AreaCode
      */
-    protected $AreaCode = null;
+    public $AreaCode = null;
 
     /**
      * @var anonymous897 $LocalNumber
      */
-    protected $LocalNumber = null;
+    public $LocalNumber = null;
 
     /**
      * @var anonymous898 $Extension
      */
-    protected $Extension = null;
+    public $Extension = null;
 
     /**
      * @var typeCityOrAirport $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @param typeRef $Key

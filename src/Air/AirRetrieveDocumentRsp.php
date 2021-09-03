@@ -8,32 +8,32 @@ class AirRetrieveDocumentRsp extends BaseRsp
     /**
      * @var ETR $ETR
      */
-    protected $ETR = null;
+    public $ETR = null;
 
     /**
      * @var MCO $MCO
      */
-    protected $MCO = null;
+    public $MCO = null;
 
     /**
      * @var TCR $TCR
      */
-    protected $TCR = null;
+    public $TCR = null;
 
     /**
      * @var typeFailureInfo[] $DocumentFailureInfo
      */
-    protected $DocumentFailureInfo = null;
+    public $DocumentFailureInfo = null;
 
     /**
      * @var ServiceFeeInfo $ServiceFeeInfo
      */
-    protected $ServiceFeeInfo = null;
+    public $ServiceFeeInfo = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

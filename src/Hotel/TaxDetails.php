@@ -8,7 +8,7 @@ class TaxDetails
     /**
      * @var Tax $Tax
      */
-    protected $Tax = null;
+    public $Tax = null;
 
     /**
      * @param Tax $Tax

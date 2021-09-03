@@ -8,17 +8,17 @@ class AirFareDiscount
     /**
      * @var float $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeFareDiscount $DiscountMethod
      */
-    protected $DiscountMethod = null;
+    public $DiscountMethod = null;
 
     /**
      * @param float $Percentage

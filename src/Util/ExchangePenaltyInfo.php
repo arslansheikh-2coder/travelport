@@ -8,22 +8,22 @@ class ExchangePenaltyInfo
     /**
      * @var PenaltyInformation $PenaltyInformation
      */
-    protected $PenaltyInformation = null;
+    public $PenaltyInformation = null;
 
     /**
      * @var typePTC $PTC
      */
-    protected $PTC = null;
+    public $PTC = null;
 
     /**
      * @var typeMoney $MinimumChangeFee
      */
-    protected $MinimumChangeFee = null;
+    public $MinimumChangeFee = null;
 
     /**
      * @var typeMoney $MaximumChangeFee
      */
-    protected $MaximumChangeFee = null;
+    public $MaximumChangeFee = null;
 
     /**
      * @param PenaltyInformation $PenaltyInformation

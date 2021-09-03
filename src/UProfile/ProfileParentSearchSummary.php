@@ -8,42 +8,42 @@ class ProfileParentSearchSummary
     /**
      * @var typeProvisioningCode $ProvisioningCode
      */
-    protected $ProvisioningCode = null;
+    public $ProvisioningCode = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var typeID $HierarchyLevelID
      */
-    protected $HierarchyLevelID = null;
+    public $HierarchyLevelID = null;
 
     /**
      * @var typeProfileEntityStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeImmediateParentRef $ImmediateParentRef
      */
-    protected $ImmediateParentRef = null;
+    public $ImmediateParentRef = null;
 
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param typeProvisioningCode $ProvisioningCode

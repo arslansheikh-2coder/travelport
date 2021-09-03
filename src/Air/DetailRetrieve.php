@@ -8,12 +8,12 @@ class DetailRetrieve
     /**
      * @var typeProviderReservationDetail $ProviderReservationDetail
      */
-    protected $ProviderReservationDetail = null;
+    public $ProviderReservationDetail = null;
 
     /**
      * @var typeEMDNumber $EMDNumber
      */
-    protected $EMDNumber = null;
+    public $EMDNumber = null;
 
     /**
      * @param typeProviderReservationDetail $ProviderReservationDetail

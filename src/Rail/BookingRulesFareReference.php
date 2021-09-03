@@ -8,32 +8,32 @@ class BookingRulesFareReference
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeClassOfService $ClassOfService
      */
-    protected $ClassOfService = null;
+    public $ClassOfService = null;
 
     /**
      * @var typeTicketDesignator $TicketDesignatorCode
      */
-    protected $TicketDesignatorCode = null;
+    public $TicketDesignatorCode = null;
 
     /**
      * @var string $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var boolean $UpgrageAllowed
      */
-    protected $UpgrageAllowed = null;
+    public $UpgrageAllowed = null;
 
     /**
      * @var typeClassOfService $UpgradeClassOfService
      */
-    protected $UpgradeClassOfService = null;
+    public $UpgradeClassOfService = null;
 
     /**
      * @param string $_

@@ -8,12 +8,12 @@ class AirPricingInfoRef
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef

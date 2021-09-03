@@ -8,17 +8,17 @@ class ProprietaryData extends typeKeyElement
     /**
      * @var anonymous554 $ProprietaryDataType
      */
-    protected $ProprietaryDataType = null;
+    public $ProprietaryDataType = null;
 
     /**
      * @var StringLength1to255 $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

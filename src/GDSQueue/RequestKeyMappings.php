@@ -8,7 +8,7 @@ class RequestKeyMappings
     /**
      * @var KeyMapping $KeyMapping
      */
-    protected $KeyMapping = null;
+    public $KeyMapping = null;
 
     /**
      * @param KeyMapping $KeyMapping

@@ -8,27 +8,27 @@ class ProviderARNKSegment
     /**
      * @var PreviousSegment $PreviousSegment
      */
-    protected $PreviousSegment = null;
+    public $PreviousSegment = null;
 
     /**
      * @var NextSegment $NextSegment
      */
-    protected $NextSegment = null;
+    public $NextSegment = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var anonymous82 $ProviderSegmentOrder
      */
-    protected $ProviderSegmentOrder = null;
+    public $ProviderSegmentOrder = null;
 
     /**
      * @param typeRef $Key

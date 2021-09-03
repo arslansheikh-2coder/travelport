@@ -8,7 +8,7 @@ class ProfileSearchActionReq extends BaseReq
     /**
      * @var StringLength1to128 $ConsumingSystem
      */
-    protected $ConsumingSystem = null;
+    public $ConsumingSystem = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

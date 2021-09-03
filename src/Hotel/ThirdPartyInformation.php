@@ -8,42 +8,42 @@ class ThirdPartyInformation
     /**
      * @var typeGeneralReference[] $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var anonymous436 $ThirdPartyCode
      */
-    protected $ThirdPartyCode = null;
+    public $ThirdPartyCode = null;
 
     /**
      * @var anonymous437 $ThirdPartyLocatorCode
      */
-    protected $ThirdPartyLocatorCode = null;
+    public $ThirdPartyLocatorCode = null;
 
     /**
      * @var typeThirdPartySupplier $ThirdPartyName
      */
-    protected $ThirdPartyName = null;
+    public $ThirdPartyName = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param anonymous436 $ThirdPartyCode

@@ -8,57 +8,57 @@ class PhoneNumber
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous96 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anonymous97 $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var anonymous98 $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var anonymous99 $AreaCode
      */
-    protected $AreaCode = null;
+    public $AreaCode = null;
 
     /**
      * @var anonymous100 $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var anonymous101 $Extension
      */
-    protected $Extension = null;
+    public $Extension = null;
 
     /**
      * @var anonymous102 $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef

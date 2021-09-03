@@ -8,12 +8,12 @@ class RestrictionPassengerTypes
     /**
      * @var string $MaxNbrTravelers
      */
-    protected $MaxNbrTravelers = null;
+    public $MaxNbrTravelers = null;
 
     /**
      * @var string $TotalNbrPTC
      */
-    protected $TotalNbrPTC = null;
+    public $TotalNbrPTC = null;
 
     /**
      * @param string $MaxNbrTravelers

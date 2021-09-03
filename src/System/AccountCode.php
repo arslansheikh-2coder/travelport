@@ -8,22 +8,22 @@ class AccountCode
     /**
      * @var anonymous116 $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param anonymous116 $Code

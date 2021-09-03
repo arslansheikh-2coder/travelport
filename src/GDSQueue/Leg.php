@@ -8,27 +8,27 @@ class Leg
     /**
      * @var LegDetail $LegDetail
      */
-    protected $LegDetail = null;
+    public $LegDetail = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var int $Group
      */
-    protected $Group = null;
+    public $Group = null;
 
     /**
      * @var typeRailLocationCode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeRailLocationCode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @param LegDetail $LegDetail

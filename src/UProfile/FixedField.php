@@ -8,112 +8,112 @@ class FixedField
     /**
      * @var FixedFieldGroupRef $FixedFieldGroupRef
      */
-    protected $FixedFieldGroupRef = null;
+    public $FixedFieldGroupRef = null;
 
     /**
      * @var ActionRef $ActionRef
      */
-    protected $ActionRef = null;
+    public $ActionRef = null;
 
     /**
      * @var typeFieldID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var boolean $ReadOnly
      */
-    protected $ReadOnly = null;
+    public $ReadOnly = null;
 
     /**
      * @var boolean $Overriden
      */
-    protected $Overriden = null;
+    public $Overriden = null;
 
     /**
      * @var string $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var boolean $Hide
      */
-    protected $Hide = null;
+    public $Hide = null;
 
     /**
      * @var boolean $SearchOption
      */
-    protected $SearchOption = null;
+    public $SearchOption = null;
 
     /**
      * @var int $SearchOptionDisplayOrder
      */
-    protected $SearchOptionDisplayOrder = null;
+    public $SearchOptionDisplayOrder = null;
 
     /**
      * @var int $MinOccursOverride
      */
-    protected $MinOccursOverride = null;
+    public $MinOccursOverride = null;
 
     /**
      * @var int $MaxOccursOverride
      */
-    protected $MaxOccursOverride = null;
+    public $MaxOccursOverride = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @var typeFieldName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeFixedFieldDataFormat $DataType
      */
-    protected $DataType = null;
+    public $DataType = null;
 
     /**
      * @var anonymous879 $Component
      */
-    protected $Component = null;
+    public $Component = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var boolean $Encrypted
      */
-    protected $Encrypted = null;
+    public $Encrypted = null;
 
     /**
      * @var typeMasked $Masked
      */
-    protected $Masked = null;
+    public $Masked = null;
 
     /**
      * @var boolean $Searchable
      */
-    protected $Searchable = null;
+    public $Searchable = null;
 
     /**
      * @var boolean $Inheritable
      */
-    protected $Inheritable = null;
+    public $Inheritable = null;
 
     /**
      * @param FixedFieldGroupRef $FixedFieldGroupRef

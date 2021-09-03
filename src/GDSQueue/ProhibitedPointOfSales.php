@@ -8,7 +8,7 @@ class ProhibitedPointOfSales
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @param PointOfSale $PointOfSale

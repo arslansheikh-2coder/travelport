@@ -8,17 +8,17 @@ class OperatingCompany
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param string $_

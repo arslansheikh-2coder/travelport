@@ -8,22 +8,22 @@ class RailRefundReq extends BaseReq
     /**
      * @var ContinuityCheckOverride $ContinuityCheckOverride
      */
-    protected $ContinuityCheckOverride = null;
+    public $ContinuityCheckOverride = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var anonymous1474 $RefundOption
      */
-    protected $RefundOption = null;
+    public $RefundOption = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

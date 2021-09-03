@@ -8,7 +8,7 @@ class Affiliations
     /**
      * @var TravelArranger $TravelArranger
      */
-    protected $TravelArranger = null;
+    public $TravelArranger = null;
 
     /**
      * @param TravelArranger $TravelArranger

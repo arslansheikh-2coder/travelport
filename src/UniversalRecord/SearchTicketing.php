@@ -8,17 +8,17 @@ class SearchTicketing
     /**
      * @var anonymous202 $TicketStatus
      */
-    protected $TicketStatus = null;
+    public $TicketStatus = null;
 
     /**
      * @var anonymous203 $ReservationStatus
      */
-    protected $ReservationStatus = null;
+    public $ReservationStatus = null;
 
     /**
      * @var date $TicketDate
      */
-    protected $TicketDate = null;
+    public $TicketDate = null;
 
     /**
      * @param anonymous202 $TicketStatus

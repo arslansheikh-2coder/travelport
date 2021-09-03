@@ -8,12 +8,12 @@ class DeleteOverrideDefinition
     /**
      * @var typeID $TemplateFieldID
      */
-    protected $TemplateFieldID = null;
+    public $TemplateFieldID = null;
 
     /**
      * @var typeCustomFieldOrGroupType $TemplateFieldType
      */
-    protected $TemplateFieldType = null;
+    public $TemplateFieldType = null;
 
     /**
      * @param typeID $TemplateFieldID

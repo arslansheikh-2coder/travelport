@@ -8,52 +8,52 @@ class DisplayDetails
     /**
      * @var DisplayDetail $DisplayDetail
      */
-    protected $DisplayDetail = null;
+    public $DisplayDetail = null;
 
     /**
      * @var string $DisplayContents
      */
-    protected $DisplayContents = null;
+    public $DisplayContents = null;
 
     /**
      * @var boolean $ProviderReservationDetail
      */
-    protected $ProviderReservationDetail = null;
+    public $ProviderReservationDetail = null;
 
     /**
      * @var boolean $CustomCheck
      */
-    protected $CustomCheck = null;
+    public $CustomCheck = null;
 
     /**
      * @var boolean $ProviderProfile
      */
-    protected $ProviderProfile = null;
+    public $ProviderProfile = null;
 
     /**
      * @var boolean $DivideDetails
      */
-    protected $DivideDetails = null;
+    public $DivideDetails = null;
 
     /**
      * @var boolean $EnhancedItinModifiers
      */
-    protected $EnhancedItinModifiers = null;
+    public $EnhancedItinModifiers = null;
 
     /**
      * @var boolean $IntegratedContent
      */
-    protected $IntegratedContent = null;
+    public $IntegratedContent = null;
 
     /**
      * @var boolean $Cruise
      */
-    protected $Cruise = null;
+    public $Cruise = null;
 
     /**
      * @var boolean $RailSegment
      */
-    protected $RailSegment = null;
+    public $RailSegment = null;
 
     /**
      * @param DisplayDetail $DisplayDetail

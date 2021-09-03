@@ -8,7 +8,7 @@ class MctCountRsp extends BaseRsp
     /**
      * @var MctCount $MctCount
      */
-    protected $MctCount = null;
+    public $MctCount = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

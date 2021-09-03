@@ -8,12 +8,12 @@ class DocumentModifiers
     /**
      * @var boolean $GenerateItineraryInvoice
      */
-    protected $GenerateItineraryInvoice = null;
+    public $GenerateItineraryInvoice = null;
 
     /**
      * @var boolean $GenerateAccountingInterface
      */
-    protected $GenerateAccountingInterface = null;
+    public $GenerateAccountingInterface = null;
 
     /**
      * @param boolean $GenerateItineraryInvoice

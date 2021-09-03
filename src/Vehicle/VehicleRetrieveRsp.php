@@ -8,7 +8,7 @@ class VehicleRetrieveRsp extends BaseRsp
     /**
      * @var VehicleReservation $VehicleReservation
      */
-    protected $VehicleReservation = null;
+    public $VehicleReservation = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

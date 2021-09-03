@@ -8,17 +8,17 @@ class Document
     /**
      * @var int $Sequence
      */
-    protected $Sequence = null;
+    public $Sequence = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Level
      */
-    protected $Level = null;
+    public $Level = null;
 
     /**
      * @param int $Sequence

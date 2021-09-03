@@ -8,7 +8,7 @@ class PreferredAlliances
     /**
      * @var Alliance $Alliance
      */
-    protected $Alliance = null;
+    public $Alliance = null;
 
     /**
      * @param Alliance $Alliance

@@ -8,37 +8,37 @@ class LoyaltyProgram
     /**
      * @var UNKNOWN $Level
      */
-    protected $Level = null;
+    public $Level = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeCarrier $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $AllianceLevel
      */
-    protected $AllianceLevel = null;
+    public $AllianceLevel = null;
 
     /**
      * @var StringLength1to32 $MembershipProgram
      */
-    protected $MembershipProgram = null;
+    public $MembershipProgram = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param UNKNOWN $Level

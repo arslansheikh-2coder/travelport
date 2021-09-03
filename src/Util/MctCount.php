@@ -8,17 +8,17 @@ class MctCount
     /**
      * @var typeMctConnection $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var int $Count
      */
-    protected $Count = null;
+    public $Count = null;
 
     /**
      * @param typeMctConnection $Connection

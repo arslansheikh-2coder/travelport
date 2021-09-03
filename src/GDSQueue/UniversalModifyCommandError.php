@@ -8,12 +8,12 @@ class UniversalModifyCommandError
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeRef $UniversalModifyCmdKey
      */
-    protected $UniversalModifyCmdKey = null;
+    public $UniversalModifyCmdKey = null;
 
     /**
      * @param string $_

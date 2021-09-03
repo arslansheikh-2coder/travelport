@@ -8,7 +8,7 @@ class PingRsp extends BaseRsp
     /**
      * @var Payload $Payload
      */
-    protected $Payload = null;
+    public $Payload = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

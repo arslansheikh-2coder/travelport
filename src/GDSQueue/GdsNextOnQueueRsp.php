@@ -8,12 +8,12 @@ class GdsNextOnQueueRsp extends BaseRsp
     /**
      * @var UniversalRecord $UniversalRecord
      */
-    protected $UniversalRecord = null;
+    public $UniversalRecord = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

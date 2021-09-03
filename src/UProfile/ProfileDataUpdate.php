@@ -8,182 +8,182 @@ class ProfileDataUpdate
     /**
      * @var AgencyGroupInfo $AgencyGroupInfo
      */
-    protected $AgencyGroupInfo = null;
+    public $AgencyGroupInfo = null;
 
     /**
      * @var AgencyInfo $AgencyInfo
      */
-    protected $AgencyInfo = null;
+    public $AgencyInfo = null;
 
     /**
      * @var BranchGroupInfo $BranchGroupInfo
      */
-    protected $BranchGroupInfo = null;
+    public $BranchGroupInfo = null;
 
     /**
      * @var BranchInfo $BranchInfo
      */
-    protected $BranchInfo = null;
+    public $BranchInfo = null;
 
     /**
      * @var AgentInfo $AgentInfo
      */
-    protected $AgentInfo = null;
+    public $AgentInfo = null;
 
     /**
      * @var AccountInfo $AccountInfo
      */
-    protected $AccountInfo = null;
+    public $AccountInfo = null;
 
     /**
      * @var TravelerGroupInfo $TravelerGroupInfo
      */
-    protected $TravelerGroupInfo = null;
+    public $TravelerGroupInfo = null;
 
     /**
      * @var TravelerInfo $TravelerInfo
      */
-    protected $TravelerInfo = null;
+    public $TravelerInfo = null;
 
     /**
      * @var Address $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var Phone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var ElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var TravelerIdentityInformation $TravelerIdentityInformation
      */
-    protected $TravelerIdentityInformation = null;
+    public $TravelerIdentityInformation = null;
 
     /**
      * @var ExternalIdentifier $ExternalIdentifier
      */
-    protected $ExternalIdentifier = null;
+    public $ExternalIdentifier = null;
 
     /**
      * @var TravelDocument $TravelDocument
      */
-    protected $TravelDocument = null;
+    public $TravelDocument = null;
 
     /**
      * @var AccountingReference $AccountingReference
      */
-    protected $AccountingReference = null;
+    public $AccountingReference = null;
 
     /**
      * @var PolicyReference $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @var LoyaltyProgramEnrollment $LoyaltyProgramEnrollment
      */
-    protected $LoyaltyProgramEnrollment = null;
+    public $LoyaltyProgramEnrollment = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var Contract $Contract
      */
-    protected $Contract = null;
+    public $Contract = null;
 
     /**
      * @var ServiceFee $ServiceFee
      */
-    protected $ServiceFee = null;
+    public $ServiceFee = null;
 
     /**
      * @var AlternateContact $AlternateContact
      */
-    protected $AlternateContact = null;
+    public $AlternateContact = null;
 
     /**
      * @var AlternateContactAddress $AlternateContactAddress
      */
-    protected $AlternateContactAddress = null;
+    public $AlternateContactAddress = null;
 
     /**
      * @var AlternateContactPhone $AlternateContactPhone
      */
-    protected $AlternateContactPhone = null;
+    public $AlternateContactPhone = null;
 
     /**
      * @var AlternateContactElectronicAddress $AlternateContactElectronicAddress
      */
-    protected $AlternateContactElectronicAddress = null;
+    public $AlternateContactElectronicAddress = null;
 
     /**
      * @var typeFormOfPaymentType $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var AirPreference $AirPreference
      */
-    protected $AirPreference = null;
+    public $AirPreference = null;
 
     /**
      * @var HotelPreference $HotelPreference
      */
-    protected $HotelPreference = null;
+    public $HotelPreference = null;
 
     /**
      * @var OtherPreference $OtherPreference
      */
-    protected $OtherPreference = null;
+    public $OtherPreference = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var FieldData $FieldData
      */
-    protected $FieldData = null;
+    public $FieldData = null;
 
     /**
      * @var FieldGroupData $FieldGroupData
      */
-    protected $FieldGroupData = null;
+    public $FieldGroupData = null;
 
     /**
      * @var VehiclePreference $VehiclePreference
      */
-    protected $VehiclePreference = null;
+    public $VehiclePreference = null;
 
     /**
      * @var Advisory $Advisory
      */
-    protected $Advisory = null;
+    public $Advisory = null;
 
     /**
      * @var CommissionReference $CommissionReference
      */
-    protected $CommissionReference = null;
+    public $CommissionReference = null;
 
     /**
      * @var RailPreference $RailPreference
      */
-    protected $RailPreference = null;
+    public $RailPreference = null;
 
     /**
      * @var ProprietaryData $ProprietaryData
      */
-    protected $ProprietaryData = null;
+    public $ProprietaryData = null;
 
     /**
      * @param AgencyGroupInfo $AgencyGroupInfo

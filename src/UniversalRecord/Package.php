@@ -8,22 +8,22 @@ class Package
     /**
      * @var StringLength1to30 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var anonymous1359 $Identifier
      */
-    protected $Identifier = null;
+    public $Identifier = null;
 
     /**
      * @var int $PassengerCount
      */
-    protected $PassengerCount = null;
+    public $PassengerCount = null;
 
     /**
      * @var StringLength1to14 $PackageIdentifier
      */
-    protected $PackageIdentifier = null;
+    public $PackageIdentifier = null;
 
     /**
      * @param StringLength1to30 $Name

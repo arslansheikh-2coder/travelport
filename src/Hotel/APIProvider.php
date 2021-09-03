@@ -8,27 +8,27 @@ class APIProvider
     /**
      * @var TransactionType $TransactionType
      */
-    protected $TransactionType = null;
+    public $TransactionType = null;
 
     /**
      * @var AvailablePseudoCityCode[] $AvailablePseudoCityCode
      */
-    protected $AvailablePseudoCityCode = null;
+    public $AvailablePseudoCityCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeIATA $IATACode
      */
-    protected $IATACode = null;
+    public $IATACode = null;
 
     /**
      * @param TransactionType $TransactionType

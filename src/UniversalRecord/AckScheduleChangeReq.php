@@ -8,27 +8,27 @@ class AckScheduleChangeReq extends BaseReq
     /**
      * @var string $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var string $ReservationLocatorCode
      */
-    protected $ReservationLocatorCode = null;
+    public $ReservationLocatorCode = null;
 
     /**
      * @var typeURVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

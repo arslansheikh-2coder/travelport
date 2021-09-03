@@ -8,157 +8,157 @@ class AirPricingSolution
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var AirSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var Journey $Journey
      */
-    protected $Journey = null;
+    public $Journey = null;
 
     /**
      * @var LegRef $LegRef
      */
-    protected $LegRef = null;
+    public $LegRef = null;
 
     /**
      * @var AirPricingInfo $AirPricingInfo
      */
-    protected $AirPricingInfo = null;
+    public $AirPricingInfo = null;
 
     /**
      * @var FareNote $FareNote
      */
-    protected $FareNote = null;
+    public $FareNote = null;
 
     /**
      * @var FareNoteRef $FareNoteRef
      */
-    protected $FareNoteRef = null;
+    public $FareNoteRef = null;
 
     /**
      * @var Connection $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @var MetaData $MetaData
      */
-    protected $MetaData = null;
+    public $MetaData = null;
 
     /**
      * @var typeResultMessage[] $AirPricingResultMessage
      */
-    protected $AirPricingResultMessage = null;
+    public $AirPricingResultMessage = null;
 
     /**
      * @var typeFeeInfo $FeeInfo
      */
-    protected $FeeInfo = null;
+    public $FeeInfo = null;
 
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var AirItinerarySolutionRef $AirItinerarySolutionRef
      */
-    protected $AirItinerarySolutionRef = null;
+    public $AirItinerarySolutionRef = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var AvailableSSR $AvailableSSR
      */
-    protected $AvailableSSR = null;
+    public $AvailableSSR = null;
 
     /**
      * @var PricingDetails $PricingDetails
      */
-    protected $PricingDetails = null;
+    public $PricingDetails = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var boolean $CompleteItinerary
      */
-    protected $CompleteItinerary = null;
+    public $CompleteItinerary = null;
 
     /**
      * @var date $QuoteDate
      */
-    protected $QuoteDate = null;
+    public $QuoteDate = null;
 
     /**
      * @var anonymous710 $Itinerary
      */
-    protected $Itinerary = null;
+    public $Itinerary = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateBasePrice
      */
-    protected $ApproximateBasePrice = null;
+    public $ApproximateBasePrice = null;
 
     /**
      * @var typeMoney $EquivalentBasePrice
      */
-    protected $EquivalentBasePrice = null;
+    public $EquivalentBasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $Fees
      */
-    protected $Fees = null;
+    public $Fees = null;
 
     /**
      * @var typeMoney $Services
      */
-    protected $Services = null;
+    public $Services = null;
 
     /**
      * @var typeMoney $ApproximateTaxes
      */
-    protected $ApproximateTaxes = null;
+    public $ApproximateTaxes = null;
 
     /**
      * @var typeMoney $ApproximateFees
      */
-    protected $ApproximateFees = null;
+    public $ApproximateFees = null;
 
     /**
      * @param typeBaseAirSegment $AirSegment

@@ -8,57 +8,57 @@ class TemplateModifyCmd
     /**
      * @var TemplateInfoUpdate $TemplateInfoUpdate
      */
-    protected $TemplateInfoUpdate = null;
+    public $TemplateInfoUpdate = null;
 
     /**
      * @var FixedFieldUpdate $FixedFieldUpdate
      */
-    protected $FixedFieldUpdate = null;
+    public $FixedFieldUpdate = null;
 
     /**
      * @var FixedGroupUpdate $FixedGroupUpdate
      */
-    protected $FixedGroupUpdate = null;
+    public $FixedGroupUpdate = null;
 
     /**
      * @var typeEditableCustomField $CustomFieldAdd
      */
-    protected $CustomFieldAdd = null;
+    public $CustomFieldAdd = null;
 
     /**
      * @var typeEditableCustomField $CustomFieldUpdate
      */
-    protected $CustomFieldUpdate = null;
+    public $CustomFieldUpdate = null;
 
     /**
      * @var typeCommonEditableGroup $CustomFieldGroupAdd
      */
-    protected $CustomFieldGroupAdd = null;
+    public $CustomFieldGroupAdd = null;
 
     /**
      * @var typeCommonEditableGroup $CustomFieldGroupUpdate
      */
-    protected $CustomFieldGroupUpdate = null;
+    public $CustomFieldGroupUpdate = null;
 
     /**
      * @var EndpointAdd $EndpointAdd
      */
-    protected $EndpointAdd = null;
+    public $EndpointAdd = null;
 
     /**
      * @var typeEditableEndpoint $EndpointRemove
      */
-    protected $EndpointRemove = null;
+    public $EndpointRemove = null;
 
     /**
      * @var typeCustomFieldAndGroupDeleteRef $CustomFieldDelete
      */
-    protected $CustomFieldDelete = null;
+    public $CustomFieldDelete = null;
 
     /**
      * @var typeCustomFieldAndGroupDeleteRef $CustomFieldGroupDelete
      */
-    protected $CustomFieldGroupDelete = null;
+    public $CustomFieldGroupDelete = null;
 
     /**
      * @param TemplateInfoUpdate $TemplateInfoUpdate

@@ -8,32 +8,32 @@ class Tag
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to128 $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var typeTagKey $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeProfileID $AgencyID
      */
-    protected $AgencyID = null;
+    public $AgencyID = null;
 
     /**
      * @param StringLength1to128 $Name

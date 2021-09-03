@@ -8,47 +8,47 @@ class typeStartEndTime
     /**
      * @var string $Time
      */
-    protected $Time = null;
+    public $Time = null;
 
     /**
      * @var boolean $RequirementPassed
      */
-    protected $RequirementPassed = null;
+    public $RequirementPassed = null;
 
     /**
      * @var boolean $Mon
      */
-    protected $Mon = null;
+    public $Mon = null;
 
     /**
      * @var boolean $Tue
      */
-    protected $Tue = null;
+    public $Tue = null;
 
     /**
      * @var boolean $Wed
      */
-    protected $Wed = null;
+    public $Wed = null;
 
     /**
      * @var boolean $Thu
      */
-    protected $Thu = null;
+    public $Thu = null;
 
     /**
      * @var boolean $Fri
      */
-    protected $Fri = null;
+    public $Fri = null;
 
     /**
      * @var boolean $Sat
      */
-    protected $Sat = null;
+    public $Sat = null;
 
     /**
      * @var boolean $Sun
      */
-    protected $Sun = null;
+    public $Sun = null;
 
     /**
      * @param string $Time

@@ -8,202 +8,202 @@ class typeHistorySubElement extends typeAddressHistory
     /**
      * @var typeAccountInfoHistory $AccountInfo
      */
-    protected $AccountInfo = null;
+    public $AccountInfo = null;
 
     /**
      * @var typeTravelerInfoHistory $TravelerInfo
      */
-    protected $TravelerInfo = null;
+    public $TravelerInfo = null;
 
     /**
      * @var typeTravelDocumentHistory $TravelDocument
      */
-    protected $TravelDocument = null;
+    public $TravelDocument = null;
 
     /**
      * @var typeAccountingReferenceHistory $AccountingReference
      */
-    protected $AccountingReference = null;
+    public $AccountingReference = null;
 
     /**
      * @var typePolicyReferenceHistory $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @var typeCommissionReferenceHistory $CommissionReference
      */
-    protected $CommissionReference = null;
+    public $CommissionReference = null;
 
     /**
      * @var typeLoyaltyProgramEnrollmentHistory $LoyaltyProgramEnrollment
      */
-    protected $LoyaltyProgramEnrollment = null;
+    public $LoyaltyProgramEnrollment = null;
 
     /**
      * @var typeContractHistory $Contract
      */
-    protected $Contract = null;
+    public $Contract = null;
 
     /**
      * @var typeCommissionHistory $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var typeServiceFeeHistory $ServiceFee
      */
-    protected $ServiceFee = null;
+    public $ServiceFee = null;
 
     /**
      * @var typeAlternateContactHistory $AlternateContact
      */
-    protected $AlternateContact = null;
+    public $AlternateContact = null;
 
     /**
      * @var AlternateContactAddress $AlternateContactAddress
      */
-    protected $AlternateContactAddress = null;
+    public $AlternateContactAddress = null;
 
     /**
      * @var AlternateContactPhone $AlternateContactPhone
      */
-    protected $AlternateContactPhone = null;
+    public $AlternateContactPhone = null;
 
     /**
      * @var AlternateContactElectronicAddress $AlternateContactElectronicAddress
      */
-    protected $AlternateContactElectronicAddress = null;
+    public $AlternateContactElectronicAddress = null;
 
     /**
      * @var typeFormOfPaymentHistory $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var typeRemarkHistory $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var typeAddressHistory $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var typePhoneHistory $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var typeElectronicAddressHistory $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var TravelerIdentityInformation $TravelerIdentityInformation
      */
-    protected $TravelerIdentityInformation = null;
+    public $TravelerIdentityInformation = null;
 
     /**
      * @var typeExternalIdentifierHistory $ExternalIdentifier
      */
-    protected $ExternalIdentifier = null;
+    public $ExternalIdentifier = null;
 
     /**
      * @var typeAirPreferenceHistory $AirPreference
      */
-    protected $AirPreference = null;
+    public $AirPreference = null;
 
     /**
      * @var typeVehiclePreferenceHistory $VehiclePreference
      */
-    protected $VehiclePreference = null;
+    public $VehiclePreference = null;
 
     /**
      * @var typeHotelPreferenceHistory $HotelPreference
      */
-    protected $HotelPreference = null;
+    public $HotelPreference = null;
 
     /**
      * @var typeRailPreferenceHistory $RailPreference
      */
-    protected $RailPreference = null;
+    public $RailPreference = null;
 
     /**
      * @var typeProfileParentHistory $ProfileParentHistory
      */
-    protected $ProfileParentHistory = null;
+    public $ProfileParentHistory = null;
 
     /**
      * @var typeFieldDataHistory $FieldData
      */
-    protected $FieldData = null;
+    public $FieldData = null;
 
     /**
      * @var typeFieldGroupDataHistory $FieldGroupData
      */
-    protected $FieldGroupData = null;
+    public $FieldGroupData = null;
 
     /**
      * @var typeAdvisoryHistory $Advisory
      */
-    protected $Advisory = null;
+    public $Advisory = null;
 
     /**
      * @var typeAgencyGroupInfoHistory $AgencyGroupInfo
      */
-    protected $AgencyGroupInfo = null;
+    public $AgencyGroupInfo = null;
 
     /**
      * @var typeAgencyInfoHistory $AgencyInfo
      */
-    protected $AgencyInfo = null;
+    public $AgencyInfo = null;
 
     /**
      * @var typeBranchGroupInfoHistory $BranchGroupInfo
      */
-    protected $BranchGroupInfo = null;
+    public $BranchGroupInfo = null;
 
     /**
      * @var typeBranchInfoHistory $BranchInfo
      */
-    protected $BranchInfo = null;
+    public $BranchInfo = null;
 
     /**
      * @var typeAgentInfoHistory $AgentInfo
      */
-    protected $AgentInfo = null;
+    public $AgentInfo = null;
 
     /**
      * @var typeTravelerGroupInfoHistory $TravelerGroupInfo
      */
-    protected $TravelerGroupInfo = null;
+    public $TravelerGroupInfo = null;
 
     /**
      * @var typeProfileStatusHistory $ProfileStatus
      */
-    protected $ProfileStatus = null;
+    public $ProfileStatus = null;
 
     /**
      * @var typeProfileLinkHistory $ProfileLink
      */
-    protected $ProfileLink = null;
+    public $ProfileLink = null;
 
     /**
      * @var typeProviderInfoHistory $ProviderInfo
      */
-    protected $ProviderInfo = null;
+    public $ProviderInfo = null;
 
     /**
      * @var typeOtherPreferenceHistory $OtherPreference
      */
-    protected $OtherPreference = null;
+    public $OtherPreference = null;
 
     /**
      * @var typeProprietaryDataHistory $ProprietaryData
      */
-    protected $ProprietaryData = null;
+    public $ProprietaryData = null;
 
     /**
      * @param typeRef $Key

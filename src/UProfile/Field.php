@@ -8,17 +8,17 @@ class Field extends typeCustomField
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var boolean $IsUsed
      */
-    protected $IsUsed = null;
+    public $IsUsed = null;
 
     /**
      * @param typeStringRestriction $FreeformTextRestriction
@@ -34,7 +34,7 @@ class Field extends typeCustomField
      * @param boolean $Encrypted
      * @param typeMasked $Masked
      * @param StringLength1to255 $DefaultValue
-     * @param boolean $Protected
+     * @param boolean $public
      * @param int $DisplayOrder
      * @param boolean $Inheritable
      * @param int $MinOccurs
@@ -43,9 +43,9 @@ class Field extends typeCustomField
      * @param typeProfileType $ProfileType
      * @param boolean $IsUsed
      */
-    public function __construct($FreeformTextRestriction = null, $WholeNumberRestriction = null, $DecimalRestriction = null, $TextRestriction = null, $AlphaNumericRestriction = null, $PercentageRestriction = null, $ID = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $Protected = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null, $ProfileID = null, $ProfileType = null, $IsUsed = null)
+    public function __construct($FreeformTextRestriction = null, $WholeNumberRestriction = null, $DecimalRestriction = null, $TextRestriction = null, $AlphaNumericRestriction = null, $PercentageRestriction = null, $ID = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $public = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null, $ProfileID = null, $ProfileType = null, $IsUsed = null)
     {
-      parent::__construct($FreeformTextRestriction, $WholeNumberRestriction, $DecimalRestriction, $TextRestriction, $AlphaNumericRestriction, $PercentageRestriction, $ID, $Name, $Description, $Type, $Encrypted, $Masked, $DefaultValue, $Protected, $DisplayOrder, $Inheritable, $MinOccurs, $MaxOccurs);
+      parent::__construct($FreeformTextRestriction, $WholeNumberRestriction, $DecimalRestriction, $TextRestriction, $AlphaNumericRestriction, $PercentageRestriction, $ID, $Name, $Description, $Type, $Encrypted, $Masked, $DefaultValue, $public, $DisplayOrder, $Inheritable, $MinOccurs, $MaxOccurs);
       $this->ProfileID = $ProfileID;
       $this->ProfileType = $ProfileType;
       $this->IsUsed = $IsUsed;

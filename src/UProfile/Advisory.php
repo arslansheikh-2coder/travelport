@@ -8,42 +8,42 @@ class Advisory extends typeKeyElement
     /**
      * @var typeAdvisoryType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var date $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var date $EndDate
      */
-    protected $EndDate = null;
+    public $EndDate = null;
 
     /**
      * @var StringLength1to128 $Summary
      */
-    protected $Summary = null;
+    public $Summary = null;
 
     /**
      * @var StringLength1to1000 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeGeoPoliticalAreaType $GeoPoliticalAreaType
      */
-    protected $GeoPoliticalAreaType = null;
+    public $GeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
      */
-    protected $GeoPoliticalAreaCode = null;
+    public $GeoPoliticalAreaCode = null;
 
     /**
      * @param typeRef $Key

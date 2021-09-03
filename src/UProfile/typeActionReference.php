@@ -8,12 +8,12 @@ class typeActionReference
     /**
      * @var typeActionID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var string $ProfileActionCode
      */
-    protected $ProfileActionCode = null;
+    public $ProfileActionCode = null;
 
     /**
      * @param typeActionID $ID

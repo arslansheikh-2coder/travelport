@@ -8,7 +8,7 @@ class ExpertSolutionList
     /**
      * @var ExpertSolution $ExpertSolution
      */
-    protected $ExpertSolution = null;
+    public $ExpertSolution = null;
 
     /**
      * @param ExpertSolution $ExpertSolution

@@ -8,62 +8,62 @@ class BrandingInfo
     /**
      * @var PriceRange $PriceRange
      */
-    protected $PriceRange = null;
+    public $PriceRange = null;
 
     /**
      * @var typeTextElement $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var typeTextElement $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @var ImageLocation $ImageLocation
      */
-    protected $ImageLocation = null;
+    public $ImageLocation = null;
 
     /**
      * @var ServiceGroup $ServiceGroup
      */
-    protected $ServiceGroup = null;
+    public $ServiceGroup = null;
 
     /**
      * @var typeSegmentRef[] $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $ServiceSubCode
      */
-    protected $ServiceSubCode = null;
+    public $ServiceSubCode = null;
 
     /**
      * @var string $ExternalServiceName
      */
-    protected $ExternalServiceName = null;
+    public $ExternalServiceName = null;
 
     /**
      * @var string $ServiceType
      */
-    protected $ServiceType = null;
+    public $ServiceType = null;
 
     /**
      * @var string $CommercialName
      */
-    protected $CommercialName = null;
+    public $CommercialName = null;
 
     /**
      * @var string $Chargeable
      */
-    protected $Chargeable = null;
+    public $Chargeable = null;
 
     /**
      * @param PriceRange $PriceRange

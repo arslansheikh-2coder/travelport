@@ -8,62 +8,62 @@ class typePassengerType
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var DiscountCard $DiscountCard
      */
-    protected $DiscountCard = null;
+    public $DiscountCard = null;
 
     /**
      * @var PersonalGeography $PersonalGeography
      */
-    protected $PersonalGeography = null;
+    public $PersonalGeography = null;
 
     /**
      * @var typePTC $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var int $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @var date $DOB
      */
-    protected $DOB = null;
+    public $DOB = null;
 
     /**
      * @var typeGender $Gender
      */
-    protected $Gender = null;
+    public $Gender = null;
 
     /**
      * @var boolean $PricePTCOnly
      */
-    protected $PricePTCOnly = null;
+    public $PricePTCOnly = null;
 
     /**
      * @var string $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var boolean $AccompaniedPassenger
      */
-    protected $AccompaniedPassenger = null;
+    public $AccompaniedPassenger = null;
 
     /**
      * @var typeResidency $ResidencyType
      */
-    protected $ResidencyType = null;
+    public $ResidencyType = null;
 
     /**
      * @param Name $Name

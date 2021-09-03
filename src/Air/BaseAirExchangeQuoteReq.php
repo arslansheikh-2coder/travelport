@@ -8,57 +8,57 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var ProviderReservationInfo $ProviderReservationInfo
      */
-    protected $ProviderReservationInfo = null;
+    public $ProviderReservationInfo = null;
 
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var AirExchangeModifiers $AirExchangeModifiers
      */
-    protected $AirExchangeModifiers = null;
+    public $AirExchangeModifiers = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var RepricingModifiers $RepricingModifiers
      */
-    protected $RepricingModifiers = null;
+    public $RepricingModifiers = null;
 
     /**
      * @var OriginalItineraryDetails $OriginalItineraryDetails
      */
-    protected $OriginalItineraryDetails = null;
+    public $OriginalItineraryDetails = null;
 
     /**
      * @var PCC $PCC
      */
-    protected $PCC = null;
+    public $PCC = null;
 
     /**
      * @var typeFareRuleType $FareRuleType
      */
-    protected $FareRuleType = null;
+    public $FareRuleType = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

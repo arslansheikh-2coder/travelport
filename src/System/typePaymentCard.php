@@ -8,42 +8,42 @@ class typePaymentCard
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var typeStructuredAddress $BillingAddress
      */
-    protected $BillingAddress = null;
+    public $BillingAddress = null;
 
     /**
      * @var typeCardMerchantType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeCreditCardNumber $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var gYearMonth $ExpDate
      */
-    protected $ExpDate = null;
+    public $ExpDate = null;
 
     /**
      * @var anonymous37 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var anonymous38 $CVV
      */
-    protected $CVV = null;
+    public $CVV = null;
 
     /**
      * @var anonymous39 $ApprovalCode
      */
-    protected $ApprovalCode = null;
+    public $ApprovalCode = null;
 
     /**
      * @param PhoneNumber $PhoneNumber

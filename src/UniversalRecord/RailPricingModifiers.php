@@ -8,27 +8,27 @@ class RailPricingModifiers
     /**
      * @var DiscountCard $DiscountCard
      */
-    protected $DiscountCard = null;
+    public $DiscountCard = null;
 
     /**
      * @var boolean $ProhibitNonRefundableFares
      */
-    protected $ProhibitNonRefundableFares = null;
+    public $ProhibitNonRefundableFares = null;
 
     /**
      * @var boolean $ProhibitNonExchangeableFares
      */
-    protected $ProhibitNonExchangeableFares = null;
+    public $ProhibitNonExchangeableFares = null;
 
     /**
      * @var typeCurrency $CurrencyType
      */
-    protected $CurrencyType = null;
+    public $CurrencyType = null;
 
     /**
      * @var typeRailSearchType $RailSearchType
      */
-    protected $RailSearchType = null;
+    public $RailSearchType = null;
 
     /**
      * @param DiscountCard $DiscountCard

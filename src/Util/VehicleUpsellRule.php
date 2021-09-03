@@ -8,12 +8,12 @@ class VehicleUpsellRule
     /**
      * @var VehicleUpsellQualify $VehicleUpsellQualify
      */
-    protected $VehicleUpsellQualify = null;
+    public $VehicleUpsellQualify = null;
 
     /**
      * @var VehicleUpsellOffer $VehicleUpsellOffer
      */
-    protected $VehicleUpsellOffer = null;
+    public $VehicleUpsellOffer = null;
 
     /**
      * @param VehicleUpsellQualify $VehicleUpsellQualify

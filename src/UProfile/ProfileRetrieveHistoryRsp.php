@@ -8,12 +8,12 @@ class ProfileRetrieveHistoryRsp extends BaseRsp
     /**
      * @var ProfileHistory $ProfileHistory
      */
-    protected $ProfileHistory = null;
+    public $ProfileHistory = null;
 
     /**
      * @var typeMoreResults $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

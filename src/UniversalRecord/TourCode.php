@@ -8,7 +8,7 @@ class TourCode
     /**
      * @var typeTourCode $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param typeTourCode $Value

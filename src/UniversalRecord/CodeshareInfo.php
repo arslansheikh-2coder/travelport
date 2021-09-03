@@ -8,17 +8,17 @@ class CodeshareInfo
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeCarrier $OperatingCarrier
      */
-    protected $OperatingCarrier = null;
+    public $OperatingCarrier = null;
 
     /**
      * @var typeFlightNumber $OperatingFlightNumber
      */
-    protected $OperatingFlightNumber = null;
+    public $OperatingFlightNumber = null;
 
     /**
      * @param string $_

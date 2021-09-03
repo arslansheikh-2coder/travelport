@@ -8,32 +8,32 @@ class HotelRulesLookup
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelStay $HotelStay
      */
-    protected $HotelStay = null;
+    public $HotelStay = null;
 
     /**
      * @var HotelRulesModifiers $HotelRulesModifiers
      */
-    protected $HotelRulesModifiers = null;
+    public $HotelRulesModifiers = null;
 
     /**
      * @var string $RatePlanType
      */
-    protected $RatePlanType = null;
+    public $RatePlanType = null;
 
     /**
      * @var typeMoney $Base
      */
-    protected $Base = null;
+    public $Base = null;
 
     /**
      * @var anonymous664 $RulesDetailReqd
      */
-    protected $RulesDetailReqd = null;
+    public $RulesDetailReqd = null;
 
     /**
      * @param HotelProperty $HotelProperty

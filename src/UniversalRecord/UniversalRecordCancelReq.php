@@ -8,17 +8,17 @@ class UniversalRecordCancelReq extends BaseReq
     /**
      * @var FileFinishingInfo $FileFinishingInfo
      */
-    protected $FileFinishingInfo = null;
+    public $FileFinishingInfo = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var typeURVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

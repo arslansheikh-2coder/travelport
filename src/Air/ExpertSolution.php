@@ -8,27 +8,27 @@ class ExpertSolution
     /**
      * @var LegPrice $LegPrice
      */
-    protected $LegPrice = null;
+    public $LegPrice = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @var date $CreatedDate
      */
-    protected $CreatedDate = null;
+    public $CreatedDate = null;
 
     /**
      * @param LegPrice $LegPrice

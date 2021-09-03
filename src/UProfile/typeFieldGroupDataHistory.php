@@ -8,17 +8,17 @@ class typeFieldGroupDataHistory extends typeKeyElement
     /**
      * @var typeFieldDataHistory[] $FieldData
      */
-    protected $FieldData = null;
+    public $FieldData = null;
 
     /**
      * @var typeFieldID $FieldGroupID
      */
-    protected $FieldGroupID = null;
+    public $FieldGroupID = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

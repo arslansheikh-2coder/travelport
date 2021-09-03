@@ -8,22 +8,22 @@ class PriceChangeType
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var string $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @param string $_

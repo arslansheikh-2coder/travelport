@@ -8,32 +8,32 @@ class AirCancelReq extends BaseReq
     /**
      * @var ContinuityCheckOverride $ContinuityCheckOverride
      */
-    protected $ContinuityCheckOverride = null;
+    public $ContinuityCheckOverride = null;
 
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var AirSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var FileFinishingInfo $FileFinishingInfo
      */
-    protected $FileFinishingInfo = null;
+    public $FileFinishingInfo = null;
 
     /**
      * @var typeURVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

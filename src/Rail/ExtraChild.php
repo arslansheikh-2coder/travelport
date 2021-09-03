@@ -8,12 +8,12 @@ class ExtraChild
     /**
      * @var int $Count
      */
-    protected $Count = null;
+    public $Count = null;
 
     /**
      * @var string $Content
      */
-    protected $Content = null;
+    public $Content = null;
 
     /**
      * @param int $Count

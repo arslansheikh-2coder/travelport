@@ -8,17 +8,17 @@ class GeoPoliticalAreaFilter
     /**
      * @var typeGeoPoliticalAreaFilterType $FilterType
      */
-    protected $FilterType = null;
+    public $FilterType = null;
 
     /**
      * @var typeGeoPoliticalAreaType $GeoPoliticalAreaType
      */
-    protected $GeoPoliticalAreaType = null;
+    public $GeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
      */
-    protected $GeoPoliticalAreaCode = null;
+    public $GeoPoliticalAreaCode = null;
 
     /**
      * @param typeGeoPoliticalAreaFilterType $FilterType

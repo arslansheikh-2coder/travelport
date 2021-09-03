@@ -8,17 +8,17 @@ class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
     /**
      * @var BagDetails $BagDetails
      */
-    protected $BagDetails = null;
+    public $BagDetails = null;
 
     /**
      * @var typePTC $TravelerType
      */
-    protected $TravelerType = null;
+    public $TravelerType = null;
 
     /**
      * @var typeRef $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @param URLInfo $URLInfo

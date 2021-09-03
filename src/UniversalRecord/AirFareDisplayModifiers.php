@@ -8,117 +8,117 @@ class AirFareDisplayModifiers
     /**
      * @var typeFareTripType[] $TripType
      */
-    protected $TripType = null;
+    public $TripType = null;
 
     /**
      * @var CabinClass $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var PenaltyFareInformation $PenaltyFareInformation
      */
-    protected $PenaltyFareInformation = null;
+    public $PenaltyFareInformation = null;
 
     /**
      * @var typeFareSearchOption[] $FareSearchOption
      */
-    protected $FareSearchOption = null;
+    public $FareSearchOption = null;
 
     /**
      * @var int $MaxResponses
      */
-    protected $MaxResponses = null;
+    public $MaxResponses = null;
 
     /**
      * @var date $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var date $TicketingDate
      */
-    protected $TicketingDate = null;
+    public $TicketingDate = null;
 
     /**
      * @var date $ReturnDate
      */
-    protected $ReturnDate = null;
+    public $ReturnDate = null;
 
     /**
      * @var boolean $BaseFareOnly
      */
-    protected $BaseFareOnly = null;
+    public $BaseFareOnly = null;
 
     /**
      * @var boolean $UnrestrictedFaresOnly
      */
-    protected $UnrestrictedFaresOnly = null;
+    public $UnrestrictedFaresOnly = null;
 
     /**
      * @var typeFaresIndicator $FaresIndicator
      */
-    protected $FaresIndicator = null;
+    public $FaresIndicator = null;
 
     /**
      * @var typeCurrency $CurrencyType
      */
-    protected $CurrencyType = null;
+    public $CurrencyType = null;
 
     /**
      * @var boolean $IncludeTaxes
      */
-    protected $IncludeTaxes = null;
+    public $IncludeTaxes = null;
 
     /**
      * @var boolean $IncludeEstimatedTaxes
      */
-    protected $IncludeEstimatedTaxes = null;
+    public $IncludeEstimatedTaxes = null;
 
     /**
      * @var boolean $IncludeSurcharges
      */
-    protected $IncludeSurcharges = null;
+    public $IncludeSurcharges = null;
 
     /**
      * @var typeATPCOGlobalIndicator $GlobalIndicator
      */
-    protected $GlobalIndicator = null;
+    public $GlobalIndicator = null;
 
     /**
      * @var boolean $ProhibitMinStayFares
      */
-    protected $ProhibitMinStayFares = null;
+    public $ProhibitMinStayFares = null;
 
     /**
      * @var boolean $ProhibitMaxStayFares
      */
-    protected $ProhibitMaxStayFares = null;
+    public $ProhibitMaxStayFares = null;
 
     /**
      * @var boolean $ProhibitAdvancePurchaseFares
      */
-    protected $ProhibitAdvancePurchaseFares = null;
+    public $ProhibitAdvancePurchaseFares = null;
 
     /**
      * @var boolean $ProhibitNonRefundableFares
      */
-    protected $ProhibitNonRefundableFares = null;
+    public $ProhibitNonRefundableFares = null;
 
     /**
      * @var boolean $ValidatedFaresOnly
      */
-    protected $ValidatedFaresOnly = null;
+    public $ValidatedFaresOnly = null;
 
     /**
      * @var boolean $ProhibitTravelRestrictedFares
      */
-    protected $ProhibitTravelRestrictedFares = null;
+    public $ProhibitTravelRestrictedFares = null;
 
     /**
      * @var typeCurrency $FiledCurrency
      */
-    protected $FiledCurrency = null;
+    public $FiledCurrency = null;
 
     /**
      * @param CabinClass $CabinClass

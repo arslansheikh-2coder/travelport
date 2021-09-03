@@ -8,22 +8,22 @@ class CalculateTaxResult
     /**
      * @var TaxCalcInfo $TaxCalcInfo
      */
-    protected $TaxCalcInfo = null;
+    public $TaxCalcInfo = null;
 
     /**
      * @var typeMoney $TotalBaseFare
      */
-    protected $TotalBaseFare = null;
+    public $TotalBaseFare = null;
 
     /**
      * @var typeMoney $TotalTax
      */
-    protected $TotalTax = null;
+    public $TotalTax = null;
 
     /**
      * @var typeMoney $TotalFare
      */
-    protected $TotalFare = null;
+    public $TotalFare = null;
 
     /**
      * @param TaxCalcInfo $TaxCalcInfo

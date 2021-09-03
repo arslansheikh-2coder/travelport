@@ -8,53 +8,53 @@ class CreateFieldGroup
     /**
      * @var CreateField $CreateField
      */
-    protected $CreateField = null;
+    public $CreateField = null;
 
     /**
      * @var typeFieldName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
-     * @var boolean $Protected
+     * @var boolean $public
      */
-    protected $Protected = null;
+    public $public = null;
 
     /**
      * @var boolean $Inheritable
      */
-    protected $Inheritable = null;
+    public $Inheritable = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @param CreateField $CreateField
      * @param typeFieldName $Name
      * @param StringLength1to255 $Description
-     * @param boolean $Protected
+     * @param boolean $public
      * @param boolean $Inheritable
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($CreateField = null, $Name = null, $Description = null, $Protected = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
+    public function __construct($CreateField = null, $Name = null, $Description = null, $public = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
     {
       $this->CreateField = $CreateField;
       $this->Name = $Name;
       $this->Description = $Description;
-      $this->Protected = $Protected;
+      $this->public = $public;
       $this->Inheritable = $Inheritable;
       $this->MinOccurs = $MinOccurs;
       $this->MaxOccurs = $MaxOccurs;
@@ -117,18 +117,18 @@ class CreateFieldGroup
     /**
      * @return boolean
      */
-    public function getProtected()
+    public function getpublic()
     {
-      return $this->Protected;
+      return $this->public;
     }
 
     /**
-     * @param boolean $Protected
+     * @param boolean $public
      * @return \FilippoToso\Travelport\UProfile\CreateFieldGroup
      */
-    public function setProtected($Protected)
+    public function setpublic($public)
     {
-      $this->Protected = $Protected;
+      $this->public = $public;
       return $this;
     }
 

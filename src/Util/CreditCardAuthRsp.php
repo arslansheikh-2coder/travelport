@@ -8,7 +8,7 @@ class CreditCardAuthRsp extends BaseRsp
     /**
      * @var CreditCardAuth $CreditCardAuth
      */
-    protected $CreditCardAuth = null;
+    public $CreditCardAuth = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,22 +8,22 @@ class ProfileRetrieveHistoryReq extends BaseReq
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var ProfileHistoryRetrieveCriteria $ProfileHistoryRetrieveCriteria
      */
-    protected $ProfileHistoryRetrieveCriteria = null;
+    public $ProfileHistoryRetrieveCriteria = null;
 
     /**
      * @var ProfileSearchModifiers $ProfileSearchModifiers
      */
-    protected $ProfileSearchModifiers = null;
+    public $ProfileSearchModifiers = null;
 
     /**
      * @var boolean $ShowDataUnmasked
      */
-    protected $ShowDataUnmasked = null;
+    public $ShowDataUnmasked = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

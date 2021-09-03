@@ -8,27 +8,27 @@ class AirRefundReq extends BaseReq
     /**
      * @var AirRefundBundle $AirRefundBundle
      */
-    protected $AirRefundBundle = null;
+    public $AirRefundBundle = null;
 
     /**
      * @var TCRRefundBundle $TCRRefundBundle
      */
-    protected $TCRRefundBundle = null;
+    public $TCRRefundBundle = null;
 
     /**
      * @var AirRefundModifiers $AirRefundModifiers
      */
-    protected $AirRefundModifiers = null;
+    public $AirRefundModifiers = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

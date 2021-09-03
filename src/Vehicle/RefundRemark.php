@@ -8,7 +8,7 @@ class RefundRemark
     /**
      * @var string $RemarkData
      */
-    protected $RemarkData = null;
+    public $RemarkData = null;
 
     /**
      * @param string $RemarkData

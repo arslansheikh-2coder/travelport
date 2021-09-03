@@ -8,27 +8,27 @@ class AirSegmentData
     /**
      * @var AirSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var BaggageAllowance $BaggageAllowance
      */
-    protected $BaggageAllowance = null;
+    public $BaggageAllowance = null;
 
     /**
      * @var Brand $Brand
      */
-    protected $Brand = null;
+    public $Brand = null;
 
     /**
      * @var string $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var typeClassOfService $ClassOfService
      */
-    protected $ClassOfService = null;
+    public $ClassOfService = null;
 
     /**
      * @param AirSegmentRef $AirSegmentRef

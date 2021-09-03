@@ -8,7 +8,7 @@ class OwnershipChange
     /**
      * @var typeRef $OwningPCC
      */
-    protected $OwningPCC = null;
+    public $OwningPCC = null;
 
     /**
      * @param typeRef $OwningPCC

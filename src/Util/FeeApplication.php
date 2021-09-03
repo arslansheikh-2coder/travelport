@@ -8,12 +8,12 @@ class FeeApplication
     /**
      * @var typeFeeApplication $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var anonymous836 $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeFeeApplication $_

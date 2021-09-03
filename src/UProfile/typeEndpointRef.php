@@ -8,7 +8,7 @@ class typeEndpointRef
     /**
      * @var typeEndpointID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @param typeEndpointID $ID

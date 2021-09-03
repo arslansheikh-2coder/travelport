@@ -8,27 +8,27 @@ class ExtraCharges
     /**
      * @var typeMoney $ExtraAdultAmount
      */
-    protected $ExtraAdultAmount = null;
+    public $ExtraAdultAmount = null;
 
     /**
      * @var typeMoney $ExtraChildAmount
      */
-    protected $ExtraChildAmount = null;
+    public $ExtraChildAmount = null;
 
     /**
      * @var typeMoney $CribAmount
      */
-    protected $CribAmount = null;
+    public $CribAmount = null;
 
     /**
      * @var typeMoney $AdultRollawayCharge
      */
-    protected $AdultRollawayCharge = null;
+    public $AdultRollawayCharge = null;
 
     /**
      * @var typeMoney $ChildRollawayCharge
      */
-    protected $ChildRollawayCharge = null;
+    public $ChildRollawayCharge = null;
 
     /**
      * @param typeMoney $ExtraAdultAmount

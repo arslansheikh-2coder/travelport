@@ -8,22 +8,22 @@ class typeFarePenalty
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePercentageWithDecimal $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @var anonymous883 $PenaltyApplies
      */
-    protected $PenaltyApplies = null;
+    public $PenaltyApplies = null;
 
     /**
      * @var boolean $NoShow
      */
-    protected $NoShow = null;
+    public $NoShow = null;
 
     /**
      * @param anonymous883 $PenaltyApplies

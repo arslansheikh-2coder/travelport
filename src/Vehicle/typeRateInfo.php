@@ -8,32 +8,32 @@ class typeRateInfo
     /**
      * @var typeMoney $RateForPeriod
      */
-    protected $RateForPeriod = null;
+    public $RateForPeriod = null;
 
     /**
      * @var int $NumberOfPeriods
      */
-    protected $NumberOfPeriods = null;
+    public $NumberOfPeriods = null;
 
     /**
      * @var boolean $UnlimitedMileage
      */
-    protected $UnlimitedMileage = null;
+    public $UnlimitedMileage = null;
 
     /**
      * @var int $MileageAllowance
      */
-    protected $MileageAllowance = null;
+    public $MileageAllowance = null;
 
     /**
      * @var typeDistance $Units
      */
-    protected $Units = null;
+    public $Units = null;
 
     /**
      * @var typeMoney $ExtraMileageCharge
      */
-    protected $ExtraMileageCharge = null;
+    public $ExtraMileageCharge = null;
 
     /**
      * @param typeMoney $RateForPeriod

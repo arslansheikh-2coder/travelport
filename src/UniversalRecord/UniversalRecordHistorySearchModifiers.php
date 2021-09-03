@@ -8,37 +8,37 @@ class UniversalRecordHistorySearchModifiers
     /**
      * @var string $ElementType
      */
-    protected $ElementType = null;
+    public $ElementType = null;
 
     /**
      * @var date $ModifiedDate
      */
-    protected $ModifiedDate = null;
+    public $ModifiedDate = null;
 
     /**
      * @var ModifiedRange $ModifiedRange
      */
-    protected $ModifiedRange = null;
+    public $ModifiedRange = null;
 
     /**
      * @var typeMaxResults $MaxResults
      */
-    protected $MaxResults = null;
+    public $MaxResults = null;
 
     /**
      * @var typeStartFromResult $StartFromResult
      */
-    protected $StartFromResult = null;
+    public $StartFromResult = null;
 
     /**
      * @var UNKNOWN $ModifiedBy
      */
-    protected $ModifiedBy = null;
+    public $ModifiedBy = null;
 
     /**
      * @var boolean $DebugMode
      */
-    protected $DebugMode = null;
+    public $DebugMode = null;
 
     /**
      * @param date $ModifiedDate

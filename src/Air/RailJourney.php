@@ -8,182 +8,182 @@ class RailJourney
     /**
      * @var RailSegment $RailSegment
      */
-    protected $RailSegment = null;
+    public $RailSegment = null;
 
     /**
      * @var RailSegmentRef $RailSegmentRef
      */
-    protected $RailSegmentRef = null;
+    public $RailSegmentRef = null;
 
     /**
      * @var JourneyRemark $JourneyRemark
      */
-    protected $JourneyRemark = null;
+    public $JourneyRemark = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous542 $RouteDescription
      */
-    protected $RouteDescription = null;
+    public $RouteDescription = null;
 
     /**
      * @var typeJourneyDirection $JourneyDirection
      */
-    protected $JourneyDirection = null;
+    public $JourneyDirection = null;
 
     /**
      * @var int $JourneyDuration
      */
-    protected $JourneyDuration = null;
+    public $JourneyDuration = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $PassiveProviderReservationInfoRef
      */
-    protected $PassiveProviderReservationInfoRef = null;
+    public $PassiveProviderReservationInfoRef = null;
 
     /**
      * @var int $TravelOrder
      */
-    protected $TravelOrder = null;
+    public $TravelOrder = null;
 
     /**
      * @var anonymous543 $RouteReference
      */
-    protected $RouteReference = null;
+    public $RouteReference = null;
 
     /**
      * @var string $Operation
      */
-    protected $Operation = null;
+    public $Operation = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var string $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @var string $OriginStationName
      */
-    protected $OriginStationName = null;
+    public $OriginStationName = null;
 
     /**
      * @var string $DestinationStationName
      */
-    protected $DestinationStationName = null;
+    public $DestinationStationName = null;
 
     /**
      * @var typeRailLocationCode $RailLocOrigin
      */
-    protected $RailLocOrigin = null;
+    public $RailLocOrigin = null;
 
     /**
      * @var typeRailLocationCode $RailLocDestination
      */
-    protected $RailLocDestination = null;
+    public $RailLocDestination = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateBasePrice
      */
-    protected $ApproximateBasePrice = null;
+    public $ApproximateBasePrice = null;
 
     /**
      * @var typeMoney $EquivalentBasePrice
      */
-    protected $EquivalentBasePrice = null;
+    public $EquivalentBasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $Fees
      */
-    protected $Fees = null;
+    public $Fees = null;
 
     /**
      * @var typeMoney $Services
      */
-    protected $Services = null;
+    public $Services = null;
 
     /**
      * @var typeMoney $ApproximateTaxes
      */
-    protected $ApproximateTaxes = null;
+    public $ApproximateTaxes = null;
 
     /**
      * @var typeMoney $ApproximateFees
      */
-    protected $ApproximateFees = null;
+    public $ApproximateFees = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param RailSegment $RailSegment

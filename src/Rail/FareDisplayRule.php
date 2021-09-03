@@ -8,32 +8,32 @@ class FareDisplayRule
     /**
      * @var RuleAdvancedPurchase $RuleAdvancedPurchase
      */
-    protected $RuleAdvancedPurchase = null;
+    public $RuleAdvancedPurchase = null;
 
     /**
      * @var RuleLengthOfStay $RuleLengthOfStay
      */
-    protected $RuleLengthOfStay = null;
+    public $RuleLengthOfStay = null;
 
     /**
      * @var RuleCharges $RuleCharges
      */
-    protected $RuleCharges = null;
+    public $RuleCharges = null;
 
     /**
      * @var string $RuleNumber
      */
-    protected $RuleNumber = null;
+    public $RuleNumber = null;
 
     /**
      * @var string $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @var string $TariffNumber
      */
-    protected $TariffNumber = null;
+    public $TariffNumber = null;
 
     /**
      * @param RuleAdvancedPurchase $RuleAdvancedPurchase

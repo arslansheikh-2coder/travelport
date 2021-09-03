@@ -8,27 +8,27 @@ class RuleAdvancedPurchase
     /**
      * @var string $ReservationLatestPeriod
      */
-    protected $ReservationLatestPeriod = null;
+    public $ReservationLatestPeriod = null;
 
     /**
      * @var typeStayUnit $ReservationLatestUnit
      */
-    protected $ReservationLatestUnit = null;
+    public $ReservationLatestUnit = null;
 
     /**
      * @var string $TicketingEarliestDate
      */
-    protected $TicketingEarliestDate = null;
+    public $TicketingEarliestDate = null;
 
     /**
      * @var string $TicketingLatestDate
      */
-    protected $TicketingLatestDate = null;
+    public $TicketingLatestDate = null;
 
     /**
      * @var boolean $MoreRulesPresent
      */
-    protected $MoreRulesPresent = null;
+    public $MoreRulesPresent = null;
 
     /**
      * @param string $ReservationLatestPeriod

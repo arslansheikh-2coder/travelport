@@ -8,32 +8,32 @@ class VehicleReservationCriteria
     /**
      * @var typeDateSpec $PickUpDate
      */
-    protected $PickUpDate = null;
+    public $PickUpDate = null;
 
     /**
      * @var string $VehicleConfirmation
      */
-    protected $VehicleConfirmation = null;
+    public $VehicleConfirmation = null;
 
     /**
      * @var typeIATACode $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var string $LocationNumber
      */
-    protected $LocationNumber = null;
+    public $LocationNumber = null;
 
     /**
      * @var boolean $PassiveOnly
      */
-    protected $PassiveOnly = null;
+    public $PassiveOnly = null;
 
     /**
      * @param string $VehicleConfirmation

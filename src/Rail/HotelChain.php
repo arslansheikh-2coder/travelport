@@ -8,7 +8,7 @@ class HotelChain
     /**
      * @var typeHotelChainCode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeHotelChainCode $Code

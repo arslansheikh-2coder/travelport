@@ -8,22 +8,22 @@ class MCOInformation
     /**
      * @var PassengerInfo $PassengerInfo
      */
-    protected $PassengerInfo = null;
+    public $PassengerInfo = null;
 
     /**
      * @var string $MCONumber
      */
-    protected $MCONumber = null;
+    public $MCONumber = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $MCOType
      */
-    protected $MCOType = null;
+    public $MCOType = null;
 
     /**
      * @param PassengerInfo $PassengerInfo

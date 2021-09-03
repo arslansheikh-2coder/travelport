@@ -8,32 +8,32 @@ class typeAlternateContactHistory extends typeKeyElement
     /**
      * @var typeContactType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to128 $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var StringLength1to128 $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var StringLength1to128 $OtherName
      */
-    protected $OtherName = null;
+    public $OtherName = null;
 
     /**
      * @var StringLength1to128 $Nickname
      */
-    protected $Nickname = null;
+    public $Nickname = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

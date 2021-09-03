@@ -8,7 +8,7 @@ class typeBulkTicketModifierType
     /**
      * @var boolean $SuppressOnFareCalc
      */
-    protected $SuppressOnFareCalc = null;
+    public $SuppressOnFareCalc = null;
 
     /**
      * @param boolean $SuppressOnFareCalc

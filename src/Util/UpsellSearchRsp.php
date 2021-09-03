@@ -8,22 +8,22 @@ class UpsellSearchRsp extends BaseRsp
     /**
      * @var AirUpsellSearchResult $AirUpsellSearchResult
      */
-    protected $AirUpsellSearchResult = null;
+    public $AirUpsellSearchResult = null;
 
     /**
      * @var HotelUpsellSearchResult $HotelUpsellSearchResult
      */
-    protected $HotelUpsellSearchResult = null;
+    public $HotelUpsellSearchResult = null;
 
     /**
      * @var VehicleUpsellSearchResult $VehicleUpsellSearchResult
      */
-    protected $VehicleUpsellSearchResult = null;
+    public $VehicleUpsellSearchResult = null;
 
     /**
      * @var typeMoreResults $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

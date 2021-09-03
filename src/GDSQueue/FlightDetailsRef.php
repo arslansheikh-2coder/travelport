@@ -8,7 +8,7 @@ class FlightDetailsRef
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeRef $Key

@@ -8,17 +8,17 @@ class AirItinerary
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var APISRequirements $APISRequirements
      */
-    protected $APISRequirements = null;
+    public $APISRequirements = null;
 
     /**
      * @param typeBaseAirSegment $AirSegment

@@ -8,22 +8,22 @@ class Inclusions
     /**
      * @var BedTypes[] $BedTypes
      */
-    protected $BedTypes = null;
+    public $BedTypes = null;
 
     /**
      * @var MealPlans $MealPlans
      */
-    protected $MealPlans = null;
+    public $MealPlans = null;
 
     /**
      * @var RoomView $RoomView
      */
-    protected $RoomView = null;
+    public $RoomView = null;
 
     /**
      * @var typeTrinary $SmokingRoomIndicator
      */
-    protected $SmokingRoomIndicator = null;
+    public $SmokingRoomIndicator = null;
 
     /**
      * @param RoomView $RoomView

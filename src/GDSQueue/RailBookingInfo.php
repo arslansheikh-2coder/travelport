@@ -8,17 +8,17 @@ class RailBookingInfo
     /**
      * @var typeRef $RailFareRef
      */
-    protected $RailFareRef = null;
+    public $RailFareRef = null;
 
     /**
      * @var typeRef $RailJourneyRef
      */
-    protected $RailJourneyRef = null;
+    public $RailJourneyRef = null;
 
     /**
      * @var boolean $OptionalService
      */
-    protected $OptionalService = null;
+    public $OptionalService = null;
 
     /**
      * @param typeRef $RailFareRef

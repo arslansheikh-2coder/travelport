@@ -8,27 +8,27 @@ class CreditCardPaymentAuth
     /**
      * @var CreditCard $CreditCard
      */
-    protected $CreditCard = null;
+    public $CreditCard = null;
 
     /**
      * @var FormOfPaymentRef $FormOfPaymentRef
      */
-    protected $FormOfPaymentRef = null;
+    public $FormOfPaymentRef = null;
 
     /**
      * @var anonymous1121 $SecurityCode
      */
-    protected $SecurityCode = null;
+    public $SecurityCode = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var boolean $PerformAVS
      */
-    protected $PerformAVS = null;
+    public $PerformAVS = null;
 
     /**
      * @param CreditCard $CreditCard

@@ -8,7 +8,7 @@ class FlightOptionsList
     /**
      * @var FlightOption $FlightOption
      */
-    protected $FlightOption = null;
+    public $FlightOption = null;
 
     /**
      * @param FlightOption $FlightOption

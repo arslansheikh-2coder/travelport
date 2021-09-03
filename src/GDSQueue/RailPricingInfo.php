@@ -8,102 +8,102 @@ class RailPricingInfo
     /**
      * @var RailFare $RailFare
      */
-    protected $RailFare = null;
+    public $RailFare = null;
 
     /**
      * @var RailFareRef $RailFareRef
      */
-    protected $RailFareRef = null;
+    public $RailFareRef = null;
 
     /**
      * @var RailBookingInfo $RailBookingInfo
      */
-    protected $RailBookingInfo = null;
+    public $RailBookingInfo = null;
 
     /**
      * @var typePassengerType[] $PassengerType
      */
-    protected $PassengerType = null;
+    public $PassengerType = null;
 
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeMoney $ExchangeAmount
      */
-    protected $ExchangeAmount = null;
+    public $ExchangeAmount = null;
 
     /**
      * @var typeMoney $ApproximateExchangeAmount
      */
-    protected $ApproximateExchangeAmount = null;
+    public $ApproximateExchangeAmount = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateBasePrice
      */
-    protected $ApproximateBasePrice = null;
+    public $ApproximateBasePrice = null;
 
     /**
      * @var typeMoney $EquivalentBasePrice
      */
-    protected $EquivalentBasePrice = null;
+    public $EquivalentBasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $Fees
      */
-    protected $Fees = null;
+    public $Fees = null;
 
     /**
      * @var typeMoney $Services
      */
-    protected $Services = null;
+    public $Services = null;
 
     /**
      * @var typeMoney $ApproximateTaxes
      */
-    protected $ApproximateTaxes = null;
+    public $ApproximateTaxes = null;
 
     /**
      * @var typeMoney $ApproximateFees
      */
-    protected $ApproximateFees = null;
+    public $ApproximateFees = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param RailFare $RailFare

@@ -8,12 +8,12 @@ class ContinuityCheckOverride
     /**
      * @var typeNonBlanks $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeNonBlanks $_

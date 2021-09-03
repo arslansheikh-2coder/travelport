@@ -8,12 +8,12 @@ class SessProp
     /**
      * @var string $nm
      */
-    protected $nm = null;
+    public $nm = null;
 
     /**
      * @var string $val
      */
-    protected $val = null;
+    public $val = null;
 
     /**
      * @param string $nm

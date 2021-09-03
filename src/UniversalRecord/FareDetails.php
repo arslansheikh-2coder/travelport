@@ -8,22 +8,22 @@ class FareDetails
     /**
      * @var FareTicketDesignator $FareTicketDesignator
      */
-    protected $FareTicketDesignator = null;
+    public $FareTicketDesignator = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $PassengerDetailRef
      */
-    protected $PassengerDetailRef = null;
+    public $PassengerDetailRef = null;
 
     /**
      * @var typeFareBasisCode $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @param FareTicketDesignator $FareTicketDesignator

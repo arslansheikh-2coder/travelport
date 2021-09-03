@@ -8,32 +8,32 @@ class McoSearchReq extends BaseReq
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var Carrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var Airport $Airport
      */
-    protected $Airport = null;
+    public $Airport = null;
 
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var typeTimeRange $McoCreateDate
      */
-    protected $McoCreateDate = null;
+    public $McoCreateDate = null;
 
     /**
      * @var McoSearchModifiers $McoSearchModifiers
      */
-    protected $McoSearchModifiers = null;
+    public $McoSearchModifiers = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

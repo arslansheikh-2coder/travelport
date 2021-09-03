@@ -8,17 +8,17 @@ class VehicleUpsellCriteria
     /**
      * @var VehicleUpsellAdd $VehicleUpsellAdd
      */
-    protected $VehicleUpsellAdd = null;
+    public $VehicleUpsellAdd = null;
 
     /**
      * @var VehicleUpsellUpdate $VehicleUpsellUpdate
      */
-    protected $VehicleUpsellUpdate = null;
+    public $VehicleUpsellUpdate = null;
 
     /**
      * @var VehicleUpsellDelete $VehicleUpsellDelete
      */
-    protected $VehicleUpsellDelete = null;
+    public $VehicleUpsellDelete = null;
 
     /**
      * @param VehicleUpsellAdd $VehicleUpsellAdd

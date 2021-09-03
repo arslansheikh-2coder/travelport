@@ -8,12 +8,12 @@ class SearchTraveler extends typePassengerType
     /**
      * @var AirSeatAssignment $AirSeatAssignment
      */
-    protected $AirSeatAssignment = null;
+    public $AirSeatAssignment = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param Name $Name

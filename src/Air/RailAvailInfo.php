@@ -8,17 +8,17 @@ class RailAvailInfo
     /**
      * @var typeRailClass $ClassCode
      */
-    protected $ClassCode = null;
+    public $ClassCode = null;
 
     /**
      * @var int $Quantity
      */
-    protected $Quantity = null;
+    public $Quantity = null;
 
     /**
      * @var typeRailCabin $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @param typeRailClass $ClassCode

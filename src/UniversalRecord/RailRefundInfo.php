@@ -8,32 +8,32 @@ class RailRefundInfo
     /**
      * @var typeMoney $RefundAmount
      */
-    protected $RefundAmount = null;
+    public $RefundAmount = null;
 
     /**
      * @var typeMoney $CancellationFee
      */
-    protected $CancellationFee = null;
+    public $CancellationFee = null;
 
     /**
      * @var boolean $Refund
      */
-    protected $Refund = null;
+    public $Refund = null;
 
     /**
      * @var boolean $Retain
      */
-    protected $Retain = null;
+    public $Retain = null;
 
     /**
      * @var typeMoney $RetainAmount
      */
-    protected $RetainAmount = null;
+    public $RetainAmount = null;
 
     /**
      * @var typeMoney $NetAmount
      */
-    protected $NetAmount = null;
+    public $NetAmount = null;
 
     /**
      * @param typeMoney $RefundAmount

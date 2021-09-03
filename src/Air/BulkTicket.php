@@ -8,7 +8,7 @@ class BulkTicket extends typeBulkTicketModifierType
     /**
      * @var boolean $NonRefundable
      */
-    protected $NonRefundable = null;
+    public $NonRefundable = null;
 
     /**
      * @param boolean $SuppressOnFareCalc

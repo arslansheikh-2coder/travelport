@@ -8,27 +8,27 @@ class ModifyTag
     /**
      * @var typeID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var anonymous624 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var anonymous625 $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @param typeID $ID

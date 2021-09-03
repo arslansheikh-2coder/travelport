@@ -8,12 +8,12 @@ class ContinuityOverrideRemark
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var anonymous1404 $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @param string $_

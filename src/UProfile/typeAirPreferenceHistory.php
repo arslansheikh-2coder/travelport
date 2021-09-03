@@ -8,152 +8,152 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
     /**
      * @var typeAirFare $AirFareType
      */
-    protected $AirFareType = null;
+    public $AirFareType = null;
 
     /**
      * @var anonymous677 $CRSCode
      */
-    protected $CRSCode = null;
+    public $CRSCode = null;
 
     /**
      * @var anonymous678 $EndingFlightNumber
      */
-    protected $EndingFlightNumber = null;
+    public $EndingFlightNumber = null;
 
     /**
      * @var anonymous679 $FareType
      */
-    protected $FareType = null;
+    public $FareType = null;
 
     /**
      * @var boolean $Interline
      */
-    protected $Interline = null;
+    public $Interline = null;
 
     /**
      * @var typeMoney $MaxFareAmount
      */
-    protected $MaxFareAmount = null;
+    public $MaxFareAmount = null;
 
     /**
      * @var int $MaxConnectionMinutes
      */
-    protected $MaxConnectionMinutes = null;
+    public $MaxConnectionMinutes = null;
 
     /**
      * @var int $MaxDomesticTripHours
      */
-    protected $MaxDomesticTripHours = null;
+    public $MaxDomesticTripHours = null;
 
     /**
      * @var int $MaxEmployeesPerFlight
      */
-    protected $MaxEmployeesPerFlight = null;
+    public $MaxEmployeesPerFlight = null;
 
     /**
      * @var int $MaxInternationalTripHours
      */
-    protected $MaxInternationalTripHours = null;
+    public $MaxInternationalTripHours = null;
 
     /**
      * @var anonymous680 $MealTypeCRS
      */
-    protected $MealTypeCRS = null;
+    public $MealTypeCRS = null;
 
     /**
      * @var anonymous681 $MealTypeSSR
      */
-    protected $MealTypeSSR = null;
+    public $MealTypeSSR = null;
 
     /**
      * @var anonymous682 $SeatNumber
      */
-    protected $SeatNumber = null;
+    public $SeatNumber = null;
 
     /**
      * @var anonymous683 $SSRCode
      */
-    protected $SSRCode = null;
+    public $SSRCode = null;
 
     /**
      * @var anonymous684 $StartingFlightNumber
      */
-    protected $StartingFlightNumber = null;
+    public $StartingFlightNumber = null;
 
     /**
      * @var anonymous882 $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var typeGeoPoliticalAreaType $ArrivalGeoPoliticalAreaType
      */
-    protected $ArrivalGeoPoliticalAreaType = null;
+    public $ArrivalGeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $ArrivalGeoPoliticalAreaCode
      */
-    protected $ArrivalGeoPoliticalAreaCode = null;
+    public $ArrivalGeoPoliticalAreaCode = null;
 
     /**
      * @var typeMoney $BenchMarkAmount
      */
-    protected $BenchMarkAmount = null;
+    public $BenchMarkAmount = null;
 
     /**
      * @var typeGeoPoliticalAreaType $ConnectionGeoPoliticalAreaType
      */
-    protected $ConnectionGeoPoliticalAreaType = null;
+    public $ConnectionGeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $ConnectionGeoPoliticalAreaCode
      */
-    protected $ConnectionGeoPoliticalAreaCode = null;
+    public $ConnectionGeoPoliticalAreaCode = null;
 
     /**
      * @var anonymous883 $ContractCode
      */
-    protected $ContractCode = null;
+    public $ContractCode = null;
 
     /**
      * @var anonymous884 $CorporateID
      */
-    protected $CorporateID = null;
+    public $CorporateID = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var date $TravelStartDate
      */
-    protected $TravelStartDate = null;
+    public $TravelStartDate = null;
 
     /**
      * @var date $TravelEndDate
      */
-    protected $TravelEndDate = null;
+    public $TravelEndDate = null;
 
     /**
      * @var anonymous893 $CabinTypeMiscTravel
      */
-    protected $CabinTypeMiscTravel = null;
+    public $CabinTypeMiscTravel = null;
 
     /**
      * @var anonymous894 $CabinTypeRefCategory
      */
-    protected $CabinTypeRefCategory = null;
+    public $CabinTypeRefCategory = null;
 
     /**
      * @var anonymous887 $SeatTypeMiscTravel
      */
-    protected $SeatTypeMiscTravel = null;
+    public $SeatTypeMiscTravel = null;
 
     /**
      * @var anonymous888 $SeatTypeMiscRefCategory
      */
-    protected $SeatTypeMiscRefCategory = null;
+    public $SeatTypeMiscRefCategory = null;
 
     /**
      * @param typeRef $Key

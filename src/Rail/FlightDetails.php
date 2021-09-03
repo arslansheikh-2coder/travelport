@@ -8,97 +8,97 @@ class FlightDetails
     /**
      * @var Connection $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @var typeMealService $Meals
      */
-    protected $Meals = null;
+    public $Meals = null;
 
     /**
      * @var string $InFlightServices
      */
-    protected $InFlightServices = null;
+    public $InFlightServices = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeEquipment $Equipment
      */
-    protected $Equipment = null;
+    public $Equipment = null;
 
     /**
      * @var int $OnTimePerformance
      */
-    protected $OnTimePerformance = null;
+    public $OnTimePerformance = null;
 
     /**
      * @var string $OriginTerminal
      */
-    protected $OriginTerminal = null;
+    public $OriginTerminal = null;
 
     /**
      * @var string $DestinationTerminal
      */
-    protected $DestinationTerminal = null;
+    public $DestinationTerminal = null;
 
     /**
      * @var int $GroundTime
      */
-    protected $GroundTime = null;
+    public $GroundTime = null;
 
     /**
      * @var boolean $AutomatedCheckin
      */
-    protected $AutomatedCheckin = null;
+    public $AutomatedCheckin = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var string $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @var int $FlightTime
      */
-    protected $FlightTime = null;
+    public $FlightTime = null;
 
     /**
      * @var int $TravelTime
      */
-    protected $TravelTime = null;
+    public $TravelTime = null;
 
     /**
      * @var int $Distance
      */
-    protected $Distance = null;
+    public $Distance = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param Connection $Connection

@@ -8,7 +8,7 @@ class PingReq extends BaseReq
     /**
      * @var Payload $Payload
      */
-    protected $Payload = null;
+    public $Payload = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

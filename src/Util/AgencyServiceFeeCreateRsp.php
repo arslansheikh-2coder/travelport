@@ -8,7 +8,7 @@ class AgencyServiceFeeCreateRsp extends BaseRsp
     /**
      * @var ServiceFeeInfo $ServiceFeeInfo
      */
-    protected $ServiceFeeInfo = null;
+    public $ServiceFeeInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

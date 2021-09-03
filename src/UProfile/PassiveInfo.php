@@ -8,37 +8,37 @@ class PassiveInfo
     /**
      * @var string[] $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var string[] $ConfirmationNumber
      */
-    protected $ConfirmationNumber = null;
+    public $ConfirmationNumber = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var string $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $SupplierLocatorCode
      */
-    protected $SupplierLocatorCode = null;
+    public $SupplierLocatorCode = null;
 
     /**
      * @param Commission $Commission

@@ -8,227 +8,227 @@ class SavedTrip
     /**
      * @var BookingTraveler $BookingTraveler
      */
-    protected $BookingTraveler = null;
+    public $BookingTraveler = null;
 
     /**
      * @var AgencyContactInfo $AgencyContactInfo
      */
-    protected $AgencyContactInfo = null;
+    public $AgencyContactInfo = null;
 
     /**
      * @var SearchPassenger $SearchPassenger
      */
-    protected $SearchPassenger = null;
+    public $SearchPassenger = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var AccountingRemark $AccountingRemark
      */
-    protected $AccountingRemark = null;
+    public $AccountingRemark = null;
 
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var AgencyInfo $AgencyInfo
      */
-    protected $AgencyInfo = null;
+    public $AgencyInfo = null;
 
     /**
      * @var ReservationName $ReservationName
      */
-    protected $ReservationName = null;
+    public $ReservationName = null;
 
     /**
      * @var AirPricingModifiers $AirPricingModifiers
      */
-    protected $AirPricingModifiers = null;
+    public $AirPricingModifiers = null;
 
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var typeSavedTripNote[] $AirTripNote
      */
-    protected $AirTripNote = null;
+    public $AirTripNote = null;
 
     /**
      * @var VehicleSearchModifiers $VehicleSearchModifiers
      */
-    protected $VehicleSearchModifiers = null;
+    public $VehicleSearchModifiers = null;
 
     /**
      * @var VehicleDateLocation $VehicleDateLocation
      */
-    protected $VehicleDateLocation = null;
+    public $VehicleDateLocation = null;
 
     /**
      * @var SpecialEquipment $SpecialEquipment
      */
-    protected $SpecialEquipment = null;
+    public $SpecialEquipment = null;
 
     /**
      * @var VehicleSpecialRequest $VehicleSpecialRequest
      */
-    protected $VehicleSpecialRequest = null;
+    public $VehicleSpecialRequest = null;
 
     /**
      * @var PaymentInformation $PaymentInformation
      */
-    protected $PaymentInformation = null;
+    public $PaymentInformation = null;
 
     /**
      * @var DeliveryAddress $DeliveryAddress
      */
-    protected $DeliveryAddress = null;
+    public $DeliveryAddress = null;
 
     /**
      * @var CollectionAddress $CollectionAddress
      */
-    protected $CollectionAddress = null;
+    public $CollectionAddress = null;
 
     /**
      * @var FlightArrivalInformation $FlightArrivalInformation
      */
-    protected $FlightArrivalInformation = null;
+    public $FlightArrivalInformation = null;
 
     /**
      * @var Vehicle $Vehicle
      */
-    protected $Vehicle = null;
+    public $Vehicle = null;
 
     /**
      * @var typeSavedTripNote[] $VehicleTripNote
      */
-    protected $VehicleTripNote = null;
+    public $VehicleTripNote = null;
 
     /**
      * @var VendorLocation $VendorLocation
      */
-    protected $VendorLocation = null;
+    public $VendorLocation = null;
 
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelStay $HotelStay
      */
-    protected $HotelStay = null;
+    public $HotelStay = null;
 
     /**
      * @var HotelRulesModifiers $HotelRulesModifiers
      */
-    protected $HotelRulesModifiers = null;
+    public $HotelRulesModifiers = null;
 
     /**
      * @var HotelDetailsModifiers $HotelDetailsModifiers
      */
-    protected $HotelDetailsModifiers = null;
+    public $HotelDetailsModifiers = null;
 
     /**
      * @var HotelRateDetail $HotelRateDetail
      */
-    protected $HotelRateDetail = null;
+    public $HotelRateDetail = null;
 
     /**
      * @var PromotionCode $PromotionCode
      */
-    protected $PromotionCode = null;
+    public $PromotionCode = null;
 
     /**
      * @var typeSavedTripNote[] $HotelTripNote
      */
-    protected $HotelTripNote = null;
+    public $HotelTripNote = null;
 
     /**
      * @var RailPricingSolution $RailPricingSolution
      */
-    protected $RailPricingSolution = null;
+    public $RailPricingSolution = null;
 
     /**
      * @var RailFareNote $RailFareNote
      */
-    protected $RailFareNote = null;
+    public $RailFareNote = null;
 
     /**
      * @var typeSavedTripNote[] $RailTripNote
      */
-    protected $RailTripNote = null;
+    public $RailTripNote = null;
 
     /**
      * @var typeSavedTripNote[] $SavedTripNote
      */
-    protected $SavedTripNote = null;
+    public $SavedTripNote = null;
 
     /**
      * @var SavedTripActivity $SavedTripActivity
      */
-    protected $SavedTripActivity = null;
+    public $SavedTripActivity = null;
 
     /**
      * @var ProfileAssociation $ProfileAssociation
      */
-    protected $ProfileAssociation = null;
+    public $ProfileAssociation = null;
 
     /**
      * @var PolicyInformation $PolicyInformation
      */
-    protected $PolicyInformation = null;
+    public $PolicyInformation = null;
 
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var anonymous1420 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var \DateTime $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var \DateTime $ModifiedDate
      */
-    protected $ModifiedDate = null;
+    public $ModifiedDate = null;
 
     /**
      * @var typeURVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var typeURStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $CreatedByAgent
      */
-    protected $CreatedByAgent = null;
+    public $CreatedByAgent = null;
 
     /**
      * @var string $ModifiedByAgent
      */
-    protected $ModifiedByAgent = null;
+    public $ModifiedByAgent = null;
 
     /**
      * @param BookingTraveler $BookingTraveler

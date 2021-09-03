@@ -8,7 +8,7 @@ class AddressRestriction
     /**
      * @var RequiredField $RequiredField
      */
-    protected $RequiredField = null;
+    public $RequiredField = null;
 
     /**
      * @param RequiredField $RequiredField

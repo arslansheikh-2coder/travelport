@@ -8,17 +8,17 @@ class Requisition
     /**
      * @var string $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var anonymous31 $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var anonymous32 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param string $Number

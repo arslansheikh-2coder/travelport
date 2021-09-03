@@ -8,12 +8,12 @@ class ServiceInfo
     /**
      * @var string[] $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var MediaItem $MediaItem
      */
-    protected $MediaItem = null;
+    public $MediaItem = null;
 
     /**
      * @param string[] $Description

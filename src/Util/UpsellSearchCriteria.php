@@ -8,12 +8,12 @@ class UpsellSearchCriteria
     /**
      * @var EffectiveDate $EffectiveDate
      */
-    protected $EffectiveDate = null;
+    public $EffectiveDate = null;
 
     /**
      * @var ExpirationDate $ExpirationDate
      */
-    protected $ExpirationDate = null;
+    public $ExpirationDate = null;
 
     /**
      * @param EffectiveDate $EffectiveDate

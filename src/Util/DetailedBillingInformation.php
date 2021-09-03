@@ -8,17 +8,17 @@ class DetailedBillingInformation
     /**
      * @var FormOfPaymentRef $FormOfPaymentRef
      */
-    protected $FormOfPaymentRef = null;
+    public $FormOfPaymentRef = null;
 
     /**
      * @var AirPricingInfoRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var BillingDetailItem $BillingDetailItem
      */
-    protected $BillingDetailItem = null;
+    public $BillingDetailItem = null;
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef

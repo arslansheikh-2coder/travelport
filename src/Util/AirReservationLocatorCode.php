@@ -8,7 +8,7 @@ class AirReservationLocatorCode
     /**
      * @var typeLocatorCode $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @param typeLocatorCode $_

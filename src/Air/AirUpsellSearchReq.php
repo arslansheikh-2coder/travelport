@@ -8,12 +8,12 @@ class AirUpsellSearchReq extends AirBaseReq
     /**
      * @var AirItinerary $AirItinerary
      */
-    protected $AirItinerary = null;
+    public $AirItinerary = null;
 
     /**
      * @var AirPriceResult $AirPriceResult
      */
-    protected $AirPriceResult = null;
+    public $AirPriceResult = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,112 +8,112 @@ class HotelProperty
     /**
      * @var typeUnstructuredAddress $PropertyAddress
      */
-    protected $PropertyAddress = null;
+    public $PropertyAddress = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var CoordinateLocation $CoordinateLocation
      */
-    protected $CoordinateLocation = null;
+    public $CoordinateLocation = null;
 
     /**
      * @var Distance $Distance
      */
-    protected $Distance = null;
+    public $Distance = null;
 
     /**
      * @var HotelRating $HotelRating
      */
-    protected $HotelRating = null;
+    public $HotelRating = null;
 
     /**
      * @var Amenities $Amenities
      */
-    protected $Amenities = null;
+    public $Amenities = null;
 
     /**
      * @var MarketingMessage $MarketingMessage
      */
-    protected $MarketingMessage = null;
+    public $MarketingMessage = null;
 
     /**
      * @var typeHotelChainCode $HotelChain
      */
-    protected $HotelChain = null;
+    public $HotelChain = null;
 
     /**
      * @var typeHotelCode $HotelCode
      */
-    protected $HotelCode = null;
+    public $HotelCode = null;
 
     /**
      * @var typeHotelLocationCode $HotelLocation
      */
-    protected $HotelLocation = null;
+    public $HotelLocation = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $VendorLocationKey
      */
-    protected $VendorLocationKey = null;
+    public $VendorLocationKey = null;
 
     /**
      * @var typeOTACode $HotelTransportation
      */
-    protected $HotelTransportation = null;
+    public $HotelTransportation = null;
 
     /**
      * @var typeReserveRequirement $ReserveRequirement
      */
-    protected $ReserveRequirement = null;
+    public $ReserveRequirement = null;
 
     /**
      * @var StringLength1 $ParticipationLevel
      */
-    protected $ParticipationLevel = null;
+    public $ParticipationLevel = null;
 
     /**
      * @var typeHotelAvailability $Availability
      */
-    protected $Availability = null;
+    public $Availability = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var boolean $PreferredOption
      */
-    protected $PreferredOption = null;
+    public $PreferredOption = null;
 
     /**
      * @var boolean $MoreRates
      */
-    protected $MoreRates = null;
+    public $MoreRates = null;
 
     /**
      * @var anonymous1159 $MoreRatesToken
      */
-    protected $MoreRatesToken = null;
+    public $MoreRatesToken = null;
 
     /**
      * @var typeNetTransCommission $NetTransCommissionInd
      */
-    protected $NetTransCommissionInd = null;
+    public $NetTransCommissionInd = null;
 
     /**
      * @var int $NumOfRatePlans
      */
-    protected $NumOfRatePlans = null;
+    public $NumOfRatePlans = null;
 
     /**
      * @param PhoneNumber $PhoneNumber

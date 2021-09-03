@@ -8,22 +8,22 @@ class SearchAgent
     /**
      * @var string $BranchId
      */
-    protected $BranchId = null;
+    public $BranchId = null;
 
     /**
      * @var string $CreatedByAgent
      */
-    protected $CreatedByAgent = null;
+    public $CreatedByAgent = null;
 
     /**
      * @var string $ModifiedByAgent
      */
-    protected $ModifiedByAgent = null;
+    public $ModifiedByAgent = null;
 
     /**
      * @var string $TicketedByAgent
      */
-    protected $TicketedByAgent = null;
+    public $TicketedByAgent = null;
 
     /**
      * @param string $BranchId

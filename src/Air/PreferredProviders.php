@@ -8,7 +8,7 @@ class PreferredProviders
     /**
      * @var Provider $Provider
      */
-    protected $Provider = null;
+    public $Provider = null;
 
     /**
      * @param Provider $Provider

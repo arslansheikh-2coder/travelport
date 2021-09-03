@@ -8,22 +8,22 @@ class AirExchangeTicketingRsp extends BaseRsp
     /**
      * @var AirSolutionChangedInfo $AirSolutionChangedInfo
      */
-    protected $AirSolutionChangedInfo = null;
+    public $AirSolutionChangedInfo = null;
 
     /**
      * @var ETR $ETR
      */
-    protected $ETR = null;
+    public $ETR = null;
 
     /**
      * @var TicketFailureInfo $TicketFailureInfo
      */
-    protected $TicketFailureInfo = null;
+    public $TicketFailureInfo = null;
 
     /**
      * @var DetailedBillingInformation $DetailedBillingInformation
      */
-    protected $DetailedBillingInformation = null;
+    public $DetailedBillingInformation = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

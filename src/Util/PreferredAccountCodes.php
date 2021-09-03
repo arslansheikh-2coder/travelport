@@ -8,7 +8,7 @@ class PreferredAccountCodes
     /**
      * @var AccountCode $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @param AccountCode $AccountCode

@@ -8,7 +8,7 @@ class AgencyBaseInfo
     /**
      * @var Phone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @param Phone $Phone

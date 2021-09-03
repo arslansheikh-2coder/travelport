@@ -8,17 +8,17 @@ class ApplicableSegment
     /**
      * @var ResponseMessage $ResponseMessage
      */
-    protected $ResponseMessage = null;
+    public $ResponseMessage = null;
 
     /**
      * @var typeRef $OptionalServiceRef
      */
-    protected $OptionalServiceRef = null;
+    public $OptionalServiceRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

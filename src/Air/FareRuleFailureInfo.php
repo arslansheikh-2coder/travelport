@@ -8,7 +8,7 @@ class FareRuleFailureInfo
     /**
      * @var typeFareRuleFailureInfoReason[] $Reason
      */
-    protected $Reason = null;
+    public $Reason = null;
 
     /**
      * @param typeFareRuleFailureInfoReason[] $Reason

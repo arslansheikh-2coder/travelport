@@ -8,27 +8,27 @@ class HostToken
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeProviderCode $Host
      */
-    protected $Host = null;
+    public $Host = null;
 
     /**
      * @var UNKNOWN $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param string $_

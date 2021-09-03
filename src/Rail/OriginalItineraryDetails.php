@@ -8,37 +8,37 @@ class OriginalItineraryDetails
     /**
      * @var typeItineraryCode $ItineraryType
      */
-    protected $ItineraryType = null;
+    public $ItineraryType = null;
 
     /**
      * @var boolean $BulkTicket
      */
-    protected $BulkTicket = null;
+    public $BulkTicket = null;
 
     /**
      * @var typePCC $TicketingPCC
      */
-    protected $TicketingPCC = null;
+    public $TicketingPCC = null;
 
     /**
      * @var typeIATA $TicketingIATA
      */
-    protected $TicketingIATA = null;
+    public $TicketingIATA = null;
 
     /**
      * @var typeCountry $TicketingCountry
      */
-    protected $TicketingCountry = null;
+    public $TicketingCountry = null;
 
     /**
      * @var typeTourCode $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var date $TicketingDate
      */
-    protected $TicketingDate = null;
+    public $TicketingDate = null;
 
     /**
      * @param typeItineraryCode $ItineraryType

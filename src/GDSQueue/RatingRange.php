@@ -8,12 +8,12 @@ class RatingRange
     /**
      * @var typeSimpleHotelRating $MinimumRating
      */
-    protected $MinimumRating = null;
+    public $MinimumRating = null;
 
     /**
      * @var typeSimpleHotelRating $MaximumRating
      */
-    protected $MaximumRating = null;
+    public $MaximumRating = null;
 
     /**
      * @param typeSimpleHotelRating $MinimumRating

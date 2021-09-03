@@ -8,152 +8,152 @@ class FareDisplay
     /**
      * @var FareDisplayRule $FareDisplayRule
      */
-    protected $FareDisplayRule = null;
+    public $FareDisplayRule = null;
 
     /**
      * @var FarePricing $FarePricing
      */
-    protected $FarePricing = null;
+    public $FarePricing = null;
 
     /**
      * @var FareRestriction $FareRestriction
      */
-    protected $FareRestriction = null;
+    public $FareRestriction = null;
 
     /**
      * @var string $FareRoutingInformation
      */
-    protected $FareRoutingInformation = null;
+    public $FareRoutingInformation = null;
 
     /**
      * @var string $FareMileageInformation
      */
-    protected $FareMileageInformation = null;
+    public $FareMileageInformation = null;
 
     /**
      * @var AirFareDisplayRuleKey $AirFareDisplayRuleKey
      */
-    protected $AirFareDisplayRuleKey = null;
+    public $AirFareDisplayRuleKey = null;
 
     /**
      * @var BookingCode $BookingCode
      */
-    protected $BookingCode = null;
+    public $BookingCode = null;
 
     /**
      * @var AccountCode $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var AddlBookingCodeInformation $AddlBookingCodeInformation
      */
-    protected $AddlBookingCodeInformation = null;
+    public $AddlBookingCodeInformation = null;
 
     /**
      * @var FareRuleFailureInfo $FareRuleFailureInfo
      */
-    protected $FareRuleFailureInfo = null;
+    public $FareRuleFailureInfo = null;
 
     /**
      * @var PriceChangeType[] $PriceChange
      */
-    protected $PriceChange = null;
+    public $PriceChange = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var string $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeFareTripType $TripType
      */
-    protected $TripType = null;
+    public $TripType = null;
 
     /**
      * @var typeFareTypeCode $FareTypeCode
      */
-    protected $FareTypeCode = null;
+    public $FareTypeCode = null;
 
     /**
      * @var boolean $SpecialFare
      */
-    protected $SpecialFare = null;
+    public $SpecialFare = null;
 
     /**
      * @var boolean $InstantPurchase
      */
-    protected $InstantPurchase = null;
+    public $InstantPurchase = null;
 
     /**
      * @var boolean $EligibilityRestricted
      */
-    protected $EligibilityRestricted = null;
+    public $EligibilityRestricted = null;
 
     /**
      * @var boolean $FlightRestricted
      */
-    protected $FlightRestricted = null;
+    public $FlightRestricted = null;
 
     /**
      * @var boolean $StopoversRestricted
      */
-    protected $StopoversRestricted = null;
+    public $StopoversRestricted = null;
 
     /**
      * @var boolean $TransfersRestricted
      */
-    protected $TransfersRestricted = null;
+    public $TransfersRestricted = null;
 
     /**
      * @var boolean $BlackoutsExist
      */
-    protected $BlackoutsExist = null;
+    public $BlackoutsExist = null;
 
     /**
      * @var boolean $AccompaniedTravel
      */
-    protected $AccompaniedTravel = null;
+    public $AccompaniedTravel = null;
 
     /**
      * @var typeMileOrRouteBasedFare $MileOrRouteBasedFare
      */
-    protected $MileOrRouteBasedFare = null;
+    public $MileOrRouteBasedFare = null;
 
     /**
      * @var typeATPCOGlobalIndicator $GlobalIndicator
      */
-    protected $GlobalIndicator = null;
+    public $GlobalIndicator = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $FareTicketingCode
      */
-    protected $FareTicketingCode = null;
+    public $FareTicketingCode = null;
 
     /**
      * @var typeTicketDesignator $FareTicketingDesignator
      */
-    protected $FareTicketingDesignator = null;
+    public $FareTicketingDesignator = null;
 
     /**
      * @param FareDisplayRule $FareDisplayRule

@@ -8,42 +8,42 @@ class RailSeatAssignment
     /**
      * @var Characteristic $Characteristic
      */
-    protected $Characteristic = null;
+    public $Characteristic = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeStatusCode $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $Seat
      */
-    protected $Seat = null;
+    public $Seat = null;
 
     /**
      * @var typeRef $RailSegmentRef
      */
-    protected $RailSegmentRef = null;
+    public $RailSegmentRef = null;
 
     /**
      * @var string $CoachNumber
      */
-    protected $CoachNumber = null;
+    public $CoachNumber = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param Characteristic $Characteristic

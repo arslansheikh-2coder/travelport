@@ -8,22 +8,22 @@ class TCRInfo
     /**
      * @var typeTCRStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var \DateTime $Date
      */
-    protected $Date = null;
+    public $Date = null;
 
     /**
      * @var typeTCRNumber $TCRNumber
      */
-    protected $TCRNumber = null;
+    public $TCRNumber = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @param typeTCRStatus $Status

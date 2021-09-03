@@ -8,17 +8,17 @@ class RailLegModifiers
     /**
      * @var PermittedConnectionPoints $PermittedConnectionPoints
      */
-    protected $PermittedConnectionPoints = null;
+    public $PermittedConnectionPoints = null;
 
     /**
      * @var ProhibitedConnectionPoints $ProhibitedConnectionPoints
      */
-    protected $ProhibitedConnectionPoints = null;
+    public $ProhibitedConnectionPoints = null;
 
     /**
      * @var string $Class
      */
-    protected $Class = null;
+    public $Class = null;
 
     /**
      * @param string $Class

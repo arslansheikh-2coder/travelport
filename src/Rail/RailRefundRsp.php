@@ -8,12 +8,12 @@ class RailRefundRsp extends BaseRsp
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var MCO $MCO
      */
-    protected $MCO = null;
+    public $MCO = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

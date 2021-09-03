@@ -8,12 +8,12 @@ class FareGuaranteeInfo
     /**
      * @var date $GuaranteeDate
      */
-    protected $GuaranteeDate = null;
+    public $GuaranteeDate = null;
 
     /**
      * @var typeFareGuarantee $GuaranteeType
      */
-    protected $GuaranteeType = null;
+    public $GuaranteeType = null;
 
     /**
      * @param date $GuaranteeDate

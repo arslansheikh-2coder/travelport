@@ -8,12 +8,12 @@ class URLInfo
     /**
      * @var typeGeneralText[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var anyURI[] $URL
      */
-    protected $URL = null;
+    public $URL = null;
 
     
     public function __construct()

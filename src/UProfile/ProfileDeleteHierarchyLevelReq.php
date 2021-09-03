@@ -8,12 +8,12 @@ class ProfileDeleteHierarchyLevelReq extends BaseReq
     /**
      * @var typeID $HierarchyLevelID
      */
-    protected $HierarchyLevelID = null;
+    public $HierarchyLevelID = null;
 
     /**
      * @var typeDeleteHierarchyLvlProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,37 +8,37 @@ class Comments
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeRef $CommentId
      */
-    protected $CommentId = null;
+    public $CommentId = null;
 
     /**
      * @var typeDate $Date
      */
-    protected $Date = null;
+    public $Date = null;
 
     /**
      * @var typeLanguage $CommenterLanguage
      */
-    protected $CommenterLanguage = null;
+    public $CommenterLanguage = null;
 
     /**
      * @var string $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @var string $CommentSourceName
      */
-    protected $CommentSourceName = null;
+    public $CommentSourceName = null;
 
     /**
      * @var string $Commenter
      */
-    protected $Commenter = null;
+    public $Commenter = null;
 
     /**
      * @param string $_

@@ -8,17 +8,17 @@ class EMDTravelerInfo
     /**
      * @var NameInfo $NameInfo
      */
-    protected $NameInfo = null;
+    public $NameInfo = null;
 
     /**
      * @var typePTC $TravelerType
      */
-    protected $TravelerType = null;
+    public $TravelerType = null;
 
     /**
      * @var int $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @param NameInfo $NameInfo

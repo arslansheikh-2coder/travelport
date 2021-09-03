@@ -8,12 +8,12 @@ class BaseVehicleSearchAvailabilityRsp extends BaseSearchRsp
     /**
      * @var VehicleDateLocation $VehicleDateLocation
      */
-    protected $VehicleDateLocation = null;
+    public $VehicleDateLocation = null;
 
     /**
      * @var Vehicle $Vehicle
      */
-    protected $Vehicle = null;
+    public $Vehicle = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

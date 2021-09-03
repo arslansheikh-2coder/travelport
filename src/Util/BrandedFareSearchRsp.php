@@ -8,12 +8,12 @@ class BrandedFareSearchRsp extends BaseRsp
     /**
      * @var FareFamily $FareFamily
      */
-    protected $FareFamily = null;
+    public $FareFamily = null;
 
     /**
      * @var typeMoreResults $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

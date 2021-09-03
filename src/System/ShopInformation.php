@@ -8,27 +8,27 @@ class ShopInformation
     /**
      * @var SearchRequest[] $SearchRequest
      */
-    protected $SearchRequest = null;
+    public $SearchRequest = null;
 
     /**
      * @var FlightsOffered[] $FlightsOffered
      */
-    protected $FlightsOffered = null;
+    public $FlightsOffered = null;
 
     /**
      * @var string $CabinShopped
      */
-    protected $CabinShopped = null;
+    public $CabinShopped = null;
 
     /**
      * @var string $CabinSelected
      */
-    protected $CabinSelected = null;
+    public $CabinSelected = null;
 
     /**
      * @var typeMoney $LowestFareOffered
      */
-    protected $LowestFareOffered = null;
+    public $LowestFareOffered = null;
 
     /**
      * @param string $CabinShopped

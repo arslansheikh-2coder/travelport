@@ -8,32 +8,32 @@ class SeatInformation
     /**
      * @var string $Power
      */
-    protected $Power = null;
+    public $Power = null;
 
     /**
      * @var string $Video
      */
-    protected $Video = null;
+    public $Video = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var Rating $Rating
      */
-    protected $Rating = null;
+    public $Rating = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param string $Power

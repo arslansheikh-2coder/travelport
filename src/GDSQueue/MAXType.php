@@ -8,47 +8,47 @@ class MAXType
     /**
      * @var boolean $HoursMax
      */
-    protected $HoursMax = null;
+    public $HoursMax = null;
 
     /**
      * @var boolean $DaysMax
      */
-    protected $DaysMax = null;
+    public $DaysMax = null;
 
     /**
      * @var boolean $MonthsMax
      */
-    protected $MonthsMax = null;
+    public $MonthsMax = null;
 
     /**
      * @var boolean $OccurIndMax
      */
-    protected $OccurIndMax = null;
+    public $OccurIndMax = null;
 
     /**
      * @var boolean $SameDayMax
      */
-    protected $SameDayMax = null;
+    public $SameDayMax = null;
 
     /**
      * @var boolean $StartIndMax
      */
-    protected $StartIndMax = null;
+    public $StartIndMax = null;
 
     /**
      * @var boolean $CompletionInd
      */
-    protected $CompletionInd = null;
+    public $CompletionInd = null;
 
     /**
      * @var int $TmDOWMax
      */
-    protected $TmDOWMax = null;
+    public $TmDOWMax = null;
 
     /**
      * @var int $NumOccurMax
      */
-    protected $NumOccurMax = null;
+    public $NumOccurMax = null;
 
     /**
      * @param boolean $HoursMax

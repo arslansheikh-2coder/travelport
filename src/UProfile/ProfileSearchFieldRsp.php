@@ -8,17 +8,17 @@ class ProfileSearchFieldRsp extends BaseRsp
     /**
      * @var Field $Field
      */
-    protected $Field = null;
+    public $Field = null;
 
     /**
      * @var FieldGroup $FieldGroup
      */
-    protected $FieldGroup = null;
+    public $FieldGroup = null;
 
     /**
      * @var typeMoreResults $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

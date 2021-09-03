@@ -8,17 +8,17 @@ class TagAdd
     /**
      * @var typeTaggableElement $Element
      */
-    protected $Element = null;
+    public $Element = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeTagID $TagID
      */
-    protected $TagID = null;
+    public $TagID = null;
 
     /**
      * @param typeTaggableElement $Element

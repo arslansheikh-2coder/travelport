@@ -8,12 +8,12 @@ class HotelAmenity
     /**
      * @var typeAmenityLevel $Level
      */
-    protected $Level = null;
+    public $Level = null;
 
     /**
      * @var typeAmenityCode $AmenityCode
      */
-    protected $AmenityCode = null;
+    public $AmenityCode = null;
 
     /**
      * @param typeAmenityLevel $Level

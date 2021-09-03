@@ -8,17 +8,17 @@ class CreditCardAuthReq extends BaseReq
     /**
      * @var LocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var CreditCardPaymentAuth $CreditCardPaymentAuth
      */
-    protected $CreditCardPaymentAuth = null;
+    public $CreditCardPaymentAuth = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

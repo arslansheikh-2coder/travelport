@@ -8,17 +8,17 @@ class Carrier
     /**
      * @var typeCarrier $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param typeCarrier $Code

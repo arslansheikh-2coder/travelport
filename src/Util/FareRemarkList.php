@@ -8,7 +8,7 @@ class FareRemarkList
     /**
      * @var FareRemark $FareRemark
      */
-    protected $FareRemark = null;
+    public $FareRemark = null;
 
     /**
      * @param FareRemark $FareRemark

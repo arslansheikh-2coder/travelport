@@ -8,22 +8,22 @@ class typeProductInfo
     /**
      * @var typeProduct $ProductType
      */
-    protected $ProductType = null;
+    public $ProductType = null;
 
     /**
      * @var string $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @param typeProduct $ProductType

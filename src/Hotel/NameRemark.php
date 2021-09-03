@@ -8,32 +8,32 @@ class NameRemark
     /**
      * @var string $RemarkData
      */
-    protected $RemarkData = null;
+    public $RemarkData = null;
 
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param string $RemarkData

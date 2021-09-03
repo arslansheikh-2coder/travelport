@@ -8,32 +8,32 @@ class HostReservation
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeLocatorCode $CarrierLocatorCode
      */
-    protected $CarrierLocatorCode = null;
+    public $CarrierLocatorCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var typeLocatorCode $UniversalLocatorCode
      */
-    protected $UniversalLocatorCode = null;
+    public $UniversalLocatorCode = null;
 
     /**
      * @var boolean $ETicket
      */
-    protected $ETicket = null;
+    public $ETicket = null;
 
     /**
      * @param typeCarrier $Carrier

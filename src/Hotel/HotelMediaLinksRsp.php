@@ -8,7 +8,7 @@ class HotelMediaLinksRsp extends BaseRsp
     /**
      * @var HotelPropertyWithMediaItems $HotelPropertyWithMediaItems
      */
-    protected $HotelPropertyWithMediaItems = null;
+    public $HotelPropertyWithMediaItems = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,57 +8,57 @@ class typeAgentInfoHistory extends typeProfileInfo
     /**
      * @var StringLength1to128 $UserName
      */
-    protected $UserName = null;
+    public $UserName = null;
 
     /**
      * @var StringLength1to255 $OccupationalTitle
      */
-    protected $OccupationalTitle = null;
+    public $OccupationalTitle = null;
 
     /**
      * @var StringLength1to128 $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @var StringLength1to128 $Nickname
      */
-    protected $Nickname = null;
+    public $Nickname = null;
 
     /**
      * @var StringLength1to128 $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var StringLength1to128 $OtherName
      */
-    protected $OtherName = null;
+    public $OtherName = null;
 
     /**
      * @var StringLength1to128 $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var StringLength1to128 $Suffix
      */
-    protected $Suffix = null;
+    public $Suffix = null;
 
     /**
      * @var typeProfileID $DefaultBranchID
      */
-    protected $DefaultBranchID = null;
+    public $DefaultBranchID = null;
 
     /**
      * @var typeProvisioningCode $DefaultBranchCode
      */
-    protected $DefaultBranchCode = null;
+    public $DefaultBranchCode = null;
 
     /**
      * @var typeAlternateAgentID $AlternateAgentID
      */
-    protected $AlternateAgentID = null;
+    public $AlternateAgentID = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

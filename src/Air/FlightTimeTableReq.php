@@ -8,7 +8,7 @@ class FlightTimeTableReq extends BaseSearchReq
     /**
      * @var FlightTimeTableCriteria $FlightTimeTableCriteria
      */
-    protected $FlightTimeTableCriteria = null;
+    public $FlightTimeTableCriteria = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

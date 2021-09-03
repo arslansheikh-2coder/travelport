@@ -8,72 +8,72 @@ class SvcSegment
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var int $NumberOfItems
      */
-    protected $NumberOfItems = null;
+    public $NumberOfItems = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var date $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var int $TravelOrder
      */
-    protected $TravelOrder = null;
+    public $TravelOrder = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var string $RFIC
      */
-    protected $RFIC = null;
+    public $RFIC = null;
 
     /**
      * @var string $RFISC
      */
-    protected $RFISC = null;
+    public $RFISC = null;
 
     /**
      * @var string $SvcDescription
      */
-    protected $SvcDescription = null;
+    public $SvcDescription = null;
 
     /**
      * @var typeMoney $Fee
      */
-    protected $Fee = null;
+    public $Fee = null;
 
     /**
      * @var typeEMDNumber $EMDNumber
      */
-    protected $EMDNumber = null;
+    public $EMDNumber = null;
 
     /**
      * @param typeRef $Key

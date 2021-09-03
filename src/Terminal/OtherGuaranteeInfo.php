@@ -8,12 +8,12 @@ class OtherGuaranteeInfo
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var anonymous300 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param string $_

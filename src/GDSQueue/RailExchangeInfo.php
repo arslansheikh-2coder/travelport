@@ -8,37 +8,37 @@ class RailExchangeInfo
     /**
      * @var typeMoney $RefundAmount
      */
-    protected $RefundAmount = null;
+    public $RefundAmount = null;
 
     /**
      * @var typeMoney $CancellationFee
      */
-    protected $CancellationFee = null;
+    public $CancellationFee = null;
 
     /**
      * @var typeMoney $ExchangeAmount
      */
-    protected $ExchangeAmount = null;
+    public $ExchangeAmount = null;
 
     /**
      * @var typeMoney $ApproximateRefundAmount
      */
-    protected $ApproximateRefundAmount = null;
+    public $ApproximateRefundAmount = null;
 
     /**
      * @var typeMoney $ApproximateCancellationFee
      */
-    protected $ApproximateCancellationFee = null;
+    public $ApproximateCancellationFee = null;
 
     /**
      * @var typeMoney $ApproximateExchangeAmount
      */
-    protected $ApproximateExchangeAmount = null;
+    public $ApproximateExchangeAmount = null;
 
     /**
      * @var typeMoney $RetainAmount
      */
-    protected $RetainAmount = null;
+    public $RetainAmount = null;
 
     /**
      * @param typeMoney $RefundAmount

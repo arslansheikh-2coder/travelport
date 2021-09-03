@@ -8,12 +8,12 @@ class ProfileModifyFieldRsp extends BaseRsp
     /**
      * @var Field $Field
      */
-    protected $Field = null;
+    public $Field = null;
 
     /**
      * @var FieldGroup $FieldGroup
      */
-    protected $FieldGroup = null;
+    public $FieldGroup = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

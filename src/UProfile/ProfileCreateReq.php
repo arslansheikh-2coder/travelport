@@ -8,52 +8,52 @@ class ProfileCreateReq extends BaseReq
     /**
      * @var ProfileParent $ProfileParent
      */
-    protected $ProfileParent = null;
+    public $ProfileParent = null;
 
     /**
      * @var ProfileData $ProfileData
      */
-    protected $ProfileData = null;
+    public $ProfileData = null;
 
     /**
      * @var ProfileLink $ProfileLink
      */
-    protected $ProfileLink = null;
+    public $ProfileLink = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var typeProfileEntityStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeTemplateID $TemplateID
      */
-    protected $TemplateID = null;
+    public $TemplateID = null;
 
     /**
      * @var typeVersion $TemplateVersion
      */
-    protected $TemplateVersion = null;
+    public $TemplateVersion = null;
 
     /**
      * @var typeID $HierarchyLevelID
      */
-    protected $HierarchyLevelID = null;
+    public $HierarchyLevelID = null;
 
     /**
      * @var boolean $ReturnProfile
      */
-    protected $ReturnProfile = null;
+    public $ReturnProfile = null;
 
     /**
      * @var boolean $ShowDataUnmasked
      */
-    protected $ShowDataUnmasked = null;
+    public $ShowDataUnmasked = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

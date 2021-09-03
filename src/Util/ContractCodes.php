@@ -8,7 +8,7 @@ class ContractCodes
     /**
      * @var ContractCode $ContractCode
      */
-    protected $ContractCode = null;
+    public $ContractCode = null;
 
     /**
      * @param ContractCode $ContractCode

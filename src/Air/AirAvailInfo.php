@@ -8,22 +8,22 @@ class AirAvailInfo
     /**
      * @var BookingCodeInfo $BookingCodeInfo
      */
-    protected $BookingCodeInfo = null;
+    public $BookingCodeInfo = null;
 
     /**
      * @var FareTokenInfo[] $FareTokenInfo
      */
-    protected $FareTokenInfo = null;
+    public $FareTokenInfo = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $HostTokenRef
      */
-    protected $HostTokenRef = null;
+    public $HostTokenRef = null;
 
     /**
      * @param BookingCodeInfo $BookingCodeInfo

@@ -8,32 +8,32 @@ class RateModifiers
     /**
      * @var typeRateCode $RateCode
      */
-    protected $RateCode = null;
+    public $RateCode = null;
 
     /**
      * @var typeDiscountNumber $DiscountNumber
      */
-    protected $DiscountNumber = null;
+    public $DiscountNumber = null;
 
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var string $PromotionalCode
      */
-    protected $PromotionalCode = null;
+    public $PromotionalCode = null;
 
     /**
      * @var string $VendorLocationRef
      */
-    protected $VendorLocationRef = null;
+    public $VendorLocationRef = null;
 
     /**
      * @var string $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @param typeRateCode $RateCode

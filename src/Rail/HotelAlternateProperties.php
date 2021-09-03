@@ -8,7 +8,7 @@ class HotelAlternateProperties
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @param HotelProperty $HotelProperty

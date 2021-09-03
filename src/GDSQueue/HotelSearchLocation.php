@@ -8,37 +8,37 @@ class HotelSearchLocation
     /**
      * @var HotelLocation $HotelLocation
      */
-    protected $HotelLocation = null;
+    public $HotelLocation = null;
 
     /**
      * @var ProviderLocation $ProviderLocation
      */
-    protected $ProviderLocation = null;
+    public $ProviderLocation = null;
 
     /**
      * @var VendorLocation $VendorLocation
      */
-    protected $VendorLocation = null;
+    public $VendorLocation = null;
 
     /**
      * @var typeStructuredAddress $HotelAddress
      */
-    protected $HotelAddress = null;
+    public $HotelAddress = null;
 
     /**
      * @var typeHotelReferencePoint $ReferencePoint
      */
-    protected $ReferencePoint = null;
+    public $ReferencePoint = null;
 
     /**
      * @var CoordinateLocation $CoordinateLocation
      */
-    protected $CoordinateLocation = null;
+    public $CoordinateLocation = null;
 
     /**
      * @var Distance $Distance
      */
-    protected $Distance = null;
+    public $Distance = null;
 
     /**
      * @param HotelLocation $HotelLocation

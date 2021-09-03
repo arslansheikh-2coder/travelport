@@ -8,7 +8,7 @@ class IncludedInBase
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @param typeMoney $Amount

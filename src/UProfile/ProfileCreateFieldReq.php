@@ -8,17 +8,17 @@ class ProfileCreateFieldReq extends BaseReq
     /**
      * @var CreateField $CreateField
      */
-    protected $CreateField = null;
+    public $CreateField = null;
 
     /**
      * @var CreateFieldGroup $CreateFieldGroup
      */
-    protected $CreateFieldGroup = null;
+    public $CreateFieldGroup = null;
 
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

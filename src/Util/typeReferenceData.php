@@ -8,22 +8,22 @@ class typeReferenceData
     /**
      * @var date $DeprecatedDate
      */
-    protected $DeprecatedDate = null;
+    public $DeprecatedDate = null;
 
     /**
      * @var StringLength1to128 $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param date $DeprecatedDate

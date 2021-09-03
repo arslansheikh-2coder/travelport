@@ -8,22 +8,22 @@ class typeRestrictionData
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePercentageWithDecimal $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @var UNKNOWN $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var UNKNOWN $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param UNKNOWN $Name

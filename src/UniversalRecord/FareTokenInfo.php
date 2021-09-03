@@ -8,12 +8,12 @@ class FareTokenInfo
     /**
      * @var string $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @var string $HostTokenRef
      */
-    protected $HostTokenRef = null;
+    public $HostTokenRef = null;
 
     /**
      * @param string $FareInfoRef

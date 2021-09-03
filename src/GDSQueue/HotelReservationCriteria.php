@@ -8,32 +8,32 @@ class HotelReservationCriteria
     /**
      * @var typeDateSpec $CheckInDate
      */
-    protected $CheckInDate = null;
+    public $CheckInDate = null;
 
     /**
      * @var typeHotelChainCode $HotelChainCode
      */
-    protected $HotelChainCode = null;
+    public $HotelChainCode = null;
 
     /**
      * @var typeHotelCode $HotelCode
      */
-    protected $HotelCode = null;
+    public $HotelCode = null;
 
     /**
      * @var string $HotelConfirmation
      */
-    protected $HotelConfirmation = null;
+    public $HotelConfirmation = null;
 
     /**
      * @var typeIATACode $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var boolean $PassiveOnly
      */
-    protected $PassiveOnly = null;
+    public $PassiveOnly = null;
 
     /**
      * @param typeHotelChainCode $HotelChainCode

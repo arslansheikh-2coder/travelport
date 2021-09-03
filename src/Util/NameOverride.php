@@ -8,17 +8,17 @@ class NameOverride
     /**
      * @var anonymous421 $First
      */
-    protected $First = null;
+    public $First = null;
 
     /**
      * @var anonymous422 $Last
      */
-    protected $Last = null;
+    public $Last = null;
 
     /**
      * @var int $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @param anonymous421 $First

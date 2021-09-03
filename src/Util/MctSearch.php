@@ -8,72 +8,72 @@ class MctSearch
     /**
      * @var typeIATACode $ArriveStation
      */
-    protected $ArriveStation = null;
+    public $ArriveStation = null;
 
     /**
      * @var typeIATACode $DepartStation
      */
-    protected $DepartStation = null;
+    public $DepartStation = null;
 
     /**
      * @var typeMctConnection $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @var typeCarrier $ArriveCarrier
      */
-    protected $ArriveCarrier = null;
+    public $ArriveCarrier = null;
 
     /**
      * @var typeCarrier $DepartCarrier
      */
-    protected $DepartCarrier = null;
+    public $DepartCarrier = null;
 
     /**
      * @var string $ArriveFlight
      */
-    protected $ArriveFlight = null;
+    public $ArriveFlight = null;
 
     /**
      * @var string $DepartFlight
      */
-    protected $DepartFlight = null;
+    public $DepartFlight = null;
 
     /**
      * @var typeIATACode $PreviousStation
      */
-    protected $PreviousStation = null;
+    public $PreviousStation = null;
 
     /**
      * @var typeIATACode $NextStation
      */
-    protected $NextStation = null;
+    public $NextStation = null;
 
     /**
      * @var typeCountry $PreviousCountry
      */
-    protected $PreviousCountry = null;
+    public $PreviousCountry = null;
 
     /**
      * @var typeCountry $NextCountry
      */
-    protected $NextCountry = null;
+    public $NextCountry = null;
 
     /**
      * @var typeState $PreviousState
      */
-    protected $PreviousState = null;
+    public $PreviousState = null;
 
     /**
      * @var typeState $NextState
      */
-    protected $NextState = null;
+    public $NextState = null;
 
     /**
      * @var date $TravelDate
      */
-    protected $TravelDate = null;
+    public $TravelDate = null;
 
     /**
      * @param typeIATACode $ArriveStation

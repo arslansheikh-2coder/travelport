@@ -8,47 +8,47 @@ class ProfileParentSummary
     /**
      * @var ProfileParentSummary $ProfileParentSummary
      */
-    protected $ProfileParentSummary = null;
+    public $ProfileParentSummary = null;
 
     /**
      * @var typeProvisioningCode $ProvisioningCode
      */
-    protected $ProvisioningCode = null;
+    public $ProvisioningCode = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var typeID $HierarchyLevelID
      */
-    protected $HierarchyLevelID = null;
+    public $HierarchyLevelID = null;
 
     /**
      * @var typeProfileEntityStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeDescription $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param ProfileParentSummary $ProfileParentSummary

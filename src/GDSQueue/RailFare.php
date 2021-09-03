@@ -8,137 +8,137 @@ class RailFare
     /**
      * @var RailFareNoteRef $RailFareNoteRef
      */
-    protected $RailFareNoteRef = null;
+    public $RailFareNoteRef = null;
 
     /**
      * @var RailFareID $RailFareID
      */
-    protected $RailFareID = null;
+    public $RailFareID = null;
 
     /**
      * @var RailFareIDRef $RailFareIDRef
      */
-    protected $RailFareIDRef = null;
+    public $RailFareIDRef = null;
 
     /**
      * @var FareValidity $FareValidity
      */
-    protected $FareValidity = null;
+    public $FareValidity = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var FulFillmentType $FulFillmentType
      */
-    protected $FulFillmentType = null;
+    public $FulFillmentType = null;
 
     /**
      * @var RailFareComponent $RailFareComponent
      */
-    protected $RailFareComponent = null;
+    public $RailFareComponent = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @var typeRailCabin $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var typePTC $PassengerTypeCode
      */
-    protected $PassengerTypeCode = null;
+    public $PassengerTypeCode = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $EffectiveDate
      */
-    protected $EffectiveDate = null;
+    public $EffectiveDate = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $RouteDescription
      */
-    protected $RouteDescription = null;
+    public $RouteDescription = null;
 
     /**
      * @var string $TicketTypeCode
      */
-    protected $TicketTypeCode = null;
+    public $TicketTypeCode = null;
 
     /**
      * @var anonymous1312 $FareReference
      */
-    protected $FareReference = null;
+    public $FareReference = null;
 
     /**
      * @var boolean $CrossCityFare
      */
-    protected $CrossCityFare = null;
+    public $CrossCityFare = null;
 
     /**
      * @var string $OriginStationName
      */
-    protected $OriginStationName = null;
+    public $OriginStationName = null;
 
     /**
      * @var string $DestinationStationName
      */
-    protected $DestinationStationName = null;
+    public $DestinationStationName = null;
 
     /**
      * @var boolean $ReservationRequired
      */
-    protected $ReservationRequired = null;
+    public $ReservationRequired = null;
 
     /**
      * @var typeJourneyDirection $JourneyDirection
      */
-    protected $JourneyDirection = null;
+    public $JourneyDirection = null;
 
     /**
      * @var typeRailLocationCode $RailLocOrigin
      */
-    protected $RailLocOrigin = null;
+    public $RailLocOrigin = null;
 
     /**
      * @var typeRailLocationCode $RailLocDestination
      */
-    protected $RailLocDestination = null;
+    public $RailLocDestination = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param RailFareNoteRef $RailFareNoteRef

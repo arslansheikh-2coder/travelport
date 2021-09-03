@@ -8,82 +8,82 @@ class OptionalService
     /**
      * @var OptionJourneyDetails $OptionJourneyDetails
      */
-    protected $OptionJourneyDetails = null;
+    public $OptionJourneyDetails = null;
 
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var StringLength1 $FeatureType
      */
-    protected $FeatureType = null;
+    public $FeatureType = null;
 
     /**
      * @var typeStatusCode $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var int $Quantity
      */
-    protected $Quantity = null;
+    public $Quantity = null;
 
     /**
      * @var StringLength1to10 $ProviderDefinedType
      */
-    protected $ProviderDefinedType = null;
+    public $ProviderDefinedType = null;
 
     /**
      * @var StringLength1to25 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var date $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var date $EndDate
      */
-    protected $EndDate = null;
+    public $EndDate = null;
 
     /**
      * @var date $BookingDate
      */
-    protected $BookingDate = null;
+    public $BookingDate = null;
 
     /**
      * @var StringLength1to10 $SetIdentifier
      */
-    protected $SetIdentifier = null;
+    public $SetIdentifier = null;
 
     /**
      * @var StringLength1to20 $SetName
      */
-    protected $SetName = null;
+    public $SetName = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var boolean $TransportIndicator
      */
-    protected $TransportIndicator = null;
+    public $TransportIndicator = null;
 
     /**
      * @var boolean $AirCityIndicator
      */
-    protected $AirCityIndicator = null;
+    public $AirCityIndicator = null;
 
     /**
      * @var boolean $PurchaseIndicator
      */
-    protected $PurchaseIndicator = null;
+    public $PurchaseIndicator = null;
 
     /**
      * @param OptionJourneyDetails $OptionJourneyDetails

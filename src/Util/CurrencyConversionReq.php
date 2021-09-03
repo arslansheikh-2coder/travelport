@@ -8,7 +8,7 @@ class CurrencyConversionReq extends BaseReq
     /**
      * @var CurrencyConversion $CurrencyConversion
      */
-    protected $CurrencyConversion = null;
+    public $CurrencyConversion = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

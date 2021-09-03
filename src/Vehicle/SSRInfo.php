@@ -8,12 +8,12 @@ class SSRInfo
     /**
      * @var SSR $SSR
      */
-    protected $SSR = null;
+    public $SSR = null;
 
     /**
      * @var typeRef[] $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param SSR $SSR

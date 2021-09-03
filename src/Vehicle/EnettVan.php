@@ -8,22 +8,22 @@ class EnettVan
     /**
      * @var typeIntegerPercentage $MinPercentage
      */
-    protected $MinPercentage = null;
+    public $MinPercentage = null;
 
     /**
      * @var typeIntegerPercentage $MaxPercentage
      */
-    protected $MaxPercentage = null;
+    public $MaxPercentage = null;
 
     /**
      * @var typeDurationYearInDays $ExpiryDays
      */
-    protected $ExpiryDays = null;
+    public $ExpiryDays = null;
 
     /**
      * @var boolean $MultiUse
      */
-    protected $MultiUse = null;
+    public $MultiUse = null;
 
     /**
      * @param typeIntegerPercentage $MinPercentage

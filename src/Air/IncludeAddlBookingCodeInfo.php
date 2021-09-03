@@ -8,12 +8,12 @@ class IncludeAddlBookingCodeInfo
     /**
      * @var typeCarrierCode $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeCarrier $SecondaryCarrier
      */
-    protected $SecondaryCarrier = null;
+    public $SecondaryCarrier = null;
 
     /**
      * @param typeCarrierCode $Type

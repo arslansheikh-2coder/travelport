@@ -8,32 +8,32 @@ class QueueInfo
     /**
      * @var CategoryInfo $CategoryInfo
      */
-    protected $CategoryInfo = null;
+    public $CategoryInfo = null;
 
     /**
      * @var string $Queue
      */
-    protected $Queue = null;
+    public $Queue = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var int $TotalPNRCount
      */
-    protected $TotalPNRCount = null;
+    public $TotalPNRCount = null;
 
     /**
      * @var int $PNRCount
      */
-    protected $PNRCount = null;
+    public $PNRCount = null;
 
     /**
      * @var string $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @param CategoryInfo $CategoryInfo

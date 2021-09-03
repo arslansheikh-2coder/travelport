@@ -8,32 +8,32 @@ class ProviderReservationStatus
     /**
      * @var typeResultMessage $CancelInfo
      */
-    protected $CancelInfo = null;
+    public $CancelInfo = null;
 
     /**
      * @var \DateTime $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var \DateTime $ModifiedDate
      */
-    protected $ModifiedDate = null;
+    public $ModifiedDate = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var boolean $Cancelled
      */
-    protected $Cancelled = null;
+    public $Cancelled = null;
 
     /**
      * @param \DateTime $CreateDate

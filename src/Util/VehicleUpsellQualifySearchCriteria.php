@@ -8,42 +8,42 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var typeVehicleClass $VehicleClass
      */
-    protected $VehicleClass = null;
+    public $VehicleClass = null;
 
     /**
      * @var typeVehicleCategory $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var boolean $AirConditioning
      */
-    protected $AirConditioning = null;
+    public $AirConditioning = null;
 
     /**
      * @var typeVehicleTransmission $TransmissionType
      */
-    protected $TransmissionType = null;
+    public $TransmissionType = null;
 
     /**
      * @var typeDoorCount $DoorCount
      */
-    protected $DoorCount = null;
+    public $DoorCount = null;
 
     /**
      * @var typeRateCode $RateCode
      */
-    protected $RateCode = null;
+    public $RateCode = null;
 
     /**
      * @var typeDiscountNumber $DiscountNumber
      */
-    protected $DiscountNumber = null;
+    public $DiscountNumber = null;
 
     /**
      * @param EffectiveDate $EffectiveDate

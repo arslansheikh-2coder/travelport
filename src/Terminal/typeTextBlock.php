@@ -8,7 +8,7 @@ class typeTextBlock
     /**
      * @var Text[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @param Text[] $Text

@@ -8,52 +8,52 @@ class typeStructuredAddress
     /**
      * @var AddressName $AddressName
      */
-    protected $AddressName = null;
+    public $AddressName = null;
 
     /**
      * @var Street[] $Street
      */
-    protected $Street = null;
+    public $Street = null;
 
     /**
      * @var City $City
      */
-    protected $City = null;
+    public $City = null;
 
     /**
      * @var State $State
      */
-    protected $State = null;
+    public $State = null;
 
     /**
      * @var PostalCode $PostalCode
      */
-    protected $PostalCode = null;
+    public $PostalCode = null;
 
     /**
      * @var Country $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param State $State

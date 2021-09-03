@@ -8,27 +8,27 @@ class typeSearchAddress
     /**
      * @var StringLength1to255 $AddressLine
      */
-    protected $AddressLine = null;
+    public $AddressLine = null;
 
     /**
      * @var anonymous832 $City
      */
-    protected $City = null;
+    public $City = null;
 
     /**
      * @var anonymous833 $StateProvince
      */
-    protected $StateProvince = null;
+    public $StateProvince = null;
 
     /**
      * @var anonymous834 $PostalCode
      */
-    protected $PostalCode = null;
+    public $PostalCode = null;
 
     /**
      * @var anonymous835 $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @param StringLength1to255 $AddressLine

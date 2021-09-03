@@ -8,17 +8,17 @@ class VehicleWithMediaItems
     /**
      * @var Vehicle $Vehicle
      */
-    protected $Vehicle = null;
+    public $Vehicle = null;
 
     /**
      * @var MediaItem $MediaItem
      */
-    protected $MediaItem = null;
+    public $MediaItem = null;
 
     /**
      * @var typeResultMessage[] $MediaResultMessage
      */
-    protected $MediaResultMessage = null;
+    public $MediaResultMessage = null;
 
     /**
      * @param Vehicle $Vehicle

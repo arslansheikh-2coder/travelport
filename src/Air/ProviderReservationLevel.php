@@ -8,17 +8,17 @@ class ProviderReservationLevel
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePercentageWithDecimal $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @var typeMoney $CommissionCap
      */
-    protected $CommissionCap = null;
+    public $CommissionCap = null;
 
     /**
      * @param typeMoney $Amount

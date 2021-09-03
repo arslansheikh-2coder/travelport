@@ -8,7 +8,7 @@ class typeKeyTaggedElement extends typeKeyElement
     /**
      * @var TagRef $TagRef
      */
-    protected $TagRef = null;
+    public $TagRef = null;
 
     /**
      * @param typeRef $Key

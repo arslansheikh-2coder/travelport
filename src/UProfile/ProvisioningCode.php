@@ -8,12 +8,12 @@ class ProvisioningCode
     /**
      * @var StringLength1to128 $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var anonymous876 $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param StringLength1to128 $_

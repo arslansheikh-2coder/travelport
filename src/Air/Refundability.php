@@ -8,7 +8,7 @@ class Refundability
     /**
      * @var typeRefundabilityValue $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param typeRefundabilityValue $Value

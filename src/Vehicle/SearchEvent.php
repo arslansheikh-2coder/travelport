@@ -8,7 +8,7 @@ class SearchEvent extends typeTimeRange
     /**
      * @var typeEventType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param string $EarliestTime

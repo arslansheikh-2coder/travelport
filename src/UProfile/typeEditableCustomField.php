@@ -8,17 +8,17 @@ class typeEditableCustomField extends typeCommonEditableField
     /**
      * @var boolean $Hide
      */
-    protected $Hide = null;
+    public $Hide = null;
 
     /**
      * @var boolean $SearchOption
      */
-    protected $SearchOption = null;
+    public $SearchOption = null;
 
     /**
      * @var int $SearchOptionDisplayOrder
      */
-    protected $SearchOptionDisplayOrder = null;
+    public $SearchOptionDisplayOrder = null;
 
     /**
      * @param typeFieldID $ID

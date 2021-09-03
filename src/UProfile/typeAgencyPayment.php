@@ -8,17 +8,17 @@ class typeAgencyPayment
     /**
      * @var anonymous54 $AgencyBillingIdentifier
      */
-    protected $AgencyBillingIdentifier = null;
+    public $AgencyBillingIdentifier = null;
 
     /**
      * @var anonymous55 $AgencyBillingNumber
      */
-    protected $AgencyBillingNumber = null;
+    public $AgencyBillingNumber = null;
 
     /**
      * @var anonymous56 $AgencyBillingPassword
      */
-    protected $AgencyBillingPassword = null;
+    public $AgencyBillingPassword = null;
 
     /**
      * @param anonymous54 $AgencyBillingIdentifier

@@ -8,7 +8,7 @@ class McoSearchRsp extends BaseRsp
     /**
      * @var McoSearchResult $McoSearchResult
      */
-    protected $McoSearchResult = null;
+    public $McoSearchResult = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,22 +8,22 @@ class BrandInfo
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeBrandId $BrandID
      */
-    protected $BrandID = null;
+    public $BrandID = null;
 
     /**
      * @var typeRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var typeRef $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @param typeRef $Key

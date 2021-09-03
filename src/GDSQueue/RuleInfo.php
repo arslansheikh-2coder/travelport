@@ -8,7 +8,7 @@ class RuleInfo
     /**
      * @var ChargesRules $ChargesRules
      */
-    protected $ChargesRules = null;
+    public $ChargesRules = null;
 
     /**
      * @param ChargesRules $ChargesRules

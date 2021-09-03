@@ -8,12 +8,12 @@ class EmailNotification
     /**
      * @var typeRef[] $EmailRef
      */
-    protected $EmailRef = null;
+    public $EmailRef = null;
 
     /**
      * @var anonymous492 $Recipients
      */
-    protected $Recipients = null;
+    public $Recipients = null;
 
     /**
      * @param anonymous492 $Recipients

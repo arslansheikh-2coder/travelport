@@ -8,22 +8,22 @@ class typeCommissionReferenceHistory extends typeKeyElement
     /**
      * @var StringLength1to128 $AgentName
      */
-    protected $AgentName = null;
+    public $AgentName = null;
 
     /**
      * @var StringLength1to128 $AgentNumber
      */
-    protected $AgentNumber = null;
+    public $AgentNumber = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

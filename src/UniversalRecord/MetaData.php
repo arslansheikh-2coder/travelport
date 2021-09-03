@@ -8,12 +8,12 @@ class MetaData
     /**
      * @var anonymous188 $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous189 $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param anonymous188 $Key

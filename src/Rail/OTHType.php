@@ -8,182 +8,182 @@ class OTHType
     /**
      * @var boolean $Cat0
      */
-    protected $Cat0 = null;
+    public $Cat0 = null;
 
     /**
      * @var boolean $Cat1
      */
-    protected $Cat1 = null;
+    public $Cat1 = null;
 
     /**
      * @var boolean $Cat2
      */
-    protected $Cat2 = null;
+    public $Cat2 = null;
 
     /**
      * @var boolean $Cat3
      */
-    protected $Cat3 = null;
+    public $Cat3 = null;
 
     /**
      * @var boolean $Cat4
      */
-    protected $Cat4 = null;
+    public $Cat4 = null;
 
     /**
      * @var boolean $Cat5
      */
-    protected $Cat5 = null;
+    public $Cat5 = null;
 
     /**
      * @var boolean $Cat6
      */
-    protected $Cat6 = null;
+    public $Cat6 = null;
 
     /**
      * @var boolean $Cat7
      */
-    protected $Cat7 = null;
+    public $Cat7 = null;
 
     /**
      * @var boolean $Cat8
      */
-    protected $Cat8 = null;
+    public $Cat8 = null;
 
     /**
      * @var boolean $Cat9
      */
-    protected $Cat9 = null;
+    public $Cat9 = null;
 
     /**
      * @var boolean $Cat10
      */
-    protected $Cat10 = null;
+    public $Cat10 = null;
 
     /**
      * @var boolean $Cat11
      */
-    protected $Cat11 = null;
+    public $Cat11 = null;
 
     /**
      * @var boolean $Cat12
      */
-    protected $Cat12 = null;
+    public $Cat12 = null;
 
     /**
      * @var boolean $Cat13
      */
-    protected $Cat13 = null;
+    public $Cat13 = null;
 
     /**
      * @var boolean $Cat14
      */
-    protected $Cat14 = null;
+    public $Cat14 = null;
 
     /**
      * @var boolean $Cat15
      */
-    protected $Cat15 = null;
+    public $Cat15 = null;
 
     /**
      * @var boolean $Cat16
      */
-    protected $Cat16 = null;
+    public $Cat16 = null;
 
     /**
      * @var boolean $Cat17
      */
-    protected $Cat17 = null;
+    public $Cat17 = null;
 
     /**
      * @var boolean $Cat18
      */
-    protected $Cat18 = null;
+    public $Cat18 = null;
 
     /**
      * @var boolean $Cat19
      */
-    protected $Cat19 = null;
+    public $Cat19 = null;
 
     /**
      * @var boolean $Cat20
      */
-    protected $Cat20 = null;
+    public $Cat20 = null;
 
     /**
      * @var boolean $Cat21
      */
-    protected $Cat21 = null;
+    public $Cat21 = null;
 
     /**
      * @var boolean $Cat22
      */
-    protected $Cat22 = null;
+    public $Cat22 = null;
 
     /**
      * @var boolean $Cat23
      */
-    protected $Cat23 = null;
+    public $Cat23 = null;
 
     /**
      * @var boolean $Cat24
      */
-    protected $Cat24 = null;
+    public $Cat24 = null;
 
     /**
      * @var boolean $Cat25
      */
-    protected $Cat25 = null;
+    public $Cat25 = null;
 
     /**
      * @var boolean $Cat26
      */
-    protected $Cat26 = null;
+    public $Cat26 = null;
 
     /**
      * @var boolean $Cat27
      */
-    protected $Cat27 = null;
+    public $Cat27 = null;
 
     /**
      * @var boolean $Cat28
      */
-    protected $Cat28 = null;
+    public $Cat28 = null;
 
     /**
      * @var boolean $Cat29
      */
-    protected $Cat29 = null;
+    public $Cat29 = null;
 
     /**
      * @var boolean $Cat30
      */
-    protected $Cat30 = null;
+    public $Cat30 = null;
 
     /**
      * @var boolean $Cat31
      */
-    protected $Cat31 = null;
+    public $Cat31 = null;
 
     /**
      * @var date $RestrictiveDt
      */
-    protected $RestrictiveDt = null;
+    public $RestrictiveDt = null;
 
     /**
      * @var float $SurchargeAmt
      */
-    protected $SurchargeAmt = null;
+    public $SurchargeAmt = null;
 
     /**
      * @var boolean $NotUSACity
      */
-    protected $NotUSACity = null;
+    public $NotUSACity = null;
 
     /**
      * @var boolean $MissingRules
      */
-    protected $MissingRules = null;
+    public $MissingRules = null;
 
     /**
      * @param boolean $Cat0

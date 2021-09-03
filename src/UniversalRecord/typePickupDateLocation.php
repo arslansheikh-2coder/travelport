@@ -8,22 +8,22 @@ class typePickupDateLocation
     /**
      * @var date $Date
      */
-    protected $Date = null;
+    public $Date = null;
 
     /**
      * @var typeIATACode $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var typeVehicleLocation $LocationType
      */
-    protected $LocationType = null;
+    public $LocationType = null;
 
     /**
      * @var string $PickupLocationNumber
      */
-    protected $PickupLocationNumber = null;
+    public $PickupLocationNumber = null;
 
     /**
      * @param date $Date

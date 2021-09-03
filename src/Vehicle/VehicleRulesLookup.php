@@ -8,12 +8,12 @@ class VehicleRulesLookup
     /**
      * @var VehicleDateLocation $VehicleDateLocation
      */
-    protected $VehicleDateLocation = null;
+    public $VehicleDateLocation = null;
 
     /**
      * @var VehicleSearchModifiers $VehicleSearchModifiers
      */
-    protected $VehicleSearchModifiers = null;
+    public $VehicleSearchModifiers = null;
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation

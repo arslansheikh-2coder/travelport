@@ -8,42 +8,42 @@ class QueueAgentRecord
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @var string $QueueNumber
      */
-    protected $QueueNumber = null;
+    public $QueueNumber = null;
 
     /**
      * @var typeDate $Lastupdated
      */
-    protected $Lastupdated = null;
+    public $Lastupdated = null;
 
     /**
      * @var typeBranchCode $TargetBranch
      */
-    protected $TargetBranch = null;
+    public $TargetBranch = null;
 
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var string $DateRange
      */
-    protected $DateRange = null;
+    public $DateRange = null;
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode

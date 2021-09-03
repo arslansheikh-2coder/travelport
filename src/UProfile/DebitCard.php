@@ -8,17 +8,17 @@ class DebitCard
     /**
      * @var anonymous28 $IssueNumber
      */
-    protected $IssueNumber = null;
+    public $IssueNumber = null;
 
     /**
      * @var string $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param anonymous28 $IssueNumber

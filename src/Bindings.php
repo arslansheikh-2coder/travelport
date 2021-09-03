@@ -17,7 +17,7 @@ use FilippoToso\Travelport\Util;
 
 class Bindings
 {
-    protected static $bindings = [
+    public static $bindings = [
 		Air\AirPrePayReq::class => [
 			'wsdl' => __DIR__ . '/Wsdls/air_v49_0/AirPrePayBinding.wsdl',
 			'service' => Air\AirService::class,

@@ -8,7 +8,7 @@ class AvailabilityErrorInfo extends typeErrorInfo
     /**
      * @var AirSegmentError $AirSegmentError
      */
-    protected $AirSegmentError = null;
+    public $AirSegmentError = null;
 
     /**
      * @param string $Code

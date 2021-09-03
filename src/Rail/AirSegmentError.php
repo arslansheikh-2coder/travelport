@@ -8,12 +8,12 @@ class AirSegmentError
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var string $ErrorMessage
      */
-    protected $ErrorMessage = null;
+    public $ErrorMessage = null;
 
     /**
      * @param typeBaseAirSegment $AirSegment

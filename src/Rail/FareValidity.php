@@ -8,17 +8,17 @@ class FareValidity
     /**
      * @var typeRef $RailJourneyRef
      */
-    protected $RailJourneyRef = null;
+    public $RailJourneyRef = null;
 
     /**
      * @var date $NotValidBefore
      */
-    protected $NotValidBefore = null;
+    public $NotValidBefore = null;
 
     /**
      * @var date $NotValidAfter
      */
-    protected $NotValidAfter = null;
+    public $NotValidAfter = null;
 
     /**
      * @param typeRef $RailJourneyRef

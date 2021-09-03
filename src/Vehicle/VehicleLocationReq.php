@@ -8,27 +8,27 @@ class VehicleLocationReq extends BaseReq
     /**
      * @var Vendor $Vendor
      */
-    protected $Vendor = null;
+    public $Vendor = null;
 
     /**
      * @var typePickupDateLocation $PickupDateLocation
      */
-    protected $PickupDateLocation = null;
+    public $PickupDateLocation = null;
 
     /**
      * @var typeReferencePoint $ReferencePoint
      */
-    protected $ReferencePoint = null;
+    public $ReferencePoint = null;
 
     /**
      * @var typeVehicleSearchDistance $SearchDistance
      */
-    protected $SearchDistance = null;
+    public $SearchDistance = null;
 
     /**
      * @var typePolicyReference $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

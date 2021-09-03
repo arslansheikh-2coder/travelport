@@ -8,32 +8,32 @@ class FileFinishingInfo
     /**
      * @var ShopInformation $ShopInformation
      */
-    protected $ShopInformation = null;
+    public $ShopInformation = null;
 
     /**
      * @var PolicyInformation $PolicyInformation
      */
-    protected $PolicyInformation = null;
+    public $PolicyInformation = null;
 
     /**
      * @var AccountInformation $AccountInformation
      */
-    protected $AccountInformation = null;
+    public $AccountInformation = null;
 
     /**
      * @var AgencyInformation $AgencyInformation
      */
-    protected $AgencyInformation = null;
+    public $AgencyInformation = null;
 
     /**
      * @var TravelerInformation $TravelerInformation
      */
-    protected $TravelerInformation = null;
+    public $TravelerInformation = null;
 
     /**
      * @var CustomProfileInformation $CustomProfileInformation
      */
-    protected $CustomProfileInformation = null;
+    public $CustomProfileInformation = null;
 
     /**
      * @param ShopInformation $ShopInformation

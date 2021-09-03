@@ -8,37 +8,37 @@ class Action
     /**
      * @var Endpoint $Endpoint
      */
-    protected $Endpoint = null;
+    public $Endpoint = null;
 
     /**
      * @var typeActionID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeFieldName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeActionDescription $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var string $ConsumingSystem
      */
-    protected $ConsumingSystem = null;
+    public $ConsumingSystem = null;
 
     /**
      * @var string $TargetService
      */
-    protected $TargetService = null;
+    public $TargetService = null;
 
     /**
      * @var string $ProfileActionCode
      */
-    protected $ProfileActionCode = null;
+    public $ProfileActionCode = null;
 
     /**
      * @param Endpoint $Endpoint

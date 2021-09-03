@@ -8,12 +8,12 @@ class MirReportRetrieveReq extends BaseReq
     /**
      * @var anonymous1091 $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var anonymous1092 $ReportFormat
      */
-    protected $ReportFormat = null;
+    public $ReportFormat = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,47 +8,47 @@ class AutoPricingInfo
     /**
      * @var AirSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var AirPricingModifiers $AirPricingModifiers
      */
-    protected $AirPricingModifiers = null;
+    public $AirPricingModifiers = null;
 
     /**
      * @var AirSegmentPricingModifiers $AirSegmentPricingModifiers
      */
-    protected $AirSegmentPricingModifiers = null;
+    public $AirSegmentPricingModifiers = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous1061 $PricingType
      */
-    protected $PricingType = null;
+    public $PricingType = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param AirSegmentRef $AirSegmentRef

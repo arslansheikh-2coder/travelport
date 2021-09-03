@@ -8,7 +8,7 @@ class TerminalRsp extends BaseRsp
     /**
      * @var typeTextBlock $TerminalCommandResponse
      */
-    protected $TerminalCommandResponse = null;
+    public $TerminalCommandResponse = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

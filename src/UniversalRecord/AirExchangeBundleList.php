@@ -8,7 +8,7 @@ class AirExchangeBundleList
     /**
      * @var AirExchangeBundle $AirExchangeBundle
      */
-    protected $AirExchangeBundle = null;
+    public $AirExchangeBundle = null;
 
     /**
      * @param AirExchangeBundle $AirExchangeBundle

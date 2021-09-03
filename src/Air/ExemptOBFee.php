@@ -8,7 +8,7 @@ class ExemptOBFee
     /**
      * @var typeSubCode[] $SubCode
      */
-    protected $SubCode = null;
+    public $SubCode = null;
 
     
     public function __construct()

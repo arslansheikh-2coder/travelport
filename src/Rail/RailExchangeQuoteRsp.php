@@ -8,37 +8,37 @@ class RailExchangeQuoteRsp extends BaseRsp
     /**
      * @var RailSegmentList $RailSegmentList
      */
-    protected $RailSegmentList = null;
+    public $RailSegmentList = null;
 
     /**
      * @var RailJourneyList $RailJourneyList
      */
-    protected $RailJourneyList = null;
+    public $RailJourneyList = null;
 
     /**
      * @var RailExchangeSolution $RailExchangeSolution
      */
-    protected $RailExchangeSolution = null;
+    public $RailExchangeSolution = null;
 
     /**
      * @var RailFareNoteList $RailFareNoteList
      */
-    protected $RailFareNoteList = null;
+    public $RailFareNoteList = null;
 
     /**
      * @var RailFareIDList $RailFareIDList
      */
-    protected $RailFareIDList = null;
+    public $RailFareIDList = null;
 
     /**
      * @var RailFareList $RailFareList
      */
-    protected $RailFareList = null;
+    public $RailFareList = null;
 
     /**
      * @var HostTokenList $HostTokenList
      */
-    protected $HostTokenList = null;
+    public $HostTokenList = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

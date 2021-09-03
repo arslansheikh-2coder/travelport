@@ -8,7 +8,7 @@ class ProfileRetrieveActionRsp extends BaseRsp
     /**
      * @var Action $Action
      */
-    protected $Action = null;
+    public $Action = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

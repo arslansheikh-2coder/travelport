@@ -8,17 +8,17 @@ class AirExchangeMultiQuoteOption
     /**
      * @var AirSegmentData $AirSegmentData
      */
-    protected $AirSegmentData = null;
+    public $AirSegmentData = null;
 
     /**
      * @var AirExchangeBundleTotal $AirExchangeBundleTotal
      */
-    protected $AirExchangeBundleTotal = null;
+    public $AirExchangeBundleTotal = null;
 
     /**
      * @var AirExchangeBundleList $AirExchangeBundleList
      */
-    protected $AirExchangeBundleList = null;
+    public $AirExchangeBundleList = null;
 
     /**
      * @param AirSegmentData $AirSegmentData

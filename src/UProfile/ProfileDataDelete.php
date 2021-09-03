@@ -8,12 +8,12 @@ class ProfileDataDelete
     /**
      * @var typeProfileDataElementType $Element
      */
-    protected $Element = null;
+    public $Element = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeProfileDataElementType $Element

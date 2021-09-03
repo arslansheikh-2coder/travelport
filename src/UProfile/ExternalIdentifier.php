@@ -8,12 +8,12 @@ class ExternalIdentifier
     /**
      * @var StringLength1to255 $ExtID
      */
-    protected $ExtID = null;
+    public $ExtID = null;
 
     /**
      * @var StringLength1to128 $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @param StringLength1to255 $ExtID

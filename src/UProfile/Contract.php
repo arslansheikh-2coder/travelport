@@ -8,57 +8,57 @@ class Contract extends typeKeyTaggedElement
     /**
      * @var typeSupplier $Supplier
      */
-    protected $Supplier = null;
+    public $Supplier = null;
 
     /**
      * @var typeSupplierType $SupplierType
      */
-    protected $SupplierType = null;
+    public $SupplierType = null;
 
     /**
      * @var typeProviderCode $Provider
      */
-    protected $Provider = null;
+    public $Provider = null;
 
     /**
      * @var date $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var date $ExpirationDate
      */
-    protected $ExpirationDate = null;
+    public $ExpirationDate = null;
 
     /**
      * @var typePercentageWithDecimal $DiscountPercentage
      */
-    protected $DiscountPercentage = null;
+    public $DiscountPercentage = null;
 
     /**
      * @var typeMoney $DiscountValue
      */
-    protected $DiscountValue = null;
+    public $DiscountValue = null;
 
     /**
      * @var StringLength1to50 $SupplierContractNumber
      */
-    protected $SupplierContractNumber = null;
+    public $SupplierContractNumber = null;
 
     /**
      * @var StringLength1to255 $PromotionalDesignatorName
      */
-    protected $PromotionalDesignatorName = null;
+    public $PromotionalDesignatorName = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

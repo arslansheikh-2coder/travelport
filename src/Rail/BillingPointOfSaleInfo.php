@@ -8,12 +8,12 @@ class BillingPointOfSaleInfo
     /**
      * @var string $OriginApplication
      */
-    protected $OriginApplication = null;
+    public $OriginApplication = null;
 
     /**
      * @var anonymous395 $CIDBNumber
      */
-    protected $CIDBNumber = null;
+    public $CIDBNumber = null;
 
     /**
      * @param string $OriginApplication

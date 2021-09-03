@@ -8,52 +8,52 @@ class ProfileModifyCmd
     /**
      * @var ProfileStatusUpdate $ProfileStatusUpdate
      */
-    protected $ProfileStatusUpdate = null;
+    public $ProfileStatusUpdate = null;
 
     /**
      * @var ProfileLinkAdd $ProfileLinkAdd
      */
-    protected $ProfileLinkAdd = null;
+    public $ProfileLinkAdd = null;
 
     /**
      * @var ProfileLinkDelete $ProfileLinkDelete
      */
-    protected $ProfileLinkDelete = null;
+    public $ProfileLinkDelete = null;
 
     /**
      * @var ProfileParentAdd $ProfileParentAdd
      */
-    protected $ProfileParentAdd = null;
+    public $ProfileParentAdd = null;
 
     /**
      * @var ProfileParentDelete $ProfileParentDelete
      */
-    protected $ProfileParentDelete = null;
+    public $ProfileParentDelete = null;
 
     /**
      * @var ProfileDataAdd $ProfileDataAdd
      */
-    protected $ProfileDataAdd = null;
+    public $ProfileDataAdd = null;
 
     /**
      * @var ProfileDataUpdate $ProfileDataUpdate
      */
-    protected $ProfileDataUpdate = null;
+    public $ProfileDataUpdate = null;
 
     /**
      * @var ProfileDataDelete $ProfileDataDelete
      */
-    protected $ProfileDataDelete = null;
+    public $ProfileDataDelete = null;
 
     /**
      * @var TagAdd $TagAdd
      */
-    protected $TagAdd = null;
+    public $TagAdd = null;
 
     /**
      * @var TagDelete $TagDelete
      */
-    protected $TagDelete = null;
+    public $TagDelete = null;
 
     /**
      * @param ProfileStatusUpdate $ProfileStatusUpdate

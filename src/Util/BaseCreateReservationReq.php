@@ -8,127 +8,127 @@ class BaseCreateReservationReq extends BaseReq
     /**
      * @var LinkedUniversalRecord $LinkedUniversalRecord
      */
-    protected $LinkedUniversalRecord = null;
+    public $LinkedUniversalRecord = null;
 
     /**
      * @var BookingTraveler $BookingTraveler
      */
-    protected $BookingTraveler = null;
+    public $BookingTraveler = null;
 
     /**
      * @var OSI $OSI
      */
-    protected $OSI = null;
+    public $OSI = null;
 
     /**
      * @var AccountingRemark $AccountingRemark
      */
-    protected $AccountingRemark = null;
+    public $AccountingRemark = null;
 
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var XMLRemark $XMLRemark
      */
-    protected $XMLRemark = null;
+    public $XMLRemark = null;
 
     /**
      * @var UnassociatedRemark $UnassociatedRemark
      */
-    protected $UnassociatedRemark = null;
+    public $UnassociatedRemark = null;
 
     /**
      * @var Postscript $Postscript
      */
-    protected $Postscript = null;
+    public $Postscript = null;
 
     /**
      * @var PassiveInfo $PassiveInfo
      */
-    protected $PassiveInfo = null;
+    public $PassiveInfo = null;
 
     /**
      * @var ContinuityCheckOverride $ContinuityCheckOverride
      */
-    protected $ContinuityCheckOverride = null;
+    public $ContinuityCheckOverride = null;
 
     /**
      * @var AgencyContactInfo $AgencyContactInfo
      */
-    protected $AgencyContactInfo = null;
+    public $AgencyContactInfo = null;
 
     /**
      * @var CustomerID $CustomerID
      */
-    protected $CustomerID = null;
+    public $CustomerID = null;
 
     /**
      * @var FileFinishingInfo $FileFinishingInfo
      */
-    protected $FileFinishingInfo = null;
+    public $FileFinishingInfo = null;
 
     /**
      * @var CommissionRemark $CommissionRemark
      */
-    protected $CommissionRemark = null;
+    public $CommissionRemark = null;
 
     /**
      * @var ConsolidatorRemark $ConsolidatorRemark
      */
-    protected $ConsolidatorRemark = null;
+    public $ConsolidatorRemark = null;
 
     /**
      * @var InvoiceRemark $InvoiceRemark
      */
-    protected $InvoiceRemark = null;
+    public $InvoiceRemark = null;
 
     /**
      * @var SSR $SSR
      */
-    protected $SSR = null;
+    public $SSR = null;
 
     /**
      * @var EmailNotification $EmailNotification
      */
-    protected $EmailNotification = null;
+    public $EmailNotification = null;
 
     /**
      * @var QueuePlace $QueuePlace
      */
-    protected $QueuePlace = null;
+    public $QueuePlace = null;
 
     /**
      * @var anonymous533 $RuleName
      */
-    protected $RuleName = null;
+    public $RuleName = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var typeLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $CustomerNumber
      */
-    protected $CustomerNumber = null;
+    public $CustomerNumber = null;
 
     /**
      * @var int $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

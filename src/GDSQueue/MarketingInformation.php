@@ -8,7 +8,7 @@ class MarketingInformation
     /**
      * @var anyType[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @param anyType[] $Text

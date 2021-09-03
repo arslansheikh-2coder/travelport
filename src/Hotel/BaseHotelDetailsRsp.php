@@ -8,17 +8,17 @@ class BaseHotelDetailsRsp extends BaseRsp
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelDetailItem $HotelDetailItem
      */
-    protected $HotelDetailItem = null;
+    public $HotelDetailItem = null;
 
     /**
      * @var HotelRateDetail $HotelRateDetail
      */
-    protected $HotelRateDetail = null;
+    public $HotelRateDetail = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,42 +8,42 @@ class HotelSearchResult extends typeResultMessage
     /**
      * @var VendorLocation $VendorLocation
      */
-    protected $VendorLocation = null;
+    public $VendorLocation = null;
 
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelSearchError[] $HotelSearchError
      */
-    protected $HotelSearchError = null;
+    public $HotelSearchError = null;
 
     /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
-    protected $CorporateDiscountID = null;
+    public $CorporateDiscountID = null;
 
     /**
      * @var RateInfo $RateInfo
      */
-    protected $RateInfo = null;
+    public $RateInfo = null;
 
     /**
      * @var MediaItem $MediaItem
      */
-    protected $MediaItem = null;
+    public $MediaItem = null;
 
     /**
      * @var HotelType $HotelType
      */
-    protected $HotelType = null;
+    public $HotelType = null;
 
     /**
      * @var PropertyDescription $PropertyDescription
      */
-    protected $PropertyDescription = null;
+    public $PropertyDescription = null;
 
     /**
      * @param string $_

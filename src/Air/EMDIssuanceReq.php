@@ -8,37 +8,37 @@ class EMDIssuanceReq extends BaseReq
     /**
      * @var typeProviderReservationDetail $ProviderReservationDetail
      */
-    protected $ProviderReservationDetail = null;
+    public $ProviderReservationDetail = null;
 
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var IssuanceModifiers $IssuanceModifiers
      */
-    protected $IssuanceModifiers = null;
+    public $IssuanceModifiers = null;
 
     /**
      * @var SelectionModifiers $SelectionModifiers
      */
-    protected $SelectionModifiers = null;
+    public $SelectionModifiers = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var boolean $ShowDetails
      */
-    protected $ShowDetails = null;
+    public $ShowDetails = null;
 
     /**
      * @var boolean $IssueAllOpenSVC
      */
-    protected $IssueAllOpenSVC = null;
+    public $IssueAllOpenSVC = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

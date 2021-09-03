@@ -8,17 +8,17 @@ class TotalReservationPrice
     /**
      * @var typeHotelRateDescription[] $RoomRateDescription
      */
-    protected $RoomRateDescription = null;
+    public $RoomRateDescription = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $ApproxTotalPrice
      */
-    protected $ApproxTotalPrice = null;
+    public $ApproxTotalPrice = null;
 
     /**
      * @param typeMoney $TotalPrice

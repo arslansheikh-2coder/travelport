@@ -8,12 +8,12 @@ class typeTicketingModifiersRef
     /**
      * @var AirPricingInfoRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef

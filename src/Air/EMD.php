@@ -8,62 +8,62 @@ class EMD
     /**
      * @var anonymous911 $FulfillmentType
      */
-    protected $FulfillmentType = null;
+    public $FulfillmentType = null;
 
     /**
      * @var string $FulfillmentTypeDescription
      */
-    protected $FulfillmentTypeDescription = null;
+    public $FulfillmentTypeDescription = null;
 
     /**
      * @var string $AssociatedItem
      */
-    protected $AssociatedItem = null;
+    public $AssociatedItem = null;
 
     /**
      * @var anonymous912 $AvailabilityChargeIndicator
      */
-    protected $AvailabilityChargeIndicator = null;
+    public $AvailabilityChargeIndicator = null;
 
     /**
      * @var anonymous913 $RefundReissueIndicator
      */
-    protected $RefundReissueIndicator = null;
+    public $RefundReissueIndicator = null;
 
     /**
      * @var anonymous914 $Commissionable
      */
-    protected $Commissionable = null;
+    public $Commissionable = null;
 
     /**
      * @var anonymous915 $MileageIndicator
      */
-    protected $MileageIndicator = null;
+    public $MileageIndicator = null;
 
     /**
      * @var anonymous916 $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var anonymous917 $Date
      */
-    protected $Date = null;
+    public $Date = null;
 
     /**
      * @var anonymous918 $Booking
      */
-    protected $Booking = null;
+    public $Booking = null;
 
     /**
      * @var anonymous919 $DisplayCategory
      */
-    protected $DisplayCategory = null;
+    public $DisplayCategory = null;
 
     /**
      * @var boolean $Reusable
      */
-    protected $Reusable = null;
+    public $Reusable = null;
 
     /**
      * @param anonymous911 $FulfillmentType

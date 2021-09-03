@@ -8,52 +8,52 @@ class typeVehicleRates
     /**
      * @var typeMoney $EstimatedTotalAmount
      */
-    protected $EstimatedTotalAmount = null;
+    public $EstimatedTotalAmount = null;
 
     /**
      * @var typeMoney $BaseRate
      */
-    protected $BaseRate = null;
+    public $BaseRate = null;
 
     /**
      * @var typeMoney $RateForPeriod
      */
-    protected $RateForPeriod = null;
+    public $RateForPeriod = null;
 
     /**
      * @var typeMoney $DropOffCharge
      */
-    protected $DropOffCharge = null;
+    public $DropOffCharge = null;
 
     /**
      * @var typeMoney $YoungDriverCharge
      */
-    protected $YoungDriverCharge = null;
+    public $YoungDriverCharge = null;
 
     /**
      * @var typeMoney $SeniorDriverCharge
      */
-    protected $SeniorDriverCharge = null;
+    public $SeniorDriverCharge = null;
 
     /**
      * @var typeMoney $FuelSurcharge
      */
-    protected $FuelSurcharge = null;
+    public $FuelSurcharge = null;
 
     /**
      * @var typeMoney $ExtraMileageCharge
      */
-    protected $ExtraMileageCharge = null;
+    public $ExtraMileageCharge = null;
 
     /**
      * @var typeMoney $PayNow
      */
-    protected $PayNow = null;
+    public $PayNow = null;
 
     /**
      * @var typeMoney $PayLater
      */
-    protected $PayLater = null;
+    public $PayLater = null;
 
     /**
      * @param typeMoney $EstimatedTotalAmount

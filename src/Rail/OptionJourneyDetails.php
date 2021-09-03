@@ -8,52 +8,52 @@ class OptionJourneyDetails
     /**
      * @var StringLength1to5 $PickUpLocation
      */
-    protected $PickUpLocation = null;
+    public $PickUpLocation = null;
 
     /**
      * @var time $PickUpTime
      */
-    protected $PickUpTime = null;
+    public $PickUpTime = null;
 
     /**
      * @var StringLength1to30 $PickUpDescription
      */
-    protected $PickUpDescription = null;
+    public $PickUpDescription = null;
 
     /**
      * @var typeCarrier $PickUpCarrier
      */
-    protected $PickUpCarrier = null;
+    public $PickUpCarrier = null;
 
     /**
      * @var typeFlightNumber $PickUpFlightNumber
      */
-    protected $PickUpFlightNumber = null;
+    public $PickUpFlightNumber = null;
 
     /**
      * @var StringLength1to5 $ReturnLocation
      */
-    protected $ReturnLocation = null;
+    public $ReturnLocation = null;
 
     /**
      * @var time $ReturnTime
      */
-    protected $ReturnTime = null;
+    public $ReturnTime = null;
 
     /**
      * @var StringLength1to30 $ReturnDescription
      */
-    protected $ReturnDescription = null;
+    public $ReturnDescription = null;
 
     /**
      * @var typeCarrier $ReturnCarrier
      */
-    protected $ReturnCarrier = null;
+    public $ReturnCarrier = null;
 
     /**
      * @var typeFlightNumber $ReturnFlightNumber
      */
-    protected $ReturnFlightNumber = null;
+    public $ReturnFlightNumber = null;
 
     /**
      * @param StringLength1to5 $PickUpLocation

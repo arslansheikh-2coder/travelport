@@ -8,12 +8,12 @@ class BSPPayment
     /**
      * @var anonymous47 $BSPIdentifier
      */
-    protected $BSPIdentifier = null;
+    public $BSPIdentifier = null;
 
     /**
      * @var anonymous48 $BSPPassword
      */
-    protected $BSPPassword = null;
+    public $BSPPassword = null;
 
     /**
      * @param anonymous47 $BSPIdentifier

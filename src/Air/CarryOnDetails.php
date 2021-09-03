@@ -8,37 +8,37 @@ class CarryOnDetails
     /**
      * @var BaggageRestriction $BaggageRestriction
      */
-    protected $BaggageRestriction = null;
+    public $BaggageRestriction = null;
 
     /**
      * @var string $ApplicableCarryOnBags
      */
-    protected $ApplicableCarryOnBags = null;
+    public $ApplicableCarryOnBags = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $ApproximateBasePrice
      */
-    protected $ApproximateBasePrice = null;
+    public $ApproximateBasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @param BaggageRestriction $BaggageRestriction

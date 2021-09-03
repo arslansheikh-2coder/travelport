@@ -8,7 +8,7 @@ class AlternateLocationDistanceList
     /**
      * @var AlternateLocationDistance $AlternateLocationDistance
      */
-    protected $AlternateLocationDistance = null;
+    public $AlternateLocationDistance = null;
 
     /**
      * @param AlternateLocationDistance $AlternateLocationDistance

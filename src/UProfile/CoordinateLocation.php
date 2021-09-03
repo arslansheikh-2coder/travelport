@@ -8,12 +8,12 @@ class CoordinateLocation extends Location
     /**
      * @var float $latitude
      */
-    protected $latitude = null;
+    public $latitude = null;
 
     /**
      * @var float $longitude
      */
-    protected $longitude = null;
+    public $longitude = null;
 
     /**
      * @param float $latitude

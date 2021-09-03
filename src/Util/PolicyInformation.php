@@ -8,27 +8,27 @@ class PolicyInformation
     /**
      * @var ReasonCode $ReasonCode
      */
-    protected $ReasonCode = null;
+    public $ReasonCode = null;
 
     /**
      * @var typePolicy $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var UNKNOWN $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var boolean $OutOfPolicy
      */
-    protected $OutOfPolicy = null;
+    public $OutOfPolicy = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @param typePolicy $Type

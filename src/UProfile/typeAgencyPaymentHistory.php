@@ -8,17 +8,17 @@ class typeAgencyPaymentHistory
     /**
      * @var anonymous920 $AgencyBillingIdentifier
      */
-    protected $AgencyBillingIdentifier = null;
+    public $AgencyBillingIdentifier = null;
 
     /**
      * @var anonymous921 $AgencyBillingNumber
      */
-    protected $AgencyBillingNumber = null;
+    public $AgencyBillingNumber = null;
 
     /**
      * @var anonymous922 $AgencyBillingPassword
      */
-    protected $AgencyBillingPassword = null;
+    public $AgencyBillingPassword = null;
 
     /**
      * @param anonymous920 $AgencyBillingIdentifier

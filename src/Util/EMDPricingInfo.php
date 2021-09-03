@@ -8,27 +8,27 @@ class EMDPricingInfo
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var typeMoney $BaseFare
      */
-    protected $BaseFare = null;
+    public $BaseFare = null;
 
     /**
      * @var typeMoney $TotalFare
      */
-    protected $TotalFare = null;
+    public $TotalFare = null;
 
     /**
      * @var typeMoney $TotalTax
      */
-    protected $TotalTax = null;
+    public $TotalTax = null;
 
     /**
      * @var typeMoney $EquivFare
      */
-    protected $EquivFare = null;
+    public $EquivFare = null;
 
     /**
      * @param typeTaxInfo $TaxInfo

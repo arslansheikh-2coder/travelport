@@ -8,7 +8,7 @@ class BundledServices
     /**
      * @var BundledService $BundledService
      */
-    protected $BundledService = null;
+    public $BundledService = null;
 
     /**
      * @param BundledService $BundledService

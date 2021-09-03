@@ -8,7 +8,7 @@ class RequestedHotelDetails extends typeHotelDetails
     /**
      * @var HotelType $HotelType
      */
-    protected $HotelType = null;
+    public $HotelType = null;
 
     /**
      * @param HotelProperty $HotelProperty

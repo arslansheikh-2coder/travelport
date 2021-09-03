@@ -8,17 +8,17 @@ class HotelRateChangedInfo
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelRateDetail $HotelRateDetail
      */
-    protected $HotelRateDetail = null;
+    public $HotelRateDetail = null;
 
     /**
      * @var string $Reason
      */
-    protected $Reason = null;
+    public $Reason = null;
 
     /**
      * @param HotelProperty $HotelProperty

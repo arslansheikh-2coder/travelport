@@ -8,27 +8,27 @@ class PolicyReference extends typeKeyElement
     /**
      * @var StringLength1to128 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to255 $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var StringLength1to255 $Desc
      */
-    protected $Desc = null;
+    public $Desc = null;
 
     /**
      * @var typeProfileID $ControllingPolicyID
      */
-    protected $ControllingPolicyID = null;
+    public $ControllingPolicyID = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

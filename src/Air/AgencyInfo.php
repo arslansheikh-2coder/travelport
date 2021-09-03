@@ -8,7 +8,7 @@ class AgencyInfo
     /**
      * @var AgentAction $AgentAction
      */
-    protected $AgentAction = null;
+    public $AgentAction = null;
 
     /**
      * @param AgentAction $AgentAction

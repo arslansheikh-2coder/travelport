@@ -8,12 +8,12 @@ class ContractCompliance
     /**
      * @var boolean $InContract
      */
-    protected $InContract = null;
+    public $InContract = null;
 
     /**
      * @var StringLength1to128 $ContractToken
      */
-    protected $ContractToken = null;
+    public $ContractToken = null;
 
     /**
      * @param boolean $InContract

@@ -8,122 +8,122 @@ class VehicleUpsellQualify
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var typeDate $EffectiveDate
      */
-    protected $EffectiveDate = null;
+    public $EffectiveDate = null;
 
     /**
      * @var typeDate $ExpirationDate
      */
-    protected $ExpirationDate = null;
+    public $ExpirationDate = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $PickupDateTime
      */
-    protected $PickupDateTime = null;
+    public $PickupDateTime = null;
 
     /**
      * @var typeIATACode $PickupLocation
      */
-    protected $PickupLocation = null;
+    public $PickupLocation = null;
 
     /**
      * @var string $ReturnDateTime
      */
-    protected $ReturnDateTime = null;
+    public $ReturnDateTime = null;
 
     /**
      * @var typeIATACode $ReturnLocation
      */
-    protected $ReturnLocation = null;
+    public $ReturnLocation = null;
 
     /**
      * @var typeVehicleLocation $PickupLocationType
      */
-    protected $PickupLocationType = null;
+    public $PickupLocationType = null;
 
     /**
      * @var typeVehicleLocation $ReturnLocationType
      */
-    protected $ReturnLocationType = null;
+    public $ReturnLocationType = null;
 
     /**
      * @var string $PickupLocationNumber
      */
-    protected $PickupLocationNumber = null;
+    public $PickupLocationNumber = null;
 
     /**
      * @var string $ReturnLocationNumber
      */
-    protected $ReturnLocationNumber = null;
+    public $ReturnLocationNumber = null;
 
     /**
      * @var boolean $AirConditioning
      */
-    protected $AirConditioning = null;
+    public $AirConditioning = null;
 
     /**
      * @var typeVehicleTransmission $TransmissionType
      */
-    protected $TransmissionType = null;
+    public $TransmissionType = null;
 
     /**
      * @var typeVehicleClass $VehicleClass
      */
-    protected $VehicleClass = null;
+    public $VehicleClass = null;
 
     /**
      * @var typeVehicleCategory $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var typeDoorCount $DoorCount
      */
-    protected $DoorCount = null;
+    public $DoorCount = null;
 
     /**
      * @var typeRateCode $RateCode
      */
-    protected $RateCode = null;
+    public $RateCode = null;
 
     /**
      * @var typeRateCategory $RateCategory
      */
-    protected $RateCategory = null;
+    public $RateCategory = null;
 
     /**
      * @var typeDiscountNumber $DiscountNumber
      */
-    protected $DiscountNumber = null;
+    public $DiscountNumber = null;
 
     /**
      * @var typeRef $OfferRef
      */
-    protected $OfferRef = null;
+    public $OfferRef = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeRef $Key

@@ -8,7 +8,7 @@ class EmbargoList
     /**
      * @var Embargo $Embargo
      */
-    protected $Embargo = null;
+    public $Embargo = null;
 
     /**
      * @param Embargo $Embargo

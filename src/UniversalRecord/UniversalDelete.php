@@ -8,12 +8,12 @@ class UniversalDelete
     /**
      * @var typeElement $Element
      */
-    protected $Element = null;
+    public $Element = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeElement $Element

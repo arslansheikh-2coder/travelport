@@ -8,7 +8,7 @@ class ExcludeTicketing
     /**
      * @var typeRef[] $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     
     public function __construct()

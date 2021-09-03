@@ -8,12 +8,12 @@ class AccountRelatedRules
     /**
      * @var BookingRules $BookingRules
      */
-    protected $BookingRules = null;
+    public $BookingRules = null;
 
     /**
      * @var RoutingRules $RoutingRules
      */
-    protected $RoutingRules = null;
+    public $RoutingRules = null;
 
     /**
      * @param BookingRules $BookingRules

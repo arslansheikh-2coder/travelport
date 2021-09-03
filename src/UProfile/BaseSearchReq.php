@@ -8,7 +8,7 @@ class BaseSearchReq extends BaseReq
     /**
      * @var NextResultReference $NextResultReference
      */
-    protected $NextResultReference = null;
+    public $NextResultReference = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

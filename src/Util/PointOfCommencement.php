@@ -8,12 +8,12 @@ class PointOfCommencement
     /**
      * @var typeIATACode $CityOrAirportCode
      */
-    protected $CityOrAirportCode = null;
+    public $CityOrAirportCode = null;
 
     /**
      * @var string $Time
      */
-    protected $Time = null;
+    public $Time = null;
 
     /**
      * @param typeIATACode $CityOrAirportCode

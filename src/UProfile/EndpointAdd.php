@@ -8,7 +8,7 @@ class EndpointAdd extends typeEditableEndpoint
     /**
      * @var typePurposeTypeCode $PurposeTypeCode
      */
-    protected $PurposeTypeCode = null;
+    public $PurposeTypeCode = null;
 
     /**
      * @param typeEndpointID $ID

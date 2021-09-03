@@ -8,42 +8,42 @@ class DeliveryInfo extends typeStructuredAddress
     /**
      * @var ShippingAddress $ShippingAddress
      */
-    protected $ShippingAddress = null;
+    public $ShippingAddress = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var Email $Email
      */
-    protected $Email = null;
+    public $Email = null;
 
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anonymous131 $SignatureRequired
      */
-    protected $SignatureRequired = null;
+    public $SignatureRequired = null;
 
     /**
      * @var string $TrackingNumber
      */
-    protected $TrackingNumber = null;
+    public $TrackingNumber = null;
 
     /**
      * @param State $State

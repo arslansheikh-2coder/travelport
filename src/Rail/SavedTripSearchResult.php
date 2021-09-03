@@ -8,32 +8,32 @@ class SavedTripSearchResult extends typeSavedTripProductInfo
     /**
      * @var ProductInfo[] $ProductInfo
      */
-    protected $ProductInfo = null;
+    public $ProductInfo = null;
 
     /**
      * @var string $EarliestTravelDate
      */
-    protected $EarliestTravelDate = null;
+    public $EarliestTravelDate = null;
 
     /**
      * @var string $CreatedDate
      */
-    protected $CreatedDate = null;
+    public $CreatedDate = null;
 
     /**
      * @var string $SavedTripName
      */
-    protected $SavedTripName = null;
+    public $SavedTripName = null;
 
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @param typeProduct $ProductType

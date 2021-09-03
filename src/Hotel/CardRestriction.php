@@ -8,17 +8,17 @@ class CardRestriction
     /**
      * @var RequiredField $RequiredField
      */
-    protected $RequiredField = null;
+    public $RequiredField = null;
 
     /**
      * @var typeCardMerchantType $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param RequiredField $RequiredField

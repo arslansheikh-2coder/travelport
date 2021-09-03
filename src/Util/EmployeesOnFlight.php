@@ -8,37 +8,37 @@ class EmployeesOnFlight
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocator
      */
-    protected $UniversalRecordLocator = null;
+    public $UniversalRecordLocator = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var date $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var string $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @param Name $Name

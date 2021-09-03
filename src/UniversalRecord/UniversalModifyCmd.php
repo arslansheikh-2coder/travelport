@@ -8,82 +8,82 @@ class UniversalModifyCmd
     /**
      * @var VehicleAdd $VehicleAdd
      */
-    protected $VehicleAdd = null;
+    public $VehicleAdd = null;
 
     /**
      * @var VehicleDelete $VehicleDelete
      */
-    protected $VehicleDelete = null;
+    public $VehicleDelete = null;
 
     /**
      * @var VehicleUpdate $VehicleUpdate
      */
-    protected $VehicleUpdate = null;
+    public $VehicleUpdate = null;
 
     /**
      * @var AirAdd $AirAdd
      */
-    protected $AirAdd = null;
+    public $AirAdd = null;
 
     /**
      * @var AirDelete $AirDelete
      */
-    protected $AirDelete = null;
+    public $AirDelete = null;
 
     /**
      * @var AirUpdate $AirUpdate
      */
-    protected $AirUpdate = null;
+    public $AirUpdate = null;
 
     /**
      * @var UniversalAdd $UniversalAdd
      */
-    protected $UniversalAdd = null;
+    public $UniversalAdd = null;
 
     /**
      * @var UniversalDelete $UniversalDelete
      */
-    protected $UniversalDelete = null;
+    public $UniversalDelete = null;
 
     /**
      * @var UniversalUpdate $UniversalUpdate
      */
-    protected $UniversalUpdate = null;
+    public $UniversalUpdate = null;
 
     /**
      * @var HotelAdd $HotelAdd
      */
-    protected $HotelAdd = null;
+    public $HotelAdd = null;
 
     /**
      * @var HotelUpdate $HotelUpdate
      */
-    protected $HotelUpdate = null;
+    public $HotelUpdate = null;
 
     /**
      * @var HotelDelete $HotelDelete
      */
-    protected $HotelDelete = null;
+    public $HotelDelete = null;
 
     /**
      * @var PassiveAdd $PassiveAdd
      */
-    protected $PassiveAdd = null;
+    public $PassiveAdd = null;
 
     /**
      * @var PassiveDelete $PassiveDelete
      */
-    protected $PassiveDelete = null;
+    public $PassiveDelete = null;
 
     /**
      * @var RailUpdate $RailUpdate
      */
-    protected $RailUpdate = null;
+    public $RailUpdate = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param VehicleAdd $VehicleAdd

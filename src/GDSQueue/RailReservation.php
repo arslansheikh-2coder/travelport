@@ -8,42 +8,42 @@ class RailReservation extends BaseReservation
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var RailJourney $RailJourney
      */
-    protected $RailJourney = null;
+    public $RailJourney = null;
 
     /**
      * @var RailPricingInfo $RailPricingInfo
      */
-    protected $RailPricingInfo = null;
+    public $RailPricingInfo = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var RailTicketInfo $RailTicketInfo
      */
-    protected $RailTicketInfo = null;
+    public $RailTicketInfo = null;
 
     /**
      * @var RailFareNoteList $RailFareNoteList
      */
-    protected $RailFareNoteList = null;
+    public $RailFareNoteList = null;
 
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var string $BookingStatus
      */
-    protected $BookingStatus = null;
+    public $BookingStatus = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

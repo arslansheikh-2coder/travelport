@@ -8,12 +8,12 @@ class ProfileCreateTagsReq extends BaseReq
     /**
      * @var CreateTag[] $CreateTag
      */
-    protected $CreateTag = null;
+    public $CreateTag = null;
 
     /**
      * @var typeProfileID $AgencyID
      */
-    protected $AgencyID = null;
+    public $AgencyID = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,37 +8,37 @@ class Tax
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var float $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @var typeOTACode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var date $EffectiveDate
      */
-    protected $EffectiveDate = null;
+    public $EffectiveDate = null;
 
     /**
      * @var date $ExpirationDate
      */
-    protected $ExpirationDate = null;
+    public $ExpirationDate = null;
 
     /**
      * @var string $Term
      */
-    protected $Term = null;
+    public $Term = null;
 
     /**
      * @var string $CollectionFreq
      */
-    protected $CollectionFreq = null;
+    public $CollectionFreq = null;
 
     /**
      * @param typeMoney $Amount

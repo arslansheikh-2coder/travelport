@@ -8,12 +8,12 @@ class ServiceGroup
     /**
      * @var ServiceSubGroup $ServiceSubGroup
      */
-    protected $ServiceSubGroup = null;
+    public $ServiceSubGroup = null;
 
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param ServiceSubGroup $ServiceSubGroup

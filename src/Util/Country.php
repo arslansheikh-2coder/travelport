@@ -8,32 +8,32 @@ class Country
     /**
      * @var typeCountry $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $ExtendedCode
      */
-    protected $ExtendedCode = null;
+    public $ExtendedCode = null;
 
     /**
      * @var string $CurrencyCode
      */
-    protected $CurrencyCode = null;
+    public $CurrencyCode = null;
 
     /**
      * @var typeIATACode $IataCode
      */
-    protected $IataCode = null;
+    public $IataCode = null;
 
     /**
      * @var string $Continent
      */
-    protected $Continent = null;
+    public $Continent = null;
 
     /**
      * @param typeCountry $Code

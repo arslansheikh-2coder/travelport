@@ -8,12 +8,12 @@ class RailUpdate
     /**
      * @var BookingAction $BookingAction
      */
-    protected $BookingAction = null;
+    public $BookingAction = null;
 
     /**
      * @var typeLocatorCode $ReservationLocatorCode
      */
-    protected $ReservationLocatorCode = null;
+    public $ReservationLocatorCode = null;
 
     /**
      * @param BookingAction $BookingAction

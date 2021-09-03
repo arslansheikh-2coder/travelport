@@ -8,7 +8,7 @@ class RailFareNoteList
     /**
      * @var RailFareNote $RailFareNote
      */
-    protected $RailFareNote = null;
+    public $RailFareNote = null;
 
     /**
      * @param RailFareNote $RailFareNote

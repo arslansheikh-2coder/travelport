@@ -8,42 +8,42 @@ class ProviderReservationSearchModifiers
     /**
      * @var boolean $IncludeAllNames
      */
-    protected $IncludeAllNames = null;
+    public $IncludeAllNames = null;
 
     /**
      * @var boolean $IncludeAgentInfo
      */
-    protected $IncludeAgentInfo = null;
+    public $IncludeAgentInfo = null;
 
     /**
      * @var typeMaxResults $MaxResults
      */
-    protected $MaxResults = null;
+    public $MaxResults = null;
 
     /**
      * @var typeStartFromResult $StartFromResult
      */
-    protected $StartFromResult = null;
+    public $StartFromResult = null;
 
     /**
      * @var boolean $ExcludeAir
      */
-    protected $ExcludeAir = null;
+    public $ExcludeAir = null;
 
     /**
      * @var boolean $ExcludeVehicle
      */
-    protected $ExcludeVehicle = null;
+    public $ExcludeVehicle = null;
 
     /**
      * @var boolean $ExcludeHotel
      */
-    protected $ExcludeHotel = null;
+    public $ExcludeHotel = null;
 
     /**
      * @var boolean $ExcludeGround
      */
-    protected $ExcludeGround = null;
+    public $ExcludeGround = null;
 
     /**
      * @param boolean $IncludeAllNames

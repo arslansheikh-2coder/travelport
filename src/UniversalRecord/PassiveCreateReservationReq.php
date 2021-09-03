@@ -8,37 +8,37 @@ class PassiveCreateReservationReq extends BaseCreateReservationReq
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var PassiveSegment $PassiveSegment
      */
-    protected $PassiveSegment = null;
+    public $PassiveSegment = null;
 
     /**
      * @var PassiveRemark $PassiveRemark
      */
-    protected $PassiveRemark = null;
+    public $PassiveRemark = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var ActionStatus $ActionStatus
      */
-    protected $ActionStatus = null;
+    public $ActionStatus = null;
 
     /**
      * @var ReviewBooking $ReviewBooking
      */
-    protected $ReviewBooking = null;
+    public $ReviewBooking = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

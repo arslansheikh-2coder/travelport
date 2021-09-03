@@ -8,32 +8,32 @@ class ProfileHistoryRetrieveCriteria
     /**
      * @var typeProfileID $AgentID
      */
-    protected $AgentID = null;
+    public $AgentID = null;
 
     /**
      * @var date $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var date $EndDate
      */
-    protected $EndDate = null;
+    public $EndDate = null;
 
     /**
      * @var typeFieldID $FieldID
      */
-    protected $FieldID = null;
+    public $FieldID = null;
 
     /**
      * @var typeFieldID $FieldGroupID
      */
-    protected $FieldGroupID = null;
+    public $FieldGroupID = null;
 
     /**
      * @var typeProfileComponentType $FieldGroupType
      */
-    protected $FieldGroupType = null;
+    public $FieldGroupType = null;
 
     /**
      * @param typeProfileID $AgentID

@@ -8,37 +8,37 @@ class Email
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeEmailType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeEmailComment $Comment
      */
-    protected $Comment = null;
+    public $Comment = null;
 
     /**
      * @var string $EmailID
      */
-    protected $EmailID = null;
+    public $EmailID = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef

@@ -8,47 +8,47 @@ class FlightsOffered
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var int $TravelOrder
      */
-    protected $TravelOrder = null;
+    public $TravelOrder = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var typeClassOfService $ClassOfService
      */
-    protected $ClassOfService = null;
+    public $ClassOfService = null;
 
     /**
      * @var boolean $StopOver
      */
-    protected $StopOver = null;
+    public $StopOver = null;
 
     /**
      * @var boolean $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @param typeIATACode $Origin

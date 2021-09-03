@@ -8,7 +8,7 @@ class typeNonAirReservationRef
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @param typeLocatorCode $LocatorCode

@@ -8,167 +8,167 @@ class HotelRateDetail
     /**
      * @var typePolicyCodesList $PolicyCodesList
      */
-    protected $PolicyCodesList = null;
+    public $PolicyCodesList = null;
 
     /**
      * @var typeHotelRateDescription[] $RoomRateDescription
      */
-    protected $RoomRateDescription = null;
+    public $RoomRateDescription = null;
 
     /**
      * @var HotelRateByDate $HotelRateByDate
      */
-    protected $HotelRateByDate = null;
+    public $HotelRateByDate = null;
 
     /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
-    protected $CorporateDiscountID = null;
+    public $CorporateDiscountID = null;
 
     /**
      * @var AcceptedPayment $AcceptedPayment
      */
-    protected $AcceptedPayment = null;
+    public $AcceptedPayment = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var RateMatchIndicator $RateMatchIndicator
      */
-    protected $RateMatchIndicator = null;
+    public $RateMatchIndicator = null;
 
     /**
      * @var TaxDetails $TaxDetails
      */
-    protected $TaxDetails = null;
+    public $TaxDetails = null;
 
     /**
      * @var CancelInfo $CancelInfo
      */
-    protected $CancelInfo = null;
+    public $CancelInfo = null;
 
     /**
      * @var GuaranteeInfo $GuaranteeInfo
      */
-    protected $GuaranteeInfo = null;
+    public $GuaranteeInfo = null;
 
     /**
      * @var string $SupplementalRateInfo
      */
-    protected $SupplementalRateInfo = null;
+    public $SupplementalRateInfo = null;
 
     /**
      * @var RoomCapacity $RoomCapacity
      */
-    protected $RoomCapacity = null;
+    public $RoomCapacity = null;
 
     /**
      * @var ExtraCharges $ExtraCharges
      */
-    protected $ExtraCharges = null;
+    public $ExtraCharges = null;
 
     /**
      * @var Inclusions $Inclusions
      */
-    protected $Inclusions = null;
+    public $Inclusions = null;
 
     /**
      * @var typeRatePlanType $RatePlanType
      */
-    protected $RatePlanType = null;
+    public $RatePlanType = null;
 
     /**
      * @var typeMoney $ApproximateBase
      */
-    protected $ApproximateBase = null;
+    public $ApproximateBase = null;
 
     /**
      * @var typeMoney $ApproximateTax
      */
-    protected $ApproximateTax = null;
+    public $ApproximateTax = null;
 
     /**
      * @var typeMoney $ApproximateTotal
      */
-    protected $ApproximateTotal = null;
+    public $ApproximateTotal = null;
 
     /**
      * @var typeMoney $ApproximateSurcharge
      */
-    protected $ApproximateSurcharge = null;
+    public $ApproximateSurcharge = null;
 
     /**
      * @var boolean $RateGuaranteed
      */
-    protected $RateGuaranteed = null;
+    public $RateGuaranteed = null;
 
     /**
      * @var boolean $ApproximateRateGuaranteed
      */
-    protected $ApproximateRateGuaranteed = null;
+    public $ApproximateRateGuaranteed = null;
 
     /**
      * @var typeOTACode $RateCategory
      */
-    protected $RateCategory = null;
+    public $RateCategory = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeThirdPartySupplier $RateSupplier
      */
-    protected $RateSupplier = null;
+    public $RateSupplier = null;
 
     /**
      * @var int $BookableQuantity
      */
-    protected $BookableQuantity = null;
+    public $BookableQuantity = null;
 
     /**
      * @var typeRateOfferId $RateOfferId
      */
-    protected $RateOfferId = null;
+    public $RateOfferId = null;
 
     /**
      * @var boolean $InPolicy
      */
-    protected $InPolicy = null;
+    public $InPolicy = null;
 
     /**
      * @var typeTrinary $RateChangeIndicator
      */
-    protected $RateChangeIndicator = null;
+    public $RateChangeIndicator = null;
 
     /**
      * @var typeTrinary $ExtraFeesIncluded
      */
-    protected $ExtraFeesIncluded = null;
+    public $ExtraFeesIncluded = null;
 
     /**
      * @var typeMoney $Base
      */
-    protected $Base = null;
+    public $Base = null;
 
     /**
      * @var typeMoney $Tax
      */
-    protected $Tax = null;
+    public $Tax = null;
 
     /**
      * @var typeMoney $Total
      */
-    protected $Total = null;
+    public $Total = null;
 
     /**
      * @var typeMoney $Surcharge
      */
-    protected $Surcharge = null;
+    public $Surcharge = null;
 
     /**
      * @param HotelRateByDate $HotelRateByDate

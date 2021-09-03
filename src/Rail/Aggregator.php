@@ -8,7 +8,7 @@ class Aggregator
     /**
      * @var typeThirdPartySupplier $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param typeThirdPartySupplier $Name

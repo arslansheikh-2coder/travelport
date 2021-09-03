@@ -8,12 +8,12 @@ class AirUpsellSearchCriteria
     /**
      * @var AirUpsellOfferSearchCriteria $AirUpsellOfferSearchCriteria
      */
-    protected $AirUpsellOfferSearchCriteria = null;
+    public $AirUpsellOfferSearchCriteria = null;
 
     /**
      * @var AirUpsellQualifySearchCriteria $AirUpsellQualifySearchCriteria
      */
-    protected $AirUpsellQualifySearchCriteria = null;
+    public $AirUpsellQualifySearchCriteria = null;
 
     /**
      * @param AirUpsellOfferSearchCriteria $AirUpsellOfferSearchCriteria

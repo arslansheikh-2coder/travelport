@@ -8,12 +8,12 @@ class FareFamilyDelete
     /**
      * @var typeRef $FareFamilyRef
      */
-    protected $FareFamilyRef = null;
+    public $FareFamilyRef = null;
 
     /**
      * @var typeURVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @param typeRef $FareFamilyRef

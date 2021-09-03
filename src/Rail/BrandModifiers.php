@@ -8,12 +8,12 @@ class BrandModifiers
     /**
      * @var FareFamilyDisplay $FareFamilyDisplay
      */
-    protected $FareFamilyDisplay = null;
+    public $FareFamilyDisplay = null;
 
     /**
      * @var BasicDetailsOnly $BasicDetailsOnly
      */
-    protected $BasicDetailsOnly = null;
+    public $BasicDetailsOnly = null;
 
     /**
      * @param FareFamilyDisplay $FareFamilyDisplay

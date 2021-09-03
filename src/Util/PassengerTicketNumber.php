@@ -8,12 +8,12 @@ class PassengerTicketNumber
     /**
      * @var typePassengerTicketNumber $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param typePassengerTicketNumber $TicketNumber

@@ -8,7 +8,7 @@ class AcceptedPayment
     /**
      * @var typeCardMerchantType $PaymentCode
      */
-    protected $PaymentCode = null;
+    public $PaymentCode = null;
 
     /**
      * @param typeCardMerchantType $PaymentCode

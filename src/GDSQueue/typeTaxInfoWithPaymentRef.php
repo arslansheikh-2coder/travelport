@@ -8,7 +8,7 @@ class typeTaxInfoWithPaymentRef extends typeTaxInfo
     /**
      * @var PaymentRef $PaymentRef
      */
-    protected $PaymentRef = null;
+    public $PaymentRef = null;
 
     /**
      * @param TaxDetail $TaxDetail

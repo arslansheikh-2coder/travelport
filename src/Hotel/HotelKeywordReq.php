@@ -8,32 +8,32 @@ class HotelKeywordReq extends BaseReq
     /**
      * @var Keyword $Keyword
      */
-    protected $Keyword = null;
+    public $Keyword = null;
 
     /**
      * @var PermittedProviders $PermittedProviders
      */
-    protected $PermittedProviders = null;
+    public $PermittedProviders = null;
 
     /**
      * @var typeHotelChainCode $HotelChain
      */
-    protected $HotelChain = null;
+    public $HotelChain = null;
 
     /**
      * @var typeHotelCode $HotelCode
      */
-    protected $HotelCode = null;
+    public $HotelCode = null;
 
     /**
      * @var typeDate $CheckinDate
      */
-    protected $CheckinDate = null;
+    public $CheckinDate = null;
 
     /**
      * @var boolean $ReturnKeywordList
      */
-    protected $ReturnKeywordList = null;
+    public $ReturnKeywordList = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

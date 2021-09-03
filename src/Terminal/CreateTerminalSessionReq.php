@@ -8,12 +8,12 @@ class CreateTerminalSessionReq extends BaseReq
     /**
      * @var typeProviderCode $Host
      */
-    protected $Host = null;
+    public $Host = null;
 
     /**
      * @var int $SessionTimeout
      */
-    protected $SessionTimeout = null;
+    public $SessionTimeout = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

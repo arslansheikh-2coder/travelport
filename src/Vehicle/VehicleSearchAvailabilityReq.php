@@ -8,32 +8,32 @@ class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
     /**
      * @var boolean $ReturnMediaLinks
      */
-    protected $ReturnMediaLinks = null;
+    public $ReturnMediaLinks = null;
 
     /**
      * @var boolean $ReturnAllRates
      */
-    protected $ReturnAllRates = null;
+    public $ReturnAllRates = null;
 
     /**
      * @var boolean $ReturnApproximateTotal
      */
-    protected $ReturnApproximateTotal = null;
+    public $ReturnApproximateTotal = null;
 
     /**
      * @var boolean $ReturnExtraRateInfo
      */
-    protected $ReturnExtraRateInfo = null;
+    public $ReturnExtraRateInfo = null;
 
     /**
      * @var typePolicyReference $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @var boolean $ReturnInclusionDetails
      */
-    protected $ReturnInclusionDetails = null;
+    public $ReturnInclusionDetails = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

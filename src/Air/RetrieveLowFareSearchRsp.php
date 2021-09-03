@@ -8,17 +8,17 @@ class RetrieveLowFareSearchRsp extends AirSearchRsp
     /**
      * @var BaseAsyncProviderSpecificResponse $AsyncProviderSpecificResponse
      */
-    protected $AsyncProviderSpecificResponse = null;
+    public $AsyncProviderSpecificResponse = null;
 
     /**
      * @var BrandList $BrandList
      */
-    protected $BrandList = null;
+    public $BrandList = null;
 
     /**
      * @var typeCurrency $CurrencyType
      */
-    protected $CurrencyType = null;
+    public $CurrencyType = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

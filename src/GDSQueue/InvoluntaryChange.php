@@ -8,7 +8,7 @@ class InvoluntaryChange
     /**
      * @var TicketEndorsement $TicketEndorsement
      */
-    protected $TicketEndorsement = null;
+    public $TicketEndorsement = null;
 
     /**
      * @param TicketEndorsement $TicketEndorsement

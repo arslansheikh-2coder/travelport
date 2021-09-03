@@ -8,47 +8,47 @@ class typeErrorInfo
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Service
      */
-    protected $Service = null;
+    public $Service = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var string $TransactionId
      */
-    protected $TransactionId = null;
+    public $TransactionId = null;
 
     /**
      * @var string $TraceId
      */
-    protected $TraceId = null;
+    public $TraceId = null;
 
     /**
      * @var string $CommandHistory
      */
-    protected $CommandHistory = null;
+    public $CommandHistory = null;
 
     /**
      * @var Auxdata $Auxdata
      */
-    protected $Auxdata = null;
+    public $Auxdata = null;
 
     /**
      * @var string $StackTrace
      */
-    protected $StackTrace = null;
+    public $StackTrace = null;
 
     /**
      * @param string $Code

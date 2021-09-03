@@ -8,7 +8,7 @@ class VehicleLocationRsp extends BaseRsp
     /**
      * @var VehicleLocation $VehicleLocation
      */
-    protected $VehicleLocation = null;
+    public $VehicleLocation = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

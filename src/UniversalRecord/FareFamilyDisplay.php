@@ -8,7 +8,7 @@ class FareFamilyDisplay
     /**
      * @var string $ModifierType
      */
-    protected $ModifierType = null;
+    public $ModifierType = null;
 
     /**
      * @param string $ModifierType

@@ -8,32 +8,32 @@ class MiscFormOfPayment
     /**
      * @var anonymous34 $CreditCardType
      */
-    protected $CreditCardType = null;
+    public $CreditCardType = null;
 
     /**
      * @var typeCreditCardNumber $CreditCardNumber
      */
-    protected $CreditCardNumber = null;
+    public $CreditCardNumber = null;
 
     /**
      * @var gYearMonth $ExpDate
      */
-    protected $ExpDate = null;
+    public $ExpDate = null;
 
     /**
      * @var string $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var anonymous35 $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var boolean $AcceptanceOverride
      */
-    protected $AcceptanceOverride = null;
+    public $AcceptanceOverride = null;
 
     /**
      * @param anonymous34 $CreditCardType

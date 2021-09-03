@@ -8,12 +8,12 @@ class ChargesRules
     /**
      * @var VoluntaryChanges[] $VoluntaryChanges
      */
-    protected $VoluntaryChanges = null;
+    public $VoluntaryChanges = null;
 
     /**
      * @var VoluntaryRefunds[] $VoluntaryRefunds
      */
-    protected $VoluntaryRefunds = null;
+    public $VoluntaryRefunds = null;
 
     
     public function __construct()

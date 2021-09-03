@@ -8,12 +8,12 @@ class FixedGroupUpdate extends typeCommonEditableGroup
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @param typeFieldID $ID

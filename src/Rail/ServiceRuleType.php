@@ -8,32 +8,32 @@ class ServiceRuleType
     /**
      * @var ApplicationRules $ApplicationRules
      */
-    protected $ApplicationRules = null;
+    public $ApplicationRules = null;
 
     /**
      * @var ApplicationLevel $ApplicationLevel
      */
-    protected $ApplicationLevel = null;
+    public $ApplicationLevel = null;
 
     /**
      * @var ModifyRules $ModifyRules
      */
-    protected $ModifyRules = null;
+    public $ModifyRules = null;
 
     /**
      * @var SecondaryTypeRules $SecondaryTypeRules
      */
-    protected $SecondaryTypeRules = null;
+    public $SecondaryTypeRules = null;
 
     /**
      * @var FormattedTextTextType[] $Remarks
      */
-    protected $Remarks = null;
+    public $Remarks = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeRef $Key

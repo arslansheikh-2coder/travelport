@@ -8,32 +8,32 @@ class LandCharges
     /**
      * @var Tax $Tax
      */
-    protected $Tax = null;
+    public $Tax = null;
 
     /**
      * @var typeMoney $Base
      */
-    protected $Base = null;
+    public $Base = null;
 
     /**
      * @var typeMoney $Total
      */
-    protected $Total = null;
+    public $Total = null;
 
     /**
      * @var typeMoney $Miscellaneous
      */
-    protected $Miscellaneous = null;
+    public $Miscellaneous = null;
 
     /**
      * @var typeMoney $PrePaid
      */
-    protected $PrePaid = null;
+    public $PrePaid = null;
 
     /**
      * @var typeMoney $Deposit
      */
-    protected $Deposit = null;
+    public $Deposit = null;
 
     /**
      * @param Tax $Tax

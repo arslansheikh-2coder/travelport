@@ -8,7 +8,7 @@ class typeAirReservationWithFOP extends typeBaseAirReservation
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

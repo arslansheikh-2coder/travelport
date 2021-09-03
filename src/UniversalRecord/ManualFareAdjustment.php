@@ -8,32 +8,32 @@ class ManualFareAdjustment
     /**
      * @var typeAdjustmentTarget $AppliedOn
      */
-    protected $AppliedOn = null;
+    public $AppliedOn = null;
 
     /**
      * @var typeAdjustmentType $AdjustmentType
      */
-    protected $AdjustmentType = null;
+    public $AdjustmentType = null;
 
     /**
      * @var float $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeRef $PassengerRef
      */
-    protected $PassengerRef = null;
+    public $PassengerRef = null;
 
     /**
      * @var typeTicketDesignator $TicketDesignator
      */
-    protected $TicketDesignator = null;
+    public $TicketDesignator = null;
 
     /**
      * @var typeFareTypeCode $FareType
      */
-    protected $FareType = null;
+    public $FareType = null;
 
     /**
      * @param typeAdjustmentTarget $AppliedOn

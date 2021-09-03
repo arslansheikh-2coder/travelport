@@ -8,7 +8,7 @@ class MirReportRetrieveRsp extends BaseRsp
     /**
      * @var string $Report
      */
-    protected $Report = null;
+    public $Report = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

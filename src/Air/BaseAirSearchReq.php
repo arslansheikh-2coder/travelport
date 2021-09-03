@@ -8,27 +8,27 @@ class BaseAirSearchReq extends BaseCoreSearchReq
     /**
      * @var SearchAirLeg $SearchAirLeg
      */
-    protected $SearchAirLeg = null;
+    public $SearchAirLeg = null;
 
     /**
      * @var SearchSpecificAirSegment $SearchSpecificAirSegment
      */
-    protected $SearchSpecificAirSegment = null;
+    public $SearchSpecificAirSegment = null;
 
     /**
      * @var AirSearchModifiers $AirSearchModifiers
      */
-    protected $AirSearchModifiers = null;
+    public $AirSearchModifiers = null;
 
     /**
      * @var SplitTicketingSearch $SplitTicketingSearch
      */
-    protected $SplitTicketingSearch = null;
+    public $SplitTicketingSearch = null;
 
     /**
      * @var JourneyData $JourneyData
      */
-    protected $JourneyData = null;
+    public $JourneyData = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

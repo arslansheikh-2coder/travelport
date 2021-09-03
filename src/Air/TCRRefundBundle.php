@@ -8,47 +8,47 @@ class TCRRefundBundle
     /**
      * @var AirRefundInfo $AirRefundInfo
      */
-    protected $AirRefundInfo = null;
+    public $AirRefundInfo = null;
 
     /**
      * @var WaiverCode $WaiverCode
      */
-    protected $WaiverCode = null;
+    public $WaiverCode = null;
 
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var typeFeeInfo $FeeInfo
      */
-    protected $FeeInfo = null;
+    public $FeeInfo = null;
 
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var typeTCRNumber $TCRNumber
      */
-    protected $TCRNumber = null;
+    public $TCRNumber = null;
 
     /**
      * @var anonymous731 $RefundType
      */
-    protected $RefundType = null;
+    public $RefundType = null;
 
     /**
      * @var anonymous714 $RefundAccessCode
      */
-    protected $RefundAccessCode = null;
+    public $RefundAccessCode = null;
 
     /**
      * @param AirRefundInfo $AirRefundInfo

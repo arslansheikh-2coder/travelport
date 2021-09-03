@@ -8,7 +8,7 @@ class Airport extends Location
     /**
      * @var typeIATACode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeIATACode $Code

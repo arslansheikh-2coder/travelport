@@ -8,27 +8,27 @@ class SingleProfileMigrationReq extends BaseReq
     /**
      * @var StringLength1to10 $ExternalSystem
      */
-    protected $ExternalSystem = null;
+    public $ExternalSystem = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var typePCC $PCC
      */
-    protected $PCC = null;
+    public $PCC = null;
 
     /**
      * @var StringLength1to50 $AccountProfileTitle
      */
-    protected $AccountProfileTitle = null;
+    public $AccountProfileTitle = null;
 
     /**
      * @var StringLength1to50 $TravelerProfileTitle
      */
-    protected $TravelerProfileTitle = null;
+    public $TravelerProfileTitle = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

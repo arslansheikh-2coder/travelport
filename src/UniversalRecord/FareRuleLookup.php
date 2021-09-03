@@ -8,47 +8,47 @@ class FareRuleLookup
     /**
      * @var AccountCode $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var string $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var date $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var date $TicketingDate
      */
-    protected $TicketingDate = null;
+    public $TicketingDate = null;
 
     /**
      * @param AccountCode $AccountCode

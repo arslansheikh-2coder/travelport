@@ -8,22 +8,22 @@ class DocumentOptions
     /**
      * @var PassengerReceiptOverride $PassengerReceiptOverride
      */
-    protected $PassengerReceiptOverride = null;
+    public $PassengerReceiptOverride = null;
 
     /**
      * @var typeOverrideOption[] $OverrideOption
      */
-    protected $OverrideOption = null;
+    public $OverrideOption = null;
 
     /**
      * @var boolean $SuppressItineraryRemarks
      */
-    protected $SuppressItineraryRemarks = null;
+    public $SuppressItineraryRemarks = null;
 
     /**
      * @var boolean $GenerateItinNumbers
      */
-    protected $GenerateItinNumbers = null;
+    public $GenerateItinNumbers = null;
 
     /**
      * @param PassengerReceiptOverride $PassengerReceiptOverride

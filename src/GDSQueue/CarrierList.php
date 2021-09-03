@@ -8,12 +8,12 @@ class CarrierList
     /**
      * @var CarrierCode $CarrierCode
      */
-    protected $CarrierCode = null;
+    public $CarrierCode = null;
 
     /**
      * @var boolean $IncludeCarrier
      */
-    protected $IncludeCarrier = null;
+    public $IncludeCarrier = null;
 
     /**
      * @param CarrierCode $CarrierCode

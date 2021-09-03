@@ -8,12 +8,12 @@ class VehicleSpecialRequest
     /**
      * @var typeGeneralText $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeGeneralText $_

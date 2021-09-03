@@ -8,17 +8,17 @@ class RateMatchIndicator
     /**
      * @var anonymous1230 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anonymous1231 $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param anonymous1230 $Type

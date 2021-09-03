@@ -8,32 +8,32 @@ class TaxCalcInfo
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typeMoney $BaseFare
      */
-    protected $BaseFare = null;
+    public $BaseFare = null;
 
     /**
      * @var typeMoney $QSurcharge
      */
-    protected $QSurcharge = null;
+    public $QSurcharge = null;
 
     /**
      * @var typeMoney $StopOverFee
      */
-    protected $StopOverFee = null;
+    public $StopOverFee = null;
 
     /**
      * @var typeMoney $Tax
      */
-    protected $Tax = null;
+    public $Tax = null;
 
     /**
      * @param typeIATACode $Origin

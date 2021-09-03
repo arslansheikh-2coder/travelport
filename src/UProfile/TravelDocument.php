@@ -8,137 +8,137 @@ class TravelDocument extends typeKeyTaggedElement
     /**
      * @var typeTravelDocumentAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var typeTravelDocumentType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to128 $DocumentNumber
      */
-    protected $DocumentNumber = null;
+    public $DocumentNumber = null;
 
     /**
      * @var date $IssuedDate
      */
-    protected $IssuedDate = null;
+    public $IssuedDate = null;
 
     /**
      * @var date $ExpirationDate
      */
-    protected $ExpirationDate = null;
+    public $ExpirationDate = null;
 
     /**
      * @var StringLength1to255 $LocationIssuedDescription
      */
-    protected $LocationIssuedDescription = null;
+    public $LocationIssuedDescription = null;
 
     /**
      * @var StringLength1to128 $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var StringLength1to128 $MiddleName
      */
-    protected $MiddleName = null;
+    public $MiddleName = null;
 
     /**
      * @var StringLength1to128 $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var typeGender $Gender
      */
-    protected $Gender = null;
+    public $Gender = null;
 
     /**
      * @var StringLength1to255 $NationalIdentifier
      */
-    protected $NationalIdentifier = null;
+    public $NationalIdentifier = null;
 
     /**
      * @var date $BirthDate
      */
-    protected $BirthDate = null;
+    public $BirthDate = null;
 
     /**
      * @var StringLength1to128 $PlaceOfBirth
      */
-    protected $PlaceOfBirth = null;
+    public $PlaceOfBirth = null;
 
     /**
      * @var typeCountry $Nationality
      */
-    protected $Nationality = null;
+    public $Nationality = null;
 
     /**
      * @var typeCountry $Citizenship
      */
-    protected $Citizenship = null;
+    public $Citizenship = null;
 
     /**
      * @var typeCountry $IssuedByCountry
      */
-    protected $IssuedByCountry = null;
+    public $IssuedByCountry = null;
 
     /**
      * @var StringLength1to128 $IssuedByOtherCountryName
      */
-    protected $IssuedByOtherCountryName = null;
+    public $IssuedByOtherCountryName = null;
 
     /**
      * @var anonymous633 $Height
      */
-    protected $Height = null;
+    public $Height = null;
 
     /**
      * @var anonymous634 $HeightUnit
      */
-    protected $HeightUnit = null;
+    public $HeightUnit = null;
 
     /**
      * @var anonymous635 $Weight
      */
-    protected $Weight = null;
+    public $Weight = null;
 
     /**
      * @var anonymous636 $WeightUnit
      */
-    protected $WeightUnit = null;
+    public $WeightUnit = null;
 
     /**
      * @var StringLength1to255 $Residence
      */
-    protected $Residence = null;
+    public $Residence = null;
 
     /**
      * @var StringLength1to255 $EyeColor
      */
-    protected $EyeColor = null;
+    public $EyeColor = null;
 
     /**
      * @var StringLength1to255 $MilitaryStatus
      */
-    protected $MilitaryStatus = null;
+    public $MilitaryStatus = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeGeoPoliticalAreaType $IssuedForGeoPoliticalAreaType
      */
-    protected $IssuedForGeoPoliticalAreaType = null;
+    public $IssuedForGeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $IssuedForGeoPoliticalAreaCode
      */
-    protected $IssuedForGeoPoliticalAreaCode = null;
+    public $IssuedForGeoPoliticalAreaCode = null;
 
     /**
      * @param typeRef $Key

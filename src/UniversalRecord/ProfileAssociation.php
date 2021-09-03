@@ -8,12 +8,12 @@ class ProfileAssociation
     /**
      * @var typeRef $TravelerID
      */
-    protected $TravelerID = null;
+    public $TravelerID = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param typeRef $TravelerID

@@ -8,32 +8,32 @@ class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
     /**
      * @var typeSupplierType $SupplierType
      */
-    protected $SupplierType = null;
+    public $SupplierType = null;
 
     /**
      * @var typeSupplier $Supplier
      */
-    protected $Supplier = null;
+    public $Supplier = null;
 
     /**
      * @var StringLength1to255 $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var StringLength1to128 $ProgramName
      */
-    protected $ProgramName = null;
+    public $ProgramName = null;
 
     /**
      * @var StringLength1to128 $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

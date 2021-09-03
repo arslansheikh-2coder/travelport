@@ -8,52 +8,52 @@ class ModifyFieldGroup
     /**
      * @var ModifyField $ModifyField
      */
-    protected $ModifyField = null;
+    public $ModifyField = null;
 
     /**
      * @var typeID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeUpdateAction $Action
      */
-    protected $Action = null;
+    public $Action = null;
 
     /**
      * @var boolean $Force
      */
-    protected $Force = null;
+    public $Force = null;
 
     /**
      * @var typeFieldName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
-     * @var boolean $Protected
+     * @var boolean $public
      */
-    protected $Protected = null;
+    public $public = null;
 
     /**
      * @var boolean $Inheritable
      */
-    protected $Inheritable = null;
+    public $Inheritable = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @param ModifyField $ModifyField
@@ -62,12 +62,12 @@ class ModifyFieldGroup
      * @param boolean $Force
      * @param typeFieldName $Name
      * @param StringLength1to255 $Description
-     * @param boolean $Protected
+     * @param boolean $public
      * @param boolean $Inheritable
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($ModifyField = null, $ID = null, $Action = null, $Force = null, $Name = null, $Description = null, $Protected = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
+    public function __construct($ModifyField = null, $ID = null, $Action = null, $Force = null, $Name = null, $Description = null, $public = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
     {
       $this->ModifyField = $ModifyField;
       $this->ID = $ID;
@@ -75,7 +75,7 @@ class ModifyFieldGroup
       $this->Force = $Force;
       $this->Name = $Name;
       $this->Description = $Description;
-      $this->Protected = $Protected;
+      $this->public = $public;
       $this->Inheritable = $Inheritable;
       $this->MinOccurs = $MinOccurs;
       $this->MaxOccurs = $MaxOccurs;
@@ -192,18 +192,18 @@ class ModifyFieldGroup
     /**
      * @return boolean
      */
-    public function getProtected()
+    public function getpublic()
     {
-      return $this->Protected;
+      return $this->public;
     }
 
     /**
-     * @param boolean $Protected
+     * @param boolean $public
      * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
      */
-    public function setProtected($Protected)
+    public function setpublic($public)
     {
-      $this->Protected = $Protected;
+      $this->public = $public;
       return $this;
     }
 

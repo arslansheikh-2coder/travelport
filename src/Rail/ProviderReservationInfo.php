@@ -8,92 +8,92 @@ class ProviderReservationInfo
     /**
      * @var ProviderReservationDetails $ProviderReservationDetails
      */
-    protected $ProviderReservationDetails = null;
+    public $ProviderReservationDetails = null;
 
     /**
      * @var ProviderReservationDisplayDetailsList $ProviderReservationDisplayDetailsList
      */
-    protected $ProviderReservationDisplayDetailsList = null;
+    public $ProviderReservationDisplayDetailsList = null;
 
     /**
      * @var ExternalReservationInfo $ExternalReservationInfo
      */
-    protected $ExternalReservationInfo = null;
+    public $ExternalReservationInfo = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var \DateTime $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var date $HostCreateDate
      */
-    protected $HostCreateDate = null;
+    public $HostCreateDate = null;
 
     /**
      * @var time $HostCreateTime
      */
-    protected $HostCreateTime = null;
+    public $HostCreateTime = null;
 
     /**
      * @var \DateTime $ModifiedDate
      */
-    protected $ModifiedDate = null;
+    public $ModifiedDate = null;
 
     /**
      * @var boolean $Imported
      */
-    protected $Imported = null;
+    public $Imported = null;
 
     /**
      * @var typeRef $TicketingModifiersRef
      */
-    protected $TicketingModifiersRef = null;
+    public $TicketingModifiersRef = null;
 
     /**
      * @var boolean $InQueueMode
      */
-    protected $InQueueMode = null;
+    public $InQueueMode = null;
 
     /**
      * @var typeRef $GroupRef
      */
-    protected $GroupRef = null;
+    public $GroupRef = null;
 
     /**
      * @var typePCC $OwningPCC
      */
-    protected $OwningPCC = null;
+    public $OwningPCC = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @var anonymous515 $AgentOverride
      */
-    protected $AgentOverride = null;
+    public $AgentOverride = null;
 
     /**
      * @param ProviderReservationDetails $ProviderReservationDetails

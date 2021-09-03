@@ -8,32 +8,32 @@ class Commission
     /**
      * @var typeTrinary $Indicator
      */
-    protected $Indicator = null;
+    public $Indicator = null;
 
     /**
      * @var string $Percent
      */
-    protected $Percent = null;
+    public $Percent = null;
 
     /**
      * @var typeMoney $CommissionAmount
      */
-    protected $CommissionAmount = null;
+    public $CommissionAmount = null;
 
     /**
      * @var typeMoney $ApproxCommissionAmount
      */
-    protected $ApproxCommissionAmount = null;
+    public $ApproxCommissionAmount = null;
 
     /**
      * @var typeMoney $CommissionOnSurcharges
      */
-    protected $CommissionOnSurcharges = null;
+    public $CommissionOnSurcharges = null;
 
     /**
      * @var typeMoney $ApproxCommissionOnSurcharges
      */
-    protected $ApproxCommissionOnSurcharges = null;
+    public $ApproxCommissionOnSurcharges = null;
 
     /**
      * @param typeTrinary $Indicator

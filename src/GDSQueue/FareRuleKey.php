@@ -8,17 +8,17 @@ class FareRuleKey
     /**
      * @var typeNonBlanks $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @param typeNonBlanks $_

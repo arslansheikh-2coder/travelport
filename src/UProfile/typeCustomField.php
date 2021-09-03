@@ -8,92 +8,92 @@ class typeCustomField
     /**
      * @var typeStringRestriction $FreeformTextRestriction
      */
-    protected $FreeformTextRestriction = null;
+    public $FreeformTextRestriction = null;
 
     /**
      * @var typeIntegerRestriction $WholeNumberRestriction
      */
-    protected $WholeNumberRestriction = null;
+    public $WholeNumberRestriction = null;
 
     /**
      * @var typeFloatRestriction $DecimalRestriction
      */
-    protected $DecimalRestriction = null;
+    public $DecimalRestriction = null;
 
     /**
      * @var typeStringRestriction $TextRestriction
      */
-    protected $TextRestriction = null;
+    public $TextRestriction = null;
 
     /**
      * @var typeStringRestriction $AlphaNumericRestriction
      */
-    protected $AlphaNumericRestriction = null;
+    public $AlphaNumericRestriction = null;
 
     /**
      * @var typeFloatRestriction $PercentageRestriction
      */
-    protected $PercentageRestriction = null;
+    public $PercentageRestriction = null;
 
     /**
      * @var typeFieldID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeFieldName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeCustomFieldDataFormat $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var boolean $Encrypted
      */
-    protected $Encrypted = null;
+    public $Encrypted = null;
 
     /**
      * @var typeMasked $Masked
      */
-    protected $Masked = null;
+    public $Masked = null;
 
     /**
      * @var StringLength1to255 $DefaultValue
      */
-    protected $DefaultValue = null;
+    public $DefaultValue = null;
 
     /**
-     * @var boolean $Protected
+     * @var boolean $public
      */
-    protected $Protected = null;
+    public $public = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var boolean $Inheritable
      */
-    protected $Inheritable = null;
+    public $Inheritable = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @param typeStringRestriction $FreeformTextRestriction
@@ -109,13 +109,13 @@ class typeCustomField
      * @param boolean $Encrypted
      * @param typeMasked $Masked
      * @param StringLength1to255 $DefaultValue
-     * @param boolean $Protected
+     * @param boolean $public
      * @param int $DisplayOrder
      * @param boolean $Inheritable
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($FreeformTextRestriction = null, $WholeNumberRestriction = null, $DecimalRestriction = null, $TextRestriction = null, $AlphaNumericRestriction = null, $PercentageRestriction = null, $ID = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $Protected = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
+    public function __construct($FreeformTextRestriction = null, $WholeNumberRestriction = null, $DecimalRestriction = null, $TextRestriction = null, $AlphaNumericRestriction = null, $PercentageRestriction = null, $ID = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $public = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
     {
       $this->FreeformTextRestriction = $FreeformTextRestriction;
       $this->WholeNumberRestriction = $WholeNumberRestriction;
@@ -130,7 +130,7 @@ class typeCustomField
       $this->Encrypted = $Encrypted;
       $this->Masked = $Masked;
       $this->DefaultValue = $DefaultValue;
-      $this->Protected = $Protected;
+      $this->public = $public;
       $this->DisplayOrder = $DisplayOrder;
       $this->Inheritable = $Inheritable;
       $this->MinOccurs = $MinOccurs;
@@ -374,18 +374,18 @@ class typeCustomField
     /**
      * @return boolean
      */
-    public function getProtected()
+    public function getpublic()
     {
-      return $this->Protected;
+      return $this->public;
     }
 
     /**
-     * @param boolean $Protected
+     * @param boolean $public
      * @return \FilippoToso\Travelport\UProfile\typeCustomField
      */
-    public function setProtected($Protected)
+    public function setpublic($public)
     {
-      $this->Protected = $Protected;
+      $this->public = $public;
       return $this;
     }
 

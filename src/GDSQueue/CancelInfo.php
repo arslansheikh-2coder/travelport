@@ -8,82 +8,82 @@ class CancelInfo
     /**
      * @var string $CancellationPolicy
      */
-    protected $CancellationPolicy = null;
+    public $CancellationPolicy = null;
 
     /**
      * @var string $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var typeTrinary $NonRefundableStayIndicator
      */
-    protected $NonRefundableStayIndicator = null;
+    public $NonRefundableStayIndicator = null;
 
     /**
      * @var \DateTime $CancelDeadline
      */
-    protected $CancelDeadline = null;
+    public $CancelDeadline = null;
 
     /**
      * @var boolean $TaxInclusive
      */
-    protected $TaxInclusive = null;
+    public $TaxInclusive = null;
 
     /**
      * @var boolean $FeeInclusive
      */
-    protected $FeeInclusive = null;
+    public $FeeInclusive = null;
 
     /**
      * @var typeMoney $CancelPenaltyAmount
      */
-    protected $CancelPenaltyAmount = null;
+    public $CancelPenaltyAmount = null;
 
     /**
      * @var int $NumberOfNights
      */
-    protected $NumberOfNights = null;
+    public $NumberOfNights = null;
 
     /**
      * @var float $CancelPenaltyPercent
      */
-    protected $CancelPenaltyPercent = null;
+    public $CancelPenaltyPercent = null;
 
     /**
      * @var string $CancelPenaltyPercentAppliesTo
      */
-    protected $CancelPenaltyPercentAppliesTo = null;
+    public $CancelPenaltyPercentAppliesTo = null;
 
     /**
      * @var string $Method
      */
-    protected $Method = null;
+    public $Method = null;
 
     /**
      * @var boolean $Supported
      */
-    protected $Supported = null;
+    public $Supported = null;
 
     /**
      * @var string $URL
      */
-    protected $URL = null;
+    public $URL = null;
 
     /**
      * @var StringLength1to16 $OffsetTimeUnit
      */
-    protected $OffsetTimeUnit = null;
+    public $OffsetTimeUnit = null;
 
     /**
      * @var Numeric0to999 $OffsetUnitMultiplier
      */
-    protected $OffsetUnitMultiplier = null;
+    public $OffsetUnitMultiplier = null;
 
     /**
      * @var StringLength1to20 $OffsetDropTime
      */
-    protected $OffsetDropTime = null;
+    public $OffsetDropTime = null;
 
     /**
      * @param string $CancellationPolicy

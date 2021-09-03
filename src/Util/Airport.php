@@ -8,22 +8,22 @@ class Airport
     /**
      * @var typeAirport $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeIATACode $CityCode
      */
-    protected $CityCode = null;
+    public $CityCode = null;
 
     /**
      * @var typeCountry $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @param typeAirport $Code

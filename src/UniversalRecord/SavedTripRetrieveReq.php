@@ -8,12 +8,12 @@ class SavedTripRetrieveReq extends BaseReq
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var typeTravelerLastName $TravelerLastName
      */
-    protected $TravelerLastName = null;
+    public $TravelerLastName = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

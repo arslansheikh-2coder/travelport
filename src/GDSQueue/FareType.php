@@ -8,7 +8,7 @@ class FareType
     /**
      * @var typeFareTypeCode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeFareTypeCode $Code

@@ -8,22 +8,22 @@ class TravelerInformation
     /**
      * @var EmergencyContact $EmergencyContact
      */
-    protected $EmergencyContact = null;
+    public $EmergencyContact = null;
 
     /**
      * @var typeAirport $HomeAirport
      */
-    protected $HomeAirport = null;
+    public $HomeAirport = null;
 
     /**
      * @var date $VisaExpirationDate
      */
-    protected $VisaExpirationDate = null;
+    public $VisaExpirationDate = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param typeAirport $HomeAirport

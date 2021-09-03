@@ -8,7 +8,7 @@ class ChildProviderReservationInfo extends PNRDivideInfo
     /**
      * @var typeLocatorCode $UniversalLocatorCode
      */
-    protected $UniversalLocatorCode = null;
+    public $UniversalLocatorCode = null;
 
     /**
      * @param BookingTravelerName $BookingTravelerName

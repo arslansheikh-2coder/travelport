@@ -8,77 +8,77 @@ class EMDInfo
     /**
      * @var EMDTravelerInfo $EMDTravelerInfo
      */
-    protected $EMDTravelerInfo = null;
+    public $EMDTravelerInfo = null;
 
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var ElectronicMiscDocument $ElectronicMiscDocument
      */
-    protected $ElectronicMiscDocument = null;
+    public $ElectronicMiscDocument = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var EMDPricingInfo $EMDPricingInfo
      */
-    protected $EMDPricingInfo = null;
+    public $EMDPricingInfo = null;
 
     /**
      * @var EMDEndorsement $EMDEndorsement
      */
-    protected $EMDEndorsement = null;
+    public $EMDEndorsement = null;
 
     /**
      * @var string $FareCalc
      */
-    protected $FareCalc = null;
+    public $FareCalc = null;
 
     /**
      * @var EMDCommission $EMDCommission
      */
-    protected $EMDCommission = null;
+    public $EMDCommission = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param EMDTravelerInfo $EMDTravelerInfo

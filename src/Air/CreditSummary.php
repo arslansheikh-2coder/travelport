@@ -8,17 +8,17 @@ class CreditSummary
     /**
      * @var typeCurrency $CurrencyCode
      */
-    protected $CurrencyCode = null;
+    public $CurrencyCode = null;
 
     /**
      * @var float $CurrentBalance
      */
-    protected $CurrentBalance = null;
+    public $CurrentBalance = null;
 
     /**
      * @var float $InitialCredit
      */
-    protected $InitialCredit = null;
+    public $InitialCredit = null;
 
     /**
      * @param typeCurrency $CurrencyCode

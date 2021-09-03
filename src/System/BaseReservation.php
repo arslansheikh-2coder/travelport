@@ -8,42 +8,42 @@ class BaseReservation
     /**
      * @var AccountingRemark $AccountingRemark
      */
-    protected $AccountingRemark = null;
+    public $AccountingRemark = null;
 
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var Restriction $Restriction
      */
-    protected $Restriction = null;
+    public $Restriction = null;
 
     /**
      * @var PassiveInfo $PassiveInfo
      */
-    protected $PassiveInfo = null;
+    public $PassiveInfo = null;
 
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var string $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var string $ModifiedDate
      */
-    protected $ModifiedDate = null;
+    public $ModifiedDate = null;
 
     /**
      * @var string $CustomerNumber
      */
-    protected $CustomerNumber = null;
+    public $CustomerNumber = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

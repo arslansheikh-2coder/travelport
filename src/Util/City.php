@@ -8,22 +8,22 @@ class City
     /**
      * @var typeIATACode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $StateCode
      */
-    protected $StateCode = null;
+    public $StateCode = null;
 
     /**
      * @var typeCountry $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @param typeIATACode $Code

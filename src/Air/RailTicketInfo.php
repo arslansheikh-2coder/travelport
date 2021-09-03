@@ -8,52 +8,52 @@ class RailTicketInfo
     /**
      * @var RailJourneyRef $RailJourneyRef
      */
-    protected $RailJourneyRef = null;
+    public $RailJourneyRef = null;
 
     /**
      * @var TicketAdvisory $TicketAdvisory
      */
-    protected $TicketAdvisory = null;
+    public $TicketAdvisory = null;
 
     /**
      * @var anonymous545 $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var anonymous546 $IssueLocation
      */
-    protected $IssueLocation = null;
+    public $IssueLocation = null;
 
     /**
      * @var StringLength1to255 $TicketStatus
      */
-    protected $TicketStatus = null;
+    public $TicketStatus = null;
 
     /**
      * @var anonymous547 $TicketFormType
      */
-    protected $TicketFormType = null;
+    public $TicketFormType = null;
 
     /**
      * @var StringLength1to255 $TrafficType
      */
-    protected $TrafficType = null;
+    public $TrafficType = null;
 
     /**
      * @var \DateTime $IssuedDate
      */
-    protected $IssuedDate = null;
+    public $IssuedDate = null;
 
     /**
      * @var StringLength1to255 $TicketType
      */
-    protected $TicketType = null;
+    public $TicketType = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param RailJourneyRef $RailJourneyRef

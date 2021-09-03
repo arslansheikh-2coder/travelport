@@ -8,27 +8,27 @@ class VehicleUpsellOfferSearchCriteria
     /**
      * @var typeVehicleClass $VehicleClass
      */
-    protected $VehicleClass = null;
+    public $VehicleClass = null;
 
     /**
      * @var typeVehicleCategory $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var boolean $AirConditioning
      */
-    protected $AirConditioning = null;
+    public $AirConditioning = null;
 
     /**
      * @var typeVehicleTransmission $TransmissionType
      */
-    protected $TransmissionType = null;
+    public $TransmissionType = null;
 
     /**
      * @var typeDoorCount $DoorCount
      */
-    protected $DoorCount = null;
+    public $DoorCount = null;
 
     /**
      * @param typeVehicleClass $VehicleClass

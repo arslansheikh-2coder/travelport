@@ -8,17 +8,17 @@ class typePolicyCodesList
     /**
      * @var PolicyCode[] $PolicyCode
      */
-    protected $PolicyCode = null;
+    public $PolicyCode = null;
 
     /**
      * @var MinPolicyCode[] $MinPolicyCode
      */
-    protected $MinPolicyCode = null;
+    public $MinPolicyCode = null;
 
     /**
      * @var MaxPolicyCode[] $MaxPolicyCode
      */
-    protected $MaxPolicyCode = null;
+    public $MaxPolicyCode = null;
 
     
     public function __construct()

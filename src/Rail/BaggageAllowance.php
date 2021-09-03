@@ -8,12 +8,12 @@ class BaggageAllowance
     /**
      * @var int $NumberOfPieces
      */
-    protected $NumberOfPieces = null;
+    public $NumberOfPieces = null;
 
     /**
      * @var typeWeight $MaxWeight
      */
-    protected $MaxWeight = null;
+    public $MaxWeight = null;
 
     
     public function __construct()

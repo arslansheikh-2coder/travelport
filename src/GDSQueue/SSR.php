@@ -8,87 +8,87 @@ class SSR
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var typeRef $PassiveSegmentRef
      */
-    protected $PassiveSegmentRef = null;
+    public $PassiveSegmentRef = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeSSRCode $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeSSRFreeText $FreeText
      */
-    protected $FreeText = null;
+    public $FreeText = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var anonymous155 $CarrierSpecificText
      */
-    protected $CarrierSpecificText = null;
+    public $CarrierSpecificText = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var anonymous156 $ProviderDefinedType
      */
-    protected $ProviderDefinedType = null;
+    public $ProviderDefinedType = null;
 
     /**
      * @var typeRef $SSRRuleRef
      */
-    protected $SSRRuleRef = null;
+    public $SSRRuleRef = null;
 
     /**
      * @var anyURI $URL
      */
-    protected $URL = null;
+    public $URL = null;
 
     /**
      * @var string $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeRef $ProfileSecureFlightDocKey
      */
-    protected $ProfileSecureFlightDocKey = null;
+    public $ProfileSecureFlightDocKey = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeRef $Key

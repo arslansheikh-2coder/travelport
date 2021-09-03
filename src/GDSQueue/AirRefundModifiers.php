@@ -8,17 +8,17 @@ class AirRefundModifiers
     /**
      * @var string $RefundDate
      */
-    protected $RefundDate = null;
+    public $RefundDate = null;
 
     /**
      * @var string $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var typeTicketDesignator $TicketDesignator
      */
-    protected $TicketDesignator = null;
+    public $TicketDesignator = null;
 
     /**
      * @param string $RefundDate

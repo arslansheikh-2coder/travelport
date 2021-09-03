@@ -8,7 +8,7 @@ class CHGType
     /**
      * @var PenFeeType[] $PenFee
      */
-    protected $PenFee = null;
+    public $PenFee = null;
 
     
     public function __construct()

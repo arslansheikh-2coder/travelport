@@ -8,37 +8,37 @@ class typeVehicleCharge
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePercentageWithDecimal $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var anonymous592 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anonymous593 $IncludedInRate
      */
-    protected $IncludedInRate = null;
+    public $IncludedInRate = null;
 
     /**
      * @param string $Category

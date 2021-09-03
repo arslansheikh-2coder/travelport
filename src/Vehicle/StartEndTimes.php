@@ -8,17 +8,17 @@ class StartEndTimes
     /**
      * @var typeStartEndTime $EarliestStart
      */
-    protected $EarliestStart = null;
+    public $EarliestStart = null;
 
     /**
      * @var typeStartEndTime $LatestStart
      */
-    protected $LatestStart = null;
+    public $LatestStart = null;
 
     /**
      * @var typeStartEndTime $LatestEnd
      */
-    protected $LatestEnd = null;
+    public $LatestEnd = null;
 
     
     public function __construct()

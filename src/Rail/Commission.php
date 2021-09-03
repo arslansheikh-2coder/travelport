@@ -8,17 +8,17 @@ class Commission
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeMoney $MiscellaneousAmount
      */
-    protected $MiscellaneousAmount = null;
+    public $MiscellaneousAmount = null;
 
     /**
      * @var StringLength1to13 $MiscellaneousDescription
      */
-    protected $MiscellaneousDescription = null;
+    public $MiscellaneousDescription = null;
 
     /**
      * @param typeMoney $Amount

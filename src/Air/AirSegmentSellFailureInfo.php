@@ -8,7 +8,7 @@ class AirSegmentSellFailureInfo
     /**
      * @var AirSegmentError $AirSegmentError
      */
-    protected $AirSegmentError = null;
+    public $AirSegmentError = null;
 
     /**
      * @param AirSegmentError $AirSegmentError

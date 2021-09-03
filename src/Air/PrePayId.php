@@ -8,17 +8,17 @@ class PrePayId
     /**
      * @var CompanyName $CompanyName
      */
-    protected $CompanyName = null;
+    public $CompanyName = null;
 
     /**
      * @var typeCardNumber $Id
      */
-    protected $Id = null;
+    public $Id = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param CompanyName $CompanyName

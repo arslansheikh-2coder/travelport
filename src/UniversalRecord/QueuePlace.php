@@ -8,12 +8,12 @@ class QueuePlace
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var QueueSelector $QueueSelector
      */
-    protected $QueueSelector = null;
+    public $QueueSelector = null;
 
     /**
      * @param QueueSelector $QueueSelector

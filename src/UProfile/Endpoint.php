@@ -8,37 +8,37 @@ class Endpoint
     /**
      * @var typeEndpointID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeEndpointName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeEndpointDescription $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeEndpointDataType $DataType
      */
-    protected $DataType = null;
+    public $DataType = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @var string $EndPointCode
      */
-    protected $EndPointCode = null;
+    public $EndPointCode = null;
 
     /**
      * @param typeEndpointID $ID

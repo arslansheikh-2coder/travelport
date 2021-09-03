@@ -8,7 +8,7 @@ class typeCommonEditableGroup extends typeCommonEditableField
     /**
      * @var boolean $Hide
      */
-    protected $Hide = null;
+    public $Hide = null;
 
     /**
      * @param typeFieldID $ID

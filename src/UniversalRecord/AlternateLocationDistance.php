@@ -8,22 +8,22 @@ class AlternateLocationDistance
     /**
      * @var Distance $Distance
      */
-    protected $Distance = null;
+    public $Distance = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeIATACode $SearchLocation
      */
-    protected $SearchLocation = null;
+    public $SearchLocation = null;
 
     /**
      * @var typeIATACode $AlternateLocation
      */
-    protected $AlternateLocation = null;
+    public $AlternateLocation = null;
 
     /**
      * @param Distance $Distance

@@ -8,162 +8,162 @@ class ADVType
     /**
      * @var boolean $AdvRsvnOnlyIfTk
      */
-    protected $AdvRsvnOnlyIfTk = null;
+    public $AdvRsvnOnlyIfTk = null;
 
     /**
      * @var boolean $AdvRsvnAnyTm
      */
-    protected $AdvRsvnAnyTm = null;
+    public $AdvRsvnAnyTm = null;
 
     /**
      * @var boolean $AdvRsvnHrs
      */
-    protected $AdvRsvnHrs = null;
+    public $AdvRsvnHrs = null;
 
     /**
      * @var boolean $AdvRsvnDays
      */
-    protected $AdvRsvnDays = null;
+    public $AdvRsvnDays = null;
 
     /**
      * @var boolean $AdvRsvnMonths
      */
-    protected $AdvRsvnMonths = null;
+    public $AdvRsvnMonths = null;
 
     /**
      * @var boolean $AdvRsvnEarliestTm
      */
-    protected $AdvRsvnEarliestTm = null;
+    public $AdvRsvnEarliestTm = null;
 
     /**
      * @var boolean $AdvRsvnLatestTm
      */
-    protected $AdvRsvnLatestTm = null;
+    public $AdvRsvnLatestTm = null;
 
     /**
      * @var boolean $AdvRsvnWaived
      */
-    protected $AdvRsvnWaived = null;
+    public $AdvRsvnWaived = null;
 
     /**
      * @var boolean $AdvRsvnDataExists
      */
-    protected $AdvRsvnDataExists = null;
+    public $AdvRsvnDataExists = null;
 
     /**
      * @var boolean $AdvRsvnEndItem
      */
-    protected $AdvRsvnEndItem = null;
+    public $AdvRsvnEndItem = null;
 
     /**
      * @var boolean $AdvTkEarliestTm
      */
-    protected $AdvTkEarliestTm = null;
+    public $AdvTkEarliestTm = null;
 
     /**
      * @var boolean $AdvTkLatestTm
      */
-    protected $AdvTkLatestTm = null;
+    public $AdvTkLatestTm = null;
 
     /**
      * @var boolean $AdvTkRsvnHrs
      */
-    protected $AdvTkRsvnHrs = null;
+    public $AdvTkRsvnHrs = null;
 
     /**
      * @var boolean $AdvTkRsvnDays
      */
-    protected $AdvTkRsvnDays = null;
+    public $AdvTkRsvnDays = null;
 
     /**
      * @var boolean $AdvTkRsvnMonths
      */
-    protected $AdvTkRsvnMonths = null;
+    public $AdvTkRsvnMonths = null;
 
     /**
      * @var boolean $AdvTkStartHrs
      */
-    protected $AdvTkStartHrs = null;
+    public $AdvTkStartHrs = null;
 
     /**
      * @var boolean $AdvTkStartDays
      */
-    protected $AdvTkStartDays = null;
+    public $AdvTkStartDays = null;
 
     /**
      * @var boolean $AdvTkStartMonths
      */
-    protected $AdvTkStartMonths = null;
+    public $AdvTkStartMonths = null;
 
     /**
      * @var boolean $AdvTkWaived
      */
-    protected $AdvTkWaived = null;
+    public $AdvTkWaived = null;
 
     /**
      * @var boolean $AdvTkAnyTm
      */
-    protected $AdvTkAnyTm = null;
+    public $AdvTkAnyTm = null;
 
     /**
      * @var boolean $AdvTkEndItem
      */
-    protected $AdvTkEndItem = null;
+    public $AdvTkEndItem = null;
 
     /**
      * @var int $AdvRsvnTm
      */
-    protected $AdvRsvnTm = null;
+    public $AdvRsvnTm = null;
 
     /**
      * @var int $AdvTkRsvnTm
      */
-    protected $AdvTkRsvnTm = null;
+    public $AdvTkRsvnTm = null;
 
     /**
      * @var int $AdvTkStartTm
      */
-    protected $AdvTkStartTm = null;
+    public $AdvTkStartTm = null;
 
     /**
      * @var boolean $EarliestRsvnDtPresent
      */
-    protected $EarliestRsvnDtPresent = null;
+    public $EarliestRsvnDtPresent = null;
 
     /**
      * @var boolean $EarliestTkDtPresent
      */
-    protected $EarliestTkDtPresent = null;
+    public $EarliestTkDtPresent = null;
 
     /**
      * @var boolean $LatestRsvnDtPresent
      */
-    protected $LatestRsvnDtPresent = null;
+    public $LatestRsvnDtPresent = null;
 
     /**
      * @var boolean $LatestTkDtPresent
      */
-    protected $LatestTkDtPresent = null;
+    public $LatestTkDtPresent = null;
 
     /**
      * @var date $EarliestRsvnDt
      */
-    protected $EarliestRsvnDt = null;
+    public $EarliestRsvnDt = null;
 
     /**
      * @var date $EarliestTkDt
      */
-    protected $EarliestTkDt = null;
+    public $EarliestTkDt = null;
 
     /**
      * @var date $LatestRsvnDt
      */
-    protected $LatestRsvnDt = null;
+    public $LatestRsvnDt = null;
 
     /**
      * @var date $LatestTkDt
      */
-    protected $LatestTkDt = null;
+    public $LatestTkDt = null;
 
     /**
      * @param boolean $AdvRsvnOnlyIfTk

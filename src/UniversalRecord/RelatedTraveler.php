@@ -8,27 +8,27 @@ class RelatedTraveler
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var PersonName $PersonName
      */
-    protected $PersonName = null;
+    public $PersonName = null;
 
     /**
      * @var CreditsUsed $CreditsUsed
      */
-    protected $CreditsUsed = null;
+    public $CreditsUsed = null;
 
     /**
      * @var string $StatusCode
      */
-    protected $StatusCode = null;
+    public $StatusCode = null;
 
     /**
      * @var string $Relation
      */
-    protected $Relation = null;
+    public $Relation = null;
 
     /**
      * @param LoyaltyCard $LoyaltyCard

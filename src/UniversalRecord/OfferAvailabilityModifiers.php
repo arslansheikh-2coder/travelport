@@ -8,17 +8,17 @@ class OfferAvailabilityModifiers
     /**
      * @var typeMerchandisingService[] $ServiceType
      */
-    protected $ServiceType = null;
+    public $ServiceType = null;
 
     /**
      * @var typeCarrier[] $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeCurrency $CurrencyType
      */
-    protected $CurrencyType = null;
+    public $CurrencyType = null;
 
     /**
      * @param typeCurrency $CurrencyType

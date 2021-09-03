@@ -8,212 +8,212 @@ class FareInfo
     /**
      * @var FareTicketDesignator $FareTicketDesignator
      */
-    protected $FareTicketDesignator = null;
+    public $FareTicketDesignator = null;
 
     /**
      * @var FareSurcharge $FareSurcharge
      */
-    protected $FareSurcharge = null;
+    public $FareSurcharge = null;
 
     /**
      * @var AccountCode $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var ContractCode $ContractCode
      */
-    protected $ContractCode = null;
+    public $ContractCode = null;
 
     /**
      * @var Endorsement $Endorsement
      */
-    protected $Endorsement = null;
+    public $Endorsement = null;
 
     /**
      * @var BaggageAllowance $BaggageAllowance
      */
-    protected $BaggageAllowance = null;
+    public $BaggageAllowance = null;
 
     /**
      * @var FareRuleKey $FareRuleKey
      */
-    protected $FareRuleKey = null;
+    public $FareRuleKey = null;
 
     /**
      * @var FareRuleFailureInfo $FareRuleFailureInfo
      */
-    protected $FareRuleFailureInfo = null;
+    public $FareRuleFailureInfo = null;
 
     /**
      * @var FareRemarkRef $FareRemarkRef
      */
-    protected $FareRemarkRef = null;
+    public $FareRemarkRef = null;
 
     /**
      * @var Brand $Brand
      */
-    protected $Brand = null;
+    public $Brand = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var string $FareAttributes
      */
-    protected $FareAttributes = null;
+    public $FareAttributes = null;
 
     /**
      * @var typeFarePenalty $ChangePenalty
      */
-    protected $ChangePenalty = null;
+    public $ChangePenalty = null;
 
     /**
      * @var typeFarePenalty $CancelPenalty
      */
-    protected $CancelPenalty = null;
+    public $CancelPenalty = null;
 
     /**
      * @var FareRulesFilter $FareRulesFilter
      */
-    protected $FareRulesFilter = null;
+    public $FareRulesFilter = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @var typePTC $PassengerTypeCode
      */
-    protected $PassengerTypeCode = null;
+    public $PassengerTypeCode = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $EffectiveDate
      */
-    protected $EffectiveDate = null;
+    public $EffectiveDate = null;
 
     /**
      * @var date $TravelDate
      */
-    protected $TravelDate = null;
+    public $TravelDate = null;
 
     /**
      * @var date $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePrivateFare $PrivateFare
      */
-    protected $PrivateFare = null;
+    public $PrivateFare = null;
 
     /**
      * @var boolean $NegotiatedFare
      */
-    protected $NegotiatedFare = null;
+    public $NegotiatedFare = null;
 
     /**
      * @var typeTourCode $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var string $WaiverCode
      */
-    protected $WaiverCode = null;
+    public $WaiverCode = null;
 
     /**
      * @var date $NotValidBefore
      */
-    protected $NotValidBefore = null;
+    public $NotValidBefore = null;
 
     /**
      * @var date $NotValidAfter
      */
-    protected $NotValidAfter = null;
+    public $NotValidAfter = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var typeFareFamily $FareFamily
      */
-    protected $FareFamily = null;
+    public $FareFamily = null;
 
     /**
      * @var boolean $PromotionalFare
      */
-    protected $PromotionalFare = null;
+    public $PromotionalFare = null;
 
     /**
      * @var typeCarCode $CarCode
      */
-    protected $CarCode = null;
+    public $CarCode = null;
 
     /**
      * @var typeValueCode $ValueCode
      */
-    protected $ValueCode = null;
+    public $ValueCode = null;
 
     /**
      * @var boolean $BulkTicket
      */
-    protected $BulkTicket = null;
+    public $BulkTicket = null;
 
     /**
      * @var boolean $InclusiveTour
      */
-    protected $InclusiveTour = null;
+    public $InclusiveTour = null;
 
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeMoney $TaxAmount
      */
-    protected $TaxAmount = null;
+    public $TaxAmount = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param FareTicketDesignator $FareTicketDesignator

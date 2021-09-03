@@ -8,7 +8,7 @@ class SessTok
     /**
      * @var string $id
      */
-    protected $id = null;
+    public $id = null;
 
     /**
      * @param string $id

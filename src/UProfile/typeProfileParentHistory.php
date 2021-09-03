@@ -8,22 +8,22 @@ class typeProfileParentHistory
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var string $ProfileName
      */
-    protected $ProfileName = null;
+    public $ProfileName = null;
 
     /**
      * @var typeProvisioningCode $ProvisioningCode
      */
-    protected $ProvisioningCode = null;
+    public $ProvisioningCode = null;
 
     /**
      * @param typeProfileID $ProfileID

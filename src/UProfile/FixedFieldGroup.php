@@ -8,97 +8,97 @@ class FixedFieldGroup
     /**
      * @var FixedField $FixedField
      */
-    protected $FixedField = null;
+    public $FixedField = null;
 
     /**
      * @var FixedFieldGroup $FixedFieldGroup
      */
-    protected $FixedFieldGroup = null;
+    public $FixedFieldGroup = null;
 
     /**
      * @var typeID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var boolean $ReadOnly
      */
-    protected $ReadOnly = null;
+    public $ReadOnly = null;
 
     /**
      * @var boolean $Overriden
      */
-    protected $Overriden = null;
+    public $Overriden = null;
 
     /**
      * @var typeFieldName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var anonymous880 $Component
      */
-    protected $Component = null;
+    public $Component = null;
 
     /**
      * @var anonymous881 $CorrelationElement
      */
-    protected $CorrelationElement = null;
+    public $CorrelationElement = null;
 
     /**
      * @var StringLength1to128 $CorrelationValue
      */
-    protected $CorrelationValue = null;
+    public $CorrelationValue = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var boolean $Hide
      */
-    protected $Hide = null;
+    public $Hide = null;
 
     /**
      * @var boolean $Inheritable
      */
-    protected $Inheritable = null;
+    public $Inheritable = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @var string $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var int $MinOccursOverride
      */
-    protected $MinOccursOverride = null;
+    public $MinOccursOverride = null;
 
     /**
      * @var int $MaxOccursOverride
      */
-    protected $MaxOccursOverride = null;
+    public $MaxOccursOverride = null;
 
     /**
      * @var boolean $InheritableControlInd
      */
-    protected $InheritableControlInd = null;
+    public $InheritableControlInd = null;
 
     /**
      * @param FixedField $FixedField

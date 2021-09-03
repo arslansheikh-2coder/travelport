@@ -8,12 +8,12 @@ class DestinationPurposeCode
     /**
      * @var typeDestinationCode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typePurposeCode $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @param typeDestinationCode $Destination

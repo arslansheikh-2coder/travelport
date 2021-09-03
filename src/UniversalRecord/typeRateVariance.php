@@ -8,17 +8,17 @@ class typeRateVariance
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var float $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var string $Apply
      */
-    protected $Apply = null;
+    public $Apply = null;
 
     /**
      * @param string $Type

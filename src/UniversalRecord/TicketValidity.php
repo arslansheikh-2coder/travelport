@@ -8,12 +8,12 @@ class TicketValidity
     /**
      * @var date $NotValidBefore
      */
-    protected $NotValidBefore = null;
+    public $NotValidBefore = null;
 
     /**
      * @var date $NotValidAfter
      */
-    protected $NotValidAfter = null;
+    public $NotValidAfter = null;
 
     /**
      * @param date $NotValidBefore

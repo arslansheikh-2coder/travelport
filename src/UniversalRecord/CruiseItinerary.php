@@ -8,47 +8,47 @@ class CruiseItinerary
     /**
      * @var date $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var time $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var date $ArrivalDate
      */
-    protected $ArrivalDate = null;
+    public $ArrivalDate = null;
 
     /**
      * @var time $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @var date $BoardingDate
      */
-    protected $BoardingDate = null;
+    public $BoardingDate = null;
 
     /**
      * @var time $BoardingTime
      */
-    protected $BoardingTime = null;
+    public $BoardingTime = null;
 
     /**
      * @var typeStatusCode $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var StringLength1to20 $PortName
      */
-    protected $PortName = null;
+    public $PortName = null;
 
     /**
      * @var StringLength1 $PortIndicator
      */
-    protected $PortIndicator = null;
+    public $PortIndicator = null;
 
     /**
      * @param date $DepartureDate

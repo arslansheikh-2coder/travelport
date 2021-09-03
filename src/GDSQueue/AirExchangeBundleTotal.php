@@ -8,12 +8,12 @@ class AirExchangeBundleTotal
     /**
      * @var AirExchangeInfo $AirExchangeInfo
      */
-    protected $AirExchangeInfo = null;
+    public $AirExchangeInfo = null;
 
     /**
      * @var Penalty $Penalty
      */
-    protected $Penalty = null;
+    public $Penalty = null;
 
     /**
      * @param AirExchangeInfo $AirExchangeInfo

@@ -8,27 +8,27 @@ class Adjustment
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var float $Percent
      */
-    protected $Percent = null;
+    public $Percent = null;
 
     /**
      * @var typeMoney $AdjustedTotalPrice
      */
-    protected $AdjustedTotalPrice = null;
+    public $AdjustedTotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateAdjustedTotalPrice
      */
-    protected $ApproximateAdjustedTotalPrice = null;
+    public $ApproximateAdjustedTotalPrice = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param typeMoney $Amount

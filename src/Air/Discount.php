@@ -8,12 +8,12 @@ class Discount
     /**
      * @var DiscountCard $DiscountCard
      */
-    protected $DiscountCard = null;
+    public $DiscountCard = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param DiscountCard $DiscountCard

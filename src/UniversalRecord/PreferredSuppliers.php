@@ -8,7 +8,7 @@ class PreferredSuppliers
     /**
      * @var RailSupplier $RailSupplier
      */
-    protected $RailSupplier = null;
+    public $RailSupplier = null;
 
     /**
      * @param RailSupplier $RailSupplier

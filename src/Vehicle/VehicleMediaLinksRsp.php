@@ -8,7 +8,7 @@ class VehicleMediaLinksRsp extends BaseRsp
     /**
      * @var VehicleWithMediaItems $VehicleWithMediaItems
      */
-    protected $VehicleWithMediaItems = null;
+    public $VehicleWithMediaItems = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

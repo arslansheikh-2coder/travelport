@@ -8,12 +8,12 @@ class Tax
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @param string $Category

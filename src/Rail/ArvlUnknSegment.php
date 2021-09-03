@@ -8,27 +8,27 @@ class ArvlUnknSegment
     /**
      * @var BookingTravelerRef[] $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var int $TravelOrder
      */
-    protected $TravelOrder = null;
+    public $TravelOrder = null;
 
     /**
      * @param typeRef $Key

@@ -8,7 +8,7 @@ class SeatAttribute
     /**
      * @var anonymous476 $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param anonymous476 $Value

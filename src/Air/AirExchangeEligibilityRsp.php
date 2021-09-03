@@ -8,7 +8,7 @@ class AirExchangeEligibilityRsp extends BaseRsp
     /**
      * @var ExchangeEligibilityInfo $ExchangeEligibilityInfo
      */
-    protected $ExchangeEligibilityInfo = null;
+    public $ExchangeEligibilityInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

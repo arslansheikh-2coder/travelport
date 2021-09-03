@@ -8,7 +8,7 @@ class VendorLocation extends typeVendorLocation
     /**
      * @var Distance $Distance
      */
-    protected $Distance = null;
+    public $Distance = null;
 
     /**
      * @param typeProviderCode $ProviderCode

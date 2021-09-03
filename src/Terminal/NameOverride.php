@@ -8,12 +8,12 @@ class NameOverride
     /**
      * @var anonymous409 $First
      */
-    protected $First = null;
+    public $First = null;
 
     /**
      * @var anonymous410 $Last
      */
-    protected $Last = null;
+    public $Last = null;
 
     /**
      * @param anonymous409 $First

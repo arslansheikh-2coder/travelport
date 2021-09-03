@@ -8,132 +8,132 @@ class ProfileData
     /**
      * @var AgencyGroupInfo $AgencyGroupInfo
      */
-    protected $AgencyGroupInfo = null;
+    public $AgencyGroupInfo = null;
 
     /**
      * @var AgencyInfo $AgencyInfo
      */
-    protected $AgencyInfo = null;
+    public $AgencyInfo = null;
 
     /**
      * @var BranchGroupInfo $BranchGroupInfo
      */
-    protected $BranchGroupInfo = null;
+    public $BranchGroupInfo = null;
 
     /**
      * @var BranchInfo $BranchInfo
      */
-    protected $BranchInfo = null;
+    public $BranchInfo = null;
 
     /**
      * @var AccountInfo $AccountInfo
      */
-    protected $AccountInfo = null;
+    public $AccountInfo = null;
 
     /**
      * @var AgentInfo $AgentInfo
      */
-    protected $AgentInfo = null;
+    public $AgentInfo = null;
 
     /**
      * @var TravelerGroupInfo $TravelerGroupInfo
      */
-    protected $TravelerGroupInfo = null;
+    public $TravelerGroupInfo = null;
 
     /**
      * @var TravelerInfo $TravelerInfo
      */
-    protected $TravelerInfo = null;
+    public $TravelerInfo = null;
 
     /**
      * @var TravelDocument $TravelDocument
      */
-    protected $TravelDocument = null;
+    public $TravelDocument = null;
 
     /**
      * @var AccountingReference $AccountingReference
      */
-    protected $AccountingReference = null;
+    public $AccountingReference = null;
 
     /**
      * @var PolicyReference $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @var CommissionReference $CommissionReference
      */
-    protected $CommissionReference = null;
+    public $CommissionReference = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var typeFormOfPaymentType $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var AirPreference $AirPreference
      */
-    protected $AirPreference = null;
+    public $AirPreference = null;
 
     /**
      * @var HotelPreference $HotelPreference
      */
-    protected $HotelPreference = null;
+    public $HotelPreference = null;
 
     /**
      * @var RailPreference $RailPreference
      */
-    protected $RailPreference = null;
+    public $RailPreference = null;
 
     /**
      * @var OtherPreference $OtherPreference
      */
-    protected $OtherPreference = null;
+    public $OtherPreference = null;
 
     /**
      * @var Contract $Contract
      */
-    protected $Contract = null;
+    public $Contract = null;
 
     /**
      * @var ServiceFee $ServiceFee
      */
-    protected $ServiceFee = null;
+    public $ServiceFee = null;
 
     /**
      * @var AlternateContact $AlternateContact
      */
-    protected $AlternateContact = null;
+    public $AlternateContact = null;
 
     /**
      * @var LoyaltyProgramEnrollment $LoyaltyProgramEnrollment
      */
-    protected $LoyaltyProgramEnrollment = null;
+    public $LoyaltyProgramEnrollment = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var VehiclePreference $VehiclePreference
      */
-    protected $VehiclePreference = null;
+    public $VehiclePreference = null;
 
     /**
      * @var FieldData $FieldData
      */
-    protected $FieldData = null;
+    public $FieldData = null;
 
     /**
      * @var FieldGroupData $FieldGroupData
      */
-    protected $FieldGroupData = null;
+    public $FieldGroupData = null;
 
     /**
      * @param AgencyGroupInfo $AgencyGroupInfo

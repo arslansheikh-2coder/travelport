@@ -8,62 +8,62 @@ class AirTicketingReq extends AirBaseReq
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var AirPricingInfoRef[] $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var typeTicketingModifiersRef[] $TicketingModifiersRef
      */
-    protected $TicketingModifiersRef = null;
+    public $TicketingModifiersRef = null;
 
     /**
      * @var WaiverCode $WaiverCode
      */
-    protected $WaiverCode = null;
+    public $WaiverCode = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var DetailedBillingInformation $DetailedBillingInformation
      */
-    protected $DetailedBillingInformation = null;
+    public $DetailedBillingInformation = null;
 
     /**
      * @var FaxDetailsInformation $FaxDetailsInformation
      */
-    protected $FaxDetailsInformation = null;
+    public $FaxDetailsInformation = null;
 
     /**
      * @var AirTicketingModifiers $AirTicketingModifiers
      */
-    protected $AirTicketingModifiers = null;
+    public $AirTicketingModifiers = null;
 
     /**
      * @var AirSegmentTicketingModifiers $AirSegmentTicketingModifiers
      */
-    protected $AirSegmentTicketingModifiers = null;
+    public $AirSegmentTicketingModifiers = null;
 
     /**
      * @var boolean $ReturnInfoOnFail
      */
-    protected $ReturnInfoOnFail = null;
+    public $ReturnInfoOnFail = null;
 
     /**
      * @var boolean $BulkTicket
      */
-    protected $BulkTicket = null;
+    public $BulkTicket = null;
 
     /**
      * @var boolean $ValidateSpanishResidency
      */
-    protected $ValidateSpanishResidency = null;
+    public $ValidateSpanishResidency = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

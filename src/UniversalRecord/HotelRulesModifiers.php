@@ -8,47 +8,47 @@ class HotelRulesModifiers
     /**
      * @var PermittedProviders $PermittedProviders
      */
-    protected $PermittedProviders = null;
+    public $PermittedProviders = null;
 
     /**
      * @var NumberOfChildren $NumberOfChildren
      */
-    protected $NumberOfChildren = null;
+    public $NumberOfChildren = null;
 
     /**
      * @var HotelBedding $HotelBedding
      */
-    protected $HotelBedding = null;
+    public $HotelBedding = null;
 
     /**
      * @var typeOTACode $RateCategory
      */
-    protected $RateCategory = null;
+    public $RateCategory = null;
 
     /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
-    protected $CorporateDiscountID = null;
+    public $CorporateDiscountID = null;
 
     /**
      * @var int $NumberOfAdults
      */
-    protected $NumberOfAdults = null;
+    public $NumberOfAdults = null;
 
     /**
      * @var int $NumberOfRooms
      */
-    protected $NumberOfRooms = null;
+    public $NumberOfRooms = null;
 
     /**
      * @var int $TotalOccupants
      */
-    protected $TotalOccupants = null;
+    public $TotalOccupants = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param PermittedProviders $PermittedProviders

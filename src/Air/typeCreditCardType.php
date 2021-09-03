@@ -8,42 +8,42 @@ class typeCreditCardType extends typePaymentCard
     /**
      * @var string $ExtendedPayment
      */
-    protected $ExtendedPayment = null;
+    public $ExtendedPayment = null;
 
     /**
      * @var string $CustomerReference
      */
-    protected $CustomerReference = null;
+    public $CustomerReference = null;
 
     /**
      * @var boolean $AcceptanceOverride
      */
-    protected $AcceptanceOverride = null;
+    public $AcceptanceOverride = null;
 
     /**
      * @var boolean $ThirdPartyPayment
      */
-    protected $ThirdPartyPayment = null;
+    public $ThirdPartyPayment = null;
 
     /**
      * @var string $BankName
      */
-    protected $BankName = null;
+    public $BankName = null;
 
     /**
      * @var typeCountry $BankCountryCode
      */
-    protected $BankCountryCode = null;
+    public $BankCountryCode = null;
 
     /**
      * @var typeState $BankStateCode
      */
-    protected $BankStateCode = null;
+    public $BankStateCode = null;
 
     /**
      * @var boolean $Enett
      */
-    protected $Enett = null;
+    public $Enett = null;
 
     /**
      * @param PhoneNumber $PhoneNumber

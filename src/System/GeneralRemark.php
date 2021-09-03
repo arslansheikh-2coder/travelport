@@ -8,72 +8,72 @@ class GeneralRemark
     /**
      * @var string $RemarkData
      */
-    protected $RemarkData = null;
+    public $RemarkData = null;
 
     /**
      * @var typeRef[] $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous100 $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var typeGdsRemark $TypeInGds
      */
-    protected $TypeInGds = null;
+    public $TypeInGds = null;
 
     /**
      * @var typeProduct $SupplierType
      */
-    protected $SupplierType = null;
+    public $SupplierType = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeDirection $Direction
      */
-    protected $Direction = null;
+    public $Direction = null;
 
     /**
      * @var \DateTime $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var boolean $UseProviderNativeMode
      */
-    protected $UseProviderNativeMode = null;
+    public $UseProviderNativeMode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param string $RemarkData

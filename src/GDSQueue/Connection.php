@@ -8,52 +8,52 @@ class Connection
     /**
      * @var FareNote $FareNote
      */
-    protected $FareNote = null;
+    public $FareNote = null;
 
     /**
      * @var boolean $ChangeOfPlane
      */
-    protected $ChangeOfPlane = null;
+    public $ChangeOfPlane = null;
 
     /**
      * @var boolean $ChangeOfTerminal
      */
-    protected $ChangeOfTerminal = null;
+    public $ChangeOfTerminal = null;
 
     /**
      * @var boolean $ChangeOfAirport
      */
-    protected $ChangeOfAirport = null;
+    public $ChangeOfAirport = null;
 
     /**
      * @var boolean $StopOver
      */
-    protected $StopOver = null;
+    public $StopOver = null;
 
     /**
      * @var int $MinConnectionTime
      */
-    protected $MinConnectionTime = null;
+    public $MinConnectionTime = null;
 
     /**
      * @var int $Duration
      */
-    protected $Duration = null;
+    public $Duration = null;
 
     /**
      * @var int $SegmentIndex
      */
-    protected $SegmentIndex = null;
+    public $SegmentIndex = null;
 
     /**
      * @var int $FlightDetailsIndex
      */
-    protected $FlightDetailsIndex = null;
+    public $FlightDetailsIndex = null;
 
     /**
      * @var typeIgnoreStopOver $IncludeStopOverToFareQuote
      */
-    protected $IncludeStopOverToFareQuote = null;
+    public $IncludeStopOverToFareQuote = null;
 
     /**
      * @param FareNote $FareNote

@@ -8,12 +8,12 @@ class ProfileDataFilter
     /**
      * @var typeProfileDataCategory $ProfileDataCategory
      */
-    protected $ProfileDataCategory = null;
+    public $ProfileDataCategory = null;
 
     /**
      * @var GeoPoliticalAreaFilter $GeoPoliticalAreaFilter
      */
-    protected $GeoPoliticalAreaFilter = null;
+    public $GeoPoliticalAreaFilter = null;
 
     /**
      * @param typeProfileDataCategory $ProfileDataCategory

@@ -8,17 +8,17 @@ class ProviderInfo extends typeKeyElement
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var typeIATA $IATACode
      */
-    protected $IATACode = null;
+    public $IATACode = null;
 
     /**
      * @param typeRef $Key

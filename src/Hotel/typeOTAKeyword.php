@@ -8,27 +8,27 @@ class typeOTAKeyword
     /**
      * @var typeOTASubKey[] $SubKey
      */
-    protected $SubKey = null;
+    public $SubKey = null;
 
     /**
      * @var string[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var anonymous403 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var UNKNOWN $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var UNKNOWN $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param anonymous403 $Name

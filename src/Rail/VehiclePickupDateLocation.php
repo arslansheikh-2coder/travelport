@@ -8,22 +8,22 @@ class VehiclePickupDateLocation
     /**
      * @var \DateTime $PickupDateTime
      */
-    protected $PickupDateTime = null;
+    public $PickupDateTime = null;
 
     /**
      * @var typeIATACode $PickupLocation
      */
-    protected $PickupLocation = null;
+    public $PickupLocation = null;
 
     /**
      * @var typeVehicleLocation $PickupLocationType
      */
-    protected $PickupLocationType = null;
+    public $PickupLocationType = null;
 
     /**
      * @var string $PickupLocationNumber
      */
-    protected $PickupLocationNumber = null;
+    public $PickupLocationNumber = null;
 
     /**
      * @param \DateTime $PickupDateTime

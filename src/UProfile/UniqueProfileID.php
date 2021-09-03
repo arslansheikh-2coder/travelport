@@ -8,17 +8,17 @@ class UniqueProfileID
     /**
      * @var StringLength6to128 $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var anonymous878 $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var typeProvisioningCode $AgencyCode
      */
-    protected $AgencyCode = null;
+    public $AgencyCode = null;
 
     /**
      * @param StringLength6to128 $_

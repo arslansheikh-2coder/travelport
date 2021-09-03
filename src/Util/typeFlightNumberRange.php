@@ -8,12 +8,12 @@ class typeFlightNumberRange
     /**
      * @var typeFlightNumber $FlightNumberRangeStart
      */
-    protected $FlightNumberRangeStart = null;
+    public $FlightNumberRangeStart = null;
 
     /**
      * @var typeFlightNumber $FlightNumberRangeEnd
      */
-    protected $FlightNumberRangeEnd = null;
+    public $FlightNumberRangeEnd = null;
 
     /**
      * @param typeFlightNumber $FlightNumberRangeStart

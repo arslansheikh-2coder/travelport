@@ -8,147 +8,147 @@ class HotelReservation extends BaseReservation
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var ReservationName $ReservationName
      */
-    protected $ReservationName = null;
+    public $ReservationName = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelRateDetail $HotelRateDetail
      */
-    protected $HotelRateDetail = null;
+    public $HotelRateDetail = null;
 
     /**
      * @var HotelStay $HotelStay
      */
-    protected $HotelStay = null;
+    public $HotelStay = null;
 
     /**
      * @var typeGeneralText $HotelSpecialRequest
      */
-    protected $HotelSpecialRequest = null;
+    public $HotelSpecialRequest = null;
 
     /**
      * @var Guarantee $Guarantee
      */
-    protected $Guarantee = null;
+    public $Guarantee = null;
 
     /**
      * @var PromotionCode $PromotionCode
      */
-    protected $PromotionCode = null;
+    public $PromotionCode = null;
 
     /**
      * @var BookingSource $BookingSource
      */
-    protected $BookingSource = null;
+    public $BookingSource = null;
 
     /**
      * @var HotelBedding $HotelBedding
      */
-    protected $HotelBedding = null;
+    public $HotelBedding = null;
 
     /**
      * @var GuestInformation $GuestInformation
      */
-    protected $GuestInformation = null;
+    public $GuestInformation = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var string $SellMessage
      */
-    protected $SellMessage = null;
+    public $SellMessage = null;
 
     /**
      * @var string $HotelCommission
      */
-    protected $HotelCommission = null;
+    public $HotelCommission = null;
 
     /**
      * @var BookingGuestInformation $BookingGuestInformation
      */
-    protected $BookingGuestInformation = null;
+    public $BookingGuestInformation = null;
 
     /**
      * @var RoomConfirmationCodes $RoomConfirmationCodes
      */
-    protected $RoomConfirmationCodes = null;
+    public $RoomConfirmationCodes = null;
 
     /**
      * @var CancelInfo $CancelInfo
      */
-    protected $CancelInfo = null;
+    public $CancelInfo = null;
 
     /**
      * @var TotalReservationPrice $TotalReservationPrice
      */
-    protected $TotalReservationPrice = null;
+    public $TotalReservationPrice = null;
 
     /**
      * @var HotelDetailItem $HotelDetailItem
      */
-    protected $HotelDetailItem = null;
+    public $HotelDetailItem = null;
 
     /**
      * @var AdaptedRoomGuestAllocation $AdaptedRoomGuestAllocation
      */
-    protected $AdaptedRoomGuestAllocation = null;
+    public $AdaptedRoomGuestAllocation = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $AggregatorBookingStatus
      */
-    protected $AggregatorBookingStatus = null;
+    public $AggregatorBookingStatus = null;
 
     /**
      * @var string $BookingConfirmation
      */
-    protected $BookingConfirmation = null;
+    public $BookingConfirmation = null;
 
     /**
      * @var string $CancelConfirmation
      */
-    protected $CancelConfirmation = null;
+    public $CancelConfirmation = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var int $TravelOrder
      */
-    protected $TravelOrder = null;
+    public $TravelOrder = null;
 
     /**
      * @var anonymous1157 $ProviderSegmentOrder
      */
-    protected $ProviderSegmentOrder = null;
+    public $ProviderSegmentOrder = null;
 
     /**
      * @var typeRef $PassiveProviderReservationInfoRef
      */
-    protected $PassiveProviderReservationInfoRef = null;
+    public $PassiveProviderReservationInfoRef = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

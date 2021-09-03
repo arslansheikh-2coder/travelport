@@ -8,12 +8,12 @@ class CacheEntry
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeCacheKey $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param string $_

@@ -8,67 +8,67 @@ class PenaltyInformation
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var string $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @var int $FareComponent
      */
-    protected $FareComponent = null;
+    public $FareComponent = null;
 
     /**
      * @var int $PriceableUnit
      */
-    protected $PriceableUnit = null;
+    public $PriceableUnit = null;
 
     /**
      * @var typeIATACode $BoardPoint
      */
-    protected $BoardPoint = null;
+    public $BoardPoint = null;
 
     /**
      * @var typeIATACode $OffPoint
      */
-    protected $OffPoint = null;
+    public $OffPoint = null;
 
     /**
      * @var typeMoney $MinimumChangeFee
      */
-    protected $MinimumChangeFee = null;
+    public $MinimumChangeFee = null;
 
     /**
      * @var typeMoney $MaximumChangeFee
      */
-    protected $MaximumChangeFee = null;
+    public $MaximumChangeFee = null;
 
     /**
      * @var typeCurrency $FiledCurrency
      */
-    protected $FiledCurrency = null;
+    public $FiledCurrency = null;
 
     /**
      * @var float $ConversionRate
      */
-    protected $ConversionRate = null;
+    public $ConversionRate = null;
 
     /**
      * @var boolean $Refundable
      */
-    protected $Refundable = null;
+    public $Refundable = null;
 
     /**
      * @var anonymous1136 $ChangeFeeApplicationCode
      */
-    protected $ChangeFeeApplicationCode = null;
+    public $ChangeFeeApplicationCode = null;
 
     /**
      * @param string $_

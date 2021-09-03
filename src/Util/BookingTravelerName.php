@@ -8,27 +8,27 @@ class BookingTravelerName
     /**
      * @var anonymous85 $Prefix
      */
-    protected $Prefix = null;
+    public $Prefix = null;
 
     /**
      * @var anonymous86 $First
      */
-    protected $First = null;
+    public $First = null;
 
     /**
      * @var anonymous87 $Middle
      */
-    protected $Middle = null;
+    public $Middle = null;
 
     /**
      * @var typeTravelerLastName $Last
      */
-    protected $Last = null;
+    public $Last = null;
 
     /**
      * @var anonymous88 $Suffix
      */
-    protected $Suffix = null;
+    public $Suffix = null;
 
     /**
      * @param anonymous85 $Prefix

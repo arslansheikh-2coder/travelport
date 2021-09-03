@@ -8,7 +8,7 @@ class AirPricePointList
     /**
      * @var AirPricePoint $AirPricePoint
      */
-    protected $AirPricePoint = null;
+    public $AirPricePoint = null;
 
     /**
      * @param AirPricePoint $AirPricePoint

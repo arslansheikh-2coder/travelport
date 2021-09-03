@@ -8,22 +8,22 @@ class SegmentModifiers
     /**
      * @var AirSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var TicketValidity $TicketValidity
      */
-    protected $TicketValidity = null;
+    public $TicketValidity = null;
 
     /**
      * @var BaggageAllowance $BaggageAllowance
      */
-    protected $BaggageAllowance = null;
+    public $BaggageAllowance = null;
 
     /**
      * @var typeTicketDesignator $TicketDesignator
      */
-    protected $TicketDesignator = null;
+    public $TicketDesignator = null;
 
     /**
      * @param AirSegmentRef $AirSegmentRef

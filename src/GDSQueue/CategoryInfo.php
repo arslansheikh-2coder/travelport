@@ -8,27 +8,27 @@ class CategoryInfo
     /**
      * @var DateRangeInfo $DateRangeInfo
      */
-    protected $DateRangeInfo = null;
+    public $DateRangeInfo = null;
 
     /**
      * @var string $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var int $Count
      */
-    protected $Count = null;
+    public $Count = null;
 
     /**
      * @var int $TotalCount
      */
-    protected $TotalCount = null;
+    public $TotalCount = null;
 
     /**
      * @param DateRangeInfo $DateRangeInfo

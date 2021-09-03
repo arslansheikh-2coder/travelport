@@ -8,62 +8,62 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
     /**
      * @var date $CheckInStartDate
      */
-    protected $CheckInStartDate = null;
+    public $CheckInStartDate = null;
 
     /**
      * @var date $CheckInEndDate
      */
-    protected $CheckInEndDate = null;
+    public $CheckInEndDate = null;
 
     /**
      * @var anonymous686 $CorporateDiscountNumber
      */
-    protected $CorporateDiscountNumber = null;
+    public $CorporateDiscountNumber = null;
 
     /**
      * @var typeMoney $MaxRoomRateAmount
      */
-    protected $MaxRoomRateAmount = null;
+    public $MaxRoomRateAmount = null;
 
     /**
      * @var anonymous687 $MultiLevelRateCode
      */
-    protected $MultiLevelRateCode = null;
+    public $MultiLevelRateCode = null;
 
     /**
      * @var anonymous688 $PropertyID
      */
-    protected $PropertyID = null;
+    public $PropertyID = null;
 
     /**
      * @var anonymous689 $RateCode
      */
-    protected $RateCode = null;
+    public $RateCode = null;
 
     /**
      * @var boolean $SmokingRoom
      */
-    protected $SmokingRoom = null;
+    public $SmokingRoom = null;
 
     /**
      * @var anonymous871 $BedTypeMiscTravel
      */
-    protected $BedTypeMiscTravel = null;
+    public $BedTypeMiscTravel = null;
 
     /**
      * @var anonymous872 $BedTypeRefCategory
      */
-    protected $BedTypeRefCategory = null;
+    public $BedTypeRefCategory = null;
 
     /**
      * @var anonymous873 $SpecialRequestMiscTravel
      */
-    protected $SpecialRequestMiscTravel = null;
+    public $SpecialRequestMiscTravel = null;
 
     /**
      * @var anonymous874 $SpecialRequestRefCategory
      */
-    protected $SpecialRequestRefCategory = null;
+    public $SpecialRequestRefCategory = null;
 
     /**
      * @param typeRef $Key

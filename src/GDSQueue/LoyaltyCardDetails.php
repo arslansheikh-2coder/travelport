@@ -8,12 +8,12 @@ class LoyaltyCardDetails
     /**
      * @var typeCarrier $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typePriorityCode $PriorityCode
      */
-    protected $PriorityCode = null;
+    public $PriorityCode = null;
 
     /**
      * @param typeCarrier $SupplierCode

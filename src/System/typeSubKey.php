@@ -8,17 +8,17 @@ class typeSubKey
     /**
      * @var string[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var anonymous393 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var UNKNOWN $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param anonymous393 $Name

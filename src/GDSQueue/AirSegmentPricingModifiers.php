@@ -8,57 +8,57 @@ class AirSegmentPricingModifiers
     /**
      * @var PermittedBookingCodes $PermittedBookingCodes
      */
-    protected $PermittedBookingCodes = null;
+    public $PermittedBookingCodes = null;
 
     /**
      * @var typeRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var string $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var string $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var boolean $ProhibitAdvancePurchaseFares
      */
-    protected $ProhibitAdvancePurchaseFares = null;
+    public $ProhibitAdvancePurchaseFares = null;
 
     /**
      * @var boolean $ProhibitNonRefundableFares
      */
-    protected $ProhibitNonRefundableFares = null;
+    public $ProhibitNonRefundableFares = null;
 
     /**
      * @var boolean $ProhibitPenaltyFares
      */
-    protected $ProhibitPenaltyFares = null;
+    public $ProhibitPenaltyFares = null;
 
     /**
      * @var string $FareBasisCode
      */
-    protected $FareBasisCode = null;
+    public $FareBasisCode = null;
 
     /**
      * @var typeFareBreak $FareBreak
      */
-    protected $FareBreak = null;
+    public $FareBreak = null;
 
     /**
      * @var typeConnectionIndicator $ConnectionIndicator
      */
-    protected $ConnectionIndicator = null;
+    public $ConnectionIndicator = null;
 
     /**
      * @var StringLength1to10 $BrandTier
      */
-    protected $BrandTier = null;
+    public $BrandTier = null;
 
     /**
      * @param typeRef $AirSegmentRef

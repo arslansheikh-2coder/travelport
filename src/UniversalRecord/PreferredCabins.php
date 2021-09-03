@@ -8,7 +8,7 @@ class PreferredCabins
     /**
      * @var CabinClass $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @param CabinClass $CabinClass

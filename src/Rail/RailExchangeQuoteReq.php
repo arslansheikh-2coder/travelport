@@ -8,42 +8,42 @@ class RailExchangeQuoteReq extends BaseReq
     /**
      * @var SearchRailLeg $SearchRailLeg
      */
-    protected $SearchRailLeg = null;
+    public $SearchRailLeg = null;
 
     /**
      * @var RailSearchModifiers $RailSearchModifiers
      */
-    protected $RailSearchModifiers = null;
+    public $RailSearchModifiers = null;
 
     /**
      * @var SearchPassenger $SearchPassenger
      */
-    protected $SearchPassenger = null;
+    public $SearchPassenger = null;
 
     /**
      * @var HostTokenList $HostTokenList
      */
-    protected $HostTokenList = null;
+    public $HostTokenList = null;
 
     /**
      * @var RailPricingSolution $RailPricingSolution
      */
-    protected $RailPricingSolution = null;
+    public $RailPricingSolution = null;
 
     /**
      * @var RailFareNoteList $RailFareNoteList
      */
-    protected $RailFareNoteList = null;
+    public $RailFareNoteList = null;
 
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var typeResponseType $ResponseType
      */
-    protected $ResponseType = null;
+    public $ResponseType = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

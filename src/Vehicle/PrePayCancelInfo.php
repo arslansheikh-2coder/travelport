@@ -8,27 +8,27 @@ class PrePayCancelInfo
     /**
      * @var int $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var int $Percent
      */
-    protected $Percent = null;
+    public $Percent = null;
 
     /**
      * @var int $NumberOfDaysHours
      */
-    protected $NumberOfDaysHours = null;
+    public $NumberOfDaysHours = null;
 
     /**
      * @var int $RentalDays
      */
-    protected $RentalDays = null;
+    public $RentalDays = null;
 
     /**
      * @param int $Code

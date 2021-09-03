@@ -8,7 +8,7 @@ class ProfileDeleteHierarchyLevelRsp extends BaseRsp
     /**
      * @var HierarchyLevel $HierarchyLevel
      */
-    protected $HierarchyLevel = null;
+    public $HierarchyLevel = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

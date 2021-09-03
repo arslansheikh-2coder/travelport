@@ -8,12 +8,12 @@ class SearchAccount
     /**
      * @var string $ClientID
      */
-    protected $ClientID = null;
+    public $ClientID = null;
 
     /**
      * @var typeBranchId $BranchID
      */
-    protected $BranchID = null;
+    public $BranchID = null;
 
     /**
      * @param string $ClientID

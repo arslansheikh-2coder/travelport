@@ -8,127 +8,127 @@ class SavedTripActivity
     /**
      * @var BookingTravelerRef[] $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var SearchPassengerRef[] $SearchPassengerRef
      */
-    protected $SearchPassengerRef = null;
+    public $SearchPassengerRef = null;
 
     /**
      * @var PointOfSaleRef[] $PointOfSaleRef
      */
-    protected $PointOfSaleRef = null;
+    public $PointOfSaleRef = null;
 
     /**
      * @var AccountingRemarkRef[] $AccountingRemarkRef
      */
-    protected $AccountingRemarkRef = null;
+    public $AccountingRemarkRef = null;
 
     /**
      * @var GeneralRemarkRef[] $GeneralRemarkRef
      */
-    protected $GeneralRemarkRef = null;
+    public $GeneralRemarkRef = null;
 
     /**
      * @var AirPricingModifierRef[] $AirPricingModifierRef
      */
-    protected $AirPricingModifierRef = null;
+    public $AirPricingModifierRef = null;
 
     /**
      * @var AirPricingSolutionRef[] $AirPricingSolutionRef
      */
-    protected $AirPricingSolutionRef = null;
+    public $AirPricingSolutionRef = null;
 
     /**
      * @var VehicleSearchModifiersRef[] $VehicleSearchModifiersRef
      */
-    protected $VehicleSearchModifiersRef = null;
+    public $VehicleSearchModifiersRef = null;
 
     /**
      * @var VehicleDateLocationRef[] $VehicleDateLocationRef
      */
-    protected $VehicleDateLocationRef = null;
+    public $VehicleDateLocationRef = null;
 
     /**
      * @var SpecialEquipmentRef[] $SpecialEquipmentRef
      */
-    protected $SpecialEquipmentRef = null;
+    public $SpecialEquipmentRef = null;
 
     /**
      * @var VehicleSpecialRequestRef[] $VehicleSpecialRequestRef
      */
-    protected $VehicleSpecialRequestRef = null;
+    public $VehicleSpecialRequestRef = null;
 
     /**
      * @var PaymentInformationRef[] $PaymentInformationRef
      */
-    protected $PaymentInformationRef = null;
+    public $PaymentInformationRef = null;
 
     /**
      * @var DeliveryAddressRef[] $DeliveryAddressRef
      */
-    protected $DeliveryAddressRef = null;
+    public $DeliveryAddressRef = null;
 
     /**
      * @var CollectionAddressRef[] $CollectionAddressRef
      */
-    protected $CollectionAddressRef = null;
+    public $CollectionAddressRef = null;
 
     /**
      * @var FlightArrivalInformationRef[] $FlightArrivalInformationRef
      */
-    protected $FlightArrivalInformationRef = null;
+    public $FlightArrivalInformationRef = null;
 
     /**
      * @var VehicleRef[] $VehicleRef
      */
-    protected $VehicleRef = null;
+    public $VehicleRef = null;
 
     /**
      * @var VendorLocationRef[] $VendorLocationRef
      */
-    protected $VendorLocationRef = null;
+    public $VendorLocationRef = null;
 
     /**
      * @var HotelPropertyRef[] $HotelPropertyRef
      */
-    protected $HotelPropertyRef = null;
+    public $HotelPropertyRef = null;
 
     /**
      * @var HotelStayRef[] $HotelStayRef
      */
-    protected $HotelStayRef = null;
+    public $HotelStayRef = null;
 
     /**
      * @var HotelRulesModifiersRef[] $HotelRulesModifiersRef
      */
-    protected $HotelRulesModifiersRef = null;
+    public $HotelRulesModifiersRef = null;
 
     /**
      * @var HotelDetailsModifiersRef[] $HotelDetailsModifiersRef
      */
-    protected $HotelDetailsModifiersRef = null;
+    public $HotelDetailsModifiersRef = null;
 
     /**
      * @var HotelRateDetailRef[] $HotelRateDetailRef
      */
-    protected $HotelRateDetailRef = null;
+    public $HotelRateDetailRef = null;
 
     /**
      * @var PromotionCodeRef[] $PromotionCodeRef
      */
-    protected $PromotionCodeRef = null;
+    public $PromotionCodeRef = null;
 
     /**
      * @var RailPricingSolutionRef[] $RailPricingSolutionRef
      */
-    protected $RailPricingSolutionRef = null;
+    public $RailPricingSolutionRef = null;
 
     /**
      * @var anonymous1448 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param anonymous1448 $Type

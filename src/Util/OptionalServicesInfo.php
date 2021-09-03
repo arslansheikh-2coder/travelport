@@ -8,17 +8,17 @@ class OptionalServicesInfo
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var FormOfPaymentRef $FormOfPaymentRef
      */
-    protected $FormOfPaymentRef = null;
+    public $FormOfPaymentRef = null;
 
     /**
      * @param AirPricingSolution $AirPricingSolution

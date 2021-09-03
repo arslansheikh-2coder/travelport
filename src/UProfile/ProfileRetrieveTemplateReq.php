@@ -8,22 +8,22 @@ class ProfileRetrieveTemplateReq extends BaseReq
     /**
      * @var StringLength1to128[] $ConsumingSystem
      */
-    protected $ConsumingSystem = null;
+    public $ConsumingSystem = null;
 
     /**
      * @var typeTemplateID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var boolean $ReturnOverrideFieldsOnly
      */
-    protected $ReturnOverrideFieldsOnly = null;
+    public $ReturnOverrideFieldsOnly = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

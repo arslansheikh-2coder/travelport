@@ -8,12 +8,12 @@ class MctStandard
     /**
      * @var typeMctConnection $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var int $Time
      */
-    protected $Time = null;
+    public $Time = null;
 
     /**
      * @param typeMctConnection $Type

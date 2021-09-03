@@ -8,12 +8,12 @@ class AirPricingTicketingModifiers
     /**
      * @var AirPricingInfoRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var TicketingModifiers $TicketingModifiers
      */
-    protected $TicketingModifiers = null;
+    public $TicketingModifiers = null;
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef

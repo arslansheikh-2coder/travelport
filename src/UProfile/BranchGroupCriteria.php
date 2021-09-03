@@ -8,12 +8,12 @@ class BranchGroupCriteria extends typeProfileSearchCriteria
     /**
      * @var typeWildcard $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeWildcard $BranchGroupCode
      */
-    protected $BranchGroupCode = null;
+    public $BranchGroupCode = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

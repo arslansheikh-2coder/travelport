@@ -8,42 +8,42 @@ class FaxDetails
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var TermConditions $TermConditions
      */
-    protected $TermConditions = null;
+    public $TermConditions = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var boolean $IncludeCoverSheet
      */
-    protected $IncludeCoverSheet = null;
+    public $IncludeCoverSheet = null;
 
     /**
      * @var string $To
      */
-    protected $To = null;
+    public $To = null;
 
     /**
      * @var string $From
      */
-    protected $From = null;
+    public $From = null;
 
     /**
      * @var string $DeptBillingCode
      */
-    protected $DeptBillingCode = null;
+    public $DeptBillingCode = null;
 
     /**
      * @var string $InvoiceNumber
      */
-    protected $InvoiceNumber = null;
+    public $InvoiceNumber = null;
 
     /**
      * @param PhoneNumber $PhoneNumber

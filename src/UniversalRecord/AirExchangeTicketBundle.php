@@ -8,22 +8,22 @@ class AirExchangeTicketBundle
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var FormOfPaymentRef $FormOfPaymentRef
      */
-    protected $FormOfPaymentRef = null;
+    public $FormOfPaymentRef = null;
 
     /**
      * @var WaiverCode $WaiverCode
      */
-    protected $WaiverCode = null;
+    public $WaiverCode = null;
 
     /**
      * @param StringLength1to13 $TicketNumber

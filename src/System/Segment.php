@@ -8,37 +8,37 @@ class Segment
     /**
      * @var SegmentRemark $SegmentRemark
      */
-    protected $SegmentRemark = null;
+    public $SegmentRemark = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var boolean $Passive
      */
-    protected $Passive = null;
+    public $Passive = null;
 
     /**
      * @var int $TravelOrder
      */
-    protected $TravelOrder = null;
+    public $TravelOrder = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param SegmentRemark $SegmentRemark

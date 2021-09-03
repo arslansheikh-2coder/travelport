@@ -8,7 +8,7 @@ class RailFareList
     /**
      * @var RailFare $RailFare
      */
-    protected $RailFare = null;
+    public $RailFare = null;
 
     /**
      * @param RailFare $RailFare

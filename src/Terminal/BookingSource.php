@@ -8,12 +8,12 @@ class BookingSource
     /**
      * @var anonymous287 $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var anonymous288 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param anonymous287 $Code

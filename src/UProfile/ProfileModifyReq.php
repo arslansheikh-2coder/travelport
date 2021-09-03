@@ -8,37 +8,37 @@ class ProfileModifyReq extends BaseReq
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var ProvisioningCode $ProvisioningCode
      */
-    protected $ProvisioningCode = null;
+    public $ProvisioningCode = null;
 
     /**
      * @var UniqueProfileID $UniqueProfileID
      */
-    protected $UniqueProfileID = null;
+    public $UniqueProfileID = null;
 
     /**
      * @var ProfileModifyCmd $ProfileModifyCmd
      */
-    protected $ProfileModifyCmd = null;
+    public $ProfileModifyCmd = null;
 
     /**
      * @var typeVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var boolean $ReturnProfile
      */
-    protected $ReturnProfile = null;
+    public $ReturnProfile = null;
 
     /**
      * @var boolean $ShowDataUnmasked
      */
-    protected $ShowDataUnmasked = null;
+    public $ShowDataUnmasked = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

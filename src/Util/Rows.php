@@ -8,12 +8,12 @@ class Rows
     /**
      * @var Row $Row
      */
-    protected $Row = null;
+    public $Row = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @param Row $Row

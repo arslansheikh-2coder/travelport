@@ -8,7 +8,7 @@ class InsertOverrideDefinition
     /**
      * @var OverrideDefinition $OverrideDefinition
      */
-    protected $OverrideDefinition = null;
+    public $OverrideDefinition = null;
 
     /**
      * @param OverrideDefinition $OverrideDefinition

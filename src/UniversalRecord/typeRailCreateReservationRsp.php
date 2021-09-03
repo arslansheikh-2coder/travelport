@@ -8,12 +8,12 @@ abstract class typeRailCreateReservationRsp extends BaseRsp
     /**
      * @var UniversalRecord $UniversalRecord
      */
-    protected $UniversalRecord = null;
+    public $UniversalRecord = null;
 
     /**
      * @var RailSolutionChangedInfo $RailSolutionChangedInfo
      */
-    protected $RailSolutionChangedInfo = null;
+    public $RailSolutionChangedInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

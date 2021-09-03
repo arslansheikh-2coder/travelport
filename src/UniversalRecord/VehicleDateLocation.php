@@ -8,52 +8,52 @@ class VehicleDateLocation extends typeVehicleVendorLocation
     /**
      * @var VendorLocation[] $VendorLocation
      */
-    protected $VendorLocation = null;
+    public $VendorLocation = null;
 
     /**
      * @var string $PickupDateTime
      */
-    protected $PickupDateTime = null;
+    public $PickupDateTime = null;
 
     /**
      * @var typeIATACode $PickupLocation
      */
-    protected $PickupLocation = null;
+    public $PickupLocation = null;
 
     /**
      * @var string $ReturnDateTime
      */
-    protected $ReturnDateTime = null;
+    public $ReturnDateTime = null;
 
     /**
      * @var typeIATACode $ReturnLocation
      */
-    protected $ReturnLocation = null;
+    public $ReturnLocation = null;
 
     /**
      * @var typeVehicleLocation $PickupLocationType
      */
-    protected $PickupLocationType = null;
+    public $PickupLocationType = null;
 
     /**
      * @var typeVehicleLocation $ReturnLocationType
      */
-    protected $ReturnLocationType = null;
+    public $ReturnLocationType = null;
 
     /**
      * @var string $PickupLocationNumber
      */
-    protected $PickupLocationNumber = null;
+    public $PickupLocationNumber = null;
 
     /**
      * @var string $ReturnLocationNumber
      */
-    protected $ReturnLocationNumber = null;
+    public $ReturnLocationNumber = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeProviderCode $ProviderCode

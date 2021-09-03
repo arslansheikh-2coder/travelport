@@ -8,17 +8,17 @@ class Currency
     /**
      * @var typeCurrency $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Decimal
      */
-    protected $Decimal = null;
+    public $Decimal = null;
 
     /**
      * @param typeCurrency $Code

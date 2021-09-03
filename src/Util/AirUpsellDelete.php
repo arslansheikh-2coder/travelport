@@ -8,12 +8,12 @@ class AirUpsellDelete
     /**
      * @var typeRef $QualifyRef
      */
-    protected $QualifyRef = null;
+    public $QualifyRef = null;
 
     /**
      * @var typeRef $OfferRef
      */
-    protected $OfferRef = null;
+    public $OfferRef = null;
 
     /**
      * @param typeRef $QualifyRef

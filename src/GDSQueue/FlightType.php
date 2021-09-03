@@ -8,57 +8,57 @@ class FlightType
     /**
      * @var boolean $RequireSingleCarrier
      */
-    protected $RequireSingleCarrier = null;
+    public $RequireSingleCarrier = null;
 
     /**
      * @var anonymous697 $MaxConnections
      */
-    protected $MaxConnections = null;
+    public $MaxConnections = null;
 
     /**
      * @var anonymous698 $MaxStops
      */
-    protected $MaxStops = null;
+    public $MaxStops = null;
 
     /**
      * @var boolean $NonStopDirects
      */
-    protected $NonStopDirects = null;
+    public $NonStopDirects = null;
 
     /**
      * @var boolean $StopDirects
      */
-    protected $StopDirects = null;
+    public $StopDirects = null;
 
     /**
      * @var boolean $SingleOnlineCon
      */
-    protected $SingleOnlineCon = null;
+    public $SingleOnlineCon = null;
 
     /**
      * @var boolean $DoubleOnlineCon
      */
-    protected $DoubleOnlineCon = null;
+    public $DoubleOnlineCon = null;
 
     /**
      * @var boolean $TripleOnlineCon
      */
-    protected $TripleOnlineCon = null;
+    public $TripleOnlineCon = null;
 
     /**
      * @var boolean $SingleInterlineCon
      */
-    protected $SingleInterlineCon = null;
+    public $SingleInterlineCon = null;
 
     /**
      * @var boolean $DoubleInterlineCon
      */
-    protected $DoubleInterlineCon = null;
+    public $DoubleInterlineCon = null;
 
     /**
      * @var boolean $TripleInterlineCon
      */
-    protected $TripleInterlineCon = null;
+    public $TripleInterlineCon = null;
 
     /**
      * @param boolean $RequireSingleCarrier

@@ -8,42 +8,42 @@ class AirExchangeTicketingReq extends BaseReq
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var typeTicketingModifiersRef[] $TicketingModifiersRef
      */
-    protected $TicketingModifiersRef = null;
+    public $TicketingModifiersRef = null;
 
     /**
      * @var WaiverCode $WaiverCode
      */
-    protected $WaiverCode = null;
+    public $WaiverCode = null;
 
     /**
      * @var DetailedBillingInformation $DetailedBillingInformation
      */
-    protected $DetailedBillingInformation = null;
+    public $DetailedBillingInformation = null;
 
     /**
      * @var AirTicketingModifiers $AirTicketingModifiers
      */
-    protected $AirTicketingModifiers = null;
+    public $AirTicketingModifiers = null;
 
     /**
      * @var boolean $BulkTicket
      */
-    protected $BulkTicket = null;
+    public $BulkTicket = null;
 
     /**
      * @var boolean $ChangeFeeOnTicket
      */
-    protected $ChangeFeeOnTicket = null;
+    public $ChangeFeeOnTicket = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

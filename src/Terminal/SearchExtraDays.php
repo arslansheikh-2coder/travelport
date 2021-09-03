@@ -8,12 +8,12 @@ class SearchExtraDays
     /**
      * @var int $DaysBefore
      */
-    protected $DaysBefore = null;
+    public $DaysBefore = null;
 
     /**
      * @var int $DaysAfter
      */
-    protected $DaysAfter = null;
+    public $DaysAfter = null;
 
     /**
      * @param int $DaysBefore

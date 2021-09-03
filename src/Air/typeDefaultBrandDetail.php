@@ -8,22 +8,22 @@ class typeDefaultBrandDetail
     /**
      * @var typeTextElement $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var ImageLocation $ImageLocation
      */
-    protected $ImageLocation = null;
+    public $ImageLocation = null;
 
     /**
      * @var typeApplicableSegment $ApplicableSegment
      */
-    protected $ApplicableSegment = null;
+    public $ApplicableSegment = null;
 
     /**
      * @var typeBrandId $BrandID
      */
-    protected $BrandID = null;
+    public $BrandID = null;
 
     /**
      * @param typeTextElement $Text

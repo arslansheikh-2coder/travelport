@@ -8,12 +8,12 @@ class VehicleMediaLinksReq extends BaseReq
     /**
      * @var VehicleSearchId $VehicleSearchId
      */
-    protected $VehicleSearchId = null;
+    public $VehicleSearchId = null;
 
     /**
      * @var VehiclePickupLocation $VehiclePickupLocation
      */
-    protected $VehiclePickupLocation = null;
+    public $VehiclePickupLocation = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

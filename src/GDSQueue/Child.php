@@ -8,7 +8,7 @@ class Child extends typeGuestChildInformation
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param int $Age

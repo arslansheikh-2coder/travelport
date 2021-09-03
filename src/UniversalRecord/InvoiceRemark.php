@@ -8,22 +8,22 @@ class InvoiceRemark extends typeAssociatedRemark
     /**
      * @var typeSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var typeNonAirReservationRef $HotelReservationRef
      */
-    protected $HotelReservationRef = null;
+    public $HotelReservationRef = null;
 
     /**
      * @var typeNonAirReservationRef $VehicleReservationRef
      */
-    protected $VehicleReservationRef = null;
+    public $VehicleReservationRef = null;
 
     /**
      * @var typeSegmentRef $PassiveSegmentRef
      */
-    protected $PassiveSegmentRef = null;
+    public $PassiveSegmentRef = null;
 
     /**
      * @param string $RemarkData

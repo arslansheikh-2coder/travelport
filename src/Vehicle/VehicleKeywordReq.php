@@ -8,22 +8,22 @@ class VehicleKeywordReq extends BaseSearchReq
     /**
      * @var Vendor $Vendor
      */
-    protected $Vendor = null;
+    public $Vendor = null;
 
     /**
      * @var typePickupDateLocation $PickupDateLocation
      */
-    protected $PickupDateLocation = null;
+    public $PickupDateLocation = null;
 
     /**
      * @var Keyword $Keyword
      */
-    protected $Keyword = null;
+    public $Keyword = null;
 
     /**
      * @var boolean $KeywordList
      */
-    protected $KeywordList = null;
+    public $KeywordList = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

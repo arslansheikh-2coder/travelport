@@ -8,82 +8,82 @@ class CruiseStay
     /**
      * @var Package $Package
      */
-    protected $Package = null;
+    public $Package = null;
 
     /**
      * @var CabinInfo $CabinInfo
      */
-    protected $CabinInfo = null;
+    public $CabinInfo = null;
 
     /**
      * @var DiningInfo $DiningInfo
      */
-    protected $DiningInfo = null;
+    public $DiningInfo = null;
 
     /**
      * @var StringLength1to25 $ShipName
      */
-    protected $ShipName = null;
+    public $ShipName = null;
 
     /**
      * @var int $DurationOfStay
      */
-    protected $DurationOfStay = null;
+    public $DurationOfStay = null;
 
     /**
      * @var string $UnitOfStay
      */
-    protected $UnitOfStay = null;
+    public $UnitOfStay = null;
 
     /**
      * @var date $BookingDate
      */
-    protected $BookingDate = null;
+    public $BookingDate = null;
 
     /**
      * @var StringLength1to12 $BookingAgent
      */
-    protected $BookingAgent = null;
+    public $BookingAgent = null;
 
     /**
      * @var StringLength1to10 $BookingCredit
      */
-    protected $BookingCredit = null;
+    public $BookingCredit = null;
 
     /**
      * @var int $OtherPartyConfNbr
      */
-    protected $OtherPartyConfNbr = null;
+    public $OtherPartyConfNbr = null;
 
     /**
      * @var StringLength1to5 $PassengerOrigin
      */
-    protected $PassengerOrigin = null;
+    public $PassengerOrigin = null;
 
     /**
      * @var StringLength1to16 $ConfirmationNumber
      */
-    protected $ConfirmationNumber = null;
+    public $ConfirmationNumber = null;
 
     /**
      * @var StringLength1to16 $LinkedConfNumber
      */
-    protected $LinkedConfNumber = null;
+    public $LinkedConfNumber = null;
 
     /**
      * @var StringLength1to16 $CancellationNumber
      */
-    protected $CancellationNumber = null;
+    public $CancellationNumber = null;
 
     /**
      * @var date $CancellationDate
      */
-    protected $CancellationDate = null;
+    public $CancellationDate = null;
 
     /**
      * @var time $CancellationTime
      */
-    protected $CancellationTime = null;
+    public $CancellationTime = null;
 
     /**
      * @param CabinInfo $CabinInfo

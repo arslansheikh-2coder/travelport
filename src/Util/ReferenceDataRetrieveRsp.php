@@ -8,12 +8,12 @@ class ReferenceDataRetrieveRsp extends BaseRsp
     /**
      * @var ReferenceDataItem $ReferenceDataItem
      */
-    protected $ReferenceDataItem = null;
+    public $ReferenceDataItem = null;
 
     /**
      * @var typeMoreResults $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

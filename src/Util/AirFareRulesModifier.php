@@ -8,7 +8,7 @@ class AirFareRulesModifier
     /**
      * @var AirFareRuleCategory $AirFareRuleCategory
      */
-    protected $AirFareRuleCategory = null;
+    public $AirFareRuleCategory = null;
 
     /**
      * @param AirFareRuleCategory $AirFareRuleCategory

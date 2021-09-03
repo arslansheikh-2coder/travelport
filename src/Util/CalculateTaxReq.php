@@ -8,7 +8,7 @@ class CalculateTaxReq extends BaseReq
     /**
      * @var TaxCalcInfo $TaxCalcInfo
      */
-    protected $TaxCalcInfo = null;
+    public $TaxCalcInfo = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

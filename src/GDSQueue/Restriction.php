@@ -8,12 +8,12 @@ class Restriction
     /**
      * @var DaysOfWeekRestriction $DaysOfWeekRestriction
      */
-    protected $DaysOfWeekRestriction = null;
+    public $DaysOfWeekRestriction = null;
 
     /**
      * @var RestrictionPassengerTypes $RestrictionPassengerTypes
      */
-    protected $RestrictionPassengerTypes = null;
+    public $RestrictionPassengerTypes = null;
 
     /**
      * @param DaysOfWeekRestriction $DaysOfWeekRestriction

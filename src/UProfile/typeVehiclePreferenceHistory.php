@@ -8,52 +8,52 @@ class typeVehiclePreferenceHistory extends typeBasePreferenceHistory
     /**
      * @var anonymous691 $CorporateID
      */
-    protected $CorporateID = null;
+    public $CorporateID = null;
 
     /**
      * @var date $PickUpStartDate
      */
-    protected $PickUpStartDate = null;
+    public $PickUpStartDate = null;
 
     /**
      * @var date $PickUpEndDate
      */
-    protected $PickUpEndDate = null;
+    public $PickUpEndDate = null;
 
     /**
      * @var anonymous692 $RateCode
      */
-    protected $RateCode = null;
+    public $RateCode = null;
 
     /**
      * @var anonymous889 $SpecialEquipMiscTravel
      */
-    protected $SpecialEquipMiscTravel = null;
+    public $SpecialEquipMiscTravel = null;
 
     /**
      * @var anonymous890 $SpecialEquipRefCategory
      */
-    protected $SpecialEquipRefCategory = null;
+    public $SpecialEquipRefCategory = null;
 
     /**
      * @var anonymous873 $SpecialRequestMiscTravel
      */
-    protected $SpecialRequestMiscTravel = null;
+    public $SpecialRequestMiscTravel = null;
 
     /**
      * @var anonymous874 $SpecialRequestRefCategory
      */
-    protected $SpecialRequestRefCategory = null;
+    public $SpecialRequestRefCategory = null;
 
     /**
      * @var anonymous891 $VehicleTypeMiscTravel
      */
-    protected $VehicleTypeMiscTravel = null;
+    public $VehicleTypeMiscTravel = null;
 
     /**
      * @var anonymous892 $VehicleTypeRefCategory
      */
-    protected $VehicleTypeRefCategory = null;
+    public $VehicleTypeRefCategory = null;
 
     /**
      * @param typeRef $Key

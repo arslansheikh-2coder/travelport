@@ -8,17 +8,17 @@ class AirExchangeMultiQuoteRsp extends BaseRsp
     /**
      * @var AirSegmentList $AirSegmentList
      */
-    protected $AirSegmentList = null;
+    public $AirSegmentList = null;
 
     /**
      * @var BrandList $BrandList
      */
-    protected $BrandList = null;
+    public $BrandList = null;
 
     /**
      * @var AirExchangeMulitQuoteList $AirExchangeMulitQuoteList
      */
-    protected $AirExchangeMulitQuoteList = null;
+    public $AirExchangeMulitQuoteList = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

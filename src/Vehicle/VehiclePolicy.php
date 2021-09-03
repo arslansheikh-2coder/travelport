@@ -8,12 +8,12 @@ class VehiclePolicy
     /**
      * @var VehicleDisclaimer $VehicleDisclaimer
      */
-    protected $VehicleDisclaimer = null;
+    public $VehicleDisclaimer = null;
 
     /**
      * @var VehicleDetail $VehicleDetail
      */
-    protected $VehicleDetail = null;
+    public $VehicleDetail = null;
 
     /**
      * @param VehicleDisclaimer $VehicleDisclaimer

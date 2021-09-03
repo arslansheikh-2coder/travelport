@@ -8,7 +8,7 @@ class typeAgencyGroupInfoHistory extends typeProfileInfo
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

@@ -9,12 +9,12 @@ use Exception;
 
 class Travelport
 {
-    protected $userId = '';
-    protected $password = '';
-    protected $region = Endpoints::REGION_AMERICAS;
-    protected $production = false;
-    protected $targetBranch = null;
-    protected $logger = null;
+    public $userId = '';
+    public $password = '';
+    public $region = Endpoints::REGION_AMERICAS;
+    public $production = false;
+    public $targetBranch = null;
+    public $logger = null;
 
     public function __construct($userId, $password, $targetBranch = null, $region = Endpoints::REGION_AMERICAS, $production = false, TravelportLogger $logger = null)
     {
@@ -54,7 +54,7 @@ class Travelport
         return $service->__soapCall('service', [$request]);
     }
 
-    protected function getService($request)
+    public function getService($request)
     {
         $serviceUrl = $this->getServiceUrl($request);
         $options = $this->getOptions();
@@ -68,7 +68,7 @@ class Travelport
         return $service;
     }
 
-    protected function getServiceUrl($request)
+    public function getServiceUrl($request)
     {
         $validRegions = [Endpoints::REGION_AMERICAS, Endpoints::REGION_APAC, Endpoints::REGION_EMEA];
 
@@ -92,7 +92,7 @@ class Travelport
         return false;
     }
 
-    protected function getOptions()
+    public function getOptions()
     {
         return [
             'trace' => ($this->logger) ? true : false,

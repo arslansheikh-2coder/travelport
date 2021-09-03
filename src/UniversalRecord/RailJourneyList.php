@@ -8,7 +8,7 @@ class RailJourneyList
     /**
      * @var RailJourney $RailJourney
      */
-    protected $RailJourney = null;
+    public $RailJourney = null;
 
     /**
      * @param RailJourney $RailJourney

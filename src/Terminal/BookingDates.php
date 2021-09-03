@@ -8,12 +8,12 @@ class BookingDates
     /**
      * @var typeDate $CheckInDate
      */
-    protected $CheckInDate = null;
+    public $CheckInDate = null;
 
     /**
      * @var typeDate $CheckOutDate
      */
-    protected $CheckOutDate = null;
+    public $CheckOutDate = null;
 
     /**
      * @param typeDate $CheckInDate

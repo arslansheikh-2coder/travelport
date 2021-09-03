@@ -8,22 +8,22 @@ class NumberOfAdults
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var int $ExtraAdults
      */
-    protected $ExtraAdults = null;
+    public $ExtraAdults = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $Content
      */
-    protected $Content = null;
+    public $Content = null;
 
     /**
      * @param string $_

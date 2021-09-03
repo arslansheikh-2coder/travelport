@@ -8,37 +8,37 @@ class CruiseReservation extends BaseReservation
     /**
      * @var CruiseSegment $CruiseSegment
      */
-    protected $CruiseSegment = null;
+    public $CruiseSegment = null;
 
     /**
      * @var CruiseItinerary $CruiseItinerary
      */
-    protected $CruiseItinerary = null;
+    public $CruiseItinerary = null;
 
     /**
      * @var CruisePricingInfo $CruisePricingInfo
      */
-    protected $CruisePricingInfo = null;
+    public $CruisePricingInfo = null;
 
     /**
      * @var OptionalService $OptionalService
      */
-    protected $OptionalService = null;
+    public $OptionalService = null;
 
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

@@ -8,17 +8,17 @@ class PassiveDelete
     /**
      * @var typeLocatorCode $ReservationLocatorCode
      */
-    protected $ReservationLocatorCode = null;
+    public $ReservationLocatorCode = null;
 
     /**
      * @var typeElement $Element
      */
-    protected $Element = null;
+    public $Element = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode

@@ -8,7 +8,7 @@ class RailSeatMapRsp extends BaseRsp
     /**
      * @var Coach $Coach
      */
-    protected $Coach = null;
+    public $Coach = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

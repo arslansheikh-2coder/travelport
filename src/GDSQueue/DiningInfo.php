@@ -8,17 +8,17 @@ class DiningInfo
     /**
      * @var StringLength1 $Seating
      */
-    protected $Seating = null;
+    public $Seating = null;
 
     /**
      * @var typeStatusCode $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var int $TableSize
      */
-    protected $TableSize = null;
+    public $TableSize = null;
 
     /**
      * @param StringLength1 $Seating

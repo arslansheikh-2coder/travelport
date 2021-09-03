@@ -8,102 +8,102 @@ class VehicleSearchModifiers
     /**
      * @var PermittedVendors $PermittedVendors
      */
-    protected $PermittedVendors = null;
+    public $PermittedVendors = null;
 
     /**
      * @var ProhibitedVendors $ProhibitedVendors
      */
-    protected $ProhibitedVendors = null;
+    public $ProhibitedVendors = null;
 
     /**
      * @var VehicleModifier $VehicleModifier
      */
-    protected $VehicleModifier = null;
+    public $VehicleModifier = null;
 
     /**
      * @var VehicleType $VehicleType
      */
-    protected $VehicleType = null;
+    public $VehicleType = null;
 
     /**
      * @var RateModifiers $RateModifiers
      */
-    protected $RateModifiers = null;
+    public $RateModifiers = null;
 
     /**
      * @var typeRateHostIndicator $RateHostIndicator
      */
-    protected $RateHostIndicator = null;
+    public $RateHostIndicator = null;
 
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var typeReferencePoint $ReferencePoint
      */
-    protected $ReferencePoint = null;
+    public $ReferencePoint = null;
 
     /**
      * @var BookingSource $BookingSource
      */
-    protected $BookingSource = null;
+    public $BookingSource = null;
 
     /**
      * @var SpecialEquipment $SpecialEquipment
      */
-    protected $SpecialEquipment = null;
+    public $SpecialEquipment = null;
 
     /**
      * @var typeVehicleSearchDistance $SearchDistance
      */
-    protected $SearchDistance = null;
+    public $SearchDistance = null;
 
     /**
      * @var typeKeyword $Policy
      */
-    protected $Policy = null;
+    public $Policy = null;
 
     /**
      * @var DriverInfo $DriverInfo
      */
-    protected $DriverInfo = null;
+    public $DriverInfo = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeCurrency $PreferredCurrency
      */
-    protected $PreferredCurrency = null;
+    public $PreferredCurrency = null;
 
     /**
      * @var boolean $UnlimitedMileage
      */
-    protected $UnlimitedMileage = null;
+    public $UnlimitedMileage = null;
 
     /**
      * @var typeRateCategory $RateCategory
      */
-    protected $RateCategory = null;
+    public $RateCategory = null;
 
     /**
      * @var boolean $RateGuaranteed
      */
-    protected $RateGuaranteed = null;
+    public $RateGuaranteed = null;
 
     /**
      * @var typeRateTimePeriod $RatePeriod
      */
-    protected $RatePeriod = null;
+    public $RatePeriod = null;
 
     /**
      * @var boolean $SellableRatesOnly
      */
-    protected $SellableRatesOnly = null;
+    public $SellableRatesOnly = null;
 
     /**
      * @param VehicleModifier $VehicleModifier

@@ -8,42 +8,42 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
     /**
      * @var RailExchangeSolution $RailExchangeSolution
      */
-    protected $RailExchangeSolution = null;
+    public $RailExchangeSolution = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var RailFareNoteList $RailFareNoteList
      */
-    protected $RailFareNoteList = null;
+    public $RailFareNoteList = null;
 
     /**
      * @var HostTokenList $HostTokenList
      */
-    protected $HostTokenList = null;
+    public $HostTokenList = null;
 
     /**
      * @var RailAutoSeatAssignment $RailAutoSeatAssignment
      */
-    protected $RailAutoSeatAssignment = null;
+    public $RailAutoSeatAssignment = null;
 
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @var string $BookingActionType
      */
-    protected $BookingActionType = null;
+    public $BookingActionType = null;
 
     /**
      * @var string $RefundOption
      */
-    protected $RefundOption = null;
+    public $RefundOption = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

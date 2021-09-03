@@ -8,12 +8,12 @@ class FareBasis
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @param string $Code

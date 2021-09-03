@@ -8,12 +8,12 @@ class PaymentRestriction
     /**
      * @var CardRestriction $CardRestriction
      */
-    protected $CardRestriction = null;
+    public $CardRestriction = null;
 
     /**
      * @var AddressRestriction $AddressRestriction
      */
-    protected $AddressRestriction = null;
+    public $AddressRestriction = null;
 
     /**
      * @param CardRestriction $CardRestriction

@@ -8,12 +8,12 @@ class CO2Emission
     /**
      * @var typeRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var float $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param typeRef $AirSegmentRef

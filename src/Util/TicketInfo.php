@@ -8,62 +8,62 @@ class TicketInfo
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var ConjunctedTicketInfo $ConjunctedTicketInfo
      */
-    protected $ConjunctedTicketInfo = null;
+    public $ConjunctedTicketInfo = null;
 
     /**
      * @var ExchangedTicketInfo $ExchangedTicketInfo
      */
-    protected $ExchangedTicketInfo = null;
+    public $ExchangedTicketInfo = null;
 
     /**
      * @var string $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var typeIATA $IATANumber
      */
-    protected $IATANumber = null;
+    public $IATANumber = null;
 
     /**
      * @var \DateTime $TicketIssueDate
      */
-    protected $TicketIssueDate = null;
+    public $TicketIssueDate = null;
 
     /**
      * @var anonymous773 $TicketingAgentSignOn
      */
-    protected $TicketingAgentSignOn = null;
+    public $TicketingAgentSignOn = null;
 
     /**
      * @var typeCountry $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var typeTicketStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var boolean $BulkTicket
      */
-    protected $BulkTicket = null;
+    public $BulkTicket = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @param Name $Name

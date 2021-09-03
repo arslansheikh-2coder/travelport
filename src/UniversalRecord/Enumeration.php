@@ -8,7 +8,7 @@ class Enumeration
     /**
      * @var SolutionGroup $SolutionGroup
      */
-    protected $SolutionGroup = null;
+    public $SolutionGroup = null;
 
     /**
      * @param SolutionGroup $SolutionGroup

@@ -8,37 +8,37 @@ class MediaItem
     /**
      * @var string $caption
      */
-    protected $caption = null;
+    public $caption = null;
 
     /**
      * @var int $height
      */
-    protected $height = null;
+    public $height = null;
 
     /**
      * @var int $width
      */
-    protected $width = null;
+    public $width = null;
 
     /**
      * @var string $type
      */
-    protected $type = null;
+    public $type = null;
 
     /**
      * @var anyURI $url
      */
-    protected $url = null;
+    public $url = null;
 
     /**
      * @var anyURI $icon
      */
-    protected $icon = null;
+    public $icon = null;
 
     /**
      * @var typeResponseImageSize $sizeCode
      */
-    protected $sizeCode = null;
+    public $sizeCode = null;
 
     /**
      * @param string $caption

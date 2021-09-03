@@ -8,27 +8,27 @@ class typeProfileSearchCriteria
     /**
      * @var typeSearchAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var typeSearchPhone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var typeSearchElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var typeSearchExternalIdentifier $ExternalIdentifier
      */
-    protected $ExternalIdentifier = null;
+    public $ExternalIdentifier = null;
 
     /**
      * @var typeWildcard $AdditionalIdentifier
      */
-    protected $AdditionalIdentifier = null;
+    public $AdditionalIdentifier = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

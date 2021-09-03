@@ -8,32 +8,32 @@ class VehicleModifier
     /**
      * @var boolean $AirConditioning
      */
-    protected $AirConditioning = null;
+    public $AirConditioning = null;
 
     /**
      * @var typeVehicleTransmission $TransmissionType
      */
-    protected $TransmissionType = null;
+    public $TransmissionType = null;
 
     /**
      * @var typeVehicleClass $VehicleClass
      */
-    protected $VehicleClass = null;
+    public $VehicleClass = null;
 
     /**
      * @var typeVehicleCategory $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var typeDoorCount $DoorCount
      */
-    protected $DoorCount = null;
+    public $DoorCount = null;
 
     /**
      * @var typeFuel $FuelType
      */
-    protected $FuelType = null;
+    public $FuelType = null;
 
     /**
      * @param boolean $AirConditioning

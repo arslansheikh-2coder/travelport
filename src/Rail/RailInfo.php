@@ -8,47 +8,47 @@ class RailInfo
     /**
      * @var typeTrainNumber $TrainNumber
      */
-    protected $TrainNumber = null;
+    public $TrainNumber = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeRailLocationCode $RailLocOrigin
      */
-    protected $RailLocOrigin = null;
+    public $RailLocOrigin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typeRailLocationCode $RailLocDestination
      */
-    protected $RailLocDestination = null;
+    public $RailLocDestination = null;
 
     /**
      * @var string $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var string $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @param typeTrainNumber $TrainNumber

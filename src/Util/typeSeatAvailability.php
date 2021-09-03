@@ -11,7 +11,7 @@ class typeSeatAvailability
     const AdvancedBoardingPass = 'AdvancedBoardingPass';
     const InterlineCheckin = 'InterlineCheckin';
     const Codeshare = 'Codeshare';
-    const aProtected = 'Protected';
+    const apublic = 'public';
     const PartnerAirline = 'PartnerAirline';
     const AdvSeatSelection = 'AdvSeatSelection';
     const Blocked = 'Blocked';

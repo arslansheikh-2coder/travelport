@@ -8,12 +8,12 @@ class typeFloatRestriction
     /**
      * @var typeFloatRestrictionValue $MinValue
      */
-    protected $MinValue = null;
+    public $MinValue = null;
 
     /**
      * @var typeFloatRestrictionValue $MaxValue
      */
-    protected $MaxValue = null;
+    public $MaxValue = null;
 
     /**
      * @param typeFloatRestrictionValue $MinValue

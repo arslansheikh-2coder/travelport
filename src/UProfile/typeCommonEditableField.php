@@ -8,27 +8,27 @@ class typeCommonEditableField extends typeFieldRef
     /**
      * @var int $MinOccursOverride
      */
-    protected $MinOccursOverride = null;
+    public $MinOccursOverride = null;
 
     /**
      * @var int $MaxOccursOverride
      */
-    protected $MaxOccursOverride = null;
+    public $MaxOccursOverride = null;
 
     /**
      * @var string $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var boolean $Inheritable
      */
-    protected $Inheritable = null;
+    public $Inheritable = null;
 
     /**
      * @param typeFieldID $ID

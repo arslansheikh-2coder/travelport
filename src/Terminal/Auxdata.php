@@ -8,7 +8,7 @@ class Auxdata
     /**
      * @var Entry[] $Entry
      */
-    protected $Entry = null;
+    public $Entry = null;
 
     /**
      * @param Entry[] $Entry

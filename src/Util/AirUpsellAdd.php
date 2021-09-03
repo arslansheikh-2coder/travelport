@@ -8,12 +8,12 @@ class AirUpsellAdd
     /**
      * @var AirUpsellQualify $AirUpsellQualify
      */
-    protected $AirUpsellQualify = null;
+    public $AirUpsellQualify = null;
 
     /**
      * @var AirUpsellOffer $AirUpsellOffer
      */
-    protected $AirUpsellOffer = null;
+    public $AirUpsellOffer = null;
 
     /**
      * @param AirUpsellQualify $AirUpsellQualify

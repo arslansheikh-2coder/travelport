@@ -8,7 +8,7 @@ class PreferredCarriers
     /**
      * @var Carrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @param Carrier $Carrier

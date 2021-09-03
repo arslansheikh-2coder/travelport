@@ -8,7 +8,7 @@ class StructuredFareRulesType
     /**
      * @var FareRuleCategoryTypes[] $FareRuleCategoryType
      */
-    protected $FareRuleCategoryType = null;
+    public $FareRuleCategoryType = null;
 
     
     public function __construct()

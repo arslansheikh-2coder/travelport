@@ -8,17 +8,17 @@ class FareRuleShort
     /**
      * @var FareRuleNameValue $FareRuleNameValue
      */
-    protected $FareRuleNameValue = null;
+    public $FareRuleNameValue = null;
 
     /**
      * @var int $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var string $TableNumber
      */
-    protected $TableNumber = null;
+    public $TableNumber = null;
 
     /**
      * @param FareRuleNameValue $FareRuleNameValue

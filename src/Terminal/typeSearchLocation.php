@@ -8,32 +8,32 @@ class typeSearchLocation
     /**
      * @var Airport $Airport
      */
-    protected $Airport = null;
+    public $Airport = null;
 
     /**
      * @var City $City
      */
-    protected $City = null;
+    public $City = null;
 
     /**
      * @var CityOrAirport $CityOrAirport
      */
-    protected $CityOrAirport = null;
+    public $CityOrAirport = null;
 
     /**
      * @var CoordinateLocation $CoordinateLocation
      */
-    protected $CoordinateLocation = null;
+    public $CoordinateLocation = null;
 
     /**
      * @var RailLocation $RailLocation
      */
-    protected $RailLocation = null;
+    public $RailLocation = null;
 
     /**
      * @var Distance $Distance
      */
-    protected $Distance = null;
+    public $Distance = null;
 
     /**
      * @param Airport $Airport

@@ -8,7 +8,7 @@ class FareNoteList
     /**
      * @var FareNote $FareNote
      */
-    protected $FareNote = null;
+    public $FareNote = null;
 
     /**
      * @param FareNote $FareNote

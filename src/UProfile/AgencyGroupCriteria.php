@@ -8,7 +8,7 @@ class AgencyGroupCriteria extends typeProfileSearchCriteria
     /**
      * @var typeWildcard $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

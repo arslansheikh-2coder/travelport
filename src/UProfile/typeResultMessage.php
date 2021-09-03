@@ -8,17 +8,17 @@ class typeResultMessage
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var int $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var anonymous219 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param string $_

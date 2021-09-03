@@ -8,17 +8,17 @@ class typeGuaranteeInformationHistory
     /**
      * @var anonymous926 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anonymous927 $AgencyType
      */
-    protected $AgencyType = null;
+    public $AgencyType = null;
 
     /**
      * @var StringLength1to128 $IATANumber
      */
-    protected $IATANumber = null;
+    public $IATANumber = null;
 
     /**
      * @param anonymous926 $Type

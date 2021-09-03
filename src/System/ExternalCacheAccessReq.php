@@ -8,17 +8,17 @@ class ExternalCacheAccessReq extends BaseReq
     /**
      * @var RetrieveEntry[] $RetrieveEntry
      */
-    protected $RetrieveEntry = null;
+    public $RetrieveEntry = null;
 
     /**
      * @var DeleteEntry[] $DeleteEntry
      */
-    protected $DeleteEntry = null;
+    public $DeleteEntry = null;
 
     /**
      * @var string $CacheName
      */
-    protected $CacheName = null;
+    public $CacheName = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

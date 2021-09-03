@@ -8,17 +8,17 @@ class AirMerchandisingDetailsRsp extends BaseRsp
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var Brand $Brand
      */
-    protected $Brand = null;
+    public $Brand = null;
 
     /**
      * @var UnassociatedBookingCodeList $UnassociatedBookingCodeList
      */
-    protected $UnassociatedBookingCodeList = null;
+    public $UnassociatedBookingCodeList = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

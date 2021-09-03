@@ -8,22 +8,22 @@ class FormattedTextTextType
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var boolean $Formatted
      */
-    protected $Formatted = null;
+    public $Formatted = null;
 
     /**
      * @var anonymous331 $TextFormat
      */
-    protected $TextFormat = null;
+    public $TextFormat = null;
 
     /**
      * @var language $Language
      */
-    protected $Language = null;
+    public $Language = null;
 
     /**
      * @param string $_

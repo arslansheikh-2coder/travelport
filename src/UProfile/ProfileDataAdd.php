@@ -8,147 +8,147 @@ class ProfileDataAdd
     /**
      * @var Address $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var Phone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var ElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var TravelerIdentityInformation $TravelerIdentityInformation
      */
-    protected $TravelerIdentityInformation = null;
+    public $TravelerIdentityInformation = null;
 
     /**
      * @var ExternalIdentifier $ExternalIdentifier
      */
-    protected $ExternalIdentifier = null;
+    public $ExternalIdentifier = null;
 
     /**
      * @var TravelDocument $TravelDocument
      */
-    protected $TravelDocument = null;
+    public $TravelDocument = null;
 
     /**
      * @var AccountingReference $AccountingReference
      */
-    protected $AccountingReference = null;
+    public $AccountingReference = null;
 
     /**
      * @var PolicyReference $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @var LoyaltyProgramEnrollment $LoyaltyProgramEnrollment
      */
-    protected $LoyaltyProgramEnrollment = null;
+    public $LoyaltyProgramEnrollment = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var Contract $Contract
      */
-    protected $Contract = null;
+    public $Contract = null;
 
     /**
      * @var ServiceFee $ServiceFee
      */
-    protected $ServiceFee = null;
+    public $ServiceFee = null;
 
     /**
      * @var typeFormOfPaymentType $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var AirPreference $AirPreference
      */
-    protected $AirPreference = null;
+    public $AirPreference = null;
 
     /**
      * @var HotelPreference $HotelPreference
      */
-    protected $HotelPreference = null;
+    public $HotelPreference = null;
 
     /**
      * @var OtherPreference $OtherPreference
      */
-    protected $OtherPreference = null;
+    public $OtherPreference = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var FieldData $FieldData
      */
-    protected $FieldData = null;
+    public $FieldData = null;
 
     /**
      * @var AlternateContact $AlternateContact
      */
-    protected $AlternateContact = null;
+    public $AlternateContact = null;
 
     /**
      * @var AlternateContactAddress $AlternateContactAddress
      */
-    protected $AlternateContactAddress = null;
+    public $AlternateContactAddress = null;
 
     /**
      * @var AlternateContactPhone $AlternateContactPhone
      */
-    protected $AlternateContactPhone = null;
+    public $AlternateContactPhone = null;
 
     /**
      * @var AlternateContactElectronicAddress $AlternateContactElectronicAddress
      */
-    protected $AlternateContactElectronicAddress = null;
+    public $AlternateContactElectronicAddress = null;
 
     /**
      * @var FieldGroupData $FieldGroupData
      */
-    protected $FieldGroupData = null;
+    public $FieldGroupData = null;
 
     /**
      * @var VehiclePreference $VehiclePreference
      */
-    protected $VehiclePreference = null;
+    public $VehiclePreference = null;
 
     /**
      * @var Advisory $Advisory
      */
-    protected $Advisory = null;
+    public $Advisory = null;
 
     /**
      * @var CommissionReference $CommissionReference
      */
-    protected $CommissionReference = null;
+    public $CommissionReference = null;
 
     /**
      * @var RailPreference $RailPreference
      */
-    protected $RailPreference = null;
+    public $RailPreference = null;
 
     /**
      * @var ProviderInfo $ProviderInfo
      */
-    protected $ProviderInfo = null;
+    public $ProviderInfo = null;
 
     /**
      * @var ProprietaryData $ProprietaryData
      */
-    protected $ProprietaryData = null;
+    public $ProprietaryData = null;
 
     /**
      * @param Address $Address

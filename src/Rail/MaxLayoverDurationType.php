@@ -8,17 +8,17 @@ class MaxLayoverDurationType
     /**
      * @var MaxLayoverDurationRangeType $Domestic
      */
-    protected $Domestic = null;
+    public $Domestic = null;
 
     /**
      * @var MaxLayoverDurationRangeType $Gateway
      */
-    protected $Gateway = null;
+    public $Gateway = null;
 
     /**
      * @var MaxLayoverDurationRangeType $International
      */
-    protected $International = null;
+    public $International = null;
 
     /**
      * @param MaxLayoverDurationRangeType $Domestic

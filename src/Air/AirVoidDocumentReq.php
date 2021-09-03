@@ -8,32 +8,32 @@ class AirVoidDocumentReq extends BaseReq
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var VoidDocumentInfo $VoidDocumentInfo
      */
-    protected $VoidDocumentInfo = null;
+    public $VoidDocumentInfo = null;
 
     /**
      * @var boolean $ShowETR
      */
-    protected $ShowETR = null;
+    public $ShowETR = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var boolean $ValidateSpanishResidency
      */
-    protected $ValidateSpanishResidency = null;
+    public $ValidateSpanishResidency = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

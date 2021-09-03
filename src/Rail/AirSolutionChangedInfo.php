@@ -8,12 +8,12 @@ class AirSolutionChangedInfo
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var anonymous648 $ReasonCode
      */
-    protected $ReasonCode = null;
+    public $ReasonCode = null;
 
     /**
      * @param AirPricingSolution $AirPricingSolution

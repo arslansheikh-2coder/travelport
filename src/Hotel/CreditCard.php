@@ -8,12 +8,12 @@ class CreditCard extends typeCreditCardType
     /**
      * @var string $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param PhoneNumber $PhoneNumber

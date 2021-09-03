@@ -8,7 +8,7 @@ class HotelRetrieveRsp extends BaseRsp
     /**
      * @var HotelReservation $HotelReservation
      */
-    protected $HotelReservation = null;
+    public $HotelReservation = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

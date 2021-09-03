@@ -8,47 +8,47 @@ class HistoryElement
     /**
      * @var typeHistorySubElement $Original
      */
-    protected $Original = null;
+    public $Original = null;
 
     /**
      * @var typeHistorySubElement $New
      */
-    protected $New = null;
+    public $New = null;
 
     /**
      * @var typeAction $Action
      */
-    protected $Action = null;
+    public $Action = null;
 
     /**
      * @var typeProfileID $ModifiedByAgentID
      */
-    protected $ModifiedByAgentID = null;
+    public $ModifiedByAgentID = null;
 
     /**
      * @var typeAgentCode $ModifiedByAgentUserName
      */
-    protected $ModifiedByAgentUserName = null;
+    public $ModifiedByAgentUserName = null;
 
     /**
      * @var \DateTime $ModifiedDate
      */
-    protected $ModifiedDate = null;
+    public $ModifiedDate = null;
 
     /**
      * @var anonymous599 $Component
      */
-    protected $Component = null;
+    public $Component = null;
 
     /**
      * @var anonymous600 $CorrelationElement
      */
-    protected $CorrelationElement = null;
+    public $CorrelationElement = null;
 
     /**
      * @var StringLength1to128 $CorrelationValue
      */
-    protected $CorrelationValue = null;
+    public $CorrelationValue = null;
 
     /**
      * @param typeAction $Action

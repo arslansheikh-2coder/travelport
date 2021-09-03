@@ -8,17 +8,17 @@ class HotelPropertyWithMediaItems
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var MediaItem $MediaItem
      */
-    protected $MediaItem = null;
+    public $MediaItem = null;
 
     /**
      * @var typeResultMessage[] $MediaResultMessage
      */
-    protected $MediaResultMessage = null;
+    public $MediaResultMessage = null;
 
     /**
      * @param HotelProperty $HotelProperty

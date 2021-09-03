@@ -8,77 +8,77 @@ class typeTaxInfo
     /**
      * @var TaxDetail $TaxDetail
      */
-    protected $TaxDetail = null;
+    public $TaxDetail = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var string $CarrierDefinedCategory
      */
-    protected $CarrierDefinedCategory = null;
+    public $CarrierDefinedCategory = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var typeRef $FlightDetailsRef
      */
-    protected $FlightDetailsRef = null;
+    public $FlightDetailsRef = null;
 
     /**
      * @var typeRef $CouponRef
      */
-    protected $CouponRef = null;
+    public $CouponRef = null;
 
     /**
      * @var boolean $TaxExempted
      */
-    protected $TaxExempted = null;
+    public $TaxExempted = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeAirport $OriginAirport
      */
-    protected $OriginAirport = null;
+    public $OriginAirport = null;
 
     /**
      * @var typeAirport $DestinationAirport
      */
-    protected $DestinationAirport = null;
+    public $DestinationAirport = null;
 
     /**
      * @var string $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var typeRef $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @param TaxDetail $TaxDetail

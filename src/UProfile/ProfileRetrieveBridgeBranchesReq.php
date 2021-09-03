@@ -8,12 +8,12 @@ class ProfileRetrieveBridgeBranchesReq extends BaseReq
     /**
      * @var typeProfileID $AgentID
      */
-    protected $AgentID = null;
+    public $AgentID = null;
 
     /**
      * @var StringLength1to128 $UserName
      */
-    protected $UserName = null;
+    public $UserName = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

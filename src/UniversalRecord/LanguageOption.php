@@ -8,12 +8,12 @@ class LanguageOption
     /**
      * @var typeLanguage $Language
      */
-    protected $Language = null;
+    public $Language = null;
 
     /**
      * @var typeCountry $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @param typeLanguage $Language

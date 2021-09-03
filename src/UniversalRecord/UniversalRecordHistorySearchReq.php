@@ -8,12 +8,12 @@ class UniversalRecordHistorySearchReq extends BaseReq
     /**
      * @var UniversalRecordHistorySearchModifiers $UniversalRecordHistorySearchModifiers
      */
-    protected $UniversalRecordHistorySearchModifiers = null;
+    public $UniversalRecordHistorySearchModifiers = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

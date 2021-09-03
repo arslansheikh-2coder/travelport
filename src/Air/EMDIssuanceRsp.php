@@ -8,12 +8,12 @@ class EMDIssuanceRsp extends BaseRsp
     /**
      * @var EMDSummaryInfo $EMDSummaryInfo
      */
-    protected $EMDSummaryInfo = null;
+    public $EMDSummaryInfo = null;
 
     /**
      * @var EMDInfo $EMDInfo
      */
-    protected $EMDInfo = null;
+    public $EMDInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

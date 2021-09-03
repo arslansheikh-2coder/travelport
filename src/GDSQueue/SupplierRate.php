@@ -8,17 +8,17 @@ class SupplierRate extends typeVehicleRates
     /**
      * @var typeMoney $DiscountAmount
      */
-    protected $DiscountAmount = null;
+    public $DiscountAmount = null;
 
     /**
      * @var typeMoney $MandatoryChargeTotal
      */
-    protected $MandatoryChargeTotal = null;
+    public $MandatoryChargeTotal = null;
 
     /**
      * @var typeMoney $ApproximateTotal
      */
-    protected $ApproximateTotal = null;
+    public $ApproximateTotal = null;
 
     /**
      * @param typeMoney $EstimatedTotalAmount

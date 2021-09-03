@@ -8,12 +8,12 @@ class Room
     /**
      * @var int $Capacity
      */
-    protected $Capacity = null;
+    public $Capacity = null;
 
     /**
      * @var int $Quantity
      */
-    protected $Quantity = null;
+    public $Quantity = null;
 
     /**
      * @param int $Capacity

@@ -8,52 +8,52 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var boolean $ProviderReservationDetail
      */
-    protected $ProviderReservationDetail = null;
+    public $ProviderReservationDetail = null;
 
     /**
      * @var boolean $CustomCheck
      */
-    protected $CustomCheck = null;
+    public $CustomCheck = null;
 
     /**
      * @var boolean $ProviderProfile
      */
-    protected $ProviderProfile = null;
+    public $ProviderProfile = null;
 
     /**
      * @var boolean $DivideDetails
      */
-    protected $DivideDetails = null;
+    public $DivideDetails = null;
 
     /**
      * @var boolean $EnhancedItinModifiers
      */
-    protected $EnhancedItinModifiers = null;
+    public $EnhancedItinModifiers = null;
 
     /**
      * @var boolean $IntegratedContent
      */
-    protected $IntegratedContent = null;
+    public $IntegratedContent = null;
 
     /**
      * @var boolean $Cruise
      */
-    protected $Cruise = null;
+    public $Cruise = null;
 
     /**
      * @var boolean $RailSegment
      */
-    protected $RailSegment = null;
+    public $RailSegment = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

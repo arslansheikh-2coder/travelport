@@ -8,17 +8,17 @@ class AirItinerarySolution
     /**
      * @var AirSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var Connection $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param AirSegmentRef $AirSegmentRef

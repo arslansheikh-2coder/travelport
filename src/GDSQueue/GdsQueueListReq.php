@@ -8,32 +8,32 @@ class GdsQueueListReq extends BaseReq
     /**
      * @var NextResultReference $NextResultReference
      */
-    protected $NextResultReference = null;
+    public $NextResultReference = null;
 
     /**
      * @var QueueSelectorType $GdsQueueSelector
      */
-    protected $GdsQueueSelector = null;
+    public $GdsQueueSelector = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var boolean $RetrieveAll
      */
-    protected $RetrieveAll = null;
+    public $RetrieveAll = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

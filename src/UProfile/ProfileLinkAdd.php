@@ -8,12 +8,12 @@ class ProfileLinkAdd
     /**
      * @var typeProfileID $TravelerID
      */
-    protected $TravelerID = null;
+    public $TravelerID = null;
 
     /**
      * @var typeProfileLinkRelationship $Relationship
      */
-    protected $Relationship = null;
+    public $Relationship = null;
 
     /**
      * @param typeProfileID $TravelerID

@@ -8,12 +8,12 @@ class TravelerCriteria extends typeAccountTypeProfileSearchCriteria
     /**
      * @var typeWildcard $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var typeWildcard $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

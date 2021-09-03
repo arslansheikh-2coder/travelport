@@ -8,7 +8,7 @@ class PersonNameSearch
     /**
      * @var StringLength1to64 $Last
      */
-    protected $Last = null;
+    public $Last = null;
 
     /**
      * @param StringLength1to64 $Last

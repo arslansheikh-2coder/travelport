@@ -8,12 +8,12 @@ class typeFlightSpec
     /**
      * @var typeFlightNumberRange $FlightNumberRange
      */
-    protected $FlightNumberRange = null;
+    public $FlightNumberRange = null;
 
     /**
      * @var typeSpecificFlightNumber $SpecificFlightNumber
      */
-    protected $SpecificFlightNumber = null;
+    public $SpecificFlightNumber = null;
 
     
     public function __construct()

@@ -8,157 +8,157 @@ class AirSearchModifiers
     /**
      * @var DisfavoredProviders $DisfavoredProviders
      */
-    protected $DisfavoredProviders = null;
+    public $DisfavoredProviders = null;
 
     /**
      * @var PreferredProviders $PreferredProviders
      */
-    protected $PreferredProviders = null;
+    public $PreferredProviders = null;
 
     /**
      * @var DisfavoredCarriers $DisfavoredCarriers
      */
-    protected $DisfavoredCarriers = null;
+    public $DisfavoredCarriers = null;
 
     /**
      * @var PermittedCarriers $PermittedCarriers
      */
-    protected $PermittedCarriers = null;
+    public $PermittedCarriers = null;
 
     /**
      * @var ProhibitedCarriers $ProhibitedCarriers
      */
-    protected $ProhibitedCarriers = null;
+    public $ProhibitedCarriers = null;
 
     /**
      * @var PreferredCarriers $PreferredCarriers
      */
-    protected $PreferredCarriers = null;
+    public $PreferredCarriers = null;
 
     /**
      * @var PermittedCabins $PermittedCabins
      */
-    protected $PermittedCabins = null;
+    public $PermittedCabins = null;
 
     /**
      * @var PreferredCabins $PreferredCabins
      */
-    protected $PreferredCabins = null;
+    public $PreferredCabins = null;
 
     /**
      * @var PreferredAlliances $PreferredAlliances
      */
-    protected $PreferredAlliances = null;
+    public $PreferredAlliances = null;
 
     /**
      * @var DisfavoredAlliances $DisfavoredAlliances
      */
-    protected $DisfavoredAlliances = null;
+    public $DisfavoredAlliances = null;
 
     /**
      * @var PermittedBookingCodes $PermittedBookingCodes
      */
-    protected $PermittedBookingCodes = null;
+    public $PermittedBookingCodes = null;
 
     /**
      * @var PreferredBookingCodes $PreferredBookingCodes
      */
-    protected $PreferredBookingCodes = null;
+    public $PreferredBookingCodes = null;
 
     /**
      * @var ProhibitedBookingCodes $ProhibitedBookingCodes
      */
-    protected $ProhibitedBookingCodes = null;
+    public $ProhibitedBookingCodes = null;
 
     /**
      * @var FlightType $FlightType
      */
-    protected $FlightType = null;
+    public $FlightType = null;
 
     /**
      * @var MaxLayoverDurationType $MaxLayoverDuration
      */
-    protected $MaxLayoverDuration = null;
+    public $MaxLayoverDuration = null;
 
     /**
      * @var typeNativeSearchModifier $NativeSearchModifier
      */
-    protected $NativeSearchModifier = null;
+    public $NativeSearchModifier = null;
 
     /**
      * @var typeDistance $DistanceType
      */
-    protected $DistanceType = null;
+    public $DistanceType = null;
 
     /**
      * @var boolean $IncludeFlightDetails
      */
-    protected $IncludeFlightDetails = null;
+    public $IncludeFlightDetails = null;
 
     /**
      * @var boolean $AllowChangeOfAirport
      */
-    protected $AllowChangeOfAirport = null;
+    public $AllowChangeOfAirport = null;
 
     /**
      * @var boolean $ProhibitOvernightLayovers
      */
-    protected $ProhibitOvernightLayovers = null;
+    public $ProhibitOvernightLayovers = null;
 
     /**
      * @var int $MaxSolutions
      */
-    protected $MaxSolutions = null;
+    public $MaxSolutions = null;
 
     /**
      * @var int $MaxConnectionTime
      */
-    protected $MaxConnectionTime = null;
+    public $MaxConnectionTime = null;
 
     /**
      * @var boolean $SearchWeekends
      */
-    protected $SearchWeekends = null;
+    public $SearchWeekends = null;
 
     /**
      * @var boolean $IncludeExtraSolutions
      */
-    protected $IncludeExtraSolutions = null;
+    public $IncludeExtraSolutions = null;
 
     /**
      * @var boolean $ProhibitMultiAirportConnection
      */
-    protected $ProhibitMultiAirportConnection = null;
+    public $ProhibitMultiAirportConnection = null;
 
     /**
      * @var boolean $PreferNonStop
      */
-    protected $PreferNonStop = null;
+    public $PreferNonStop = null;
 
     /**
      * @var anonymous692 $OrderBy
      */
-    protected $OrderBy = null;
+    public $OrderBy = null;
 
     /**
      * @var boolean $ExcludeOpenJawAirport
      */
-    protected $ExcludeOpenJawAirport = null;
+    public $ExcludeOpenJawAirport = null;
 
     /**
      * @var boolean $ExcludeGroundTransportation
      */
-    protected $ExcludeGroundTransportation = null;
+    public $ExcludeGroundTransportation = null;
 
     /**
      * @var typeMaxJourneyTime $MaxJourneyTime
      */
-    protected $MaxJourneyTime = null;
+    public $MaxJourneyTime = null;
 
     /**
      * @var boolean $JetServiceOnly
      */
-    protected $JetServiceOnly = null;
+    public $JetServiceOnly = null;
 
     /**
      * @param PermittedCarriers $PermittedCarriers

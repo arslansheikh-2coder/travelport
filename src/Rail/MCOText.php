@@ -8,12 +8,12 @@ class MCOText extends typeFreeFormText
     /**
      * @var typeFreeFormText $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param string $_

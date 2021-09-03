@@ -8,52 +8,52 @@ class ServiceData
     /**
      * @var SeatAttributes $SeatAttributes
      */
-    protected $SeatAttributes = null;
+    public $SeatAttributes = null;
 
     /**
      * @var CabinClass $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var typeKeyBasedReference[] $SSRRef
      */
-    protected $SSRRef = null;
+    public $SSRRef = null;
 
     /**
      * @var string $Data
      */
-    protected $Data = null;
+    public $Data = null;
 
     /**
      * @var typeRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var boolean $StopOver
      */
-    protected $StopOver = null;
+    public $StopOver = null;
 
     /**
      * @var typePTC $TravelerType
      */
-    protected $TravelerType = null;
+    public $TravelerType = null;
 
     /**
      * @var typeRef $EMDSummaryRef
      */
-    protected $EMDSummaryRef = null;
+    public $EMDSummaryRef = null;
 
     /**
      * @var typeRef $EMDCouponRef
      */
-    protected $EMDCouponRef = null;
+    public $EMDCouponRef = null;
 
     /**
      * @param SeatAttributes $SeatAttributes

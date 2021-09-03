@@ -8,17 +8,17 @@ class TicketAdvisory
     /**
      * @var StringLength1to500 $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var language $LanguageCode
      */
-    protected $LanguageCode = null;
+    public $LanguageCode = null;
 
     /**
      * @param StringLength1to500 $_

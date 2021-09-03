@@ -8,37 +8,37 @@ class AirReservationCriteria
     /**
      * @var typeDateSpec $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var typeDateSpec $ArrivalDate
      */
-    protected $ArrivalDate = null;
+    public $ArrivalDate = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var boolean $PassiveOnly
      */
-    protected $PassiveOnly = null;
+    public $PassiveOnly = null;
 
     /**
      * @param typeIATACode $Origin

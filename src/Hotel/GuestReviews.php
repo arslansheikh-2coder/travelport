@@ -8,7 +8,7 @@ class GuestReviews
     /**
      * @var Comments[] $Comments
      */
-    protected $Comments = null;
+    public $Comments = null;
 
     /**
      * @param Comments[] $Comments

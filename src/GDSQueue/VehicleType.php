@@ -8,7 +8,7 @@ class VehicleType
     /**
      * @var typeVehicleTypes $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @param typeVehicleTypes $_

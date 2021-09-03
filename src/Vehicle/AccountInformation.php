@@ -8,17 +8,17 @@ class AccountInformation
     /**
      * @var typeStructuredAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var string $AccountName
      */
-    protected $AccountName = null;
+    public $AccountName = null;
 
     /**
      * @param PhoneNumber $PhoneNumber

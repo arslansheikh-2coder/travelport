@@ -8,22 +8,22 @@ class typeSegmentPolicy
     /**
      * @var Preference $Preference
      */
-    protected $Preference = null;
+    public $Preference = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var boolean $InPolicy
      */
-    protected $InPolicy = null;
+    public $InPolicy = null;
 
     /**
      * @var boolean $InContract
      */
-    protected $InContract = null;
+    public $InContract = null;
 
     /**
      * @param Preference $Preference

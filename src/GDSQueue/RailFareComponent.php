@@ -8,37 +8,37 @@ class RailFareComponent
     /**
      * @var Discount[] $Discount
      */
-    protected $Discount = null;
+    public $Discount = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var int $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @var typePTC $PassengerTypeCode
      */
-    protected $PassengerTypeCode = null;
+    public $PassengerTypeCode = null;
 
     /**
      * @var string $SupplierPassengerType
      */
-    protected $SupplierPassengerType = null;
+    public $SupplierPassengerType = null;
 
     /**
      * @var int $Quantity
      */
-    protected $Quantity = null;
+    public $Quantity = null;
 
     /**
      * @param typeRef $Key

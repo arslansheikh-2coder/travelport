@@ -8,7 +8,7 @@ class ListRetrieve
     /**
      * @var typeProviderReservationDetail $ProviderReservationDetail
      */
-    protected $ProviderReservationDetail = null;
+    public $ProviderReservationDetail = null;
 
     /**
      * @param typeProviderReservationDetail $ProviderReservationDetail

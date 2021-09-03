@@ -8,12 +8,12 @@ class TerminalReq extends BaseReq
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var string $TerminalCommand
      */
-    protected $TerminalCommand = null;
+    public $TerminalCommand = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

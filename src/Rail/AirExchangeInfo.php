@@ -8,152 +8,152 @@ class AirExchangeInfo
     /**
      * @var TotalPenaltyTaxInfo $TotalPenaltyTaxInfo
      */
-    protected $TotalPenaltyTaxInfo = null;
+    public $TotalPenaltyTaxInfo = null;
 
     /**
      * @var typeTax[] $PaidTax
      */
-    protected $PaidTax = null;
+    public $PaidTax = null;
 
     /**
      * @var TicketFeeInfo[] $TicketFeeInfo
      */
-    protected $TicketFeeInfo = null;
+    public $TicketFeeInfo = null;
 
     /**
      * @var string[] $Reason
      */
-    protected $Reason = null;
+    public $Reason = null;
 
     /**
      * @var typeFeeInfo[] $FeeInfo
      */
-    protected $FeeInfo = null;
+    public $FeeInfo = null;
 
     /**
      * @var typeTaxInfo[] $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var typeMoney $ExchangeAmount
      */
-    protected $ExchangeAmount = null;
+    public $ExchangeAmount = null;
 
     /**
      * @var typeMoney $BaseFare
      */
-    protected $BaseFare = null;
+    public $BaseFare = null;
 
     /**
      * @var typeMoney $EquivalentBaseFare
      */
-    protected $EquivalentBaseFare = null;
+    public $EquivalentBaseFare = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $ChangeFee
      */
-    protected $ChangeFee = null;
+    public $ChangeFee = null;
 
     /**
      * @var typeMoney $ForfeitAmount
      */
-    protected $ForfeitAmount = null;
+    public $ForfeitAmount = null;
 
     /**
      * @var boolean $Refundable
      */
-    protected $Refundable = null;
+    public $Refundable = null;
 
     /**
      * @var boolean $Exchangeable
      */
-    protected $Exchangeable = null;
+    public $Exchangeable = null;
 
     /**
      * @var boolean $FirstClassUpgrade
      */
-    protected $FirstClassUpgrade = null;
+    public $FirstClassUpgrade = null;
 
     /**
      * @var string $TicketByDate
      */
-    protected $TicketByDate = null;
+    public $TicketByDate = null;
 
     /**
      * @var string $PricingTag
      */
-    protected $PricingTag = null;
+    public $PricingTag = null;
 
     /**
      * @var typeMoney $EquivalentChangeFee
      */
-    protected $EquivalentChangeFee = null;
+    public $EquivalentChangeFee = null;
 
     /**
      * @var typeMoney $EquivalentExchangeAmount
      */
-    protected $EquivalentExchangeAmount = null;
+    public $EquivalentExchangeAmount = null;
 
     /**
      * @var typeMoney $AddCollection
      */
-    protected $AddCollection = null;
+    public $AddCollection = null;
 
     /**
      * @var typeMoney $ResidualValue
      */
-    protected $ResidualValue = null;
+    public $ResidualValue = null;
 
     /**
      * @var typeMoney $TotalResidualValue
      */
-    protected $TotalResidualValue = null;
+    public $TotalResidualValue = null;
 
     /**
      * @var typeMoney $OriginalFlightValue
      */
-    protected $OriginalFlightValue = null;
+    public $OriginalFlightValue = null;
 
     /**
      * @var typeMoney $FlownSegmentValue
      */
-    protected $FlownSegmentValue = null;
+    public $FlownSegmentValue = null;
 
     /**
      * @var boolean $BulkTicketAdvisory
      */
-    protected $BulkTicketAdvisory = null;
+    public $BulkTicketAdvisory = null;
 
     /**
      * @var typeFarePull $FarePull
      */
-    protected $FarePull = null;
+    public $FarePull = null;
 
     /**
      * @var typePTC $PassengerTypeCode
      */
-    protected $PassengerTypeCode = null;
+    public $PassengerTypeCode = null;
 
     /**
      * @var int $PassengerCount
      */
-    protected $PassengerCount = null;
+    public $PassengerCount = null;
 
     /**
      * @var typeFormOfRefund $FormOfRefund
      */
-    protected $FormOfRefund = null;
+    public $FormOfRefund = null;
 
     /**
      * @var typeMoney $Refund
      */
-    protected $Refund = null;
+    public $Refund = null;
 
     /**
      * @param typeMoney $ExchangeAmount

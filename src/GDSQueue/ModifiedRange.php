@@ -8,12 +8,12 @@ class ModifiedRange
     /**
      * @var date $ModifiedStart
      */
-    protected $ModifiedStart = null;
+    public $ModifiedStart = null;
 
     /**
      * @var date $ModifiedEnd
      */
-    protected $ModifiedEnd = null;
+    public $ModifiedEnd = null;
 
     /**
      * @param date $ModifiedStart

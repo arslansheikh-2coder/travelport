@@ -8,7 +8,7 @@ class GroupedOptionInfo
     /**
      * @var GroupedOption $GroupedOption
      */
-    protected $GroupedOption = null;
+    public $GroupedOption = null;
 
     /**
      * @param GroupedOption $GroupedOption

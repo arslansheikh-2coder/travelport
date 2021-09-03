@@ -8,22 +8,22 @@ class ContractCode
     /**
      * @var anonymous886 $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $CompanyName
      */
-    protected $CompanyName = null;
+    public $CompanyName = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param anonymous886 $Code

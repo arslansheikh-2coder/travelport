@@ -8,7 +8,7 @@ class CreateTerminalSessionRsp extends BaseRsp
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

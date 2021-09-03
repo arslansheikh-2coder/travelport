@@ -8,47 +8,47 @@ class GeneralTimeTable
     /**
      * @var typeDaysOfOperation $DaysOfOperation
      */
-    protected $DaysOfOperation = null;
+    public $DaysOfOperation = null;
 
     /**
      * @var typeLocation $FlightOrigin
      */
-    protected $FlightOrigin = null;
+    public $FlightOrigin = null;
 
     /**
      * @var typeLocation $FlightDestination
      */
-    protected $FlightDestination = null;
+    public $FlightDestination = null;
 
     /**
      * @var CarrierList $CarrierList
      */
-    protected $CarrierList = null;
+    public $CarrierList = null;
 
     /**
      * @var string $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var string $EndDate
      */
-    protected $EndDate = null;
+    public $EndDate = null;
 
     /**
      * @var time $StartTime
      */
-    protected $StartTime = null;
+    public $StartTime = null;
 
     /**
      * @var time $EndTime
      */
-    protected $EndTime = null;
+    public $EndTime = null;
 
     /**
      * @var boolean $IncludeConnection
      */
-    protected $IncludeConnection = null;
+    public $IncludeConnection = null;
 
     /**
      * @param typeLocation $FlightOrigin

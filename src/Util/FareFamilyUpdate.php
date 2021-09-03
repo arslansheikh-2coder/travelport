@@ -8,7 +8,7 @@ class FareFamilyUpdate
     /**
      * @var FareFamily $FareFamily
      */
-    protected $FareFamily = null;
+    public $FareFamily = null;
 
     /**
      * @param FareFamily $FareFamily

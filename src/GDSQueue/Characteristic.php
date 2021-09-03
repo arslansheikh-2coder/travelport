@@ -8,12 +8,12 @@ class Characteristic
     /**
      * @var boolean $Smoking
      */
-    protected $Smoking = null;
+    public $Smoking = null;
 
     /**
      * @var typeCoachClassType $Class
      */
-    protected $Class = null;
+    public $Class = null;
 
     /**
      * @param boolean $Smoking

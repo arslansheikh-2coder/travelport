@@ -8,12 +8,12 @@ class AirRepriceRsp extends BaseRsp
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var FareRule $FareRule
      */
-    protected $FareRule = null;
+    public $FareRule = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

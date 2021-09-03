@@ -8,92 +8,92 @@ class PricingDetails
     /**
      * @var string[] $AdvisoryMessage
      */
-    protected $AdvisoryMessage = null;
+    public $AdvisoryMessage = null;
 
     /**
      * @var string[] $EndorsementText
      */
-    protected $EndorsementText = null;
+    public $EndorsementText = null;
 
     /**
      * @var string $WaiverText
      */
-    protected $WaiverText = null;
+    public $WaiverText = null;
 
     /**
      * @var boolean $LowFarePricing
      */
-    protected $LowFarePricing = null;
+    public $LowFarePricing = null;
 
     /**
      * @var boolean $LowFareFound
      */
-    protected $LowFareFound = null;
+    public $LowFareFound = null;
 
     /**
      * @var boolean $PenaltyApplies
      */
-    protected $PenaltyApplies = null;
+    public $PenaltyApplies = null;
 
     /**
      * @var boolean $DiscountApplies
      */
-    protected $DiscountApplies = null;
+    public $DiscountApplies = null;
 
     /**
      * @var typeItineraryCode $ItineraryType
      */
-    protected $ItineraryType = null;
+    public $ItineraryType = null;
 
     /**
      * @var typeCarrier $ValidatingVendorCode
      */
-    protected $ValidatingVendorCode = null;
+    public $ValidatingVendorCode = null;
 
     /**
      * @var date $ForTicketingOnDate
      */
-    protected $ForTicketingOnDate = null;
+    public $ForTicketingOnDate = null;
 
     /**
      * @var date $LastDateToTicket
      */
-    protected $LastDateToTicket = null;
+    public $LastDateToTicket = null;
 
     /**
      * @var typeFormOfRefund $FormOfRefund
      */
-    protected $FormOfRefund = null;
+    public $FormOfRefund = null;
 
     /**
      * @var string $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var float $BankersSellingRate
      */
-    protected $BankersSellingRate = null;
+    public $BankersSellingRate = null;
 
     /**
      * @var typePricingType $PricingType
      */
-    protected $PricingType = null;
+    public $PricingType = null;
 
     /**
      * @var float $ConversionRate
      */
-    protected $ConversionRate = null;
+    public $ConversionRate = null;
 
     /**
      * @var float $RateOfExchange
      */
-    protected $RateOfExchange = null;
+    public $RateOfExchange = null;
 
     /**
      * @var typeCurrency $OriginalTicketCurrency
      */
-    protected $OriginalTicketCurrency = null;
+    public $OriginalTicketCurrency = null;
 
     /**
      * @param boolean $LowFarePricing

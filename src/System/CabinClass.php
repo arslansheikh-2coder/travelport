@@ -8,7 +8,7 @@ class CabinClass
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param string $Type

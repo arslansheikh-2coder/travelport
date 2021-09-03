@@ -8,12 +8,12 @@ class HotelUpsellOfferSearchCriteria
     /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
-    protected $CorporateDiscountID = null;
+    public $CorporateDiscountID = null;
 
     /**
      * @var typeRatePlanType $RatePlanType
      */
-    protected $RatePlanType = null;
+    public $RatePlanType = null;
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID

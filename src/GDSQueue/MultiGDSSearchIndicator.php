@@ -8,27 +8,27 @@ class MultiGDSSearchIndicator
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var boolean $DefaultProvider
      */
-    protected $DefaultProvider = null;
+    public $DefaultProvider = null;
 
     /**
      * @var string $PrivateFareCode
      */
-    protected $PrivateFareCode = null;
+    public $PrivateFareCode = null;
 
     /**
      * @var boolean $PrivateFareCodeOnly
      */
-    protected $PrivateFareCodeOnly = null;
+    public $PrivateFareCodeOnly = null;
 
     /**
      * @param string $Type

@@ -8,27 +8,27 @@ class FareRestriction
     /**
      * @var FareRestrictionDaysOfWeek $FareRestrictionDaysOfWeek
      */
-    protected $FareRestrictionDaysOfWeek = null;
+    public $FareRestrictionDaysOfWeek = null;
 
     /**
      * @var FareRestrictionDate $FareRestrictionDate
      */
-    protected $FareRestrictionDate = null;
+    public $FareRestrictionDate = null;
 
     /**
      * @var FareRestrictionSaleDate $FareRestrictionSaleDate
      */
-    protected $FareRestrictionSaleDate = null;
+    public $FareRestrictionSaleDate = null;
 
     /**
      * @var FareRestrictionSeasonal $FareRestrictionSeasonal
      */
-    protected $FareRestrictionSeasonal = null;
+    public $FareRestrictionSeasonal = null;
 
     /**
      * @var typeFareRestrictionType $FareRestrictiontype
      */
-    protected $FareRestrictiontype = null;
+    public $FareRestrictiontype = null;
 
     /**
      * @param FareRestrictionDaysOfWeek $FareRestrictionDaysOfWeek

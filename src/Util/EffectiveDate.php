@@ -8,12 +8,12 @@ class EffectiveDate
     /**
      * @var typeDate $EarliestDate
      */
-    protected $EarliestDate = null;
+    public $EarliestDate = null;
 
     /**
      * @var typeDate $LatestDate
      */
-    protected $LatestDate = null;
+    public $LatestDate = null;
 
     /**
      * @param typeDate $EarliestDate

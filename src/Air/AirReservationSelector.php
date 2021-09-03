@@ -8,12 +8,12 @@ class AirReservationSelector
     /**
      * @var FareInfoRef $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @var typeLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @param FareInfoRef $FareInfoRef

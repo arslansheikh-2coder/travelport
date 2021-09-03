@@ -8,7 +8,7 @@ class FindEmployeesOnFlightRsp extends BaseRsp
     /**
      * @var EmployeesOnFlight[] $EmployeesOnFlight
      */
-    protected $EmployeesOnFlight = null;
+    public $EmployeesOnFlight = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

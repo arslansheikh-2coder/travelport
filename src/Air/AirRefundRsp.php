@@ -8,17 +8,17 @@ class AirRefundRsp extends BaseRsp
     /**
      * @var ETR $ETR
      */
-    protected $ETR = null;
+    public $ETR = null;
 
     /**
      * @var TCR $TCR
      */
-    protected $TCR = null;
+    public $TCR = null;
 
     /**
      * @var typeTicketFailureInfo[] $RefundFailureInfo
      */
-    protected $RefundFailureInfo = null;
+    public $RefundFailureInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

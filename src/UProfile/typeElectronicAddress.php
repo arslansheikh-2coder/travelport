@@ -8,17 +8,17 @@ class typeElectronicAddress extends typeKeyElement
     /**
      * @var anonymous814 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeEmailType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeEmailFormat $Format
      */
-    protected $Format = null;
+    public $Format = null;
 
     /**
      * @param typeRef $Key

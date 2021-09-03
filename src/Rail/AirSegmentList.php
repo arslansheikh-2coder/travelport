@@ -8,7 +8,7 @@ class AirSegmentList
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @param typeBaseAirSegment $AirSegment

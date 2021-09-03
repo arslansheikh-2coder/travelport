@@ -8,12 +8,12 @@ class ExchangedCoupon
     /**
      * @var typeTicketNumber $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var string $CouponNumber
      */
-    protected $CouponNumber = null;
+    public $CouponNumber = null;
 
     /**
      * @param typeTicketNumber $TicketNumber

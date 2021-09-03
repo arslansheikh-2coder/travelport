@@ -8,7 +8,7 @@ class ActionRef extends typeActionReference
     /**
      * @var EndpointRef $EndpointRef
      */
-    protected $EndpointRef = null;
+    public $EndpointRef = null;
 
     /**
      * @param typeActionID $ID

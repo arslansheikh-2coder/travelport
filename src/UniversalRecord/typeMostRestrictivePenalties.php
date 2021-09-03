@@ -8,7 +8,7 @@ class typeMostRestrictivePenalties
     /**
      * @var typeRestrictionData[] $RestrictionType
      */
-    protected $RestrictionType = null;
+    public $RestrictionType = null;
 
     
     public function __construct()

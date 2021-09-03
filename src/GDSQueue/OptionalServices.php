@@ -8,22 +8,22 @@ class OptionalServices
     /**
      * @var OptionalServicesTotal $OptionalServicesTotal
      */
-    protected $OptionalServicesTotal = null;
+    public $OptionalServicesTotal = null;
 
     /**
      * @var OptionalService $OptionalService
      */
-    protected $OptionalService = null;
+    public $OptionalService = null;
 
     /**
      * @var GroupedOptionInfo $GroupedOptionInfo
      */
-    protected $GroupedOptionInfo = null;
+    public $GroupedOptionInfo = null;
 
     /**
      * @var ServiceRuleType[] $OptionalServiceRules
      */
-    protected $OptionalServiceRules = null;
+    public $OptionalServiceRules = null;
 
     /**
      * @param OptionalService $OptionalService

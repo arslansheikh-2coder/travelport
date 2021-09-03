@@ -8,7 +8,7 @@ class HotelTransportation
     /**
      * @var typeOTACode $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param typeOTACode $Type

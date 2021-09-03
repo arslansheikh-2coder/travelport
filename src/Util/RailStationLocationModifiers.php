@@ -8,27 +8,27 @@ class RailStationLocationModifiers
     /**
      * @var RailLocation $RailLocation
      */
-    protected $RailLocation = null;
+    public $RailLocation = null;
 
     /**
      * @var typeCountry $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var typeSupplierCode $Distributor
      */
-    protected $Distributor = null;
+    public $Distributor = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var boolean $Active
      */
-    protected $Active = null;
+    public $Active = null;
 
     /**
      * @param RailLocation $RailLocation

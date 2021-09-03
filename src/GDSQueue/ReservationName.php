@@ -8,12 +8,12 @@ class ReservationName
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var NameOverride $NameOverride
      */
-    protected $NameOverride = null;
+    public $NameOverride = null;
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef

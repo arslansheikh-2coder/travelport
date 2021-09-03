@@ -8,22 +8,22 @@ class GuestInformation
     /**
      * @var NumberOfAdults $NumberOfAdults
      */
-    protected $NumberOfAdults = null;
+    public $NumberOfAdults = null;
 
     /**
      * @var NumberOfChildren $NumberOfChildren
      */
-    protected $NumberOfChildren = null;
+    public $NumberOfChildren = null;
 
     /**
      * @var ExtraChild $ExtraChild
      */
-    protected $ExtraChild = null;
+    public $ExtraChild = null;
 
     /**
      * @var int $NumberOfRooms
      */
-    protected $NumberOfRooms = null;
+    public $NumberOfRooms = null;
 
     /**
      * @param NumberOfAdults $NumberOfAdults

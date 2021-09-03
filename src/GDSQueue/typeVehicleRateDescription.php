@@ -8,12 +8,12 @@ class typeVehicleRateDescription
     /**
      * @var Text[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param Text[] $Text

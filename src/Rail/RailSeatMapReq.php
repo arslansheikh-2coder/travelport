@@ -8,7 +8,7 @@ class RailSeatMapReq extends BaseReq
     /**
      * @var RailInfo $RailInfo
      */
-    protected $RailInfo = null;
+    public $RailInfo = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

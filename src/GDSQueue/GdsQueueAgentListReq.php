@@ -8,7 +8,7 @@ class GdsQueueAgentListReq extends BaseReq
     /**
      * @var anonymous1491 $AgentID
      */
-    protected $AgentID = null;
+    public $AgentID = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

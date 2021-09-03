@@ -8,17 +8,17 @@ class AgentIDOverride
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var anonymous397 $AgentID
      */
-    protected $AgentID = null;
+    public $AgentID = null;
 
     /**
      * @param typeSupplierCode $SupplierCode

@@ -8,12 +8,12 @@ class SecondaryTypeRule
     /**
      * @var OptionalServiceApplicationLimitType[] $ApplicationLimit
      */
-    protected $ApplicationLimit = null;
+    public $ApplicationLimit = null;
 
     /**
      * @var typeRef $SecondaryType
      */
-    protected $SecondaryType = null;
+    public $SecondaryType = null;
 
     /**
      * @param typeRef $SecondaryType

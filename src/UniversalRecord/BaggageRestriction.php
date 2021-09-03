@@ -8,17 +8,17 @@ class BaggageRestriction
     /**
      * @var Dimension $Dimension
      */
-    protected $Dimension = null;
+    public $Dimension = null;
 
     /**
      * @var typeUnitOfMeasure[] $MaxWeight
      */
-    protected $MaxWeight = null;
+    public $MaxWeight = null;
 
     /**
      * @var TextInfo $TextInfo
      */
-    protected $TextInfo = null;
+    public $TextInfo = null;
 
     /**
      * @param Dimension $Dimension

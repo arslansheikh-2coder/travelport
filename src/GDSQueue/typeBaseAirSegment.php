@@ -8,247 +8,247 @@ class typeBaseAirSegment extends Segment
     /**
      * @var SponsoredFltInfo $SponsoredFltInfo
      */
-    protected $SponsoredFltInfo = null;
+    public $SponsoredFltInfo = null;
 
     /**
      * @var CodeshareInfo $CodeshareInfo
      */
-    protected $CodeshareInfo = null;
+    public $CodeshareInfo = null;
 
     /**
      * @var AirAvailInfo $AirAvailInfo
      */
-    protected $AirAvailInfo = null;
+    public $AirAvailInfo = null;
 
     /**
      * @var FlightDetails $FlightDetails
      */
-    protected $FlightDetails = null;
+    public $FlightDetails = null;
 
     /**
      * @var FlightDetailsRef $FlightDetailsRef
      */
-    protected $FlightDetailsRef = null;
+    public $FlightDetailsRef = null;
 
     /**
      * @var AlternateLocationDistanceRef $AlternateLocationDistanceRef
      */
-    protected $AlternateLocationDistanceRef = null;
+    public $AlternateLocationDistanceRef = null;
 
     /**
      * @var Connection $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @var string $SellMessage
      */
-    protected $SellMessage = null;
+    public $SellMessage = null;
 
     /**
      * @var RailCoachDetails $RailCoachDetails
      */
-    protected $RailCoachDetails = null;
+    public $RailCoachDetails = null;
 
     /**
      * @var boolean $OpenSegment
      */
-    protected $OpenSegment = null;
+    public $OpenSegment = null;
 
     /**
      * @var int $Group
      */
-    protected $Group = null;
+    public $Group = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var string $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var typeClassOfService $ClassOfService
      */
-    protected $ClassOfService = null;
+    public $ClassOfService = null;
 
     /**
      * @var typeEticketability $ETicketability
      */
-    protected $ETicketability = null;
+    public $ETicketability = null;
 
     /**
      * @var typeEquipment $Equipment
      */
-    protected $Equipment = null;
+    public $Equipment = null;
 
     /**
      * @var int $MarriageGroup
      */
-    protected $MarriageGroup = null;
+    public $MarriageGroup = null;
 
     /**
      * @var int $NumberOfStops
      */
-    protected $NumberOfStops = null;
+    public $NumberOfStops = null;
 
     /**
      * @var boolean $Seamless
      */
-    protected $Seamless = null;
+    public $Seamless = null;
 
     /**
      * @var boolean $ChangeOfPlane
      */
-    protected $ChangeOfPlane = null;
+    public $ChangeOfPlane = null;
 
     /**
      * @var string $GuaranteedPaymentCarrier
      */
-    protected $GuaranteedPaymentCarrier = null;
+    public $GuaranteedPaymentCarrier = null;
 
     /**
      * @var string $HostTokenRef
      */
-    protected $HostTokenRef = null;
+    public $HostTokenRef = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $PassiveProviderReservationInfoRef
      */
-    protected $PassiveProviderReservationInfoRef = null;
+    public $PassiveProviderReservationInfoRef = null;
 
     /**
      * @var boolean $OptionalServicesIndicator
      */
-    protected $OptionalServicesIndicator = null;
+    public $OptionalServicesIndicator = null;
 
     /**
      * @var typeAvailabilitySource $AvailabilitySource
      */
-    protected $AvailabilitySource = null;
+    public $AvailabilitySource = null;
 
     /**
      * @var string $APISRequirementsRef
      */
-    protected $APISRequirementsRef = null;
+    public $APISRequirementsRef = null;
 
     /**
      * @var boolean $BlackListed
      */
-    protected $BlackListed = null;
+    public $BlackListed = null;
 
     /**
      * @var string $OperationalStatus
      */
-    protected $OperationalStatus = null;
+    public $OperationalStatus = null;
 
     /**
      * @var anonymous1057 $NumberInParty
      */
-    protected $NumberInParty = null;
+    public $NumberInParty = null;
 
     /**
      * @var anonymous1058 $RailCoachNumber
      */
-    protected $RailCoachNumber = null;
+    public $RailCoachNumber = null;
 
     /**
      * @var date $BookingDate
      */
-    protected $BookingDate = null;
+    public $BookingDate = null;
 
     /**
      * @var boolean $FlownSegment
      */
-    protected $FlownSegment = null;
+    public $FlownSegment = null;
 
     /**
      * @var boolean $ScheduleChange
      */
-    protected $ScheduleChange = null;
+    public $ScheduleChange = null;
 
     /**
      * @var string $BrandIndicator
      */
-    protected $BrandIndicator = null;
+    public $BrandIndicator = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var string $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @var int $FlightTime
      */
-    protected $FlightTime = null;
+    public $FlightTime = null;
 
     /**
      * @var int $TravelTime
      */
-    protected $TravelTime = null;
+    public $TravelTime = null;
 
     /**
      * @var int $Distance
      */
-    protected $Distance = null;
+    public $Distance = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $ParticipantLevel
      */
-    protected $ParticipantLevel = null;
+    public $ParticipantLevel = null;
 
     /**
      * @var boolean $LinkAvailability
      */
-    protected $LinkAvailability = null;
+    public $LinkAvailability = null;
 
     /**
      * @var string $PolledAvailabilityOption
      */
-    protected $PolledAvailabilityOption = null;
+    public $PolledAvailabilityOption = null;
 
     /**
      * @var string $AvailabilityDisplayType
      */
-    protected $AvailabilityDisplayType = null;
+    public $AvailabilityDisplayType = null;
 
     /**
      * @param SegmentRemark $SegmentRemark

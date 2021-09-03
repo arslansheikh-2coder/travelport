@@ -8,7 +8,7 @@ class Alliance
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param string $Code

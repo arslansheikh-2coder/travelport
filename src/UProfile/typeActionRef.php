@@ -8,7 +8,7 @@ class typeActionRef
     /**
      * @var typeActionID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @param typeActionID $ID

@@ -8,27 +8,27 @@ class ReferenceDataItem
     /**
      * @var AdditionalInfo[] $AdditionalInfo
      */
-    protected $AdditionalInfo = null;
+    public $AdditionalInfo = null;
 
     /**
      * @var boolean $Deprecated
      */
-    protected $Deprecated = null;
+    public $Deprecated = null;
 
     /**
      * @var StringLength1to128 $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param boolean $Deprecated

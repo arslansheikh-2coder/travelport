@@ -8,17 +8,17 @@ class VehiclePickupLocation
     /**
      * @var Vendor $Vendor
      */
-    protected $Vendor = null;
+    public $Vendor = null;
 
     /**
      * @var VehicleModifier $VehicleModifier
      */
-    protected $VehicleModifier = null;
+    public $VehicleModifier = null;
 
     /**
      * @var typeIATACode $PickUpLocation
      */
-    protected $PickUpLocation = null;
+    public $PickUpLocation = null;
 
     /**
      * @param Vendor $Vendor

@@ -8,12 +8,12 @@ class VoidDocumentInfo
     /**
      * @var StringLength1to13 $DocumentNumber
      */
-    protected $DocumentNumber = null;
+    public $DocumentNumber = null;
 
     /**
      * @var anonymous453 $DocumentType
      */
-    protected $DocumentType = null;
+    public $DocumentType = null;
 
     /**
      * @param StringLength1to13 $DocumentNumber

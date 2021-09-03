@@ -8,12 +8,12 @@ class ProfileDeleteTagReq extends BaseReq
     /**
      * @var TagRef $TagRef
      */
-    protected $TagRef = null;
+    public $TagRef = null;
 
     /**
      * @var boolean $Override
      */
-    protected $Override = null;
+    public $Override = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

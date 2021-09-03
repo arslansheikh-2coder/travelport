@@ -8,7 +8,7 @@ class FlightInformationReq extends BaseReq
     /**
      * @var FlightInfoCriteria $FlightInfoCriteria
      */
-    protected $FlightInfoCriteria = null;
+    public $FlightInfoCriteria = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,52 +8,52 @@ class TravelComplianceData
     /**
      * @var PolicyCompliance[] $PolicyCompliance
      */
-    protected $PolicyCompliance = null;
+    public $PolicyCompliance = null;
 
     /**
      * @var ContractCompliance[] $ContractCompliance
      */
-    protected $ContractCompliance = null;
+    public $ContractCompliance = null;
 
     /**
      * @var PreferredSupplier[] $PreferredSupplier
      */
-    protected $PreferredSupplier = null;
+    public $PreferredSupplier = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var typeRef $PassiveSegmentRef
      */
-    protected $PassiveSegmentRef = null;
+    public $PassiveSegmentRef = null;
 
     /**
      * @var typeRef $RailSegmentRef
      */
-    protected $RailSegmentRef = null;
+    public $RailSegmentRef = null;
 
     /**
      * @var typeLocatorCode $ReservationLocatorRef
      */
-    protected $ReservationLocatorRef = null;
+    public $ReservationLocatorRef = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeRef $Key

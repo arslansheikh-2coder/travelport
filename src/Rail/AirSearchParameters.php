@@ -8,22 +8,22 @@ class AirSearchParameters
     /**
      * @var boolean $NoAdvancePurchase
      */
-    protected $NoAdvancePurchase = null;
+    public $NoAdvancePurchase = null;
 
     /**
      * @var boolean $RefundableFares
      */
-    protected $RefundableFares = null;
+    public $RefundableFares = null;
 
     /**
      * @var boolean $NonPenaltyFares
      */
-    protected $NonPenaltyFares = null;
+    public $NonPenaltyFares = null;
 
     /**
      * @var boolean $UnRestrictedFares
      */
-    protected $UnRestrictedFares = null;
+    public $UnRestrictedFares = null;
 
     /**
      * @param boolean $NoAdvancePurchase

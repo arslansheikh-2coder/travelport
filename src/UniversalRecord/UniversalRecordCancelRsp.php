@@ -8,7 +8,7 @@ class UniversalRecordCancelRsp extends BaseRsp
     /**
      * @var ProviderReservationStatus $ProviderReservationStatus
      */
-    protected $ProviderReservationStatus = null;
+    public $ProviderReservationStatus = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

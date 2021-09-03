@@ -8,27 +8,27 @@ class MCOPriceData
     /**
      * @var typeTaxInfo[] $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var typeMoney $MCOAmount
      */
-    protected $MCOAmount = null;
+    public $MCOAmount = null;
 
     /**
      * @var typeMoney $MCOEquivalentFare
      */
-    protected $MCOEquivalentFare = null;
+    public $MCOEquivalentFare = null;
 
     /**
      * @var typeMoney $MCOTotalAmount
      */
-    protected $MCOTotalAmount = null;
+    public $MCOTotalAmount = null;
 
     /**
      * @param typeMoney $MCOAmount

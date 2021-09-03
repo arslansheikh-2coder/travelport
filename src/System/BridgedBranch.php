@@ -8,7 +8,7 @@ class BridgedBranch
     /**
      * @var string $BranchId
      */
-    protected $BranchId = null;
+    public $BranchId = null;
 
     /**
      * @param string $BranchId

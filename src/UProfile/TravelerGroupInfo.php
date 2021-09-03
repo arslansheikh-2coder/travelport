@@ -8,32 +8,32 @@ class TravelerGroupInfo extends typeAccountTypeProfileInfo
     /**
      * @var Address $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var Phone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var ElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var ExternalIdentifier $ExternalIdentifier
      */
-    protected $ExternalIdentifier = null;
+    public $ExternalIdentifier = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to128 $LocalLanguageName
      */
-    protected $LocalLanguageName = null;
+    public $LocalLanguageName = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

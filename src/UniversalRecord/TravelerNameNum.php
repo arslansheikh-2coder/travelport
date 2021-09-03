@@ -8,32 +8,32 @@ class TravelerNameNum
     /**
      * @var string $PaxNum
      */
-    protected $PaxNum = null;
+    public $PaxNum = null;
 
     /**
      * @var anonymous88 $Prefix
      */
-    protected $Prefix = null;
+    public $Prefix = null;
 
     /**
      * @var anonymous89 $First
      */
-    protected $First = null;
+    public $First = null;
 
     /**
      * @var anonymous90 $Middle
      */
-    protected $Middle = null;
+    public $Middle = null;
 
     /**
      * @var typeTravelerLastName $Last
      */
-    protected $Last = null;
+    public $Last = null;
 
     /**
      * @var anonymous91 $Suffix
      */
-    protected $Suffix = null;
+    public $Suffix = null;
 
     /**
      * @param string $PaxNum

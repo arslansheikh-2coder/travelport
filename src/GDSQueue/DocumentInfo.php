@@ -8,17 +8,17 @@ class DocumentInfo
     /**
      * @var TicketInfo $TicketInfo
      */
-    protected $TicketInfo = null;
+    public $TicketInfo = null;
 
     /**
      * @var MCOInformation[] $MCOInfo
      */
-    protected $MCOInfo = null;
+    public $MCOInfo = null;
 
     /**
      * @var TCRInfo $TCRInfo
      */
-    protected $TCRInfo = null;
+    public $TCRInfo = null;
 
     /**
      * @param TicketInfo $TicketInfo

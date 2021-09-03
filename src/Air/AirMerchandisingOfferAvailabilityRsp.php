@@ -8,22 +8,22 @@ class AirMerchandisingOfferAvailabilityRsp extends BaseRsp
     /**
      * @var AirSolution $AirSolution
      */
-    protected $AirSolution = null;
+    public $AirSolution = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var EmbargoList $EmbargoList
      */
-    protected $EmbargoList = null;
+    public $EmbargoList = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

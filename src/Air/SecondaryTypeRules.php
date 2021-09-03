@@ -8,7 +8,7 @@ class SecondaryTypeRules
     /**
      * @var SecondaryTypeRule[] $SecondaryTypeRule
      */
-    protected $SecondaryTypeRule = null;
+    public $SecondaryTypeRule = null;
 
     /**
      * @param SecondaryTypeRule[] $SecondaryTypeRule

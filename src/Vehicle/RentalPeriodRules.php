@@ -8,17 +8,17 @@ class RentalPeriodRules
     /**
      * @var typeRentalPeriod $MaxRental
      */
-    protected $MaxRental = null;
+    public $MaxRental = null;
 
     /**
      * @var typeRentalPeriod $MinRental
      */
-    protected $MinRental = null;
+    public $MinRental = null;
 
     /**
      * @var typeRentalPeriod $AbsoluteMax
      */
-    protected $AbsoluteMax = null;
+    public $AbsoluteMax = null;
 
     
     public function __construct()

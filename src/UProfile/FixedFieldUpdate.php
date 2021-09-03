@@ -8,52 +8,52 @@ class FixedFieldUpdate
     /**
      * @var typeFieldID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var string $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var boolean $Hide
      */
-    protected $Hide = null;
+    public $Hide = null;
 
     /**
      * @var boolean $SearchOption
      */
-    protected $SearchOption = null;
+    public $SearchOption = null;
 
     /**
      * @var int $SearchOptionDisplayOrder
      */
-    protected $SearchOptionDisplayOrder = null;
+    public $SearchOptionDisplayOrder = null;
 
     /**
      * @var int $MinOccursOverride
      */
-    protected $MinOccursOverride = null;
+    public $MinOccursOverride = null;
 
     /**
      * @var int $MaxOccursOverride
      */
-    protected $MaxOccursOverride = null;
+    public $MaxOccursOverride = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @param typeFieldID $ID

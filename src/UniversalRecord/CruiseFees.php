@@ -8,12 +8,12 @@ class CruiseFees
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var StringLength1to13 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param typeMoney $Amount

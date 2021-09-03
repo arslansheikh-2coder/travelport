@@ -8,7 +8,7 @@ class RailLocation extends Location
     /**
      * @var typeRailLocationCode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeRailLocationCode $Code

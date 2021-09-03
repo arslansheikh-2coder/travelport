@@ -8,7 +8,7 @@ class RequestReferenceDataItem
     /**
      * @var RequestAmenity[] $RequestAmenity
      */
-    protected $RequestAmenity = null;
+    public $RequestAmenity = null;
 
     
     public function __construct()

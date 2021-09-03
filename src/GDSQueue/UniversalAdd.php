@@ -8,87 +8,87 @@ class UniversalAdd
     /**
      * @var AccountingRemark $AccountingRemark
      */
-    protected $AccountingRemark = null;
+    public $AccountingRemark = null;
 
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var OSI $OSI
      */
-    protected $OSI = null;
+    public $OSI = null;
 
     /**
      * @var UnassociatedRemark $UnassociatedRemark
      */
-    protected $UnassociatedRemark = null;
+    public $UnassociatedRemark = null;
 
     /**
      * @var XMLRemark $XMLRemark
      */
-    protected $XMLRemark = null;
+    public $XMLRemark = null;
 
     /**
      * @var Postscript $Postscript
      */
-    protected $Postscript = null;
+    public $Postscript = null;
 
     /**
      * @var BookingTravelerInfo $BookingTravelerInfo
      */
-    protected $BookingTravelerInfo = null;
+    public $BookingTravelerInfo = null;
 
     /**
      * @var ServiceFeeInfo $ServiceFeeInfo
      */
-    protected $ServiceFeeInfo = null;
+    public $ServiceFeeInfo = null;
 
     /**
      * @var LinkedUniversalRecord $LinkedUniversalRecord
      */
-    protected $LinkedUniversalRecord = null;
+    public $LinkedUniversalRecord = null;
 
     /**
      * @var AgencyContactInfo $AgencyContactInfo
      */
-    protected $AgencyContactInfo = null;
+    public $AgencyContactInfo = null;
 
     /**
      * @var CustomerID $CustomerID
      */
-    protected $CustomerID = null;
+    public $CustomerID = null;
 
     /**
      * @var CommissionRemark $CommissionRemark
      */
-    protected $CommissionRemark = null;
+    public $CommissionRemark = null;
 
     /**
      * @var ConsolidatorRemark $ConsolidatorRemark
      */
-    protected $ConsolidatorRemark = null;
+    public $ConsolidatorRemark = null;
 
     /**
      * @var InvoiceRemark $InvoiceRemark
      */
-    protected $InvoiceRemark = null;
+    public $InvoiceRemark = null;
 
     /**
      * @var ActionStatus $ActionStatus
      */
-    protected $ActionStatus = null;
+    public $ActionStatus = null;
 
     /**
      * @var ReviewBooking $ReviewBooking
      */
-    protected $ReviewBooking = null;
+    public $ReviewBooking = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

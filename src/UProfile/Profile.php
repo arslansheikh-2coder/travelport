@@ -8,62 +8,62 @@ class Profile
     /**
      * @var ProfileData $ProfileData
      */
-    protected $ProfileData = null;
+    public $ProfileData = null;
 
     /**
      * @var ProfileLink $ProfileLink
      */
-    protected $ProfileLink = null;
+    public $ProfileLink = null;
 
     /**
      * @var typeProfileParentWithData $ProfileParent
      */
-    protected $ProfileParent = null;
+    public $ProfileParent = null;
 
     /**
      * @var ProfileParentSummary $ProfileParentSummary
      */
-    protected $ProfileParentSummary = null;
+    public $ProfileParentSummary = null;
 
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var typeEntityName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeProfileEntityStatusWithDelete $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeID $HierarchyLevelID
      */
-    protected $HierarchyLevelID = null;
+    public $HierarchyLevelID = null;
 
     /**
      * @var typeVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var typeTemplateID $TemplateID
      */
-    protected $TemplateID = null;
+    public $TemplateID = null;
 
     /**
      * @var typeVersion $TemplateVersion
      */
-    protected $TemplateVersion = null;
+    public $TemplateVersion = null;
 
     /**
      * @param ProfileData $ProfileData

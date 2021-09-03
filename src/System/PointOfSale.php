@@ -8,22 +8,22 @@ class PointOfSale
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeIATA $IATA
      */
-    protected $IATA = null;
+    public $IATA = null;
 
     /**
      * @param typeProviderCode $ProviderCode

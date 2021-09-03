@@ -8,32 +8,32 @@ class McoSearchResult
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var \DateTime $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var string $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var typeMCOStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeMCOType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @param Name $Name

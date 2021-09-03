@@ -8,12 +8,12 @@ class DirectionInfo
     /**
      * @var typeIATACode $LocationCode
      */
-    protected $LocationCode = null;
+    public $LocationCode = null;
 
     /**
      * @var anonymous970 $Direction
      */
-    protected $Direction = null;
+    public $Direction = null;
 
     /**
      * @param typeIATACode $LocationCode

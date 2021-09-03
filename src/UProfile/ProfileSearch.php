@@ -8,37 +8,37 @@ class ProfileSearch
     /**
      * @var typeWildcardMax50 $ContractNumber
      */
-    protected $ContractNumber = null;
+    public $ContractNumber = null;
 
     /**
      * @var StringLength1to128 $TravelDocumentNumber
      */
-    protected $TravelDocumentNumber = null;
+    public $TravelDocumentNumber = null;
 
     /**
      * @var typeSearchAccountingReference $AccountingReference
      */
-    protected $AccountingReference = null;
+    public $AccountingReference = null;
 
     /**
      * @var typeSearchContact $AlternateContact
      */
-    protected $AlternateContact = null;
+    public $AlternateContact = null;
 
     /**
      * @var typeSearchLoyaltyProgram $LoyaltyProgram
      */
-    protected $LoyaltyProgram = null;
+    public $LoyaltyProgram = null;
 
     /**
      * @var typeSearchPaymentDetails $PaymentDetails
      */
-    protected $PaymentDetails = null;
+    public $PaymentDetails = null;
 
     /**
      * @var FieldDataSearch $FieldDataSearch
      */
-    protected $FieldDataSearch = null;
+    public $FieldDataSearch = null;
 
     /**
      * @param FieldDataSearch $FieldDataSearch

@@ -8,22 +8,22 @@ class Option
     /**
      * @var BookingInfo $BookingInfo
      */
-    protected $BookingInfo = null;
+    public $BookingInfo = null;
 
     /**
      * @var Connection $Connection
      */
-    protected $Connection = null;
+    public $Connection = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var duration $TravelTime
      */
-    protected $TravelTime = null;
+    public $TravelTime = null;
 
     /**
      * @param BookingInfo $BookingInfo

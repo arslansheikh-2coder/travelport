@@ -8,12 +8,12 @@ class ProviderReservationDisplayDetailsRsp extends BaseRsp
     /**
      * @var DisplayDetails $DisplayDetails
      */
-    protected $DisplayDetails = null;
+    public $DisplayDetails = null;
 
     /**
      * @var TravelerNameNum $TravelerNameNum
      */
-    protected $TravelerNameNum = null;
+    public $TravelerNameNum = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

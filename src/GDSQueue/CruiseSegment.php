@@ -8,37 +8,37 @@ class CruiseSegment extends Segment
     /**
      * @var CruiseStay $CruiseStay
      */
-    protected $CruiseStay = null;
+    public $CruiseStay = null;
 
     /**
      * @var StringLength1to3 $Vendor
      */
-    protected $Vendor = null;
+    public $Vendor = null;
 
     /**
      * @var StringLength1to30 $VendorName
      */
-    protected $VendorName = null;
+    public $VendorName = null;
 
     /**
      * @var StringLength1to5 $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var StringLength1to5 $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $DepartureTime
      */
-    protected $DepartureTime = null;
+    public $DepartureTime = null;
 
     /**
      * @var string $ArrivalTime
      */
-    protected $ArrivalTime = null;
+    public $ArrivalTime = null;
 
     /**
      * @param SegmentRemark $SegmentRemark

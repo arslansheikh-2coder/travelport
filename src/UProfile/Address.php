@@ -8,12 +8,12 @@ class Address extends typeTaggableAddress
     /**
      * @var boolean $Provisioned
      */
-    protected $Provisioned = null;
+    public $Provisioned = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

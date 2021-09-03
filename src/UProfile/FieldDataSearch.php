@@ -8,22 +8,22 @@ class FieldDataSearch
     /**
      * @var typeFieldID $FieldID
      */
-    protected $FieldID = null;
+    public $FieldID = null;
 
     /**
      * @var StringLength1to255 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var anonymous566 $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeFieldID $FieldGroupID
      */
-    protected $FieldGroupID = null;
+    public $FieldGroupID = null;
 
     /**
      * @param typeFieldID $FieldID

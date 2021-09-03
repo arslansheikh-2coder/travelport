@@ -8,52 +8,52 @@ class AirExchangeModifiers
     /**
      * @var ContractCodes $ContractCodes
      */
-    protected $ContractCodes = null;
+    public $ContractCodes = null;
 
     /**
      * @var string $BookingDate
      */
-    protected $BookingDate = null;
+    public $BookingDate = null;
 
     /**
      * @var string $TicketingDate
      */
-    protected $TicketingDate = null;
+    public $TicketingDate = null;
 
     /**
      * @var string $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var typeTicketDesignator $TicketDesignator
      */
-    protected $TicketDesignator = null;
+    public $TicketDesignator = null;
 
     /**
      * @var boolean $AllowPenaltyFares
      */
-    protected $AllowPenaltyFares = null;
+    public $AllowPenaltyFares = null;
 
     /**
      * @var boolean $PrivateFaresOnly
      */
-    protected $PrivateFaresOnly = null;
+    public $PrivateFaresOnly = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var typeLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @param string $BookingDate

@@ -8,62 +8,62 @@ class VehicleRulesRsp extends BaseSearchRsp
     /**
      * @var Vehicle $Vehicle
      */
-    protected $Vehicle = null;
+    public $Vehicle = null;
 
     /**
      * @var string $OperationTime
      */
-    protected $OperationTime = null;
+    public $OperationTime = null;
 
     /**
      * @var StartEndTimes $StartEndTimes
      */
-    protected $StartEndTimes = null;
+    public $StartEndTimes = null;
 
     /**
      * @var RentalPeriodRules $RentalPeriodRules
      */
-    protected $RentalPeriodRules = null;
+    public $RentalPeriodRules = null;
 
     /**
      * @var PrePayCancelInfo[] $PrePayCancelInfo
      */
-    protected $PrePayCancelInfo = null;
+    public $PrePayCancelInfo = null;
 
     /**
      * @var PaymentRule[] $PaymentRule
      */
-    protected $PaymentRule = null;
+    public $PaymentRule = null;
 
     /**
      * @var PaymentCreditCard[] $PaymentCreditCard
      */
-    protected $PaymentCreditCard = null;
+    public $PaymentCreditCard = null;
 
     /**
      * @var typeVehicleCharge[] $VehicleCharge
      */
-    protected $VehicleCharge = null;
+    public $VehicleCharge = null;
 
     /**
      * @var MarketingInformation $MarketingInformation
      */
-    protected $MarketingInformation = null;
+    public $MarketingInformation = null;
 
     /**
      * @var typeKeyword $Policy
      */
-    protected $Policy = null;
+    public $Policy = null;
 
     /**
      * @var typeVehicleLocationInformation $PickupLocationInformation
      */
-    protected $PickupLocationInformation = null;
+    public $PickupLocationInformation = null;
 
     /**
      * @var typeVehicleLocationInformation $ReturnLocationInformation
      */
-    protected $ReturnLocationInformation = null;
+    public $ReturnLocationInformation = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

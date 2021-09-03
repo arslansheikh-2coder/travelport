@@ -8,7 +8,7 @@ class APISRequirementsList
     /**
      * @var APISRequirements $APISRequirements
      */
-    protected $APISRequirements = null;
+    public $APISRequirements = null;
 
     /**
      * @param APISRequirements $APISRequirements

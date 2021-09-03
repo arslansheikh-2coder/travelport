@@ -8,27 +8,27 @@ class AvailableDiscount
     /**
      * @var LoyaltyProgram $LoyaltyProgram
      */
-    protected $LoyaltyProgram = null;
+    public $LoyaltyProgram = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePercentageWithDecimal $Percent
      */
-    protected $Percent = null;
+    public $Percent = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var string $DiscountQualifier
      */
-    protected $DiscountQualifier = null;
+    public $DiscountQualifier = null;
 
     /**
      * @param LoyaltyProgram $LoyaltyProgram

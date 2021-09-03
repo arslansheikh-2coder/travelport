@@ -8,7 +8,7 @@ class AlternateContactPhone extends typeTaggablePhone
     /**
      * @var typeRef $AlternateContactRef
      */
-    protected $AlternateContactRef = null;
+    public $AlternateContactRef = null;
 
     /**
      * @param typeRef $Key

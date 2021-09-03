@@ -8,42 +8,42 @@ class SavedTripSearchReq extends BaseReq
     /**
      * @var SavedTripSearchModifiers $SavedTripSearchModifiers
      */
-    protected $SavedTripSearchModifiers = null;
+    public $SavedTripSearchModifiers = null;
 
     /**
      * @var TravelerCriteria $TravelerCriteria
      */
-    protected $TravelerCriteria = null;
+    public $TravelerCriteria = null;
 
     /**
      * @var SearchAgent $SearchAgent
      */
-    protected $SearchAgent = null;
+    public $SearchAgent = null;
 
     /**
      * @var AirReservationCriteria $AirReservationCriteria
      */
-    protected $AirReservationCriteria = null;
+    public $AirReservationCriteria = null;
 
     /**
      * @var HotelReservationCriteria $HotelReservationCriteria
      */
-    protected $HotelReservationCriteria = null;
+    public $HotelReservationCriteria = null;
 
     /**
      * @var VehicleReservationCriteria $VehicleReservationCriteria
      */
-    protected $VehicleReservationCriteria = null;
+    public $VehicleReservationCriteria = null;
 
     /**
      * @var RailReservationCriteria $RailReservationCriteria
      */
-    protected $RailReservationCriteria = null;
+    public $RailReservationCriteria = null;
 
     /**
      * @var typeSavedTripRecordStatus $RecordStatus
      */
-    protected $RecordStatus = null;
+    public $RecordStatus = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

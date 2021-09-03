@@ -8,57 +8,57 @@ class HotelUpsellQualify
     /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
-    protected $CorporateDiscountID = null;
+    public $CorporateDiscountID = null;
 
     /**
      * @var typeHotelChainCode $HotelChainCode
      */
-    protected $HotelChainCode = null;
+    public $HotelChainCode = null;
 
     /**
      * @var typeHotelCode $HotelCode
      */
-    protected $HotelCode = null;
+    public $HotelCode = null;
 
     /**
      * @var typeIATACode $HotelLocation
      */
-    protected $HotelLocation = null;
+    public $HotelLocation = null;
 
     /**
      * @var typeRatePlanType $RatePlanType
      */
-    protected $RatePlanType = null;
+    public $RatePlanType = null;
 
     /**
      * @var typeDate $EffectiveDate
      */
-    protected $EffectiveDate = null;
+    public $EffectiveDate = null;
 
     /**
      * @var typeDate $ExpirationDate
      */
-    protected $ExpirationDate = null;
+    public $ExpirationDate = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $OfferRef
      */
-    protected $OfferRef = null;
+    public $OfferRef = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID

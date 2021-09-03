@@ -8,12 +8,12 @@ class EndpointRef extends typeEndpointRef
     /**
      * @var typePurposeTypeCode $PurposeTypeCode
      */
-    protected $PurposeTypeCode = null;
+    public $PurposeTypeCode = null;
 
     /**
      * @var string $EndPointCode
      */
-    protected $EndPointCode = null;
+    public $EndPointCode = null;
 
     /**
      * @param typeEndpointID $ID

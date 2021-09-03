@@ -8,17 +8,17 @@ class PriceRange
     /**
      * @var boolean $DefaultCurrency
      */
-    protected $DefaultCurrency = null;
+    public $DefaultCurrency = null;
 
     /**
      * @var typeMoney $StartPrice
      */
-    protected $StartPrice = null;
+    public $StartPrice = null;
 
     /**
      * @var typeMoney $EndPrice
      */
-    protected $EndPrice = null;
+    public $EndPrice = null;
 
     /**
      * @param boolean $DefaultCurrency

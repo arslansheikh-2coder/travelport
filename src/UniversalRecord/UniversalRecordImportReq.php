@@ -8,27 +8,27 @@ class UniversalRecordImportReq extends BaseReq
     /**
      * @var FileFinishingInfo $FileFinishingInfo
      */
-    protected $FileFinishingInfo = null;
+    public $FileFinishingInfo = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var boolean $ReturnUnmaskedData
      */
-    protected $ReturnUnmaskedData = null;
+    public $ReturnUnmaskedData = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

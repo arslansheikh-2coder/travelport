@@ -8,12 +8,12 @@ class AirExchangeEligibilityReq extends BaseReq
     /**
      * @var ProviderReservationInfo $ProviderReservationInfo
      */
-    protected $ProviderReservationInfo = null;
+    public $ProviderReservationInfo = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

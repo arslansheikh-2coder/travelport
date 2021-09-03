@@ -8,27 +8,27 @@ class AutoSeatAssignment
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var boolean $Smoking
      */
-    protected $Smoking = null;
+    public $Smoking = null;
 
     /**
      * @var typeReqSeat $SeatType
      */
-    protected $SeatType = null;
+    public $SeatType = null;
 
     /**
      * @var boolean $Group
      */
-    protected $Group = null;
+    public $Group = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param typeRef $SegmentRef

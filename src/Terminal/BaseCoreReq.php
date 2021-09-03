@@ -8,47 +8,47 @@ class BaseCoreReq
     /**
      * @var BillingPointOfSaleInfo $BillingPointOfSaleInfo
      */
-    protected $BillingPointOfSaleInfo = null;
+    public $BillingPointOfSaleInfo = null;
 
     /**
      * @var AgentIDOverride $AgentIDOverride
      */
-    protected $AgentIDOverride = null;
+    public $AgentIDOverride = null;
 
     /**
      * @var string $TerminalSessionInfo
      */
-    protected $TerminalSessionInfo = null;
+    public $TerminalSessionInfo = null;
 
     /**
      * @var string $TraceId
      */
-    protected $TraceId = null;
+    public $TraceId = null;
 
     /**
      * @var string $TokenId
      */
-    protected $TokenId = null;
+    public $TokenId = null;
 
     /**
      * @var string $AuthorizedBy
      */
-    protected $AuthorizedBy = null;
+    public $AuthorizedBy = null;
 
     /**
      * @var typeBranchCode $TargetBranch
      */
-    protected $TargetBranch = null;
+    public $TargetBranch = null;
 
     /**
      * @var typeLoggingLevel $OverrideLogging
      */
-    protected $OverrideLogging = null;
+    public $OverrideLogging = null;
 
     /**
      * @var language $LanguageCode
      */
-    protected $LanguageCode = null;
+    public $LanguageCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

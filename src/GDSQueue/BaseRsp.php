@@ -8,27 +8,27 @@ class BaseRsp
     /**
      * @var ResponseMessage $ResponseMessage
      */
-    protected $ResponseMessage = null;
+    public $ResponseMessage = null;
 
     /**
      * @var string $TraceId
      */
-    protected $TraceId = null;
+    public $TraceId = null;
 
     /**
      * @var string $TransactionId
      */
-    protected $TransactionId = null;
+    public $TransactionId = null;
 
     /**
      * @var int $ResponseTime
      */
-    protected $ResponseTime = null;
+    public $ResponseTime = null;
 
     /**
      * @var string $CommandHistory
      */
-    protected $CommandHistory = null;
+    public $CommandHistory = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

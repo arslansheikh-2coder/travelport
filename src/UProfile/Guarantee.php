@@ -8,47 +8,47 @@ class Guarantee
     /**
      * @var CreditCard $CreditCard
      */
-    protected $CreditCard = null;
+    public $CreditCard = null;
 
     /**
      * @var OtherGuaranteeInfo $OtherGuaranteeInfo
      */
-    protected $OtherGuaranteeInfo = null;
+    public $OtherGuaranteeInfo = null;
 
     /**
      * @var anonymous297 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $ReuseFOP
      */
-    protected $ReuseFOP = null;
+    public $ReuseFOP = null;
 
     /**
      * @var typeExternalReference $ExternalReference
      */
-    protected $ExternalReference = null;
+    public $ExternalReference = null;
 
     /**
      * @var boolean $Reusable
      */
-    protected $Reusable = null;
+    public $Reusable = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param CreditCard $CreditCard

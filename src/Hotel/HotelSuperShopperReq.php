@@ -8,22 +8,22 @@ class HotelSuperShopperReq extends BaseSearchReq
     /**
      * @var HotelSearchLocation $HotelSearchLocation
      */
-    protected $HotelSearchLocation = null;
+    public $HotelSearchLocation = null;
 
     /**
      * @var HotelSearchModifiers $HotelSearchModifiers
      */
-    protected $HotelSearchModifiers = null;
+    public $HotelSearchModifiers = null;
 
     /**
      * @var HotelStay $HotelStay
      */
-    protected $HotelStay = null;
+    public $HotelStay = null;
 
     /**
      * @var QuickResponse $QuickResponse
      */
-    protected $QuickResponse = null;
+    public $QuickResponse = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

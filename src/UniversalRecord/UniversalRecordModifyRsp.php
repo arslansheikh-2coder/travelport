@@ -8,22 +8,22 @@ class UniversalRecordModifyRsp extends BaseRsp
     /**
      * @var UniversalRecord $UniversalRecord
      */
-    protected $UniversalRecord = null;
+    public $UniversalRecord = null;
 
     /**
      * @var AirSolutionChangedInfo $AirSolutionChangedInfo
      */
-    protected $AirSolutionChangedInfo = null;
+    public $AirSolutionChangedInfo = null;
 
     /**
      * @var UniversalModifyFailureInfo $UniversalModifyFailureInfo
      */
-    protected $UniversalModifyFailureInfo = null;
+    public $UniversalModifyFailureInfo = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

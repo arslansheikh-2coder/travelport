@@ -8,27 +8,27 @@ class ApplicationRules
     /**
      * @var boolean $RequiredForAllTravelers
      */
-    protected $RequiredForAllTravelers = null;
+    public $RequiredForAllTravelers = null;
 
     /**
      * @var boolean $RequiredForAllSegments
      */
-    protected $RequiredForAllSegments = null;
+    public $RequiredForAllSegments = null;
 
     /**
      * @var boolean $RequiredForAllSegmentsInOD
      */
-    protected $RequiredForAllSegmentsInOD = null;
+    public $RequiredForAllSegmentsInOD = null;
 
     /**
      * @var boolean $UnselectedOptionRequired
      */
-    protected $UnselectedOptionRequired = null;
+    public $UnselectedOptionRequired = null;
 
     /**
      * @var boolean $SecondaryOptionCodeRequired
      */
-    protected $SecondaryOptionCodeRequired = null;
+    public $SecondaryOptionCodeRequired = null;
 
     /**
      * @param boolean $RequiredForAllTravelers

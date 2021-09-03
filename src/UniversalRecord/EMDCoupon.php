@@ -8,87 +8,87 @@ class EMDCoupon
     /**
      * @var int $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $SvcDescription
      */
-    protected $SvcDescription = null;
+    public $SvcDescription = null;
 
     /**
      * @var boolean $ConsumedAtIssuanceInd
      */
-    protected $ConsumedAtIssuanceInd = null;
+    public $ConsumedAtIssuanceInd = null;
 
     /**
      * @var anonymous993 $RFIC
      */
-    protected $RFIC = null;
+    public $RFIC = null;
 
     /**
      * @var anonymous994 $RFISC
      */
-    protected $RFISC = null;
+    public $RFISC = null;
 
     /**
      * @var anonymous995 $RFIDescription
      */
-    protected $RFIDescription = null;
+    public $RFIDescription = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var anonymous996 $PresentTo
      */
-    protected $PresentTo = null;
+    public $PresentTo = null;
 
     /**
      * @var anonymous997 $PresentAt
      */
-    protected $PresentAt = null;
+    public $PresentAt = null;
 
     /**
      * @var boolean $NonRefundableInd
      */
-    protected $NonRefundableInd = null;
+    public $NonRefundableInd = null;
 
     /**
      * @var typeCarrier $MarketingCarrier
      */
-    protected $MarketingCarrier = null;
+    public $MarketingCarrier = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param int $Number

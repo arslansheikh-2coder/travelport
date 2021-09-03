@@ -8,7 +8,7 @@ class GdsQueueAgentListRsp extends BaseRsp
     /**
      * @var QueueAgentRecord $QueueAgentRecord
      */
-    protected $QueueAgentRecord = null;
+    public $QueueAgentRecord = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

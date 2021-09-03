@@ -8,12 +8,12 @@ class VehicleRulesReq extends BaseSearchReq
     /**
      * @var typeLocatorCode $VehicleReservationLocatorCode
      */
-    protected $VehicleReservationLocatorCode = null;
+    public $VehicleReservationLocatorCode = null;
 
     /**
      * @var VehicleRulesLookup $VehicleRulesLookup
      */
-    protected $VehicleRulesLookup = null;
+    public $VehicleRulesLookup = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,7 +8,7 @@ class SavedTripDeleteReq extends BaseReq
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

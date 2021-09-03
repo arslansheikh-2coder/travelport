@@ -8,42 +8,42 @@ class MINType
     /**
      * @var boolean $HoursMin
      */
-    protected $HoursMin = null;
+    public $HoursMin = null;
 
     /**
      * @var boolean $DaysMin
      */
-    protected $DaysMin = null;
+    public $DaysMin = null;
 
     /**
      * @var boolean $MonthsMin
      */
-    protected $MonthsMin = null;
+    public $MonthsMin = null;
 
     /**
      * @var boolean $OccurIndMin
      */
-    protected $OccurIndMin = null;
+    public $OccurIndMin = null;
 
     /**
      * @var boolean $SameDayMin
      */
-    protected $SameDayMin = null;
+    public $SameDayMin = null;
 
     /**
      * @var int $TmDOWMin
      */
-    protected $TmDOWMin = null;
+    public $TmDOWMin = null;
 
     /**
      * @var int $FareComponent
      */
-    protected $FareComponent = null;
+    public $FareComponent = null;
 
     /**
      * @var int $NumOccurMin
      */
-    protected $NumOccurMin = null;
+    public $NumOccurMin = null;
 
     /**
      * @param boolean $HoursMin

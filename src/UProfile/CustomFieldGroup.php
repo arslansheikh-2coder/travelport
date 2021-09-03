@@ -8,77 +8,77 @@ class CustomFieldGroup
     /**
      * @var CustomField $CustomField
      */
-    protected $CustomField = null;
+    public $CustomField = null;
 
     /**
      * @var typeID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeFieldName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var string $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var boolean $Inheritable
      */
-    protected $Inheritable = null;
+    public $Inheritable = null;
 
     /**
      * @var boolean $Hide
      */
-    protected $Hide = null;
+    public $Hide = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @var int $MinOccursOverride
      */
-    protected $MinOccursOverride = null;
+    public $MinOccursOverride = null;
 
     /**
      * @var int $MaxOccursOverride
      */
-    protected $MaxOccursOverride = null;
+    public $MaxOccursOverride = null;
 
     /**
      * @var boolean $InheritableControlInd
      */
-    protected $InheritableControlInd = null;
+    public $InheritableControlInd = null;
 
     /**
      * @var boolean $ReadOnly
      */
-    protected $ReadOnly = null;
+    public $ReadOnly = null;
 
     /**
      * @var boolean $Overriden
      */
-    protected $Overriden = null;
+    public $Overriden = null;
 
     /**
      * @param CustomField $CustomField

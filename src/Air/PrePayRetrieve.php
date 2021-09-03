@@ -8,12 +8,12 @@ class PrePayRetrieve
     /**
      * @var typeCardNumber $Id
      */
-    protected $Id = null;
+    public $Id = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param typeCardNumber $Id

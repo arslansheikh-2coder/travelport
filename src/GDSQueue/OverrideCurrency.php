@@ -8,12 +8,12 @@ class OverrideCurrency
     /**
      * @var typeCurrency $CurrencyCode
      */
-    protected $CurrencyCode = null;
+    public $CurrencyCode = null;
 
     /**
      * @var typeCountry $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @param typeCurrency $CurrencyCode

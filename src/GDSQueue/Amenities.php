@@ -8,7 +8,7 @@ class Amenities
     /**
      * @var Amenity $Amenity
      */
-    protected $Amenity = null;
+    public $Amenity = null;
 
     /**
      * @param Amenity $Amenity

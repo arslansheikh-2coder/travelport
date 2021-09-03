@@ -8,52 +8,52 @@ class ProfileTemplate
     /**
      * @var FixedFieldGroup $FixedFieldGroup
      */
-    protected $FixedFieldGroup = null;
+    public $FixedFieldGroup = null;
 
     /**
      * @var CustomField $CustomField
      */
-    protected $CustomField = null;
+    public $CustomField = null;
 
     /**
      * @var CustomFieldGroup $CustomFieldGroup
      */
-    protected $CustomFieldGroup = null;
+    public $CustomFieldGroup = null;
 
     /**
      * @var OverrideDefinition $OverrideDefinition
      */
-    protected $OverrideDefinition = null;
+    public $OverrideDefinition = null;
 
     /**
      * @var typeTemplateID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeTemplateName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeTemplateDescription $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var typeTemplateID $BaseTemplateID
      */
-    protected $BaseTemplateID = null;
+    public $BaseTemplateID = null;
 
     /**
      * @var typeProfileID $OwnerProfileID
      */
-    protected $OwnerProfileID = null;
+    public $OwnerProfileID = null;
 
     /**
      * @param FixedFieldGroup $FixedFieldGroup

@@ -8,7 +8,7 @@ class ContentProviderRetrieveRsp extends BaseRsp
     /**
      * @var ContentProvider $ContentProvider
      */
-    protected $ContentProvider = null;
+    public $ContentProvider = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,12 +8,12 @@ class DisplayDetail
     /**
      * @var typeDisplayDetailName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param typeDisplayDetailName $Name

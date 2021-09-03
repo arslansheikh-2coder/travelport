@@ -8,367 +8,367 @@ class OptionalService
     /**
      * @var ServiceData $ServiceData
      */
-    protected $ServiceData = null;
+    public $ServiceData = null;
 
     /**
      * @var ServiceInfo $ServiceInfo
      */
-    protected $ServiceInfo = null;
+    public $ServiceInfo = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var typeFeeInfo $FeeInfo
      */
-    protected $FeeInfo = null;
+    public $FeeInfo = null;
 
     /**
      * @var EMD $EMD
      */
-    protected $EMD = null;
+    public $EMD = null;
 
     /**
      * @var BundledServices $BundledServices
      */
-    protected $BundledServices = null;
+    public $BundledServices = null;
 
     /**
      * @var AdditionalInfo $AdditionalInfo
      */
-    protected $AdditionalInfo = null;
+    public $AdditionalInfo = null;
 
     /**
      * @var FeeApplication $FeeApplication
      */
-    protected $FeeApplication = null;
+    public $FeeApplication = null;
 
     /**
      * @var typeTextElement $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var PriceRange $PriceRange
      */
-    protected $PriceRange = null;
+    public $PriceRange = null;
 
     /**
      * @var TourCode $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var BrandingInfo $BrandingInfo
      */
-    protected $BrandingInfo = null;
+    public $BrandingInfo = null;
 
     /**
      * @var typeTextElement $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @var typeRef $OptionalServicesRuleRef
      */
-    protected $OptionalServicesRuleRef = null;
+    public $OptionalServicesRuleRef = null;
 
     /**
      * @var typeMerchandisingService $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Confirmation
      */
-    protected $Confirmation = null;
+    public $Confirmation = null;
 
     /**
      * @var string $SecondaryType
      */
-    protected $SecondaryType = null;
+    public $SecondaryType = null;
 
     /**
      * @var typePurchaseWindow $PurchaseWindow
      */
-    protected $PurchaseWindow = null;
+    public $PurchaseWindow = null;
 
     /**
      * @var int $Priority
      */
-    protected $Priority = null;
+    public $Priority = null;
 
     /**
      * @var boolean $Available
      */
-    protected $Available = null;
+    public $Available = null;
 
     /**
      * @var boolean $Entitled
      */
-    protected $Entitled = null;
+    public $Entitled = null;
 
     /**
      * @var boolean $PerTraveler
      */
-    protected $PerTraveler = null;
+    public $PerTraveler = null;
 
     /**
      * @var \DateTime $CreateDate
      */
-    protected $CreateDate = null;
+    public $CreateDate = null;
 
     /**
      * @var typeRef $PaymentRef
      */
-    protected $PaymentRef = null;
+    public $PaymentRef = null;
 
     /**
      * @var string $ServiceStatus
      */
-    protected $ServiceStatus = null;
+    public $ServiceStatus = null;
 
     /**
      * @var int $Quantity
      */
-    protected $Quantity = null;
+    public $Quantity = null;
 
     /**
      * @var int $SequenceNumber
      */
-    protected $SequenceNumber = null;
+    public $SequenceNumber = null;
 
     /**
      * @var anonymous895 $ServiceSubCode
      */
-    protected $ServiceSubCode = null;
+    public $ServiceSubCode = null;
 
     /**
      * @var typeSSRCode $SSRCode
      */
-    protected $SSRCode = null;
+    public $SSRCode = null;
 
     /**
      * @var anonymous896 $IssuanceReason
      */
-    protected $IssuanceReason = null;
+    public $IssuanceReason = null;
 
     /**
      * @var anonymous897 $ProviderDefinedType
      */
-    protected $ProviderDefinedType = null;
+    public $ProviderDefinedType = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeAssessIndicator $AssessIndicator
      */
-    protected $AssessIndicator = null;
+    public $AssessIndicator = null;
 
     /**
      * @var int $Mileage
      */
-    protected $Mileage = null;
+    public $Mileage = null;
 
     /**
      * @var anonymous898 $ApplicableFFLevel
      */
-    protected $ApplicableFFLevel = null;
+    public $ApplicableFFLevel = null;
 
     /**
      * @var boolean $Private
      */
-    protected $Private = null;
+    public $Private = null;
 
     /**
      * @var typeSSRFreeText $SSRFreeText
      */
-    protected $SSRFreeText = null;
+    public $SSRFreeText = null;
 
     /**
      * @var boolean $IsPricingApproximate
      */
-    protected $IsPricingApproximate = null;
+    public $IsPricingApproximate = null;
 
     /**
      * @var string $Chargeable
      */
-    protected $Chargeable = null;
+    public $Chargeable = null;
 
     /**
      * @var boolean $InclusiveOfTax
      */
-    protected $InclusiveOfTax = null;
+    public $InclusiveOfTax = null;
 
     /**
      * @var boolean $InterlineSettlementAllowed
      */
-    protected $InterlineSettlementAllowed = null;
+    public $InterlineSettlementAllowed = null;
 
     /**
      * @var string $GeographySpecification
      */
-    protected $GeographySpecification = null;
+    public $GeographySpecification = null;
 
     /**
      * @var string $ExcessWeightRate
      */
-    protected $ExcessWeightRate = null;
+    public $ExcessWeightRate = null;
 
     /**
      * @var string $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @var boolean $ViewableOnly
      */
-    protected $ViewableOnly = null;
+    public $ViewableOnly = null;
 
     /**
      * @var string $DisplayText
      */
-    protected $DisplayText = null;
+    public $DisplayText = null;
 
     /**
      * @var string $WeightInExcess
      */
-    protected $WeightInExcess = null;
+    public $WeightInExcess = null;
 
     /**
      * @var string $TotalWeight
      */
-    protected $TotalWeight = null;
+    public $TotalWeight = null;
 
     /**
      * @var typeMoney $BaggageUnitPrice
      */
-    protected $BaggageUnitPrice = null;
+    public $BaggageUnitPrice = null;
 
     /**
      * @var int $FirstPiece
      */
-    protected $FirstPiece = null;
+    public $FirstPiece = null;
 
     /**
      * @var int $LastPiece
      */
-    protected $LastPiece = null;
+    public $LastPiece = null;
 
     /**
      * @var boolean $Restricted
      */
-    protected $Restricted = null;
+    public $Restricted = null;
 
     /**
      * @var boolean $IsRepriceRequired
      */
-    protected $IsRepriceRequired = null;
+    public $IsRepriceRequired = null;
 
     /**
      * @var string $BookedQuantity
      */
-    protected $BookedQuantity = null;
+    public $BookedQuantity = null;
 
     /**
      * @var string $Group
      */
-    protected $Group = null;
+    public $Group = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var anonymous899 $Tag
      */
-    protected $Tag = null;
+    public $Tag = null;
 
     /**
      * @var anonymous900 $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateBasePrice
      */
-    protected $ApproximateBasePrice = null;
+    public $ApproximateBasePrice = null;
 
     /**
      * @var typeMoney $EquivalentBasePrice
      */
-    protected $EquivalentBasePrice = null;
+    public $EquivalentBasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $Fees
      */
-    protected $Fees = null;
+    public $Fees = null;
 
     /**
      * @var typeMoney $Services
      */
-    protected $Services = null;
+    public $Services = null;
 
     /**
      * @var typeMoney $ApproximateTaxes
      */
-    protected $ApproximateTaxes = null;
+    public $ApproximateTaxes = null;
 
     /**
      * @var typeMoney $ApproximateFees
      */
-    protected $ApproximateFees = null;
+    public $ApproximateFees = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param ServiceData $ServiceData

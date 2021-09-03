@@ -8,42 +8,42 @@ class Air extends typeTransactionsAllowed
     /**
      * @var boolean $OneWayShop
      */
-    protected $OneWayShop = null;
+    public $OneWayShop = null;
 
     /**
      * @var boolean $FlexExplore
      */
-    protected $FlexExplore = null;
+    public $FlexExplore = null;
 
     /**
      * @var boolean $RapidRepriceEnabled
      */
-    protected $RapidRepriceEnabled = null;
+    public $RapidRepriceEnabled = null;
 
     /**
      * @var anonymous418 $Tier
      */
-    protected $Tier = null;
+    public $Tier = null;
 
     /**
      * @var boolean $DaysEnabled
      */
-    protected $DaysEnabled = null;
+    public $DaysEnabled = null;
 
     /**
      * @var boolean $WeekendsEnabled
      */
-    protected $WeekendsEnabled = null;
+    public $WeekendsEnabled = null;
 
     /**
      * @var boolean $AirportsEnabled
      */
-    protected $AirportsEnabled = null;
+    public $AirportsEnabled = null;
 
     /**
      * @var boolean $ODEnabled
      */
-    protected $ODEnabled = null;
+    public $ODEnabled = null;
 
     /**
      * @param boolean $BookingEnabled

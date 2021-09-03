@@ -8,27 +8,27 @@ class HotelDetailsReq extends BaseHotelDetailsReq
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var NextResultReference $NextResultReference
      */
-    protected $NextResultReference = null;
+    public $NextResultReference = null;
 
     /**
      * @var boolean $ReturnMediaLinks
      */
-    protected $ReturnMediaLinks = null;
+    public $ReturnMediaLinks = null;
 
     /**
      * @var boolean $ReturnGuestReviews
      */
-    protected $ReturnGuestReviews = null;
+    public $ReturnGuestReviews = null;
 
     /**
      * @var typePolicyReference $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

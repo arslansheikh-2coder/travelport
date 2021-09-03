@@ -8,7 +8,7 @@ class RoutingRules
     /**
      * @var Routing[] $Routing
      */
-    protected $Routing = null;
+    public $Routing = null;
 
     
     public function __construct()

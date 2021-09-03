@@ -8,12 +8,12 @@ class EMDRetrieveReq extends BaseReq
     /**
      * @var ListRetrieve $ListRetrieve
      */
-    protected $ListRetrieve = null;
+    public $ListRetrieve = null;
 
     /**
      * @var DetailRetrieve $DetailRetrieve
      */
-    protected $DetailRetrieve = null;
+    public $DetailRetrieve = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

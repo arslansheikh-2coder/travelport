@@ -8,27 +8,27 @@ class McoSearchModifiers
     /**
      * @var typeMCOType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeMCOStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var anonymous1124 $MaxResults
      */
-    protected $MaxResults = null;
+    public $MaxResults = null;
 
     /**
      * @var anonymous1125 $StartFromResult
      */
-    protected $StartFromResult = null;
+    public $StartFromResult = null;
 
     /**
      * @var boolean $IncludeName
      */
-    protected $IncludeName = null;
+    public $IncludeName = null;
 
     /**
      * @param typeMCOType $Type

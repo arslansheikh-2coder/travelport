@@ -8,47 +8,47 @@ class Ticket
     /**
      * @var Coupon $Coupon
      */
-    protected $Coupon = null;
+    public $Coupon = null;
 
     /**
      * @var TicketEndorsement $TicketEndorsement
      */
-    protected $TicketEndorsement = null;
+    public $TicketEndorsement = null;
 
     /**
      * @var TourCode $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var ExchangedTicketInfo $ExchangedTicketInfo
      */
-    protected $ExchangedTicketInfo = null;
+    public $ExchangedTicketInfo = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeTicketNumber $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var typeTicketStatus $TicketStatus
      */
-    protected $TicketStatus = null;
+    public $TicketStatus = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param Coupon $Coupon

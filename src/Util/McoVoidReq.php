@@ -8,17 +8,17 @@ class McoVoidReq extends BaseReq
     /**
      * @var GeneralRemark $GeneralRemark
      */
-    protected $GeneralRemark = null;
+    public $GeneralRemark = null;
 
     /**
      * @var string $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var boolean $ReturnMCO
      */
-    protected $ReturnMCO = null;
+    public $ReturnMCO = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

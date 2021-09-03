@@ -8,17 +8,17 @@ class ReasonCode
     /**
      * @var string $OutOfPolicy
      */
-    protected $OutOfPolicy = null;
+    public $OutOfPolicy = null;
 
     /**
      * @var string $PurposeOfTrip
      */
-    protected $PurposeOfTrip = null;
+    public $PurposeOfTrip = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @param Remark $Remark

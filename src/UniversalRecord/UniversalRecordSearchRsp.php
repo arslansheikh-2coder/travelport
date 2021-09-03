@@ -8,12 +8,12 @@ class UniversalRecordSearchRsp extends BaseRsp
     /**
      * @var UniversalRecordSearchResult $UniversalRecordSearchResult
      */
-    protected $UniversalRecordSearchResult = null;
+    public $UniversalRecordSearchResult = null;
 
     /**
      * @var typeMoreResults $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

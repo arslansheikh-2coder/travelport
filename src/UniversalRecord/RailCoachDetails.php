@@ -8,17 +8,17 @@ class RailCoachDetails
     /**
      * @var string $RailCoachNumber
      */
-    protected $RailCoachNumber = null;
+    public $RailCoachNumber = null;
 
     /**
      * @var string $AvailableRailSeats
      */
-    protected $AvailableRailSeats = null;
+    public $AvailableRailSeats = null;
 
     /**
      * @var boolean $RailSeatMapAvailability
      */
-    protected $RailSeatMapAvailability = null;
+    public $RailSeatMapAvailability = null;
 
     /**
      * @param string $RailCoachNumber

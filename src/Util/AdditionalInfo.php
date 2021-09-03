@@ -8,12 +8,12 @@ class AdditionalInfo
     /**
      * @var StringLength1to255 $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param StringLength1to255 $_

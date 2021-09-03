@@ -8,77 +8,77 @@ class VehicleAdd
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var DriversLicense $DriversLicense
      */
-    protected $DriversLicense = null;
+    public $DriversLicense = null;
 
     /**
      * @var VehicleSpecialRequest $VehicleSpecialRequest
      */
-    protected $VehicleSpecialRequest = null;
+    public $VehicleSpecialRequest = null;
 
     /**
      * @var SpecialEquipment $SpecialEquipment
      */
-    protected $SpecialEquipment = null;
+    public $SpecialEquipment = null;
 
     /**
      * @var PaymentInformation $PaymentInformation
      */
-    protected $PaymentInformation = null;
+    public $PaymentInformation = null;
 
     /**
      * @var Guarantee $Guarantee
      */
-    protected $Guarantee = null;
+    public $Guarantee = null;
 
     /**
      * @var BookingSource $BookingSource
      */
-    protected $BookingSource = null;
+    public $BookingSource = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var DeliveryAddress $DeliveryAddress
      */
-    protected $DeliveryAddress = null;
+    public $DeliveryAddress = null;
 
     /**
      * @var CollectionAddress $CollectionAddress
      */
-    protected $CollectionAddress = null;
+    public $CollectionAddress = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var TravelComplianceData $TravelComplianceData
      */
-    protected $TravelComplianceData = null;
+    public $TravelComplianceData = null;
 
     /**
      * @var FlightArrivalInformation $FlightArrivalInformation
      */
-    protected $FlightArrivalInformation = null;
+    public $FlightArrivalInformation = null;
 
     /**
      * @var typeLocatorCode $ReservationLocatorCode
      */
-    protected $ReservationLocatorCode = null;
+    public $ReservationLocatorCode = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param LoyaltyCard $LoyaltyCard

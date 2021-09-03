@@ -8,7 +8,7 @@ class RateInclusions
     /**
      * @var IncludedItem $IncludedItem
      */
-    protected $IncludedItem = null;
+    public $IncludedItem = null;
 
     /**
      * @param IncludedItem $IncludedItem

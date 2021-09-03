@@ -8,32 +8,32 @@ class AirRefundQuoteReq extends BaseReq
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var typeTCRNumber[] $TCRNumber
      */
-    protected $TCRNumber = null;
+    public $TCRNumber = null;
 
     /**
      * @var AirRefundModifiers $AirRefundModifiers
      */
-    protected $AirRefundModifiers = null;
+    public $AirRefundModifiers = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var ProviderReservationInfo[] $ProviderReservationInfo
      */
-    protected $ProviderReservationInfo = null;
+    public $ProviderReservationInfo = null;
 
     /**
      * @var boolean $Ignore
      */
-    protected $Ignore = null;
+    public $Ignore = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

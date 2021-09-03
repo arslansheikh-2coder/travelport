@@ -8,22 +8,22 @@ class MealPlans
     /**
      * @var MealPlan[] $MealPlan
      */
-    protected $MealPlan = null;
+    public $MealPlan = null;
 
     /**
      * @var typeTrinary $Breakfast
      */
-    protected $Breakfast = null;
+    public $Breakfast = null;
 
     /**
      * @var typeTrinary $Lunch
      */
-    protected $Lunch = null;
+    public $Lunch = null;
 
     /**
      * @var typeTrinary $Dinner
      */
-    protected $Dinner = null;
+    public $Dinner = null;
 
     /**
      * @param typeTrinary $Breakfast

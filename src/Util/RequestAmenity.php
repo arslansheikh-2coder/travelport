@@ -8,7 +8,7 @@ class RequestAmenity
     /**
      * @var anonymous1106 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param anonymous1106 $Type

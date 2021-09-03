@@ -8,7 +8,7 @@ class SeatAttributes
     /**
      * @var SeatAttribute $SeatAttribute
      */
-    protected $SeatAttribute = null;
+    public $SeatAttribute = null;
 
     /**
      * @param SeatAttribute $SeatAttribute

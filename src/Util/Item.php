@@ -8,7 +8,7 @@ class Item extends typeReferenceData
     /**
      * @var AdditionalElement $AdditionalElement
      */
-    protected $AdditionalElement = null;
+    public $AdditionalElement = null;
 
     /**
      * @param date $DeprecatedDate

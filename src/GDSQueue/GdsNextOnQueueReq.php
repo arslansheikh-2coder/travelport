@@ -8,32 +8,32 @@ class GdsNextOnQueueReq extends BaseReq
     /**
      * @var QueuePseudoCitySelector $QueuePseudoCitySelector
      */
-    protected $QueuePseudoCitySelector = null;
+    public $QueuePseudoCitySelector = null;
 
     /**
      * @var typeLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @var boolean $QueueContinue
      */
-    protected $QueueContinue = null;
+    public $QueueContinue = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var boolean $RemoveCurrent
      */
-    protected $RemoveCurrent = null;
+    public $RemoveCurrent = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

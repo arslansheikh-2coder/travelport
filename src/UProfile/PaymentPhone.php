@@ -8,27 +8,27 @@ class PaymentPhone
     /**
      * @var anonymous895 $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var anonymous896 $AreaCode
      */
-    protected $AreaCode = null;
+    public $AreaCode = null;
 
     /**
      * @var anonymous897 $LocalNumber
      */
-    protected $LocalNumber = null;
+    public $LocalNumber = null;
 
     /**
      * @var anonymous898 $Extension
      */
-    protected $Extension = null;
+    public $Extension = null;
 
     /**
      * @var typeCityOrAirport $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @param anonymous895 $Country

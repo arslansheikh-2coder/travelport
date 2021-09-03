@@ -8,47 +8,47 @@ class PhoneNumberHistory
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous907 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anonymous908 $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var anonymous909 $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var anonymous910 $AreaCode
      */
-    protected $AreaCode = null;
+    public $AreaCode = null;
 
     /**
      * @var anonymous911 $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var anonymous912 $Extension
      */
-    protected $Extension = null;
+    public $Extension = null;
 
     /**
      * @var anonymous913 $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef

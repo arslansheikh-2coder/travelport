@@ -8,32 +8,32 @@ class typeKeyword
     /**
      * @var typeSubKey[] $SubKey
      */
-    protected $SubKey = null;
+    public $SubKey = null;
 
     /**
      * @var string[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var anonymous400 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var UNKNOWN $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var UNKNOWN $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var language $LanguageCode
      */
-    protected $LanguageCode = null;
+    public $LanguageCode = null;
 
     /**
      * @param anonymous400 $Name

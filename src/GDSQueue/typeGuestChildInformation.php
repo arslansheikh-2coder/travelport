@@ -8,7 +8,7 @@ class typeGuestChildInformation
     /**
      * @var int $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @param int $Age

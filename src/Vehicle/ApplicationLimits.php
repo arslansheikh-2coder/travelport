@@ -8,7 +8,7 @@ class ApplicationLimits
     /**
      * @var OptionalServiceApplicationLimitType[] $ApplicationLimit
      */
-    protected $ApplicationLimit = null;
+    public $ApplicationLimit = null;
 
     /**
      * @param OptionalServiceApplicationLimitType[] $ApplicationLimit

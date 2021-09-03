@@ -8,7 +8,7 @@ class AirPricingInfoList
     /**
      * @var AirPricingInfo $AirPricingInfo
      */
-    protected $AirPricingInfo = null;
+    public $AirPricingInfo = null;
 
     /**
      * @param AirPricingInfo $AirPricingInfo

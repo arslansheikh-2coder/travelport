@@ -8,47 +8,47 @@ class AppliedProfile
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $TravelerID
      */
-    protected $TravelerID = null;
+    public $TravelerID = null;
 
     /**
      * @var string $TravelerName
      */
-    protected $TravelerName = null;
+    public $TravelerName = null;
 
     /**
      * @var string $AccountID
      */
-    protected $AccountID = null;
+    public $AccountID = null;
 
     /**
      * @var string $AccountName
      */
-    protected $AccountName = null;
+    public $AccountName = null;
 
     /**
      * @var string $ImmediateParentID
      */
-    protected $ImmediateParentID = null;
+    public $ImmediateParentID = null;
 
     /**
      * @var string $ImmediateParentName
      */
-    protected $ImmediateParentName = null;
+    public $ImmediateParentName = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeRef $Key

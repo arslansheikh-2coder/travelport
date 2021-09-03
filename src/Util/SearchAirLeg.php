@@ -8,27 +8,27 @@ class SearchAirLeg
     /**
      * @var typeSearchLocation[] $SearchOrigin
      */
-    protected $SearchOrigin = null;
+    public $SearchOrigin = null;
 
     /**
      * @var typeSearchLocation[] $SearchDestination
      */
-    protected $SearchDestination = null;
+    public $SearchDestination = null;
 
     /**
      * @var typeFlexibleTimeSpec[] $SearchDepTime
      */
-    protected $SearchDepTime = null;
+    public $SearchDepTime = null;
 
     /**
      * @var typeTimeSpec[] $SearchArvTime
      */
-    protected $SearchArvTime = null;
+    public $SearchArvTime = null;
 
     /**
      * @var AirLegModifiers $AirLegModifiers
      */
-    protected $AirLegModifiers = null;
+    public $AirLegModifiers = null;
 
     /**
      * @param typeSearchLocation[] $SearchOrigin

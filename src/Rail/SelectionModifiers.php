@@ -8,22 +8,22 @@ class SelectionModifiers
     /**
      * @var AirSegmentRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var typeRef[] $SvcSegmentRef
      */
-    protected $SvcSegmentRef = null;
+    public $SvcSegmentRef = null;
 
     /**
      * @var typeCarrier $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var anonymous1082 $RFIC
      */
-    protected $RFIC = null;
+    public $RFIC = null;
 
     /**
      * @param AirSegmentRef $AirSegmentRef

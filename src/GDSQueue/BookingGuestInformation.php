@@ -8,7 +8,7 @@ class BookingGuestInformation
     /**
      * @var typeGuestRoomInformation[] $Room
      */
-    protected $Room = null;
+    public $Room = null;
 
     /**
      * @param typeGuestRoomInformation[] $Room

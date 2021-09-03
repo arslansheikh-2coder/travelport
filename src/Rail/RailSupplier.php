@@ -8,7 +8,7 @@ class RailSupplier
     /**
      * @var typeSupplierCode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeSupplierCode $Code

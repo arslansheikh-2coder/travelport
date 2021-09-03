@@ -8,12 +8,12 @@ class QuickResponse
     /**
      * @var boolean $FastResult
      */
-    protected $FastResult = null;
+    public $FastResult = null;
 
     /**
      * @var string $MoreToken
      */
-    protected $MoreToken = null;
+    public $MoreToken = null;
 
     /**
      * @param boolean $FastResult

@@ -8,22 +8,22 @@ class Characteristic
     /**
      * @var anonymous146 $SeatType
      */
-    protected $SeatType = null;
+    public $SeatType = null;
 
     /**
      * @var anonymous147 $SeatDescription
      */
-    protected $SeatDescription = null;
+    public $SeatDescription = null;
 
     /**
      * @var anonymous148 $SeatValue
      */
-    protected $SeatValue = null;
+    public $SeatValue = null;
 
     /**
      * @var anonymous149 $SeatValueDescription
      */
-    protected $SeatValueDescription = null;
+    public $SeatValueDescription = null;
 
     /**
      * @param anonymous146 $SeatType

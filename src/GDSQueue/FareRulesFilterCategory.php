@@ -8,12 +8,12 @@ class FareRulesFilterCategory
     /**
      * @var string[] $CategoryCode
      */
-    protected $CategoryCode = null;
+    public $CategoryCode = null;
 
     /**
      * @var string $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @param string[] $CategoryCode

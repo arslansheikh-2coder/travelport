@@ -8,12 +8,12 @@ class VoluntaryChanges
     /**
      * @var Penalty $Penalty
      */
-    protected $Penalty = null;
+    public $Penalty = null;
 
     /**
      * @var boolean $VolChangeInd
      */
-    protected $VolChangeInd = null;
+    public $VolChangeInd = null;
 
     /**
      * @param Penalty $Penalty

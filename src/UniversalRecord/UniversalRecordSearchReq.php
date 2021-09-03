@@ -8,87 +8,87 @@ class UniversalRecordSearchReq extends BaseReq
     /**
      * @var UniversalRecordSearchModifiers $UniversalRecordSearchModifiers
      */
-    protected $UniversalRecordSearchModifiers = null;
+    public $UniversalRecordSearchModifiers = null;
 
     /**
      * @var TravelerCriteria $TravelerCriteria
      */
-    protected $TravelerCriteria = null;
+    public $TravelerCriteria = null;
 
     /**
      * @var SearchAgent $SearchAgent
      */
-    protected $SearchAgent = null;
+    public $SearchAgent = null;
 
     /**
      * @var AirReservationCriteria $AirReservationCriteria
      */
-    protected $AirReservationCriteria = null;
+    public $AirReservationCriteria = null;
 
     /**
      * @var HotelReservationCriteria $HotelReservationCriteria
      */
-    protected $HotelReservationCriteria = null;
+    public $HotelReservationCriteria = null;
 
     /**
      * @var VehicleReservationCriteria $VehicleReservationCriteria
      */
-    protected $VehicleReservationCriteria = null;
+    public $VehicleReservationCriteria = null;
 
     /**
      * @var RailReservationCriteria $RailReservationCriteria
      */
-    protected $RailReservationCriteria = null;
+    public $RailReservationCriteria = null;
 
     /**
      * @var SearchAccount $SearchAccount
      */
-    protected $SearchAccount = null;
+    public $SearchAccount = null;
 
     /**
      * @var date $ActionDate
      */
-    protected $ActionDate = null;
+    public $ActionDate = null;
 
     /**
      * @var typeRecordStatus $RecordStatus
      */
-    protected $RecordStatus = null;
+    public $RecordStatus = null;
 
     /**
      * @var string $ClientId
      */
-    protected $ClientId = null;
+    public $ClientId = null;
 
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var typeExternalSearchIndex $ExternalSearchIndex
      */
-    protected $ExternalSearchIndex = null;
+    public $ExternalSearchIndex = null;
 
     /**
      * @var UNKNOWN $RestrictToProfileId
      */
-    protected $RestrictToProfileId = null;
+    public $RestrictToProfileId = null;
 
     /**
      * @var boolean $PassiveOnly
      */
-    protected $PassiveOnly = null;
+    public $PassiveOnly = null;
 
     /**
      * @var URTicketStatus $TicketStatus
      */
-    protected $TicketStatus = null;
+    public $TicketStatus = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

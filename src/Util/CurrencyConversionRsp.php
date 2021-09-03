@@ -8,7 +8,7 @@ class CurrencyConversionRsp extends BaseRsp
     /**
      * @var CurrencyConversion $CurrencyConversion
      */
-    protected $CurrencyConversion = null;
+    public $CurrencyConversion = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

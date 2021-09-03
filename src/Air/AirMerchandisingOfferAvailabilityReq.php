@@ -8,27 +8,27 @@ class AirMerchandisingOfferAvailabilityReq extends BaseReq
     /**
      * @var AgencySellInfo $AgencySellInfo
      */
-    protected $AgencySellInfo = null;
+    public $AgencySellInfo = null;
 
     /**
      * @var AirSolution $AirSolution
      */
-    protected $AirSolution = null;
+    public $AirSolution = null;
 
     /**
      * @var HostReservation $HostReservation
      */
-    protected $HostReservation = null;
+    public $HostReservation = null;
 
     /**
      * @var OfferAvailabilityModifiers $OfferAvailabilityModifiers
      */
-    protected $OfferAvailabilityModifiers = null;
+    public $OfferAvailabilityModifiers = null;
 
     /**
      * @var MerchandisingPricingModifiers $MerchandisingPricingModifiers
      */
-    protected $MerchandisingPricingModifiers = null;
+    public $MerchandisingPricingModifiers = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

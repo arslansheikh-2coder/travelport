@@ -8,17 +8,17 @@ class TravelArranger
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $CompanyShortName
      */
-    protected $CompanyShortName = null;
+    public $CompanyShortName = null;
 
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param string $_

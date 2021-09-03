@@ -8,7 +8,7 @@ class HotelType
     /**
      * @var typeSourceLink $SourceLink
      */
-    protected $SourceLink = null;
+    public $SourceLink = null;
 
     /**
      * @param typeSourceLink $SourceLink

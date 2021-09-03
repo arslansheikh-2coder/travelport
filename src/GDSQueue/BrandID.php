@@ -8,7 +8,7 @@ class BrandID
     /**
      * @var string $Id
      */
-    protected $Id = null;
+    public $Id = null;
 
     /**
      * @param string $Id

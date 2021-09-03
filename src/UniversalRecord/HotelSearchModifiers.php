@@ -8,137 +8,137 @@ class HotelSearchModifiers
     /**
      * @var PermittedChains $PermittedChains
      */
-    protected $PermittedChains = null;
+    public $PermittedChains = null;
 
     /**
      * @var ProhibitedChains $ProhibitedChains
      */
-    protected $ProhibitedChains = null;
+    public $ProhibitedChains = null;
 
     /**
      * @var PermittedProviders $PermittedProviders
      */
-    protected $PermittedProviders = null;
+    public $PermittedProviders = null;
 
     /**
      * @var PermittedAggregators $PermittedAggregators
      */
-    protected $PermittedAggregators = null;
+    public $PermittedAggregators = null;
 
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var string $HotelName
      */
-    protected $HotelName = null;
+    public $HotelName = null;
 
     /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
-    protected $CorporateDiscountID = null;
+    public $CorporateDiscountID = null;
 
     /**
      * @var typeOTACode[] $RateCategory
      */
-    protected $RateCategory = null;
+    public $RateCategory = null;
 
     /**
      * @var HotelRating $HotelRating
      */
-    protected $HotelRating = null;
+    public $HotelRating = null;
 
     /**
      * @var SearchPriority $SearchPriority
      */
-    protected $SearchPriority = null;
+    public $SearchPriority = null;
 
     /**
      * @var HotelBedding $HotelBedding
      */
-    protected $HotelBedding = null;
+    public $HotelBedding = null;
 
     /**
      * @var Amenities $Amenities
      */
-    protected $Amenities = null;
+    public $Amenities = null;
 
     /**
      * @var typeHotelPaymentType $HotelPaymentType
      */
-    protected $HotelPaymentType = null;
+    public $HotelPaymentType = null;
 
     /**
      * @var NumberOfChildren $NumberOfChildren
      */
-    protected $NumberOfChildren = null;
+    public $NumberOfChildren = null;
 
     /**
      * @var HotelTransportation $HotelTransportation
      */
-    protected $HotelTransportation = null;
+    public $HotelTransportation = null;
 
     /**
      * @var BookingGuestInformation $BookingGuestInformation
      */
-    protected $BookingGuestInformation = null;
+    public $BookingGuestInformation = null;
 
     /**
      * @var int $NumberOfAdults
      */
-    protected $NumberOfAdults = null;
+    public $NumberOfAdults = null;
 
     /**
      * @var int $NumberOfRooms
      */
-    protected $NumberOfRooms = null;
+    public $NumberOfRooms = null;
 
     /**
      * @var int $MaxProperties
      */
-    protected $MaxProperties = null;
+    public $MaxProperties = null;
 
     /**
      * @var boolean $IsRelaxed
      */
-    protected $IsRelaxed = null;
+    public $IsRelaxed = null;
 
     /**
      * @var typeCurrency $PreferredCurrency
      */
-    protected $PreferredCurrency = null;
+    public $PreferredCurrency = null;
 
     /**
      * @var boolean $AvailableHotelsOnly
      */
-    protected $AvailableHotelsOnly = null;
+    public $AvailableHotelsOnly = null;
 
     /**
      * @var int $MaxWait
      */
-    protected $MaxWait = null;
+    public $MaxWait = null;
 
     /**
      * @var boolean $AggregateResults
      */
-    protected $AggregateResults = null;
+    public $AggregateResults = null;
 
     /**
      * @var boolean $ReturnPropertyDescription
      */
-    protected $ReturnPropertyDescription = null;
+    public $ReturnPropertyDescription = null;
 
     /**
      * @var int $NumOfRatePlans
      */
-    protected $NumOfRatePlans = null;
+    public $NumOfRatePlans = null;
 
     /**
      * @var boolean $ReturnAmenities
      */
-    protected $ReturnAmenities = null;
+    public $ReturnAmenities = null;
 
     /**
      * @param PermittedProviders $PermittedProviders

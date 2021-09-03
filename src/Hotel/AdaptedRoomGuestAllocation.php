@@ -8,7 +8,7 @@ class AdaptedRoomGuestAllocation
     /**
      * @var typeAdaptedRoomGuestAllocation[] $Room
      */
-    protected $Room = null;
+    public $Room = null;
 
     /**
      * @param typeAdaptedRoomGuestAllocation[] $Room

@@ -8,7 +8,7 @@ class WholeNumberRestriction
     /**
      * @var typeAction $Action
      */
-    protected $Action = null;
+    public $Action = null;
 
     /**
      * @param typeAction $Action

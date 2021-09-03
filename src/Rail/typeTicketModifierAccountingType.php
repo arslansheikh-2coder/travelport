@@ -8,7 +8,7 @@ class typeTicketModifierAccountingType
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param string $Value

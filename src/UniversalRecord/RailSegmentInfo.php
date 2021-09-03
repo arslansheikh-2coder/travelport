@@ -8,17 +8,17 @@ class RailSegmentInfo
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var typeRailSegmentInfo $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param string $_

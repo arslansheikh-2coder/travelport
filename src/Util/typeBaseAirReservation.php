@@ -8,97 +8,97 @@ class typeBaseAirReservation extends BaseReservation
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var DocumentInfo $DocumentInfo
      */
-    protected $DocumentInfo = null;
+    public $DocumentInfo = null;
 
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var SvcSegment $SvcSegment
      */
-    protected $SvcSegment = null;
+    public $SvcSegment = null;
 
     /**
      * @var AirPricingInfo $AirPricingInfo
      */
-    protected $AirPricingInfo = null;
+    public $AirPricingInfo = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var CreditCardAuth $CreditCardAuth
      */
-    protected $CreditCardAuth = null;
+    public $CreditCardAuth = null;
 
     /**
      * @var FareNote $FareNote
      */
-    protected $FareNote = null;
+    public $FareNote = null;
 
     /**
      * @var typeFeeInfo $FeeInfo
      */
-    protected $FeeInfo = null;
+    public $FeeInfo = null;
 
     /**
      * @var typeTaxInfoWithPaymentRef[] $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var TicketingModifiers $TicketingModifiers
      */
-    protected $TicketingModifiers = null;
+    public $TicketingModifiers = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var PocketItineraryRemark $PocketItineraryRemark
      */
-    protected $PocketItineraryRemark = null;
+    public $PocketItineraryRemark = null;
 
     /**
      * @var AirExchangeBundleTotal $AirExchangeBundleTotal
      */
-    protected $AirExchangeBundleTotal = null;
+    public $AirExchangeBundleTotal = null;
 
     /**
      * @var AirExchangeBundle $AirExchangeBundle
      */
-    protected $AirExchangeBundle = null;
+    public $AirExchangeBundle = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

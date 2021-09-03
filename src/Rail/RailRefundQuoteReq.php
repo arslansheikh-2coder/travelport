@@ -8,7 +8,7 @@ class RailRefundQuoteReq extends BaseReq
     /**
      * @var typeLocatorCode $LocatorCode
      */
-    protected $LocatorCode = null;
+    public $LocatorCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,7 +8,7 @@ class FlightTimeTableRsp extends BaseSearchRsp
     /**
      * @var FlightTimeTableList $FlightTimeTableList
      */
-    protected $FlightTimeTableList = null;
+    public $FlightTimeTableList = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

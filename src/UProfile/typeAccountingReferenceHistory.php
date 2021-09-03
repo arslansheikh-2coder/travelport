@@ -8,37 +8,37 @@ class typeAccountingReferenceHistory extends typeKeyElement
     /**
      * @var typeRef[] $PaymentDetailsRef
      */
-    protected $PaymentDetailsRef = null;
+    public $PaymentDetailsRef = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to255 $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeProfileID $AccountID
      */
-    protected $AccountID = null;
+    public $AccountID = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @var boolean $Active
      */
-    protected $Active = null;
+    public $Active = null;
 
     /**
      * @param typeRef $Key

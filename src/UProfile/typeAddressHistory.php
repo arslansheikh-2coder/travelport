@@ -8,62 +8,62 @@ class typeAddressHistory extends typeKeyTaggedElement
     /**
      * @var StringLength1to128 $AddressLine
      */
-    protected $AddressLine = null;
+    public $AddressLine = null;
 
     /**
      * @var anonymous730 $City
      */
-    protected $City = null;
+    public $City = null;
 
     /**
      * @var StringLength1to255 $State
      */
-    protected $State = null;
+    public $State = null;
 
     /**
      * @var StringLength1to128 $OtherStateProvince
      */
-    protected $OtherStateProvince = null;
+    public $OtherStateProvince = null;
 
     /**
      * @var typeCountry $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var anonymous731 $Postal
      */
-    protected $Postal = null;
+    public $Postal = null;
 
     /**
      * @var StringLength1to128 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeContactPurpose $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @var boolean $Provisioned
      */
-    protected $Provisioned = null;
+    public $Provisioned = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var StringLength1to255 $DeliveryDescription
      */
-    protected $DeliveryDescription = null;
+    public $DeliveryDescription = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

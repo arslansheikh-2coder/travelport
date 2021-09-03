@@ -8,7 +8,7 @@ class typeFlexibleTimeSpec extends typeTimeSpec
     /**
      * @var SearchExtraDays $SearchExtraDays
      */
-    protected $SearchExtraDays = null;
+    public $SearchExtraDays = null;
 
     /**
      * @param string $PreferredTime

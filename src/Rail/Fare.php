@@ -8,17 +8,17 @@ class Fare
     /**
      * @var boolean $FareSpecific
      */
-    protected $FareSpecific = null;
+    public $FareSpecific = null;
 
     /**
      * @var boolean $MultipleFareIndicator
      */
-    protected $MultipleFareIndicator = null;
+    public $MultipleFareIndicator = null;
 
     /**
      * @var StringLength1to8 $RateCode
      */
-    protected $RateCode = null;
+    public $RateCode = null;
 
     /**
      * @param boolean $FareSpecific

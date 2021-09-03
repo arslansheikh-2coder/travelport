@@ -8,7 +8,7 @@ class HotelRateInfo
     /**
      * @var typeRatePlanType $RatePlanType
      */
-    protected $RatePlanType = null;
+    public $RatePlanType = null;
 
     /**
      * @param typeRatePlanType $RatePlanType

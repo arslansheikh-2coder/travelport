@@ -8,112 +8,112 @@ class MCO extends MCOInformation
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var Endorsement $Endorsement
      */
-    protected $Endorsement = null;
+    public $Endorsement = null;
 
     /**
      * @var MCOExchangeInfo $MCOExchangeInfo
      */
-    protected $MCOExchangeInfo = null;
+    public $MCOExchangeInfo = null;
 
     /**
      * @var MCOFeeInfo $MCOFeeInfo
      */
-    protected $MCOFeeInfo = null;
+    public $MCOFeeInfo = null;
 
     /**
      * @var MCORemark $MCORemark
      */
-    protected $MCORemark = null;
+    public $MCORemark = null;
 
     /**
      * @var MCOPriceData $MCOPriceData
      */
-    protected $MCOPriceData = null;
+    public $MCOPriceData = null;
 
     /**
      * @var StockControl $StockControl
      */
-    protected $StockControl = null;
+    public $StockControl = null;
 
     /**
      * @var MCOText $MCOText
      */
-    protected $MCOText = null;
+    public $MCOText = null;
 
     /**
      * @var string $TicketType
      */
-    protected $TicketType = null;
+    public $TicketType = null;
 
     /**
      * @var string $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var boolean $MCOIssued
      */
-    protected $MCOIssued = null;
+    public $MCOIssued = null;
 
     /**
      * @var \DateTime $MCOIssueDate
      */
-    protected $MCOIssueDate = null;
+    public $MCOIssueDate = null;
 
     /**
      * @var string $MCODocNum
      */
-    protected $MCODocNum = null;
+    public $MCODocNum = null;
 
     /**
      * @var string $IssueReasonCode
      */
-    protected $IssueReasonCode = null;
+    public $IssueReasonCode = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @var string $TourOperator
      */
-    protected $TourOperator = null;
+    public $TourOperator = null;
 
     /**
      * @var string $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var string $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var date $ExpiryDate
      */
-    protected $ExpiryDate = null;
+    public $ExpiryDate = null;
 
     /**
      * @param PassengerInfo $PassengerInfo

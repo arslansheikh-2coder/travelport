@@ -8,22 +8,22 @@ class RailAutoSeatAssignment
     /**
      * @var anonymous1328 $SeatType
      */
-    protected $SeatType = null;
+    public $SeatType = null;
 
     /**
      * @var anonymous1329 $SeatValue
      */
-    protected $SeatValue = null;
+    public $SeatValue = null;
 
     /**
      * @var typeRef $RailSegmentRef
      */
-    protected $RailSegmentRef = null;
+    public $RailSegmentRef = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param anonymous1328 $SeatType

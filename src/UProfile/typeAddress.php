@@ -8,37 +8,37 @@ class typeAddress extends typeKeyElement
     /**
      * @var StringLength1to128 $AddressLine
      */
-    protected $AddressLine = null;
+    public $AddressLine = null;
 
     /**
      * @var anonymous802 $City
      */
-    protected $City = null;
+    public $City = null;
 
     /**
      * @var anonymous803 $State
      */
-    protected $State = null;
+    public $State = null;
 
     /**
      * @var StringLength1to128 $OtherStateProvince
      */
-    protected $OtherStateProvince = null;
+    public $OtherStateProvince = null;
 
     /**
      * @var typeCountry $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var anonymous804 $Postal
      */
-    protected $Postal = null;
+    public $Postal = null;
 
     /**
      * @var StringLength1to128 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param typeRef $Key

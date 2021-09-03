@@ -8,27 +8,27 @@ class BillingDetailItem
     /**
      * @var typeBillingDetailsName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeBillingDetailsDataType $DataType
      */
-    protected $DataType = null;
+    public $DataType = null;
 
     /**
      * @var string $MinLength
      */
-    protected $MinLength = null;
+    public $MinLength = null;
 
     /**
      * @var string $MaxLength
      */
-    protected $MaxLength = null;
+    public $MaxLength = null;
 
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param typeBillingDetailsName $Name

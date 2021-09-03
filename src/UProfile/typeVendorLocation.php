@@ -8,27 +8,27 @@ class typeVendorLocation
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var boolean $PreferredOption
      */
-    protected $PreferredOption = null;
+    public $PreferredOption = null;
 
     /**
      * @var anonymous4 $VendorLocationID
      */
-    protected $VendorLocationID = null;
+    public $VendorLocationID = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeProviderCode $ProviderCode

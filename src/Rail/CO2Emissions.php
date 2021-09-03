@@ -8,27 +8,27 @@ class CO2Emissions
     /**
      * @var CO2Emission $CO2Emission
      */
-    protected $CO2Emission = null;
+    public $CO2Emission = null;
 
     /**
      * @var float $TotalValue
      */
-    protected $TotalValue = null;
+    public $TotalValue = null;
 
     /**
      * @var StringLength1to64 $Unit
      */
-    protected $Unit = null;
+    public $Unit = null;
 
     /**
      * @var StringLength1to64 $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var StringLength1to64 $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @param CO2Emission $CO2Emission

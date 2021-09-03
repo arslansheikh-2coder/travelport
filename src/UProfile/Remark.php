@@ -8,47 +8,47 @@ class Remark extends typeKeyTaggedElement
     /**
      * @var StringLength1to255 $RemarkText
      */
-    protected $RemarkText = null;
+    public $RemarkText = null;
 
     /**
      * @var typeRemarkType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeAccountingRemarkType $AccountingRemarkType
      */
-    protected $AccountingRemarkType = null;
+    public $AccountingRemarkType = null;
 
     /**
      * @var typeProviderCode $Provider
      */
-    protected $Provider = null;
+    public $Provider = null;
 
     /**
      * @var typeGeneralRemarkType $GeneralRemarkType
      */
-    protected $GeneralRemarkType = null;
+    public $GeneralRemarkType = null;
 
     /**
      * @var typeRemarkCategory $CategoryType
      */
-    protected $CategoryType = null;
+    public $CategoryType = null;
 
     /**
      * @var typeSupplierType $SupplierType
      */
-    protected $SupplierType = null;
+    public $SupplierType = null;
 
     /**
      * @var typeSupplier $Supplier
      */
-    protected $Supplier = null;
+    public $Supplier = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

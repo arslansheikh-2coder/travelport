@@ -8,37 +8,37 @@ class PrePayProfileInfo
     /**
      * @var PrePayId $PrePayId
      */
-    protected $PrePayId = null;
+    public $PrePayId = null;
 
     /**
      * @var PrePayCustomer $PrePayCustomer
      */
-    protected $PrePayCustomer = null;
+    public $PrePayCustomer = null;
 
     /**
      * @var PrePayAccount $PrePayAccount
      */
-    protected $PrePayAccount = null;
+    public $PrePayAccount = null;
 
     /**
      * @var Affiliations $Affiliations
      */
-    protected $Affiliations = null;
+    public $Affiliations = null;
 
     /**
      * @var AccountRelatedRules $AccountRelatedRules
      */
-    protected $AccountRelatedRules = null;
+    public $AccountRelatedRules = null;
 
     /**
      * @var string $StatusCode
      */
-    protected $StatusCode = null;
+    public $StatusCode = null;
 
     /**
      * @var typeCardNumber $CreatorID
      */
-    protected $CreatorID = null;
+    public $CreatorID = null;
 
     /**
      * @param PrePayId $PrePayId

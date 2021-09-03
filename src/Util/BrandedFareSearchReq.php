@@ -8,12 +8,12 @@ class BrandedFareSearchReq extends BaseReq
     /**
      * @var FareFamilyCriteria $FareFamilyCriteria
      */
-    protected $FareFamilyCriteria = null;
+    public $FareFamilyCriteria = null;
 
     /**
      * @var BrandedFareSearchModifier $BrandedFareSearchModifier
      */
-    protected $BrandedFareSearchModifier = null;
+    public $BrandedFareSearchModifier = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

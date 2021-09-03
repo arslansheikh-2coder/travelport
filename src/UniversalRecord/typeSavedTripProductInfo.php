@@ -8,17 +8,17 @@ class typeSavedTripProductInfo
     /**
      * @var typeProduct $ProductType
      */
-    protected $ProductType = null;
+    public $ProductType = null;
 
     /**
      * @var string $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @param typeProduct $ProductType

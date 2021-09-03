@@ -8,17 +8,17 @@ class typeSearchElectronicAddress
     /**
      * @var typeWildcard $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var typeEmailType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeContactPurpose $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @param typeWildcard $Address

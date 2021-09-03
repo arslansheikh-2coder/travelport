@@ -8,12 +8,12 @@ class HotelLocation
     /**
      * @var typeIATACode $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var typeHotelLocation $LocationType
      */
-    protected $LocationType = null;
+    public $LocationType = null;
 
     /**
      * @param typeIATACode $Location

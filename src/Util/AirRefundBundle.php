@@ -8,37 +8,37 @@ class AirRefundBundle
     /**
      * @var AirRefundInfo $AirRefundInfo
      */
-    protected $AirRefundInfo = null;
+    public $AirRefundInfo = null;
 
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var WaiverCode $WaiverCode
      */
-    protected $WaiverCode = null;
+    public $WaiverCode = null;
 
     /**
      * @var string $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var UNKNOWN $PTC
      */
-    protected $PTC = null;
+    public $PTC = null;
 
     /**
      * @var anonymous660 $RefundType
      */
-    protected $RefundType = null;
+    public $RefundType = null;
 
     /**
      * @param AirRefundInfo $AirRefundInfo

@@ -8,12 +8,12 @@ class PrintBlankFormItinerary
     /**
      * @var boolean $IncludeDescription
      */
-    protected $IncludeDescription = null;
+    public $IncludeDescription = null;
 
     /**
      * @var boolean $IncludeHeader
      */
-    protected $IncludeHeader = null;
+    public $IncludeHeader = null;
 
     /**
      * @param boolean $IncludeDescription

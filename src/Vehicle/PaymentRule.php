@@ -8,7 +8,7 @@ class PaymentRule extends typeDepositGuarantee
     /**
      * @var CreditCard[] $CreditCard
      */
-    protected $CreditCard = null;
+    public $CreditCard = null;
 
     /**
      * @param typeReserveRequirement $Purpose

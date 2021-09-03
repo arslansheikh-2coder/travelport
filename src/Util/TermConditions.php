@@ -8,12 +8,12 @@ class TermConditions
     /**
      * @var LanguageOption $LanguageOption
      */
-    protected $LanguageOption = null;
+    public $LanguageOption = null;
 
     /**
      * @var boolean $IncludeTermConditions
      */
-    protected $IncludeTermConditions = null;
+    public $IncludeTermConditions = null;
 
     /**
      * @param LanguageOption $LanguageOption

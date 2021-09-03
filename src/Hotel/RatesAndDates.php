@@ -8,27 +8,27 @@ class RatesAndDates
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeDate $Start
      */
-    protected $Start = null;
+    public $Start = null;
 
     /**
      * @var typeDate $End
      */
-    protected $End = null;
+    public $End = null;
 
     /**
      * @var typeMoney $Low
      */
-    protected $Low = null;
+    public $Low = null;
 
     /**
      * @var typeMoney $High
      */
-    protected $High = null;
+    public $High = null;
 
     /**
      * @param string $Status

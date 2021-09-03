@@ -8,12 +8,12 @@ class TemplateInfoUpdate
     /**
      * @var UNKNOWN $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var UNKNOWN $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param UNKNOWN $Name

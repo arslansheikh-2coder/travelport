@@ -8,117 +8,117 @@ class PassiveSegment
     /**
      * @var Amount $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePassiveSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var string $EndDate
      */
-    protected $EndDate = null;
+    public $EndDate = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var string $AvailabilitySource
      */
-    protected $AvailabilitySource = null;
+    public $AvailabilitySource = null;
 
     /**
      * @var string $PolledAvailabilityOption
      */
-    protected $PolledAvailabilityOption = null;
+    public $PolledAvailabilityOption = null;
 
     /**
      * @var string $AvailabilityDisplayType
      */
-    protected $AvailabilityDisplayType = null;
+    public $AvailabilityDisplayType = null;
 
     /**
      * @var string $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @var string $ClassOfService
      */
-    protected $ClassOfService = null;
+    public $ClassOfService = null;
 
     /**
      * @var int $NumberOfItems
      */
-    protected $NumberOfItems = null;
+    public $NumberOfItems = null;
 
     /**
      * @var string $SegmentType
      */
-    protected $SegmentType = null;
+    public $SegmentType = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $VehicleType
      */
-    protected $VehicleType = null;
+    public $VehicleType = null;
 
     /**
      * @var typeRef $PassiveProviderReservationInfoRef
      */
-    protected $PassiveProviderReservationInfoRef = null;
+    public $PassiveProviderReservationInfoRef = null;
 
     /**
      * @var int $Group
      */
-    protected $Group = null;
+    public $Group = null;
 
     /**
      * @var int $TravelOrder
      */
-    protected $TravelOrder = null;
+    public $TravelOrder = null;
 
     /**
      * @var anonymous1269 $ProviderSegmentOrder
      */
-    protected $ProviderSegmentOrder = null;
+    public $ProviderSegmentOrder = null;
 
     /**
      * @var string $PassiveGroup
      */
-    protected $PassiveGroup = null;
+    public $PassiveGroup = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typePassiveSupplierCode $SupplierCode

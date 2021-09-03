@@ -8,42 +8,42 @@ class typeSearchContact
     /**
      * @var typeWildcard $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var typeWildcard $OtherName
      */
-    protected $OtherName = null;
+    public $OtherName = null;
 
     /**
      * @var typeWildcard $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var typeWildcard $NickName
      */
-    protected $NickName = null;
+    public $NickName = null;
 
     /**
      * @var typeSearchAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var typeSearchPhone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var typeSearchElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var typeContactType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param typeContactType $Type

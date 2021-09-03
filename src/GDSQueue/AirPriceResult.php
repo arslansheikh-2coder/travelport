@@ -8,22 +8,22 @@ class AirPriceResult
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var FareRule $FareRule
      */
-    protected $FareRule = null;
+    public $FareRule = null;
 
     /**
      * @var typeResultMessage $AirPriceError
      */
-    protected $AirPriceError = null;
+    public $AirPriceError = null;
 
     /**
      * @var anonymous650 $CommandKey
      */
-    protected $CommandKey = null;
+    public $CommandKey = null;
 
     /**
      * @param AirPricingSolution $AirPricingSolution

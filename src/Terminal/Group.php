@@ -8,57 +8,57 @@ class Group
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var DeliveryInfo $DeliveryInfo
      */
-    protected $DeliveryInfo = null;
+    public $DeliveryInfo = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var SSRRef[] $SSRRef
      */
-    protected $SSRRef = null;
+    public $SSRRef = null;
 
     /**
      * @var typeStructuredAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var BookingTravelerRef[] $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typePTC $TravelerType
      */
-    protected $TravelerType = null;
+    public $TravelerType = null;
 
     /**
      * @var int $GroupSize
      */
-    protected $GroupSize = null;
+    public $GroupSize = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param Name $Name

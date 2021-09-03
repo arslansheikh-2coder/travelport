@@ -8,22 +8,22 @@ class AirSolution
     /**
      * @var SearchTraveler $SearchTraveler
      */
-    protected $SearchTraveler = null;
+    public $SearchTraveler = null;
 
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var FareBasis $FareBasis
      */
-    protected $FareBasis = null;
+    public $FareBasis = null;
 
     /**
      * @param SearchTraveler $SearchTraveler

@@ -8,137 +8,137 @@ class BookingTraveler
     /**
      * @var BookingTravelerName $BookingTravelerName
      */
-    protected $BookingTravelerName = null;
+    public $BookingTravelerName = null;
 
     /**
      * @var DeliveryInfo $DeliveryInfo
      */
-    protected $DeliveryInfo = null;
+    public $DeliveryInfo = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var Email $Email
      */
-    protected $Email = null;
+    public $Email = null;
 
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @var DiscountCard $DiscountCard
      */
-    protected $DiscountCard = null;
+    public $DiscountCard = null;
 
     /**
      * @var SSR $SSR
      */
-    protected $SSR = null;
+    public $SSR = null;
 
     /**
      * @var NameRemark $NameRemark
      */
-    protected $NameRemark = null;
+    public $NameRemark = null;
 
     /**
      * @var AirSeatAssignment $AirSeatAssignment
      */
-    protected $AirSeatAssignment = null;
+    public $AirSeatAssignment = null;
 
     /**
      * @var RailSeatAssignment $RailSeatAssignment
      */
-    protected $RailSeatAssignment = null;
+    public $RailSeatAssignment = null;
 
     /**
      * @var string $EmergencyInfo
      */
-    protected $EmergencyInfo = null;
+    public $EmergencyInfo = null;
 
     /**
      * @var typeStructuredAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var DriversLicense $DriversLicense
      */
-    protected $DriversLicense = null;
+    public $DriversLicense = null;
 
     /**
      * @var AppliedProfile $AppliedProfile
      */
-    protected $AppliedProfile = null;
+    public $AppliedProfile = null;
 
     /**
      * @var CustomizedNameData $CustomizedNameData
      */
-    protected $CustomizedNameData = null;
+    public $CustomizedNameData = null;
 
     /**
      * @var TravelComplianceData $TravelComplianceData
      */
-    protected $TravelComplianceData = null;
+    public $TravelComplianceData = null;
 
     /**
      * @var TravelInfo $TravelInfo
      */
-    protected $TravelInfo = null;
+    public $TravelInfo = null;
 
     /**
      * @var string $NameNumber
      */
-    protected $NameNumber = null;
+    public $NameNumber = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typePTC $TravelerType
      */
-    protected $TravelerType = null;
+    public $TravelerType = null;
 
     /**
      * @var int $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @var boolean $VIP
      */
-    protected $VIP = null;
+    public $VIP = null;
 
     /**
      * @var date $DOB
      */
-    protected $DOB = null;
+    public $DOB = null;
 
     /**
      * @var typeGender $Gender
      */
-    protected $Gender = null;
+    public $Gender = null;
 
     /**
      * @var typeCountry $Nationality
      */
-    protected $Nationality = null;
+    public $Nationality = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param BookingTravelerName $BookingTravelerName

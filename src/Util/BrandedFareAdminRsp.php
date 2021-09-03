@@ -8,7 +8,7 @@ class BrandedFareAdminRsp extends BaseRsp
     /**
      * @var FareFamily $FareFamily
      */
-    protected $FareFamily = null;
+    public $FareFamily = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

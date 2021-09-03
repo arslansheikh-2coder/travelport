@@ -8,42 +8,42 @@ class UniversalRecordHistorySearchResult
     /**
      * @var string $Old
      */
-    protected $Old = null;
+    public $Old = null;
 
     /**
      * @var string $New
      */
-    protected $New = null;
+    public $New = null;
 
     /**
      * @var string $ModifiedBy
      */
-    protected $ModifiedBy = null;
+    public $ModifiedBy = null;
 
     /**
      * @var string $ModifiedDate
      */
-    protected $ModifiedDate = null;
+    public $ModifiedDate = null;
 
     /**
      * @var string $ElementType
      */
-    protected $ElementType = null;
+    public $ElementType = null;
 
     /**
      * @var string $Action
      */
-    protected $Action = null;
+    public $Action = null;
 
     /**
      * @var string $TransactionId
      */
-    protected $TransactionId = null;
+    public $TransactionId = null;
 
     /**
      * @var anonymous515 $AgentOverride
      */
-    protected $AgentOverride = null;
+    public $AgentOverride = null;
 
     /**
      * @param string $ModifiedBy

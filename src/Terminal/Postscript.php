@@ -8,12 +8,12 @@ class Postscript extends typeRemark
     /**
      * @var typeRemark $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param string $_

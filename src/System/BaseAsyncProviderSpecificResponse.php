@@ -8,12 +8,12 @@ class BaseAsyncProviderSpecificResponse
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var boolean $MoreResults
      */
-    protected $MoreResults = null;
+    public $MoreResults = null;
 
     /**
      * @param typeProviderCode $ProviderCode

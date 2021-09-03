@@ -8,37 +8,37 @@ class ProfileSearchReq extends BaseReq
     /**
      * @var ProfileTypeSearch $ProfileTypeSearch
      */
-    protected $ProfileTypeSearch = null;
+    public $ProfileTypeSearch = null;
 
     /**
      * @var ProfileSearch $ProfileSearch
      */
-    protected $ProfileSearch = null;
+    public $ProfileSearch = null;
 
     /**
      * @var ProfileSearchModifiers $ProfileSearchModifiers
      */
-    protected $ProfileSearchModifiers = null;
+    public $ProfileSearchModifiers = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var UNKNOWN $ProfileParentID
      */
-    protected $ProfileParentID = null;
+    public $ProfileParentID = null;
 
     /**
      * @var boolean $ReturnParentSummary
      */
-    protected $ReturnParentSummary = null;
+    public $ReturnParentSummary = null;
 
     /**
      * @var StringLength1to128 $SearchToken
      */
-    protected $SearchToken = null;
+    public $SearchToken = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

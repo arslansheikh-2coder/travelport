@@ -8,107 +8,107 @@ class RateInfo
     /**
      * @var typeRoomDispatch $RoomDispatch
      */
-    protected $RoomDispatch = null;
+    public $RoomDispatch = null;
 
     /**
      * @var typePolicyCodesList $PolicyCodesList
      */
-    protected $PolicyCodesList = null;
+    public $PolicyCodesList = null;
 
     /**
      * @var typeMoney $MinimumAmount
      */
-    protected $MinimumAmount = null;
+    public $MinimumAmount = null;
 
     /**
      * @var typeMoney $ApproximateMinimumAmount
      */
-    protected $ApproximateMinimumAmount = null;
+    public $ApproximateMinimumAmount = null;
 
     /**
      * @var boolean $MinAmountRateChanged
      */
-    protected $MinAmountRateChanged = null;
+    public $MinAmountRateChanged = null;
 
     /**
      * @var typeMoney $MaximumAmount
      */
-    protected $MaximumAmount = null;
+    public $MaximumAmount = null;
 
     /**
      * @var typeMoney $ApproximateMaximumAmount
      */
-    protected $ApproximateMaximumAmount = null;
+    public $ApproximateMaximumAmount = null;
 
     /**
      * @var boolean $MaxAmountRateChanged
      */
-    protected $MaxAmountRateChanged = null;
+    public $MaxAmountRateChanged = null;
 
     /**
      * @var typeMoney $MinimumStayAmount
      */
-    protected $MinimumStayAmount = null;
+    public $MinimumStayAmount = null;
 
     /**
      * @var typeMoney $ApproximateMinimumStayAmount
      */
-    protected $ApproximateMinimumStayAmount = null;
+    public $ApproximateMinimumStayAmount = null;
 
     /**
      * @var string $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var typeThirdPartySupplier $RateSupplier
      */
-    protected $RateSupplier = null;
+    public $RateSupplier = null;
 
     /**
      * @var anyURI $RateSupplierLogo
      */
-    protected $RateSupplierLogo = null;
+    public $RateSupplierLogo = null;
 
     /**
      * @var typeHotelPaymentType $PaymentType
      */
-    protected $PaymentType = null;
+    public $PaymentType = null;
 
     /**
      * @var typeMoney $ApproxAvgNightlyAmt
      */
-    protected $ApproxAvgNightlyAmt = null;
+    public $ApproxAvgNightlyAmt = null;
 
     /**
      * @var boolean $TaxesIncluded
      */
-    protected $TaxesIncluded = null;
+    public $TaxesIncluded = null;
 
     /**
      * @var boolean $AmountConverted
      */
-    protected $AmountConverted = null;
+    public $AmountConverted = null;
 
     /**
      * @var string $MultipleRoom
      */
-    protected $MultipleRoom = null;
+    public $MultipleRoom = null;
 
     /**
      * @var string $PackageOffer
      */
-    protected $PackageOffer = null;
+    public $PackageOffer = null;
 
     /**
      * @var boolean $MinInPolicy
      */
-    protected $MinInPolicy = null;
+    public $MinInPolicy = null;
 
     /**
      * @var boolean $MaxInPolicy
      */
-    protected $MaxInPolicy = null;
+    public $MaxInPolicy = null;
 
     /**
      * @param typeMoney $MinimumAmount

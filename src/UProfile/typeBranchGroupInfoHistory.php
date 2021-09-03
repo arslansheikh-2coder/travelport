@@ -8,17 +8,17 @@ class typeBranchGroupInfoHistory extends typeProfileInfo
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeProvisioningCode $BranchGroupCode
      */
-    protected $BranchGroupCode = null;
+    public $BranchGroupCode = null;
 
     /**
      * @var boolean $URSyncTo
      */
-    protected $URSyncTo = null;
+    public $URSyncTo = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

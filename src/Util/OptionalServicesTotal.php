@@ -8,62 +8,62 @@ class OptionalServicesTotal
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var typeFeeInfo $FeeInfo
      */
-    protected $FeeInfo = null;
+    public $FeeInfo = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateBasePrice
      */
-    protected $ApproximateBasePrice = null;
+    public $ApproximateBasePrice = null;
 
     /**
      * @var typeMoney $EquivalentBasePrice
      */
-    protected $EquivalentBasePrice = null;
+    public $EquivalentBasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $Fees
      */
-    protected $Fees = null;
+    public $Fees = null;
 
     /**
      * @var typeMoney $Services
      */
-    protected $Services = null;
+    public $Services = null;
 
     /**
      * @var typeMoney $ApproximateTaxes
      */
-    protected $ApproximateTaxes = null;
+    public $ApproximateTaxes = null;
 
     /**
      * @var typeMoney $ApproximateFees
      */
-    protected $ApproximateFees = null;
+    public $ApproximateFees = null;
 
     /**
      * @param typeTaxInfo $TaxInfo

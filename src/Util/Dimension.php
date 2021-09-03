@@ -8,7 +8,7 @@ class Dimension extends typeUnitOfMeasure
     /**
      * @var string $type
      */
-    protected $type = null;
+    public $type = null;
 
     /**
      * @param float $Value

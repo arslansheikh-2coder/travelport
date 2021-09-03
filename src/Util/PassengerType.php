@@ -8,12 +8,12 @@ class PassengerType
     /**
      * @var typePTC $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param typePTC $Code

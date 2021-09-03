@@ -8,17 +8,17 @@ class TicketFeeInfo
     /**
      * @var typeMoney $Base
      */
-    protected $Base = null;
+    public $Base = null;
 
     /**
      * @var typeMoney $Tax
      */
-    protected $Tax = null;
+    public $Tax = null;
 
     /**
      * @var typeMoney $Total
      */
-    protected $Total = null;
+    public $Total = null;
 
     /**
      * @param typeMoney $Base

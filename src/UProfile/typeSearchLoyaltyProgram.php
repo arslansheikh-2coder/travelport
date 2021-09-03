@@ -8,12 +8,12 @@ class typeSearchLoyaltyProgram
     /**
      * @var typeWildcard $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var typeSupplier $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param typeWildcard $Number

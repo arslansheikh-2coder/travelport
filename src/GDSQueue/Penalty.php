@@ -8,12 +8,12 @@ class Penalty
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $PenaltyType
      */
-    protected $PenaltyType = null;
+    public $PenaltyType = null;
 
     /**
      * @param typeMoney $Amount

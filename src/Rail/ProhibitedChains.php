@@ -8,7 +8,7 @@ class ProhibitedChains
     /**
      * @var HotelChain $HotelChain
      */
-    protected $HotelChain = null;
+    public $HotelChain = null;
 
     /**
      * @param HotelChain $HotelChain

@@ -8,7 +8,7 @@ class CreateAirlineFeeMcoRsp extends BaseRsp
     /**
      * @var MCO $MCO
      */
-    protected $MCO = null;
+    public $MCO = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

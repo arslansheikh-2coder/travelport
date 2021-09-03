@@ -8,12 +8,12 @@ class CustomerReceiptInfo
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $EmailRef
      */
-    protected $EmailRef = null;
+    public $EmailRef = null;
 
     /**
      * @param typeRef $BookingTravelerRef

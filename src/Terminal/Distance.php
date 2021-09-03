@@ -8,17 +8,17 @@ class Distance
     /**
      * @var anonymous59 $Units
      */
-    protected $Units = null;
+    public $Units = null;
 
     /**
      * @var int $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var anonymous60 $Direction
      */
-    protected $Direction = null;
+    public $Direction = null;
 
     /**
      * @param anonymous59 $Units

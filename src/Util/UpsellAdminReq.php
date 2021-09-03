@@ -8,17 +8,17 @@ class UpsellAdminReq extends BaseReq
     /**
      * @var AirUpsellCriteria $AirUpsellCriteria
      */
-    protected $AirUpsellCriteria = null;
+    public $AirUpsellCriteria = null;
 
     /**
      * @var VehicleUpsellCriteria $VehicleUpsellCriteria
      */
-    protected $VehicleUpsellCriteria = null;
+    public $VehicleUpsellCriteria = null;
 
     /**
      * @var HotelUpsellCriteria $HotelUpsellCriteria
      */
-    protected $HotelUpsellCriteria = null;
+    public $HotelUpsellCriteria = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

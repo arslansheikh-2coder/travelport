@@ -8,57 +8,57 @@ class GuaranteeInfo
     /**
      * @var DepositAmount $DepositAmount
      */
-    protected $DepositAmount = null;
+    public $DepositAmount = null;
 
     /**
      * @var int $DepositNights
      */
-    protected $DepositNights = null;
+    public $DepositNights = null;
 
     /**
      * @var int $DepositPercent
      */
-    protected $DepositPercent = null;
+    public $DepositPercent = null;
 
     /**
      * @var GuaranteePaymentType $GuaranteePaymentType
      */
-    protected $GuaranteePaymentType = null;
+    public $GuaranteePaymentType = null;
 
     /**
      * @var \DateTime $AbsoluteDeadline
      */
-    protected $AbsoluteDeadline = null;
+    public $AbsoluteDeadline = null;
 
     /**
      * @var boolean $CredentialsRequired
      */
-    protected $CredentialsRequired = null;
+    public $CredentialsRequired = null;
 
     /**
      * @var string $HoldTime
      */
-    protected $HoldTime = null;
+    public $HoldTime = null;
 
     /**
      * @var anonymous629 $GuaranteeType
      */
-    protected $GuaranteeType = null;
+    public $GuaranteeType = null;
 
     /**
      * @var StringLength1to16 $OffsetTimeUnit
      */
-    protected $OffsetTimeUnit = null;
+    public $OffsetTimeUnit = null;
 
     /**
      * @var Numeric0to999 $OffsetUnitMultiplier
      */
-    protected $OffsetUnitMultiplier = null;
+    public $OffsetUnitMultiplier = null;
 
     /**
      * @var StringLength1to20 $OffsetDropTime
      */
-    protected $OffsetDropTime = null;
+    public $OffsetDropTime = null;
 
     /**
      * @param DepositAmount $DepositAmount

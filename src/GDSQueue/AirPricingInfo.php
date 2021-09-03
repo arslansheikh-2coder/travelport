@@ -8,332 +8,332 @@ class AirPricingInfo
     /**
      * @var FareInfo $FareInfo
      */
-    protected $FareInfo = null;
+    public $FareInfo = null;
 
     /**
      * @var FareStatus $FareStatus
      */
-    protected $FareStatus = null;
+    public $FareStatus = null;
 
     /**
      * @var FareInfoRef $FareInfoRef
      */
-    protected $FareInfoRef = null;
+    public $FareInfoRef = null;
 
     /**
      * @var BookingInfo $BookingInfo
      */
-    protected $BookingInfo = null;
+    public $BookingInfo = null;
 
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var string $FareCalc
      */
-    protected $FareCalc = null;
+    public $FareCalc = null;
 
     /**
      * @var PassengerType $PassengerType
      */
-    protected $PassengerType = null;
+    public $PassengerType = null;
 
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var WaiverCode $WaiverCode
      */
-    protected $WaiverCode = null;
+    public $WaiverCode = null;
 
     /**
      * @var PaymentRef $PaymentRef
      */
-    protected $PaymentRef = null;
+    public $PaymentRef = null;
 
     /**
      * @var typeFarePenalty[] $ChangePenalty
      */
-    protected $ChangePenalty = null;
+    public $ChangePenalty = null;
 
     /**
      * @var typeFarePenalty[] $CancelPenalty
      */
-    protected $CancelPenalty = null;
+    public $CancelPenalty = null;
 
     /**
      * @var typeFarePenalty[] $NoShowPenalty
      */
-    protected $NoShowPenalty = null;
+    public $NoShowPenalty = null;
 
     /**
      * @var typeMostRestrictivePenalties $MostRestrictivePenalties
      */
-    protected $MostRestrictivePenalties = null;
+    public $MostRestrictivePenalties = null;
 
     /**
      * @var typeFeeInfo $FeeInfo
      */
-    protected $FeeInfo = null;
+    public $FeeInfo = null;
 
     /**
      * @var Adjustment $Adjustment
      */
-    protected $Adjustment = null;
+    public $Adjustment = null;
 
     /**
      * @var YieldCustom $Yield
      */
-    protected $Yield = null;
+    public $Yield = null;
 
     /**
      * @var AirPricingModifiers $AirPricingModifiers
      */
-    protected $AirPricingModifiers = null;
+    public $AirPricingModifiers = null;
 
     /**
      * @var TicketingModifiersRef $TicketingModifiersRef
      */
-    protected $TicketingModifiersRef = null;
+    public $TicketingModifiersRef = null;
 
     /**
      * @var AirSegmentPricingModifiers $AirSegmentPricingModifiers
      */
-    protected $AirSegmentPricingModifiers = null;
+    public $AirSegmentPricingModifiers = null;
 
     /**
      * @var FlightOptionsList $FlightOptionsList
      */
-    protected $FlightOptionsList = null;
+    public $FlightOptionsList = null;
 
     /**
      * @var BaggageAllowances $BaggageAllowances
      */
-    protected $BaggageAllowances = null;
+    public $BaggageAllowances = null;
 
     /**
      * @var FareRulesFilter $FareRulesFilter
      */
-    protected $FareRulesFilter = null;
+    public $FareRulesFilter = null;
 
     /**
      * @var PolicyCodesList $PolicyCodesList
      */
-    protected $PolicyCodesList = null;
+    public $PolicyCodesList = null;
 
     /**
      * @var PriceChangeType[] $PriceChange
      */
-    protected $PriceChange = null;
+    public $PriceChange = null;
 
     /**
      * @var ActionDetails $ActionDetails
      */
-    protected $ActionDetails = null;
+    public $ActionDetails = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous620 $CommandKey
      */
-    protected $CommandKey = null;
+    public $CommandKey = null;
 
     /**
      * @var StringLength1to32 $AmountType
      */
-    protected $AmountType = null;
+    public $AmountType = null;
 
     /**
      * @var boolean $IncludesVAT
      */
-    protected $IncludesVAT = null;
+    public $IncludesVAT = null;
 
     /**
      * @var typeMoney $ExchangeAmount
      */
-    protected $ExchangeAmount = null;
+    public $ExchangeAmount = null;
 
     /**
      * @var typeMoney $ForfeitAmount
      */
-    protected $ForfeitAmount = null;
+    public $ForfeitAmount = null;
 
     /**
      * @var boolean $Refundable
      */
-    protected $Refundable = null;
+    public $Refundable = null;
 
     /**
      * @var boolean $Exchangeable
      */
-    protected $Exchangeable = null;
+    public $Exchangeable = null;
 
     /**
      * @var string $LatestTicketingTime
      */
-    protected $LatestTicketingTime = null;
+    public $LatestTicketingTime = null;
 
     /**
      * @var typePricingMethod $PricingMethod
      */
-    protected $PricingMethod = null;
+    public $PricingMethod = null;
 
     /**
      * @var string $Checksum
      */
-    protected $Checksum = null;
+    public $Checksum = null;
 
     /**
      * @var typeEticketability $ETicketability
      */
-    protected $ETicketability = null;
+    public $ETicketability = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var int $AirPricingInfoGroup
      */
-    protected $AirPricingInfoGroup = null;
+    public $AirPricingInfoGroup = null;
 
     /**
      * @var typeMoney $TotalNetPrice
      */
-    protected $TotalNetPrice = null;
+    public $TotalNetPrice = null;
 
     /**
      * @var boolean $Ticketed
      */
-    protected $Ticketed = null;
+    public $Ticketed = null;
 
     /**
      * @var anonymous621 $PricingType
      */
-    protected $PricingType = null;
+    public $PricingType = null;
 
     /**
      * @var string $TrueLastDateToTicket
      */
-    protected $TrueLastDateToTicket = null;
+    public $TrueLastDateToTicket = null;
 
     /**
      * @var anonymous622 $FareCalculationInd
      */
-    protected $FareCalculationInd = null;
+    public $FareCalculationInd = null;
 
     /**
      * @var boolean $Cat35Indicator
      */
-    protected $Cat35Indicator = null;
+    public $Cat35Indicator = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateBasePrice
      */
-    protected $ApproximateBasePrice = null;
+    public $ApproximateBasePrice = null;
 
     /**
      * @var typeMoney $EquivalentBasePrice
      */
-    protected $EquivalentBasePrice = null;
+    public $EquivalentBasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $Fees
      */
-    protected $Fees = null;
+    public $Fees = null;
 
     /**
      * @var typeMoney $Services
      */
-    protected $Services = null;
+    public $Services = null;
 
     /**
      * @var typeMoney $ApproximateTaxes
      */
-    protected $ApproximateTaxes = null;
+    public $ApproximateTaxes = null;
 
     /**
      * @var typeMoney $ApproximateFees
      */
-    protected $ApproximateFees = null;
+    public $ApproximateFees = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @var boolean $InPolicy
      */
-    protected $InPolicy = null;
+    public $InPolicy = null;
 
     /**
      * @var boolean $PreferredOption
      */
-    protected $PreferredOption = null;
+    public $PreferredOption = null;
 
     /**
      * @param FareInfo $FareInfo

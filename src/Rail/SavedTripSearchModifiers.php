@@ -8,12 +8,12 @@ class SavedTripSearchModifiers extends BaseSearchModifiers
     /**
      * @var string $SavedTripName
      */
-    protected $SavedTripName = null;
+    public $SavedTripName = null;
 
     /**
      * @var boolean $ExcludeURAssociated
      */
-    protected $ExcludeURAssociated = null;
+    public $ExcludeURAssociated = null;
 
     /**
      * @param boolean $IncludeAllNames

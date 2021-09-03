@@ -8,17 +8,17 @@ class VehicleRateInfo
     /**
      * @var string $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var typeDiscountNumber $DiscountNumber
      */
-    protected $DiscountNumber = null;
+    public $DiscountNumber = null;
 
     /**
      * @var string $PromotionalCode
      */
-    protected $PromotionalCode = null;
+    public $PromotionalCode = null;
 
     /**
      * @param string $TourCode

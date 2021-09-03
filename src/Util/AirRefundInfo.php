@@ -8,62 +8,62 @@ class AirRefundInfo
     /**
      * @var RefundRemark $RefundRemark
      */
-    protected $RefundRemark = null;
+    public $RefundRemark = null;
 
     /**
      * @var typeMoney $RefundAmount
      */
-    protected $RefundAmount = null;
+    public $RefundAmount = null;
 
     /**
      * @var typeMoney $RetainAmount
      */
-    protected $RetainAmount = null;
+    public $RetainAmount = null;
 
     /**
      * @var typeMoney $RefundFee
      */
-    protected $RefundFee = null;
+    public $RefundFee = null;
 
     /**
      * @var string $RefundableTaxes
      */
-    protected $RefundableTaxes = null;
+    public $RefundableTaxes = null;
 
     /**
      * @var typeCurrency $FiledCurrency
      */
-    protected $FiledCurrency = null;
+    public $FiledCurrency = null;
 
     /**
      * @var float $ConversionRate
      */
-    protected $ConversionRate = null;
+    public $ConversionRate = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $OriginalTicketTotal
      */
-    protected $OriginalTicketTotal = null;
+    public $OriginalTicketTotal = null;
 
     /**
      * @var typeMoney $ForfeitAmount
      */
-    protected $ForfeitAmount = null;
+    public $ForfeitAmount = null;
 
     /**
      * @var boolean $Retain
      */
-    protected $Retain = null;
+    public $Retain = null;
 
     /**
      * @var boolean $Refund
      */
-    protected $Refund = null;
+    public $Refund = null;
 
     /**
      * @param RefundRemark $RefundRemark

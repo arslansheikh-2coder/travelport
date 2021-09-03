@@ -8,22 +8,22 @@ class AirExchangeRsp extends BaseRsp
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var BookingTraveler $BookingTraveler
      */
-    protected $BookingTraveler = null;
+    public $BookingTraveler = null;
 
     /**
      * @var typeAirReservationWithFOP $AirReservation
      */
-    protected $AirReservation = null;
+    public $AirReservation = null;
 
     /**
      * @var typeTicketFailureInfo[] $ExchangeFailureInfo
      */
-    protected $ExchangeFailureInfo = null;
+    public $ExchangeFailureInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,7 +8,7 @@ class SearchPriority
     /**
      * @var Criteria[] $Criteria
      */
-    protected $Criteria = null;
+    public $Criteria = null;
 
     /**
      * @param Criteria[] $Criteria

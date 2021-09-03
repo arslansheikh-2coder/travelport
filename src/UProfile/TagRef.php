@@ -8,7 +8,7 @@ class TagRef
     /**
      * @var typeID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @param typeID $ID

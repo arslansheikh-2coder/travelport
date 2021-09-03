@@ -8,17 +8,17 @@ class PNRDivideInfo
     /**
      * @var BookingTravelerName $BookingTravelerName
      */
-    protected $BookingTravelerName = null;
+    public $BookingTravelerName = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @param BookingTravelerName $BookingTravelerName

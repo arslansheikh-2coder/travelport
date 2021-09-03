@@ -8,112 +8,112 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     /**
      * @var HotelRateDetail $HotelRateDetail
      */
-    protected $HotelRateDetail = null;
+    public $HotelRateDetail = null;
 
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var HotelStay $HotelStay
      */
-    protected $HotelStay = null;
+    public $HotelStay = null;
 
     /**
      * @var Guarantee $Guarantee
      */
-    protected $Guarantee = null;
+    public $Guarantee = null;
 
     /**
      * @var typeGeneralText $HotelSpecialRequest
      */
-    protected $HotelSpecialRequest = null;
+    public $HotelSpecialRequest = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var PromotionCode $PromotionCode
      */
-    protected $PromotionCode = null;
+    public $PromotionCode = null;
 
     /**
      * @var BookingSource $BookingSource
      */
-    protected $BookingSource = null;
+    public $BookingSource = null;
 
     /**
      * @var HotelBedding $HotelBedding
      */
-    protected $HotelBedding = null;
+    public $HotelBedding = null;
 
     /**
      * @var GuestInformation $GuestInformation
      */
-    protected $GuestInformation = null;
+    public $GuestInformation = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var ReservationName $ReservationName
      */
-    protected $ReservationName = null;
+    public $ReservationName = null;
 
     /**
      * @var ActionStatus $ActionStatus
      */
-    protected $ActionStatus = null;
+    public $ActionStatus = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var ReviewBooking $ReviewBooking
      */
-    protected $ReviewBooking = null;
+    public $ReviewBooking = null;
 
     /**
      * @var string $HotelCommission
      */
-    protected $HotelCommission = null;
+    public $HotelCommission = null;
 
     /**
      * @var BookingGuestInformation $BookingGuestInformation
      */
-    protected $BookingGuestInformation = null;
+    public $BookingGuestInformation = null;
 
     /**
      * @var boolean $UserAcceptance
      */
-    protected $UserAcceptance = null;
+    public $UserAcceptance = null;
 
     /**
      * @var boolean $MandatoryRateMatch
      */
-    protected $MandatoryRateMatch = null;
+    public $MandatoryRateMatch = null;
 
     /**
      * @var typeStatusCode $StatusCode
      */
-    protected $StatusCode = null;
+    public $StatusCode = null;
 
     /**
      * @var typeHotelConfirmationNumber $BookingConfirmation
      */
-    protected $BookingConfirmation = null;
+    public $BookingConfirmation = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,7 +8,7 @@ class BaseSearchRsp extends BaseRsp
     /**
      * @var NextResultReference $NextResultReference
      */
-    protected $NextResultReference = null;
+    public $NextResultReference = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

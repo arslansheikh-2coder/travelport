@@ -8,17 +8,17 @@ class PersonName
     /**
      * @var StringLength1to64 $First
      */
-    protected $First = null;
+    public $First = null;
 
     /**
      * @var StringLength1to64 $Last
      */
-    protected $Last = null;
+    public $Last = null;
 
     /**
      * @var StringLength1to16 $Prefix
      */
-    protected $Prefix = null;
+    public $Prefix = null;
 
     /**
      * @param StringLength1to64 $First

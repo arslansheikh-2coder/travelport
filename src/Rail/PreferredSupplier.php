@@ -8,12 +8,12 @@ class PreferredSupplier
     /**
      * @var boolean $Preferred
      */
-    protected $Preferred = null;
+    public $Preferred = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param boolean $Preferred

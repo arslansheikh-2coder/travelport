@@ -8,162 +8,162 @@ class FormOfPayment
     /**
      * @var CreditCard $CreditCard
      */
-    protected $CreditCard = null;
+    public $CreditCard = null;
 
     /**
      * @var DebitCard $DebitCard
      */
-    protected $DebitCard = null;
+    public $DebitCard = null;
 
     /**
      * @var EnettVan $EnettVan
      */
-    protected $EnettVan = null;
+    public $EnettVan = null;
 
     /**
      * @var Certificate $Certificate
      */
-    protected $Certificate = null;
+    public $Certificate = null;
 
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var Check $Check
      */
-    protected $Check = null;
+    public $Check = null;
 
     /**
      * @var Requisition $Requisition
      */
-    protected $Requisition = null;
+    public $Requisition = null;
 
     /**
      * @var MiscFormOfPayment $MiscFormOfPayment
      */
-    protected $MiscFormOfPayment = null;
+    public $MiscFormOfPayment = null;
 
     /**
      * @var typeAgencyPayment $AgencyPayment
      */
-    protected $AgencyPayment = null;
+    public $AgencyPayment = null;
 
     /**
      * @var UnitedNations $UnitedNations
      */
-    protected $UnitedNations = null;
+    public $UnitedNations = null;
 
     /**
      * @var DirectPayment $DirectPayment
      */
-    protected $DirectPayment = null;
+    public $DirectPayment = null;
 
     /**
      * @var AgentVoucher $AgentVoucher
      */
-    protected $AgentVoucher = null;
+    public $AgentVoucher = null;
 
     /**
      * @var PaymentAdvice $PaymentAdvice
      */
-    protected $PaymentAdvice = null;
+    public $PaymentAdvice = null;
 
     /**
      * @var typeFormOfPaymentPNRReference[] $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeGeneralReference[] $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var BSPPayment $BSPPayment
      */
-    protected $BSPPayment = null;
+    public $BSPPayment = null;
 
     /**
      * @var ARCPayment $ARCPayment
      */
-    protected $ARCPayment = null;
+    public $ARCPayment = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous45 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $FulfillmentType
      */
-    protected $FulfillmentType = null;
+    public $FulfillmentType = null;
 
     /**
      * @var string $FulfillmentLocation
      */
-    protected $FulfillmentLocation = null;
+    public $FulfillmentLocation = null;
 
     /**
      * @var typeFulfillmentIDType $FulfillmentIDType
      */
-    protected $FulfillmentIDType = null;
+    public $FulfillmentIDType = null;
 
     /**
      * @var string $FulfillmentIDNumber
      */
-    protected $FulfillmentIDNumber = null;
+    public $FulfillmentIDNumber = null;
 
     /**
      * @var boolean $IsAgentType
      */
-    protected $IsAgentType = null;
+    public $IsAgentType = null;
 
     /**
      * @var string $AgentText
      */
-    protected $AgentText = null;
+    public $AgentText = null;
 
     /**
      * @var typeRef $ReuseFOP
      */
-    protected $ReuseFOP = null;
+    public $ReuseFOP = null;
 
     /**
      * @var typeExternalReference $ExternalReference
      */
-    protected $ExternalReference = null;
+    public $ExternalReference = null;
 
     /**
      * @var boolean $Reusable
      */
-    protected $Reusable = null;
+    public $Reusable = null;
 
     /**
      * @var string $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeRef $ProfileKey
      */
-    protected $ProfileKey = null;
+    public $ProfileKey = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param CreditCard $CreditCard

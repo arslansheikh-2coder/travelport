@@ -8,7 +8,7 @@ class ExternalCacheAccessRsp extends BaseRsp
     /**
      * @var CacheEntry[] $CacheEntry
      */
-    protected $CacheEntry = null;
+    public $CacheEntry = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,7 +8,7 @@ class AirExchangeMulitQuoteList
     /**
      * @var AirExchangeMultiQuoteOption $AirExchangeMultiQuoteOption
      */
-    protected $AirExchangeMultiQuoteOption = null;
+    public $AirExchangeMultiQuoteOption = null;
 
     /**
      * @param AirExchangeMultiQuoteOption $AirExchangeMultiQuoteOption

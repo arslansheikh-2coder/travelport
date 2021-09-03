@@ -8,7 +8,7 @@ class MarketingMessage
     /**
      * @var string[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     
     public function __construct()

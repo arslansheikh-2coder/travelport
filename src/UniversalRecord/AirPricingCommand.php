@@ -8,22 +8,22 @@ class AirPricingCommand
     /**
      * @var AirPricingModifiers $AirPricingModifiers
      */
-    protected $AirPricingModifiers = null;
+    public $AirPricingModifiers = null;
 
     /**
      * @var AirSegmentPricingModifiers $AirSegmentPricingModifiers
      */
-    protected $AirSegmentPricingModifiers = null;
+    public $AirSegmentPricingModifiers = null;
 
     /**
      * @var anonymous557 $CommandKey
      */
-    protected $CommandKey = null;
+    public $CommandKey = null;
 
     /**
      * @var string $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @param AirPricingModifiers $AirPricingModifiers

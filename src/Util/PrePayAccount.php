@@ -8,37 +8,37 @@ class PrePayAccount
     /**
      * @var CreditSummary $CreditSummary
      */
-    protected $CreditSummary = null;
+    public $CreditSummary = null;
 
     /**
      * @var PrePayPriceInfo $PrePayPriceInfo
      */
-    protected $PrePayPriceInfo = null;
+    public $PrePayPriceInfo = null;
 
     /**
      * @var string $ProgramTitle
      */
-    protected $ProgramTitle = null;
+    public $ProgramTitle = null;
 
     /**
      * @var string $CertificateNumber
      */
-    protected $CertificateNumber = null;
+    public $CertificateNumber = null;
 
     /**
      * @var string $ProgramName
      */
-    protected $ProgramName = null;
+    public $ProgramName = null;
 
     /**
      * @var date $EffectiveDate
      */
-    protected $EffectiveDate = null;
+    public $EffectiveDate = null;
 
     /**
      * @var date $ExpireDate
      */
-    protected $ExpireDate = null;
+    public $ExpireDate = null;
 
     /**
      * @param CreditSummary $CreditSummary

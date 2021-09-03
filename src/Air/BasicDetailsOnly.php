@@ -8,7 +8,7 @@ class BasicDetailsOnly
     /**
      * @var boolean $ReturnBasicDetails
      */
-    protected $ReturnBasicDetails = null;
+    public $ReturnBasicDetails = null;
 
     /**
      * @param boolean $ReturnBasicDetails

@@ -8,17 +8,17 @@ class Coach
     /**
      * @var Characteristic $Characteristic
      */
-    protected $Characteristic = null;
+    public $Characteristic = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var string $CoachNumber
      */
-    protected $CoachNumber = null;
+    public $CoachNumber = null;
 
     /**
      * @param Characteristic $Characteristic

@@ -8,27 +8,27 @@ class BaseBaggageAllowanceInfo
     /**
      * @var URLInfo $URLInfo
      */
-    protected $URLInfo = null;
+    public $URLInfo = null;
 
     /**
      * @var TextInfo $TextInfo
      */
-    protected $TextInfo = null;
+    public $TextInfo = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @param URLInfo $URLInfo

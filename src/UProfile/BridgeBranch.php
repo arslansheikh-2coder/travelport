@@ -8,22 +8,22 @@ class BridgeBranch
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProvisioningCode $BranchCode
      */
-    protected $BranchCode = null;
+    public $BranchCode = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var boolean $Default
      */
-    protected $Default = null;
+    public $Default = null;
 
     /**
      * @param typeProfileID $ProfileID

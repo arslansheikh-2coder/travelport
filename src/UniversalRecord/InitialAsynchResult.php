@@ -8,7 +8,7 @@ class InitialAsynchResult
     /**
      * @var int $MaxWait
      */
-    protected $MaxWait = null;
+    public $MaxWait = null;
 
     /**
      * @param int $MaxWait

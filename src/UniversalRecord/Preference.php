@@ -8,7 +8,7 @@ class Preference
     /**
      * @var anonymous1453 $Owner
      */
-    protected $Owner = null;
+    public $Owner = null;
 
     /**
      * @param anonymous1453 $Owner

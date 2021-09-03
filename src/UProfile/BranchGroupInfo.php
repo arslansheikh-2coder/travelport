@@ -8,47 +8,47 @@ class BranchGroupInfo extends typeProfileInfo
     /**
      * @var Address $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var Phone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var ElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var ExternalIdentifier $ExternalIdentifier
      */
-    protected $ExternalIdentifier = null;
+    public $ExternalIdentifier = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeProvisioningCode $BranchGroupCode
      */
-    protected $BranchGroupCode = null;
+    public $BranchGroupCode = null;
 
     /**
      * @var boolean $URSyncTo
      */
-    protected $URSyncTo = null;
+    public $URSyncTo = null;
 
     /**
      * @var boolean $ProfileSyncTo
      */
-    protected $ProfileSyncTo = null;
+    public $ProfileSyncTo = null;
 
     /**
      * @var boolean $ProfileSyncFrom
      */
-    protected $ProfileSyncFrom = null;
+    public $ProfileSyncFrom = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

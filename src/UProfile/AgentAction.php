@@ -8,37 +8,37 @@ class AgentAction
     /**
      * @var anonymous8 $ActionType
      */
-    protected $ActionType = null;
+    public $ActionType = null;
 
     /**
      * @var string $AgentCode
      */
-    protected $AgentCode = null;
+    public $AgentCode = null;
 
     /**
      * @var typeBranchCode $BranchCode
      */
-    protected $BranchCode = null;
+    public $BranchCode = null;
 
     /**
      * @var string $AgencyCode
      */
-    protected $AgencyCode = null;
+    public $AgencyCode = null;
 
     /**
      * @var string $AgentSine
      */
-    protected $AgentSine = null;
+    public $AgentSine = null;
 
     /**
      * @var \DateTime $EventTime
      */
-    protected $EventTime = null;
+    public $EventTime = null;
 
     /**
      * @var anonymous505 $AgentOverride
      */
-    protected $AgentOverride = null;
+    public $AgentOverride = null;
 
     /**
      * @param anonymous8 $ActionType

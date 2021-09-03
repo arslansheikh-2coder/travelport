@@ -8,47 +8,47 @@ class ProfileRetrieveReq extends BaseReq
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var ProvisioningCode $ProvisioningCode
      */
-    protected $ProvisioningCode = null;
+    public $ProvisioningCode = null;
 
     /**
      * @var UniqueProfileID $UniqueProfileID
      */
-    protected $UniqueProfileID = null;
+    public $UniqueProfileID = null;
 
     /**
      * @var ProfileDataFilter $ProfileDataFilter
      */
-    protected $ProfileDataFilter = null;
+    public $ProfileDataFilter = null;
 
     /**
      * @var boolean $ReturnParent
      */
-    protected $ReturnParent = null;
+    public $ReturnParent = null;
 
     /**
      * @var boolean $ReturnParentSummary
      */
-    protected $ReturnParentSummary = null;
+    public $ReturnParentSummary = null;
 
     /**
      * @var boolean $ShowDataUnmasked
      */
-    protected $ShowDataUnmasked = null;
+    public $ShowDataUnmasked = null;
 
     /**
      * @var boolean $FullParentHierarchy
      */
-    protected $FullParentHierarchy = null;
+    public $FullParentHierarchy = null;
 
     /**
      * @var typeProfileID $ParentID
      */
-    protected $ParentID = null;
+    public $ParentID = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

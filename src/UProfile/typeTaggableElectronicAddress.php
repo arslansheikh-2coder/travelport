@@ -8,17 +8,17 @@ class typeTaggableElectronicAddress extends typeElectronicAddress
     /**
      * @var TagRef $TagRef
      */
-    protected $TagRef = null;
+    public $TagRef = null;
 
     /**
      * @var typeContactPurpose $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

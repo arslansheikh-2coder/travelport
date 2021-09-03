@@ -8,12 +8,12 @@ class ProviderReservationDivideRsp extends BaseRsp
     /**
      * @var ParentProviderReservationInfo $ParentProviderReservationInfo
      */
-    protected $ParentProviderReservationInfo = null;
+    public $ParentProviderReservationInfo = null;
 
     /**
      * @var ChildProviderReservationInfo $ChildProviderReservationInfo
      */
-    protected $ChildProviderReservationInfo = null;
+    public $ChildProviderReservationInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

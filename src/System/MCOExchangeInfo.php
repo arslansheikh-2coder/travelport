@@ -8,32 +8,32 @@ class MCOExchangeInfo
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var ExchangedCoupon $ExchangedCoupon
      */
-    protected $ExchangedCoupon = null;
+    public $ExchangedCoupon = null;
 
     /**
      * @var typeTicketNumber $OriginalTicketNumber
      */
-    protected $OriginalTicketNumber = null;
+    public $OriginalTicketNumber = null;
 
     /**
      * @var typeCity $OriginalCityCode
      */
-    protected $OriginalCityCode = null;
+    public $OriginalCityCode = null;
 
     /**
      * @var typeDate $OriginalTicketDate
      */
-    protected $OriginalTicketDate = null;
+    public $OriginalTicketDate = null;
 
     /**
      * @var typeIATA $IATACode
      */
-    protected $IATACode = null;
+    public $IATACode = null;
 
     /**
      * @param FormOfPayment $FormOfPayment

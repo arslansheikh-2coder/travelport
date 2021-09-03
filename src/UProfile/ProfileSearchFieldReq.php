@@ -8,12 +8,12 @@ class ProfileSearchFieldReq extends BaseReq
     /**
      * @var ProfileSearchModifiers $ProfileSearchModifiers
      */
-    protected $ProfileSearchModifiers = null;
+    public $ProfileSearchModifiers = null;
 
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,17 +8,17 @@ class typeTextElement
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var language $LanguageCode
      */
-    protected $LanguageCode = null;
+    public $LanguageCode = null;
 
     /**
      * @param string $_

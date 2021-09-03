@@ -8,72 +8,72 @@ class AirExchangeReq extends BaseReq
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var SpecificSeatAssignment $SpecificSeatAssignment
      */
-    protected $SpecificSeatAssignment = null;
+    public $SpecificSeatAssignment = null;
 
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var AirExchangeModifiers $AirExchangeModifiers
      */
-    protected $AirExchangeModifiers = null;
+    public $AirExchangeModifiers = null;
 
     /**
      * @var AirExchangeBundleTotal $AirExchangeBundleTotal
      */
-    protected $AirExchangeBundleTotal = null;
+    public $AirExchangeBundleTotal = null;
 
     /**
      * @var AirExchangeBundle $AirExchangeBundle
      */
-    protected $AirExchangeBundle = null;
+    public $AirExchangeBundle = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var FormOfPaymentRef $FormOfPaymentRef
      */
-    protected $FormOfPaymentRef = null;
+    public $FormOfPaymentRef = null;
 
     /**
      * @var SSRInfo $SSRInfo
      */
-    protected $SSRInfo = null;
+    public $SSRInfo = null;
 
     /**
      * @var AddSvc $AddSvc
      */
-    protected $AddSvc = null;
+    public $AddSvc = null;
 
     /**
      * @var boolean $ReturnReservation
      */
-    protected $ReturnReservation = null;
+    public $ReturnReservation = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

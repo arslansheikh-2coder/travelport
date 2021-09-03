@@ -8,12 +8,12 @@ class Entry
     /**
      * @var string $Reason
      */
-    protected $Reason = null;
+    public $Reason = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param string $Reason

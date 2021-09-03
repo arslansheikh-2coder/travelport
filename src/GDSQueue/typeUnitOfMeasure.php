@@ -8,12 +8,12 @@ class typeUnitOfMeasure
     /**
      * @var float $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var string $Unit
      */
-    protected $Unit = null;
+    public $Unit = null;
 
     /**
      * @param float $Value

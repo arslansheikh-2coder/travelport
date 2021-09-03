@@ -8,127 +8,127 @@ class Facility
     /**
      * @var Characteristic $Characteristic
      */
-    protected $Characteristic = null;
+    public $Characteristic = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var PassengerSeatPrice $PassengerSeatPrice
      */
-    protected $PassengerSeatPrice = null;
+    public $PassengerSeatPrice = null;
 
     /**
      * @var typeTaxInfo $TaxInfo
      */
-    protected $TaxInfo = null;
+    public $TaxInfo = null;
 
     /**
      * @var EMD $EMD
      */
-    protected $EMD = null;
+    public $EMD = null;
 
     /**
      * @var ServiceData $ServiceData
      */
-    protected $ServiceData = null;
+    public $ServiceData = null;
 
     /**
      * @var TourCode $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var typeFacility $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $SeatCode
      */
-    protected $SeatCode = null;
+    public $SeatCode = null;
 
     /**
      * @var typeSeatAvailability $Availability
      */
-    protected $Availability = null;
+    public $Availability = null;
 
     /**
      * @var typeMoney $SeatPrice
      */
-    protected $SeatPrice = null;
+    public $SeatPrice = null;
 
     /**
      * @var boolean $Paid
      */
-    protected $Paid = null;
+    public $Paid = null;
 
     /**
      * @var anonymous661 $ServiceSubCode
      */
-    protected $ServiceSubCode = null;
+    public $ServiceSubCode = null;
 
     /**
      * @var typeSSRCode $SSRCode
      */
-    protected $SSRCode = null;
+    public $SSRCode = null;
 
     /**
      * @var anonymous662 $IssuanceReason
      */
-    protected $IssuanceReason = null;
+    public $IssuanceReason = null;
 
     /**
      * @var typeMoney $BaseSeatPrice
      */
-    protected $BaseSeatPrice = null;
+    public $BaseSeatPrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var int $Quantity
      */
-    protected $Quantity = null;
+    public $Quantity = null;
 
     /**
      * @var int $SequenceNumber
      */
-    protected $SequenceNumber = null;
+    public $SequenceNumber = null;
 
     /**
      * @var boolean $InclusiveOfTax
      */
-    protected $InclusiveOfTax = null;
+    public $InclusiveOfTax = null;
 
     /**
      * @var boolean $InterlineSettlementAllowed
      */
-    protected $InterlineSettlementAllowed = null;
+    public $InterlineSettlementAllowed = null;
 
     /**
      * @var string $GeographySpecification
      */
-    protected $GeographySpecification = null;
+    public $GeographySpecification = null;
 
     /**
      * @var string $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @var typeRef $OptionalServiceRef
      */
-    protected $OptionalServiceRef = null;
+    public $OptionalServiceRef = null;
 
     /**
      * @var typeRef $SeatInformationRef
      */
-    protected $SeatInformationRef = null;
+    public $SeatInformationRef = null;
 
     /**
      * @param Characteristic $Characteristic

@@ -8,27 +8,27 @@ class RuleCharges
     /**
      * @var string $PenaltyType
      */
-    protected $PenaltyType = null;
+    public $PenaltyType = null;
 
     /**
      * @var string $DepartureStatus
      */
-    protected $DepartureStatus = null;
+    public $DepartureStatus = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var float $Percent
      */
-    protected $Percent = null;
+    public $Percent = null;
 
     /**
      * @var boolean $MoreRulesPresent
      */
-    protected $MoreRulesPresent = null;
+    public $MoreRulesPresent = null;
 
     /**
      * @param string $PenaltyType

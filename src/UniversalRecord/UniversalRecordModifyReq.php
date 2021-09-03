@@ -8,42 +8,42 @@ class UniversalRecordModifyReq extends BaseReq
     /**
      * @var ContinuityCheckOverride $ContinuityCheckOverride
      */
-    protected $ContinuityCheckOverride = null;
+    public $ContinuityCheckOverride = null;
 
     /**
      * @var RecordIdentifier $RecordIdentifier
      */
-    protected $RecordIdentifier = null;
+    public $RecordIdentifier = null;
 
     /**
      * @var UniversalModifyCmd $UniversalModifyCmd
      */
-    protected $UniversalModifyCmd = null;
+    public $UniversalModifyCmd = null;
 
     /**
      * @var FileFinishingInfo $FileFinishingInfo
      */
-    protected $FileFinishingInfo = null;
+    public $FileFinishingInfo = null;
 
     /**
      * @var QueueNextModifiers $QueueNextModifiers
      */
-    protected $QueueNextModifiers = null;
+    public $QueueNextModifiers = null;
 
     /**
      * @var boolean $ReturnRecord
      */
-    protected $ReturnRecord = null;
+    public $ReturnRecord = null;
 
     /**
      * @var typeURVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @var boolean $OverrideMCT
      */
-    protected $OverrideMCT = null;
+    public $OverrideMCT = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

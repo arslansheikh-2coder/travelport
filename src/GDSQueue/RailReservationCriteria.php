@@ -8,57 +8,57 @@ class RailReservationCriteria
     /**
      * @var typeDateSpec $JourneyDepartureDate
      */
-    protected $JourneyDepartureDate = null;
+    public $JourneyDepartureDate = null;
 
     /**
      * @var typeDateSpec $JourneyArrivalDate
      */
-    protected $JourneyArrivalDate = null;
+    public $JourneyArrivalDate = null;
 
     /**
      * @var typeDateSpec $SegmentDepartureDate
      */
-    protected $SegmentDepartureDate = null;
+    public $SegmentDepartureDate = null;
 
     /**
      * @var typeDateSpec $SegmentArrivalDate
      */
-    protected $SegmentArrivalDate = null;
+    public $SegmentArrivalDate = null;
 
     /**
      * @var typeIATACode $JourneyOrigin
      */
-    protected $JourneyOrigin = null;
+    public $JourneyOrigin = null;
 
     /**
      * @var typeIATACode $JourneyDestination
      */
-    protected $JourneyDestination = null;
+    public $JourneyDestination = null;
 
     /**
      * @var typeRailLocationCode $JourneyRailLocOrigin
      */
-    protected $JourneyRailLocOrigin = null;
+    public $JourneyRailLocOrigin = null;
 
     /**
      * @var typeRailLocationCode $JourneyRailLocDestination
      */
-    protected $JourneyRailLocDestination = null;
+    public $JourneyRailLocDestination = null;
 
     /**
      * @var string $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $TrainNumber
      */
-    protected $TrainNumber = null;
+    public $TrainNumber = null;
 
     /**
      * @var boolean $PassiveOnly
      */
-    protected $PassiveOnly = null;
+    public $PassiveOnly = null;
 
     /**
      * @param typeIATACode $JourneyOrigin

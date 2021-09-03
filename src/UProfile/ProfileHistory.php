@@ -8,52 +8,52 @@ class ProfileHistory
     /**
      * @var HistoryElement $HistoryElement
      */
-    protected $HistoryElement = null;
+    public $HistoryElement = null;
 
     /**
      * @var UNKNOWN $ProfileName
      */
-    protected $ProfileName = null;
+    public $ProfileName = null;
 
     /**
      * @var typeProfileID $CreatedByAgentID
      */
-    protected $CreatedByAgentID = null;
+    public $CreatedByAgentID = null;
 
     /**
      * @var typeAgentCode $CreatedByAgentUserName
      */
-    protected $CreatedByAgentUserName = null;
+    public $CreatedByAgentUserName = null;
 
     /**
      * @var \DateTime $CreatedDate
      */
-    protected $CreatedDate = null;
+    public $CreatedDate = null;
 
     /**
      * @var typeProfileID $LastModifiedByAgentID
      */
-    protected $LastModifiedByAgentID = null;
+    public $LastModifiedByAgentID = null;
 
     /**
      * @var typeAgentCode $LastModifiedByAgentUserName
      */
-    protected $LastModifiedByAgentUserName = null;
+    public $LastModifiedByAgentUserName = null;
 
     /**
      * @var \DateTime $LastModifiedDate
      */
-    protected $LastModifiedDate = null;
+    public $LastModifiedDate = null;
 
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param HistoryElement $HistoryElement

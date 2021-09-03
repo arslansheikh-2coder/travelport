@@ -8,12 +8,12 @@ class Criteria
     /**
      * @var anonymous1191 $Order
      */
-    protected $Order = null;
+    public $Order = null;
 
     /**
      * @var anonymous1192 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param anonymous1191 $Order

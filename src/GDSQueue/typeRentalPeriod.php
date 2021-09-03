@@ -8,17 +8,17 @@ class typeRentalPeriod
     /**
      * @var anonymous586 $RentalUnit
      */
-    protected $RentalUnit = null;
+    public $RentalUnit = null;
 
     /**
      * @var int $Length
      */
-    protected $Length = null;
+    public $Length = null;
 
     /**
      * @var boolean $RequirementPassed
      */
-    protected $RequirementPassed = null;
+    public $RequirementPassed = null;
 
     /**
      * @param anonymous586 $RentalUnit

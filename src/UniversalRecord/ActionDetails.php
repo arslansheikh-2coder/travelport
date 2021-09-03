@@ -8,27 +8,27 @@ class ActionDetails
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var string $AgentSine
      */
-    protected $AgentSine = null;
+    public $AgentSine = null;
 
     /**
      * @var date $EventDate
      */
-    protected $EventDate = null;
+    public $EventDate = null;
 
     /**
      * @var time $EventTime
      */
-    protected $EventTime = null;
+    public $EventTime = null;
 
     /**
      * @var string $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @param typePCC $PseudoCityCode

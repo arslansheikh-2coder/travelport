@@ -8,7 +8,7 @@ class OptionalServiceModifiers
     /**
      * @var OptionalServiceModifier $OptionalServiceModifier
      */
-    protected $OptionalServiceModifier = null;
+    public $OptionalServiceModifier = null;
 
     /**
      * @param OptionalServiceModifier $OptionalServiceModifier

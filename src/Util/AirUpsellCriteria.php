@@ -8,17 +8,17 @@ class AirUpsellCriteria
     /**
      * @var AirUpsellAdd $AirUpsellAdd
      */
-    protected $AirUpsellAdd = null;
+    public $AirUpsellAdd = null;
 
     /**
      * @var AirUpsellUpdate $AirUpsellUpdate
      */
-    protected $AirUpsellUpdate = null;
+    public $AirUpsellUpdate = null;
 
     /**
      * @var AirUpsellDelete $AirUpsellDelete
      */
-    protected $AirUpsellDelete = null;
+    public $AirUpsellDelete = null;
 
     /**
      * @param AirUpsellAdd $AirUpsellAdd

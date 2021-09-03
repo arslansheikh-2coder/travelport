@@ -8,32 +8,32 @@ class GdsQueueRemoveReq extends BaseReq
     /**
      * @var QueueSelector $QueueSelector
      */
-    protected $QueueSelector = null;
+    public $QueueSelector = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var boolean $RemoveDuplicates
      */
-    protected $RemoveDuplicates = null;
+    public $RemoveDuplicates = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

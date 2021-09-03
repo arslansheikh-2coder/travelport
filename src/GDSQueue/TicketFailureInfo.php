@@ -8,27 +8,27 @@ class TicketFailureInfo
     /**
      * @var AirPricingInfoRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var int $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Message
      */
-    protected $Message = null;
+    public $Message = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef

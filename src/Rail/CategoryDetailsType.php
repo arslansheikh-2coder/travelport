@@ -8,12 +8,12 @@ class CategoryDetailsType
     /**
      * @var ValueDetails[] $CategoryDetails
      */
-    protected $CategoryDetails = null;
+    public $CategoryDetails = null;
 
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param string $Value

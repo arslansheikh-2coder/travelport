@@ -8,7 +8,7 @@ class AlternateRouteList
     /**
      * @var AlternateRoute $AlternateRoute
      */
-    protected $AlternateRoute = null;
+    public $AlternateRoute = null;
 
     /**
      * @param AlternateRoute $AlternateRoute

@@ -8,7 +8,7 @@ class DeleteEntry
     /**
      * @var typeCacheKey $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeCacheKey $Key

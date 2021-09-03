@@ -8,7 +8,7 @@ class FlightOrigin
     /**
      * @var Airport $Airport
      */
-    protected $Airport = null;
+    public $Airport = null;
 
     /**
      * @param Airport $Airport

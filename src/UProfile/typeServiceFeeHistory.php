@@ -8,27 +8,27 @@ class typeServiceFeeHistory extends typeKeyElement
     /**
      * @var typeServiceFeeType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var date $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var typeSupplierType $SupplierType
      */
-    protected $SupplierType = null;
+    public $SupplierType = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

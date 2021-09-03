@@ -8,12 +8,12 @@ class EMDRetrieveRsp extends BaseRsp
     /**
      * @var EMDInfo $EMDInfo
      */
-    protected $EMDInfo = null;
+    public $EMDInfo = null;
 
     /**
      * @var EMDSummaryInfo $EMDSummaryInfo
      */
-    protected $EMDSummaryInfo = null;
+    public $EMDSummaryInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

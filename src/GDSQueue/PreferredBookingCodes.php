@@ -8,7 +8,7 @@ class PreferredBookingCodes
     /**
      * @var BookingCode $BookingCode
      */
-    protected $BookingCode = null;
+    public $BookingCode = null;
 
     /**
      * @param BookingCode $BookingCode

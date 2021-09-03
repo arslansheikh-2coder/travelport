@@ -8,7 +8,7 @@ class HostTokenList
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @param HostToken $HostToken

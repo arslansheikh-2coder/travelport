@@ -8,22 +8,22 @@ class AgencyServiceFeeCreateReq extends BaseReq
     /**
      * @var ServiceFeeInfo $ServiceFeeInfo
      */
-    protected $ServiceFeeInfo = null;
+    public $ServiceFeeInfo = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var typeLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

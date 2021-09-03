@@ -8,7 +8,7 @@ class SavedTripCreateReq extends BaseReq
     /**
      * @var SavedTrip $SavedTrip
      */
-    protected $SavedTrip = null;
+    public $SavedTrip = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

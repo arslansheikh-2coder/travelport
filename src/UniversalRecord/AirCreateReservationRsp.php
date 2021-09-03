@@ -8,17 +8,17 @@ class AirCreateReservationRsp extends BaseRsp
     /**
      * @var UniversalRecord $UniversalRecord
      */
-    protected $UniversalRecord = null;
+    public $UniversalRecord = null;
 
     /**
      * @var AirSolutionChangedInfo $AirSolutionChangedInfo
      */
-    protected $AirSolutionChangedInfo = null;
+    public $AirSolutionChangedInfo = null;
 
     /**
      * @var AirSegmentSellFailureInfo $AirSegmentSellFailureInfo
      */
-    protected $AirSegmentSellFailureInfo = null;
+    public $AirSegmentSellFailureInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

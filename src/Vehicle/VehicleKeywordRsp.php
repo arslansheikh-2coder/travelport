@@ -8,12 +8,12 @@ class VehicleKeywordRsp extends BaseRsp
     /**
      * @var string[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var Keyword $Keyword
      */
-    protected $Keyword = null;
+    public $Keyword = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

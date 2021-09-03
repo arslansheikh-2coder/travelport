@@ -8,12 +8,12 @@ class AirVoidDocumentRsp extends BaseRsp
     /**
      * @var ETR $ETR
      */
-    protected $ETR = null;
+    public $ETR = null;
 
     /**
      * @var VoidResultInfo $VoidResultInfo
      */
-    protected $VoidResultInfo = null;
+    public $VoidResultInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

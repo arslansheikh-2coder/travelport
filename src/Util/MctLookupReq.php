@@ -8,12 +8,12 @@ class MctLookupReq extends BaseReq
     /**
      * @var MctSearch $MctSearch
      */
-    protected $MctSearch = null;
+    public $MctSearch = null;
 
     /**
      * @var MctQuery $MctQuery
      */
-    protected $MctQuery = null;
+    public $MctQuery = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

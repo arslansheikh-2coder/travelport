@@ -8,7 +8,7 @@ class ProfileStatusUpdate
     /**
      * @var typeProfileEntityStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @param typeProfileEntityStatus $Status

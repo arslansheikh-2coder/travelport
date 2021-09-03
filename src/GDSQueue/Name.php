@@ -8,7 +8,7 @@ class Name
     /**
      * @var typeNonBlanks $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @param typeNonBlanks $_

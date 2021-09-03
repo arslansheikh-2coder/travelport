@@ -8,7 +8,7 @@ class ProfileSearchActionRsp extends BaseRsp
     /**
      * @var ActionSummary $ActionSummary
      */
-    protected $ActionSummary = null;
+    public $ActionSummary = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

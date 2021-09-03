@@ -8,17 +8,17 @@ class HotelRating
     /**
      * @var typeSimpleHotelRating[] $Rating
      */
-    protected $Rating = null;
+    public $Rating = null;
 
     /**
      * @var RatingRange $RatingRange
      */
-    protected $RatingRange = null;
+    public $RatingRange = null;
 
     /**
      * @var string $RatingProvider
      */
-    protected $RatingProvider = null;
+    public $RatingProvider = null;
 
     /**
      * @param typeSimpleHotelRating[] $Rating

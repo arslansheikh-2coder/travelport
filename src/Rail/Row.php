@@ -8,22 +8,22 @@ class Row
     /**
      * @var Facility $Facility
      */
-    protected $Facility = null;
+    public $Facility = null;
 
     /**
      * @var Characteristic $Characteristic
      */
-    protected $Characteristic = null;
+    public $Characteristic = null;
 
     /**
      * @var int $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var typeRef $SearchTravelerRef
      */
-    protected $SearchTravelerRef = null;
+    public $SearchTravelerRef = null;
 
     /**
      * @param Facility $Facility

@@ -8,12 +8,12 @@ class FieldModifyErrorInfo extends typeErrorInfo
     /**
      * @var ProfileTemplateSummary $ProfileTemplateSummary
      */
-    protected $ProfileTemplateSummary = null;
+    public $ProfileTemplateSummary = null;
 
     /**
      * @var int $TemplateCount
      */
-    protected $TemplateCount = null;
+    public $TemplateCount = null;
 
     /**
      * @param string $Code

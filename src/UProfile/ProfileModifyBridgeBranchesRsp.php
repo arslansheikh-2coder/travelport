@@ -8,17 +8,17 @@ class ProfileModifyBridgeBranchesRsp extends BaseRsp
     /**
      * @var BridgeBranch $BridgeBranch
      */
-    protected $BridgeBranch = null;
+    public $BridgeBranch = null;
 
     /**
      * @var typeProfileID $AgentID
      */
-    protected $AgentID = null;
+    public $AgentID = null;
 
     /**
      * @var StringLength1to128 $UserName
      */
-    protected $UserName = null;
+    public $UserName = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

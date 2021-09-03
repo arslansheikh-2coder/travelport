@@ -8,32 +8,32 @@ class RailAvailabilitySearchReq extends BaseReq
     /**
      * @var SearchRailLeg $SearchRailLeg
      */
-    protected $SearchRailLeg = null;
+    public $SearchRailLeg = null;
 
     /**
      * @var SearchPassenger $SearchPassenger
      */
-    protected $SearchPassenger = null;
+    public $SearchPassenger = null;
 
     /**
      * @var RailSearchModifiers $RailSearchModifiers
      */
-    protected $RailSearchModifiers = null;
+    public $RailSearchModifiers = null;
 
     /**
      * @var RailPricingModifiers $RailPricingModifiers
      */
-    protected $RailPricingModifiers = null;
+    public $RailPricingModifiers = null;
 
     /**
      * @var HostTokenList $HostTokenList
      */
-    protected $HostTokenList = null;
+    public $HostTokenList = null;
 
     /**
      * @var typeResponseType $ResponseType
      */
-    protected $ResponseType = null;
+    public $ResponseType = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

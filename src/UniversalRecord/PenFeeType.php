@@ -8,67 +8,67 @@ class PenFeeType
     /**
      * @var boolean $DepRequired
      */
-    protected $DepRequired = null;
+    public $DepRequired = null;
 
     /**
      * @var boolean $DepNonRef
      */
-    protected $DepNonRef = null;
+    public $DepNonRef = null;
 
     /**
      * @var boolean $TkNonRef
      */
-    protected $TkNonRef = null;
+    public $TkNonRef = null;
 
     /**
      * @var boolean $AirVFee
      */
-    protected $AirVFee = null;
+    public $AirVFee = null;
 
     /**
      * @var boolean $Cancellation
      */
-    protected $Cancellation = null;
+    public $Cancellation = null;
 
     /**
      * @var boolean $FailConfirmSpace
      */
-    protected $FailConfirmSpace = null;
+    public $FailConfirmSpace = null;
 
     /**
      * @var boolean $ItinChg
      */
-    protected $ItinChg = null;
+    public $ItinChg = null;
 
     /**
      * @var boolean $ReplaceTk
      */
-    protected $ReplaceTk = null;
+    public $ReplaceTk = null;
 
     /**
      * @var boolean $Applicable
      */
-    protected $Applicable = null;
+    public $Applicable = null;
 
     /**
      * @var boolean $ApplicableTo
      */
-    protected $ApplicableTo = null;
+    public $ApplicableTo = null;
 
     /**
      * @var float $Amt
      */
-    protected $Amt = null;
+    public $Amt = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Currency
      */
-    protected $Currency = null;
+    public $Currency = null;
 
     /**
      * @param boolean $DepRequired

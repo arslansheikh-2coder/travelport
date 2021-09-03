@@ -8,17 +8,17 @@ class SingleProfileMigrationRsp extends BaseRsp
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var StringLength1to128 $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,32 +8,32 @@ class HotelDetailsRsp extends BaseRsp
     /**
      * @var NextResultReference $NextResultReference
      */
-    protected $NextResultReference = null;
+    public $NextResultReference = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var RequestedHotelDetails $RequestedHotelDetails
      */
-    protected $RequestedHotelDetails = null;
+    public $RequestedHotelDetails = null;
 
     /**
      * @var AggregatorHotelDetails[] $AggregatorHotelDetails
      */
-    protected $AggregatorHotelDetails = null;
+    public $AggregatorHotelDetails = null;
 
     /**
      * @var HotelAlternateProperties $HotelAlternateProperties
      */
-    protected $HotelAlternateProperties = null;
+    public $HotelAlternateProperties = null;
 
     /**
      * @var GuestReviews $GuestReviews
      */
-    protected $GuestReviews = null;
+    public $GuestReviews = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

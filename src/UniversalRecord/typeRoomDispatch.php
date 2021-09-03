@@ -8,7 +8,7 @@ class typeRoomDispatch
     /**
      * @var Room[] $Room
      */
-    protected $Room = null;
+    public $Room = null;
 
     
     public function __construct()

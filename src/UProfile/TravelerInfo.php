@@ -8,122 +8,122 @@ class TravelerInfo extends typeAccountTypeProfileInfo
     /**
      * @var Address $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var Phone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var ElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @var TravelerIdentityInformation $TravelerIdentityInformation
      */
-    protected $TravelerIdentityInformation = null;
+    public $TravelerIdentityInformation = null;
 
     /**
      * @var ProprietaryData $ProprietaryData
      */
-    protected $ProprietaryData = null;
+    public $ProprietaryData = null;
 
     /**
      * @var typePTC[] $PassengerTypeCode
      */
-    protected $PassengerTypeCode = null;
+    public $PassengerTypeCode = null;
 
     /**
      * @var ExternalIdentifier $ExternalIdentifier
      */
-    protected $ExternalIdentifier = null;
+    public $ExternalIdentifier = null;
 
     /**
      * @var StringLength1to128 $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var StringLength1to128 $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var StringLength6to128 $UniqueProfileID
      */
-    protected $UniqueProfileID = null;
+    public $UniqueProfileID = null;
 
     /**
      * @var StringLength1to128 $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @var StringLength1to128 $Nickname
      */
-    protected $Nickname = null;
+    public $Nickname = null;
 
     /**
      * @var StringLength1to128 $OtherName
      */
-    protected $OtherName = null;
+    public $OtherName = null;
 
     /**
      * @var StringLength1to128 $Suffix
      */
-    protected $Suffix = null;
+    public $Suffix = null;
 
     /**
      * @var date $BirthDate
      */
-    protected $BirthDate = null;
+    public $BirthDate = null;
 
     /**
      * @var typeGender $Gender
      */
-    protected $Gender = null;
+    public $Gender = null;
 
     /**
      * @var boolean $VipStatus
      */
-    protected $VipStatus = null;
+    public $VipStatus = null;
 
     /**
      * @var StringLength1to50 $JobTitle
      */
-    protected $JobTitle = null;
+    public $JobTitle = null;
 
     /**
      * @var StringLength1to255 $Disability
      */
-    protected $Disability = null;
+    public $Disability = null;
 
     /**
      * @var typeCityOrAirport $HomeCityOrAirport
      */
-    protected $HomeCityOrAirport = null;
+    public $HomeCityOrAirport = null;
 
     /**
      * @var anonymous639 $LocalLanguage
      */
-    protected $LocalLanguage = null;
+    public $LocalLanguage = null;
 
     /**
      * @var StringLength1to128 $LocalLanguageGivenName
      */
-    protected $LocalLanguageGivenName = null;
+    public $LocalLanguageGivenName = null;
 
     /**
      * @var StringLength1to128 $LocalLanguageSurname
      */
-    protected $LocalLanguageSurname = null;
+    public $LocalLanguageSurname = null;
 
     /**
      * @var StringLength1to128 $LocalLanguageUsername
      */
-    protected $LocalLanguageUsername = null;
+    public $LocalLanguageUsername = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

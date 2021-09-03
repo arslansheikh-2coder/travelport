@@ -8,32 +8,32 @@ class ModifyRule
     /**
      * @var ModificationType $Modification
      */
-    protected $Modification = null;
+    public $Modification = null;
 
     /**
      * @var boolean $AutomaticallyAppliedOnAdd
      */
-    protected $AutomaticallyAppliedOnAdd = null;
+    public $AutomaticallyAppliedOnAdd = null;
 
     /**
      * @var boolean $CanDelete
      */
-    protected $CanDelete = null;
+    public $CanDelete = null;
 
     /**
      * @var boolean $CanAdd
      */
-    protected $CanAdd = null;
+    public $CanAdd = null;
 
     /**
      * @var boolean $Refundable
      */
-    protected $Refundable = null;
+    public $Refundable = null;
 
     /**
      * @var string $ProviderDefinedModificationType
      */
-    protected $ProviderDefinedModificationType = null;
+    public $ProviderDefinedModificationType = null;
 
     /**
      * @param ModificationType $Modification

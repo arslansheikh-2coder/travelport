@@ -8,12 +8,12 @@ class typeTimeRange
     /**
      * @var string $EarliestTime
      */
-    protected $EarliestTime = null;
+    public $EarliestTime = null;
 
     /**
      * @var string $LatestTime
      */
-    protected $LatestTime = null;
+    public $LatestTime = null;
 
     /**
      * @param string $EarliestTime

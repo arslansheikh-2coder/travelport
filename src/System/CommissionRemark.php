@@ -8,37 +8,37 @@ class CommissionRemark
     /**
      * @var ProviderReservationLevel $ProviderReservationLevel
      */
-    protected $ProviderReservationLevel = null;
+    public $ProviderReservationLevel = null;
 
     /**
      * @var PassengerTypeLevel[] $PassengerTypeLevel
      */
-    protected $PassengerTypeLevel = null;
+    public $PassengerTypeLevel = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param ProviderReservationLevel $ProviderReservationLevel

@@ -8,7 +8,7 @@ class CarryOnAllowanceInfo extends BaseBaggageAllowanceInfo
     /**
      * @var CarryOnDetails[] $CarryOnDetails
      */
-    protected $CarryOnDetails = null;
+    public $CarryOnDetails = null;
 
     /**
      * @param URLInfo $URLInfo

@@ -1975,7 +1975,7 @@
 			<xs:enumeration value="AdvancedBoardingPass"/>
 			<xs:enumeration value="InterlineCheckin"/>
 			<xs:enumeration value="Codeshare"/>
-			<xs:enumeration value="Protected"/>
+			<xs:enumeration value="public"/>
 			<xs:enumeration value="PartnerAirline"/>
 			<xs:enumeration value="AdvSeatSelection"/>
 			<xs:enumeration value="Blocked"/>

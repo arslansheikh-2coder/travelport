@@ -8,12 +8,12 @@ class typeAdaptedRoomGuestAllocation
     /**
      * @var typeGuestChildInformation[] $Child
      */
-    protected $Child = null;
+    public $Child = null;
 
     /**
      * @var int $NumberOfAdults
      */
-    protected $NumberOfAdults = null;
+    public $NumberOfAdults = null;
 
     /**
      * @param int $NumberOfAdults

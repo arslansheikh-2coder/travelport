@@ -8,12 +8,12 @@ class AirPricingAdjustment
     /**
      * @var Adjustment $Adjustment
      */
-    protected $Adjustment = null;
+    public $Adjustment = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param Adjustment $Adjustment

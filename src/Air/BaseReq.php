@@ -8,12 +8,12 @@ class BaseReq extends BaseCoreReq
     /**
      * @var OverridePCC $OverridePCC
      */
-    protected $OverridePCC = null;
+    public $OverridePCC = null;
 
     /**
      * @var boolean $RetrieveProviderReservationDetails
      */
-    protected $RetrieveProviderReservationDetails = null;
+    public $RetrieveProviderReservationDetails = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

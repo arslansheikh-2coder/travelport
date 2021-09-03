@@ -8,17 +8,17 @@ class ExchangeAirSegment
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var CabinClass $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var string $FareBasisCode
      */
-    protected $FareBasisCode = null;
+    public $FareBasisCode = null;
 
     /**
      * @param typeBaseAirSegment $AirSegment

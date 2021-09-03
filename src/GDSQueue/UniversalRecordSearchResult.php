@@ -8,42 +8,42 @@ class UniversalRecordSearchResult extends typeProductInfo
     /**
      * @var ProductInfo[] $ProductInfo
      */
-    protected $ProductInfo = null;
+    public $ProductInfo = null;
 
     /**
      * @var string $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var string $EarliestTravelDate
      */
-    protected $EarliestTravelDate = null;
+    public $EarliestTravelDate = null;
 
     /**
      * @var string $CreatedDate
      */
-    protected $CreatedDate = null;
+    public $CreatedDate = null;
 
     /**
      * @var typeLocatorCode $SavedTripLocatorCode
      */
-    protected $SavedTripLocatorCode = null;
+    public $SavedTripLocatorCode = null;
 
     /**
      * @var typeReservationTicketed $Ticketed
      */
-    protected $Ticketed = null;
+    public $Ticketed = null;
 
     /**
      * @var typeRecordStatus $RecordStatus
      */
-    protected $RecordStatus = null;
+    public $RecordStatus = null;
 
     /**
      * @var URTicketStatus $TicketStatus
      */
-    protected $TicketStatus = null;
+    public $TicketStatus = null;
 
     /**
      * @param typeProduct $ProductType

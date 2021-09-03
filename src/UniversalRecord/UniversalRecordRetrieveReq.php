@@ -8,32 +8,32 @@ class UniversalRecordRetrieveReq extends BaseReq
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var ProviderReservationInfo $ProviderReservationInfo
      */
-    protected $ProviderReservationInfo = null;
+    public $ProviderReservationInfo = null;
 
     /**
      * @var boolean $ViewOnlyInd
      */
-    protected $ViewOnlyInd = null;
+    public $ViewOnlyInd = null;
 
     /**
      * @var typeTravelerLastName $TravelerLastName
      */
-    protected $TravelerLastName = null;
+    public $TravelerLastName = null;
 
     /**
      * @var typeTravelerLastName $TravelerFirstName
      */
-    protected $TravelerFirstName = null;
+    public $TravelerFirstName = null;
 
     /**
      * @var boolean $ReturnUnmaskedData
      */
-    protected $ReturnUnmaskedData = null;
+    public $ReturnUnmaskedData = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

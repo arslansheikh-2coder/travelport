@@ -8,37 +8,37 @@ class BundledService
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var boolean $CarrierSubCode
      */
-    protected $CarrierSubCode = null;
+    public $CarrierSubCode = null;
 
     /**
      * @var string $ServiceType
      */
-    protected $ServiceType = null;
+    public $ServiceType = null;
 
     /**
      * @var string $ServiceSubCode
      */
-    protected $ServiceSubCode = null;
+    public $ServiceSubCode = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var anonymous839 $Booking
      */
-    protected $Booking = null;
+    public $Booking = null;
 
     /**
      * @var int $Occurrence
      */
-    protected $Occurrence = null;
+    public $Occurrence = null;
 
     /**
      * @param typeCarrier $Carrier

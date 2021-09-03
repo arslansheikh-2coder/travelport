@@ -8,47 +8,47 @@ class FareRestrictionDaysOfWeek
     /**
      * @var typeFareDirectionality $Direction
      */
-    protected $Direction = null;
+    public $Direction = null;
 
     /**
      * @var typeFareTripType $TripType
      */
-    protected $TripType = null;
+    public $TripType = null;
 
     /**
      * @var boolean $Monday
      */
-    protected $Monday = null;
+    public $Monday = null;
 
     /**
      * @var boolean $Tuesday
      */
-    protected $Tuesday = null;
+    public $Tuesday = null;
 
     /**
      * @var boolean $Wednesday
      */
-    protected $Wednesday = null;
+    public $Wednesday = null;
 
     /**
      * @var boolean $Thursday
      */
-    protected $Thursday = null;
+    public $Thursday = null;
 
     /**
      * @var boolean $Friday
      */
-    protected $Friday = null;
+    public $Friday = null;
 
     /**
      * @var boolean $Saturday
      */
-    protected $Saturday = null;
+    public $Saturday = null;
 
     /**
      * @var boolean $Sunday
      */
-    protected $Sunday = null;
+    public $Sunday = null;
 
     /**
      * @param typeFareDirectionality $Direction

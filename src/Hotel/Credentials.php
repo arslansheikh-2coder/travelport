@@ -8,7 +8,7 @@ class Credentials
     /**
      * @var anonymous25 $UserId
      */
-    protected $UserId = null;
+    public $UserId = null;
 
     /**
      * @param anonymous25 $UserId

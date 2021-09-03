@@ -8,22 +8,22 @@ class QueueSelectorType
     /**
      * @var string $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var string $Queue
      */
-    protected $Queue = null;
+    public $Queue = null;
 
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var string $DateRange
      */
-    protected $DateRange = null;
+    public $DateRange = null;
 
     /**
      * @param string $Surname

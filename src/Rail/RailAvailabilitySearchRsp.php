@@ -8,42 +8,42 @@ class RailAvailabilitySearchRsp extends BaseRsp
     /**
      * @var RailSegmentList $RailSegmentList
      */
-    protected $RailSegmentList = null;
+    public $RailSegmentList = null;
 
     /**
      * @var RailJourneyList $RailJourneyList
      */
-    protected $RailJourneyList = null;
+    public $RailJourneyList = null;
 
     /**
      * @var RailPricingSolution $RailPricingSolution
      */
-    protected $RailPricingSolution = null;
+    public $RailPricingSolution = null;
 
     /**
      * @var RailFareNoteList $RailFareNoteList
      */
-    protected $RailFareNoteList = null;
+    public $RailFareNoteList = null;
 
     /**
      * @var RailFareIDList $RailFareIDList
      */
-    protected $RailFareIDList = null;
+    public $RailFareIDList = null;
 
     /**
      * @var RailFareList $RailFareList
      */
-    protected $RailFareList = null;
+    public $RailFareList = null;
 
     /**
      * @var HostTokenList $HostTokenList
      */
-    protected $HostTokenList = null;
+    public $HostTokenList = null;
 
     /**
      * @var typeResponseType $ResponseType
      */
-    protected $ResponseType = null;
+    public $ResponseType = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

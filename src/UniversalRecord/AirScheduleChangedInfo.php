@@ -8,7 +8,7 @@ class AirScheduleChangedInfo
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @param AirPricingSolution $AirPricingSolution

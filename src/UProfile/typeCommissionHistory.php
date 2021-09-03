@@ -8,32 +8,32 @@ class typeCommissionHistory extends typeKeyElement
     /**
      * @var typeCommissionCategory $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeSupplierType $SupplierType
      */
-    protected $SupplierType = null;
+    public $SupplierType = null;
 
     /**
      * @var typeSupplier $Supplier
      */
-    protected $Supplier = null;
+    public $Supplier = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePercentageWithDecimal $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @param typeRef $Key

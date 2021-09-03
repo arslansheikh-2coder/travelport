@@ -8,17 +8,17 @@ class HotelStay
     /**
      * @var typeDate $CheckinDate
      */
-    protected $CheckinDate = null;
+    public $CheckinDate = null;
 
     /**
      * @var typeDate $CheckoutDate
      */
-    protected $CheckoutDate = null;
+    public $CheckoutDate = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeDate $CheckinDate

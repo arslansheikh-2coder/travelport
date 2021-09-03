@@ -8,7 +8,7 @@ class CompanyName
     /**
      * @var typeCarrier $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param typeCarrier $SupplierCode

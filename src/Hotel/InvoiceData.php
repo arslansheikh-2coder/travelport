@@ -8,27 +8,27 @@ class InvoiceData
     /**
      * @var BookingTravelerInformation $BookingTravelerInformation
      */
-    protected $BookingTravelerInformation = null;
+    public $BookingTravelerInformation = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $InvoiceNumber
      */
-    protected $InvoiceNumber = null;
+    public $InvoiceNumber = null;
 
     /**
      * @var \DateTime $IssueDate
      */
-    protected $IssueDate = null;
+    public $IssueDate = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @param BookingTravelerInformation $BookingTravelerInformation

@@ -8,7 +8,7 @@ class AccountCriteria extends typeAccountTypeProfileSearchCriteria
     /**
      * @var typeWildcard $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

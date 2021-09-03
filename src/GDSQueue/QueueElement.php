@@ -8,47 +8,47 @@ class QueueElement
     /**
      * @var string $DepartureDate
      */
-    protected $DepartureDate = null;
+    public $DepartureDate = null;
 
     /**
      * @var string $QueueDate
      */
-    protected $QueueDate = null;
+    public $QueueDate = null;
 
     /**
      * @var time $QueueTime
      */
-    protected $QueueTime = null;
+    public $QueueTime = null;
 
     /**
      * @var string $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var typeAgentCode $CreatedByAgentCode
      */
-    protected $CreatedByAgentCode = null;
+    public $CreatedByAgentCode = null;
 
     /**
      * @var typeAgentCode $ModifiedByAgentCode
      */
-    protected $ModifiedByAgentCode = null;
+    public $ModifiedByAgentCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @param string $DepartureDate

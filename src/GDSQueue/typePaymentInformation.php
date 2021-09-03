@@ -8,22 +8,22 @@ class typePaymentInformation
     /**
      * @var typeVoucherInformation $Voucher
      */
-    protected $Voucher = null;
+    public $Voucher = null;
 
     /**
      * @var string $BillingNumber
      */
-    protected $BillingNumber = null;
+    public $BillingNumber = null;
 
     /**
      * @var string $BillingReferenceNumber
      */
-    protected $BillingReferenceNumber = null;
+    public $BillingReferenceNumber = null;
 
     /**
      * @var anonymous582 $PrePayment
      */
-    protected $PrePayment = null;
+    public $PrePayment = null;
 
     /**
      * @param string $BillingNumber

@@ -8,52 +8,52 @@ class AccountingRemark
     /**
      * @var string $RemarkData
      */
-    protected $RemarkData = null;
+    public $RemarkData = null;
 
     /**
      * @var typeRef[] $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var anonymous114 $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var typeGdsAccountingRemark $TypeInGds
      */
-    protected $TypeInGds = null;
+    public $TypeInGds = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var boolean $UseProviderNativeMode
      */
-    protected $UseProviderNativeMode = null;
+    public $UseProviderNativeMode = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param string $RemarkData

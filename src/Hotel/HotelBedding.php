@@ -8,22 +8,22 @@ class HotelBedding
     /**
      * @var typeBedding $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var int $NumberOfBeds
      */
-    protected $NumberOfBeds = null;
+    public $NumberOfBeds = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $Content
      */
-    protected $Content = null;
+    public $Content = null;
 
     /**
      * @param typeBedding $Type

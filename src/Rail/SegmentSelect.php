@@ -8,47 +8,47 @@ class SegmentSelect
     /**
      * @var typeSegmentRef[] $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var typeNonAirReservationRef[] $HotelReservationRef
      */
-    protected $HotelReservationRef = null;
+    public $HotelReservationRef = null;
 
     /**
      * @var typeNonAirReservationRef[] $VehicleReservationRef
      */
-    protected $VehicleReservationRef = null;
+    public $VehicleReservationRef = null;
 
     /**
      * @var typeSegmentRef[] $PassiveSegmentRef
      */
-    protected $PassiveSegmentRef = null;
+    public $PassiveSegmentRef = null;
 
     /**
      * @var boolean $AllConfirmedAir
      */
-    protected $AllConfirmedAir = null;
+    public $AllConfirmedAir = null;
 
     /**
      * @var boolean $AllWaitlistedAir
      */
-    protected $AllWaitlistedAir = null;
+    public $AllWaitlistedAir = null;
 
     /**
      * @var boolean $AllHotel
      */
-    protected $AllHotel = null;
+    public $AllHotel = null;
 
     /**
      * @var boolean $AllVehicle
      */
-    protected $AllVehicle = null;
+    public $AllVehicle = null;
 
     /**
      * @var boolean $AllPassive
      */
-    protected $AllPassive = null;
+    public $AllPassive = null;
 
     /**
      * @param boolean $AllConfirmedAir

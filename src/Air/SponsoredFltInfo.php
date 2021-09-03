@@ -8,17 +8,17 @@ class SponsoredFltInfo
     /**
      * @var int $SponsoredLNB
      */
-    protected $SponsoredLNB = null;
+    public $SponsoredLNB = null;
 
     /**
      * @var int $NeutralLNB
      */
-    protected $NeutralLNB = null;
+    public $NeutralLNB = null;
 
     /**
      * @var anonymous829 $FltKey
      */
-    protected $FltKey = null;
+    public $FltKey = null;
 
     /**
      * @param int $SponsoredLNB

@@ -8,22 +8,22 @@ class typeVehicleSearchDistance
     /**
      * @var typeDistance $Units
      */
-    protected $Units = null;
+    public $Units = null;
 
     /**
      * @var anonymous1103 $Direction
      */
-    protected $Direction = null;
+    public $Direction = null;
 
     /**
      * @var anonymous1104 $MinDistance
      */
-    protected $MinDistance = null;
+    public $MinDistance = null;
 
     /**
      * @var anonymous1105 $MaxDistance
      */
-    protected $MaxDistance = null;
+    public $MaxDistance = null;
 
     /**
      * @param typeDistance $Units

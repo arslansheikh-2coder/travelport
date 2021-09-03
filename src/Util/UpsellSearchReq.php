@@ -8,22 +8,22 @@ class UpsellSearchReq extends BaseReq
     /**
      * @var AirUpsellSearchCriteria $AirUpsellSearchCriteria
      */
-    protected $AirUpsellSearchCriteria = null;
+    public $AirUpsellSearchCriteria = null;
 
     /**
      * @var HotelUpsellSearchCriteria $HotelUpsellSearchCriteria
      */
-    protected $HotelUpsellSearchCriteria = null;
+    public $HotelUpsellSearchCriteria = null;
 
     /**
      * @var VehicleUpsellSearchCriteria $VehicleUpsellSearchCriteria
      */
-    protected $VehicleUpsellSearchCriteria = null;
+    public $VehicleUpsellSearchCriteria = null;
 
     /**
      * @var UpsellSearchModifier $UpsellSearchModifier
      */
-    protected $UpsellSearchModifier = null;
+    public $UpsellSearchModifier = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

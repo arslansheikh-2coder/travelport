@@ -8,12 +8,12 @@ class Route
     /**
      * @var Leg $Leg
      */
-    protected $Leg = null;
+    public $Leg = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param Leg $Leg

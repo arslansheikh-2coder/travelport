@@ -8,87 +8,87 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     /**
      * @var VehicleDateLocation $VehicleDateLocation
      */
-    protected $VehicleDateLocation = null;
+    public $VehicleDateLocation = null;
 
     /**
      * @var Vehicle $Vehicle
      */
-    protected $Vehicle = null;
+    public $Vehicle = null;
 
     /**
      * @var SpecialEquipment $SpecialEquipment
      */
-    protected $SpecialEquipment = null;
+    public $SpecialEquipment = null;
 
     /**
      * @var VehicleSpecialRequest $VehicleSpecialRequest
      */
-    protected $VehicleSpecialRequest = null;
+    public $VehicleSpecialRequest = null;
 
     /**
      * @var PaymentInformation $PaymentInformation
      */
-    protected $PaymentInformation = null;
+    public $PaymentInformation = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var DeliveryAddress $DeliveryAddress
      */
-    protected $DeliveryAddress = null;
+    public $DeliveryAddress = null;
 
     /**
      * @var CollectionAddress $CollectionAddress
      */
-    protected $CollectionAddress = null;
+    public $CollectionAddress = null;
 
     /**
      * @var FlightArrivalInformation $FlightArrivalInformation
      */
-    protected $FlightArrivalInformation = null;
+    public $FlightArrivalInformation = null;
 
     /**
      * @var Guarantee $Guarantee
      */
-    protected $Guarantee = null;
+    public $Guarantee = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var BookingSource $BookingSource
      */
-    protected $BookingSource = null;
+    public $BookingSource = null;
 
     /**
      * @var ReservationName $ReservationName
      */
-    protected $ReservationName = null;
+    public $ReservationName = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var ActionStatus $ActionStatus
      */
-    protected $ActionStatus = null;
+    public $ActionStatus = null;
 
     /**
      * @var ReviewBooking $ReviewBooking
      */
-    protected $ReviewBooking = null;
+    public $ReviewBooking = null;
 
     /**
      * @var boolean $MandatoryRateMatch
      */
-    protected $MandatoryRateMatch = null;
+    public $MandatoryRateMatch = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,12 +8,12 @@ class RetrieveHotelSearchAvailabilityReq extends BaseReq
     /**
      * @var string $SearchId
      */
-    protected $SearchId = null;
+    public $SearchId = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

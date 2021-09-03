@@ -8,12 +8,12 @@ class HotelUpsellDetailsReq extends BaseReq
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelRateDetail $HotelRateDetail
      */
-    protected $HotelRateDetail = null;
+    public $HotelRateDetail = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

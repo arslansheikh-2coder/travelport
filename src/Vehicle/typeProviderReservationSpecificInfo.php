@@ -8,22 +8,22 @@ class typeProviderReservationSpecificInfo
     /**
      * @var OperatedBy $OperatedBy
      */
-    protected $OperatedBy = null;
+    public $OperatedBy = null;
 
     /**
      * @var ProviderReservationInfoRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var boolean $ProviderReservationLevel
      */
-    protected $ProviderReservationLevel = null;
+    public $ProviderReservationLevel = null;
 
     /**
      * @var boolean $ReservationLevel
      */
-    protected $ReservationLevel = null;
+    public $ReservationLevel = null;
 
     /**
      * @param OperatedBy $OperatedBy

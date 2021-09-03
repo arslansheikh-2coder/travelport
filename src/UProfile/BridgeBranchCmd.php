@@ -8,12 +8,12 @@ class BridgeBranchCmd
     /**
      * @var typeBridgeBranchCmd $BridgeBranchAdd
      */
-    protected $BridgeBranchAdd = null;
+    public $BridgeBranchAdd = null;
 
     /**
      * @var typeBridgeBranchCmd $BridgeBranchDelete
      */
-    protected $BridgeBranchDelete = null;
+    public $BridgeBranchDelete = null;
 
     /**
      * @param typeBridgeBranchCmd $BridgeBranchAdd

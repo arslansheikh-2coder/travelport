@@ -8,12 +8,12 @@ class UniversalModifyFailureInfo
     /**
      * @var UniversalModifyCommandError $UniversalModifyCommandError
      */
-    protected $UniversalModifyCommandError = null;
+    public $UniversalModifyCommandError = null;
 
     /**
      * @var AirSegmentSellFailureInfo $AirSegmentSellFailureInfo
      */
-    protected $AirSegmentSellFailureInfo = null;
+    public $AirSegmentSellFailureInfo = null;
 
     /**
      * @param UniversalModifyCommandError $UniversalModifyCommandError

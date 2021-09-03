@@ -8,37 +8,37 @@ class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     /**
      * @var RailPricingSolution $RailPricingSolution
      */
-    protected $RailPricingSolution = null;
+    public $RailPricingSolution = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var RailFareNoteList $RailFareNoteList
      */
-    protected $RailFareNoteList = null;
+    public $RailFareNoteList = null;
 
     /**
      * @var HostTokenList $HostTokenList
      */
-    protected $HostTokenList = null;
+    public $HostTokenList = null;
 
     /**
      * @var RailAutoSeatAssignment $RailAutoSeatAssignment
      */
-    protected $RailAutoSeatAssignment = null;
+    public $RailAutoSeatAssignment = null;
 
     /**
      * @var RailSpecificSeatAssignment $RailSpecificSeatAssignment
      */
-    protected $RailSpecificSeatAssignment = null;
+    public $RailSpecificSeatAssignment = null;
 
     /**
      * @var string $BookingActionType
      */
-    protected $BookingActionType = null;
+    public $BookingActionType = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

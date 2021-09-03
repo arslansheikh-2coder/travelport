@@ -8,12 +8,12 @@ class AirPrePayReq extends BaseReq
     /**
      * @var ListSearch $ListSearch
      */
-    protected $ListSearch = null;
+    public $ListSearch = null;
 
     /**
      * @var PrePayRetrieve $PrePayRetrieve
      */
-    protected $PrePayRetrieve = null;
+    public $PrePayRetrieve = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

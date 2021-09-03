@@ -8,17 +8,17 @@ class NumberOfChildren
     /**
      * @var int[] $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @var int $Count
      */
-    protected $Count = null;
+    public $Count = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @param int $Count

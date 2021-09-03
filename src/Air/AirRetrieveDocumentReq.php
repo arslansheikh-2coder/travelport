@@ -8,47 +8,47 @@ class AirRetrieveDocumentReq extends BaseReq
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var typeTCRNumber[] $TCRNumber
      */
-    protected $TCRNumber = null;
+    public $TCRNumber = null;
 
     /**
      * @var boolean $ReturnRestrictions
      */
-    protected $ReturnRestrictions = null;
+    public $ReturnRestrictions = null;
 
     /**
      * @var boolean $ReturnPricing
      */
-    protected $ReturnPricing = null;
+    public $ReturnPricing = null;
 
     /**
      * @var boolean $RetrieveMCO
      */
-    protected $RetrieveMCO = null;
+    public $RetrieveMCO = null;
 
     /**
      * @var typeLocatorCode $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

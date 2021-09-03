@@ -8,17 +8,17 @@ class typeVehicleVendorLocation extends typeVendorLocation
     /**
      * @var typeVehicleLocation $LocationType
      */
-    protected $LocationType = null;
+    public $LocationType = null;
 
     /**
      * @var typeIATACode $LocationCode
      */
-    protected $LocationCode = null;
+    public $LocationCode = null;
 
     /**
      * @var anonymous543 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param typeProviderCode $ProviderCode

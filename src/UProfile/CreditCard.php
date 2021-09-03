@@ -8,12 +8,12 @@ class CreditCard
     /**
      * @var boolean $ExtractIndicator
      */
-    protected $ExtractIndicator = null;
+    public $ExtractIndicator = null;
 
     /**
      * @var boolean $Active
      */
-    protected $Active = null;
+    public $Active = null;
 
     /**
      * @param boolean $ExtractIndicator

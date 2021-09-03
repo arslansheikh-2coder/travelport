@@ -8,7 +8,7 @@ class BaseCreateWithFormOfPaymentReq extends BaseCreateReservationReq
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

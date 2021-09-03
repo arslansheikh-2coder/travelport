@@ -8,37 +8,37 @@ class SsrType
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var string $Providers
      */
-    protected $Providers = null;
+    public $Providers = null;
 
     /**
      * @var string $Level
      */
-    protected $Level = null;
+    public $Level = null;
 
     /**
      * @var string $FreeTextRequired
      */
-    protected $FreeTextRequired = null;
+    public $FreeTextRequired = null;
 
     /**
      * @var string $Pattern
      */
-    protected $Pattern = null;
+    public $Pattern = null;
 
     /**
      * @var string $HelpText
      */
-    protected $HelpText = null;
+    public $HelpText = null;
 
     /**
      * @param string $Code

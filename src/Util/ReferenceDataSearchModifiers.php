@@ -8,22 +8,22 @@ class ReferenceDataSearchModifiers
     /**
      * @var RailStationLocationModifiers $RailStationLocationModifiers
      */
-    protected $RailStationLocationModifiers = null;
+    public $RailStationLocationModifiers = null;
 
     /**
      * @var anonymous1144 $MaxResults
      */
-    protected $MaxResults = null;
+    public $MaxResults = null;
 
     /**
      * @var anonymous1145 $StartFromResult
      */
-    protected $StartFromResult = null;
+    public $StartFromResult = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @param RailStationLocationModifiers $RailStationLocationModifiers

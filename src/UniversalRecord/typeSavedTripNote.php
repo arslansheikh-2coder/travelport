@@ -8,7 +8,7 @@ class typeSavedTripNote
     /**
      * @var anonymous1422 $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @param anonymous1422 $Text

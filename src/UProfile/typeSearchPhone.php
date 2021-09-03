@@ -8,17 +8,17 @@ class typeSearchPhone
     /**
      * @var anonymous838 $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var anonymous839 $AreaCode
      */
-    protected $AreaCode = null;
+    public $AreaCode = null;
 
     /**
      * @var anonymous840 $LocalNumber
      */
-    protected $LocalNumber = null;
+    public $LocalNumber = null;
 
     /**
      * @param anonymous838 $CountryCode

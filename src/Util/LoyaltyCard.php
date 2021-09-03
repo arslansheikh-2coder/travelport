@@ -8,77 +8,77 @@ class LoyaltyCard
     /**
      * @var typeProviderReservationSpecificInfo[] $ProviderReservationSpecificInfo
      */
-    protected $ProviderReservationSpecificInfo = null;
+    public $ProviderReservationSpecificInfo = null;
 
     /**
      * @var typeCardNumber $CardNumber
      */
-    protected $CardNumber = null;
+    public $CardNumber = null;
 
     /**
      * @var string $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $MembershipStatus
      */
-    protected $MembershipStatus = null;
+    public $MembershipStatus = null;
 
     /**
      * @var string $FreeText
      */
-    protected $FreeText = null;
+    public $FreeText = null;
 
     /**
      * @var typeProduct $SupplierType
      */
-    protected $SupplierType = null;
+    public $SupplierType = null;
 
     /**
      * @var anonymous137 $Level
      */
-    protected $Level = null;
+    public $Level = null;
 
     /**
      * @var typePriorityCode $PriorityCode
      */
-    protected $PriorityCode = null;
+    public $PriorityCode = null;
 
     /**
      * @var string $VendorLocationRef
      */
-    protected $VendorLocationRef = null;
+    public $VendorLocationRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeCarrier $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $AllianceLevel
      */
-    protected $AllianceLevel = null;
+    public $AllianceLevel = null;
 
     /**
      * @var StringLength1to32 $MembershipProgram
      */
-    protected $MembershipProgram = null;
+    public $MembershipProgram = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeCardNumber $CardNumber

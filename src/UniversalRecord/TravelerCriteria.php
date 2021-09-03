@@ -8,22 +8,22 @@ class TravelerCriteria
     /**
      * @var NameCriteria $NameCriteria
      */
-    protected $NameCriteria = null;
+    public $NameCriteria = null;
 
     /**
      * @var AppliedProfileCriteria $AppliedProfileCriteria
      */
-    protected $AppliedProfileCriteria = null;
+    public $AppliedProfileCriteria = null;
 
     /**
      * @var string $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var boolean $VIPOnly
      */
-    protected $VIPOnly = null;
+    public $VIPOnly = null;
 
     /**
      * @param NameCriteria $NameCriteria

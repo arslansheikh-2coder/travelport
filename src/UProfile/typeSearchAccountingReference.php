@@ -8,12 +8,12 @@ class typeSearchAccountingReference
     /**
      * @var StringLength1to128 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeWildcard $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param StringLength1to128 $Type

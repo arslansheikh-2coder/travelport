@@ -8,32 +8,32 @@ class TravelerIdentityInformation extends typeKeyElement
     /**
      * @var StringLength1to50 $SecondaryIdCode
      */
-    protected $SecondaryIdCode = null;
+    public $SecondaryIdCode = null;
 
     /**
      * @var typeMasked $MaskSecondaryIdCode
      */
-    protected $MaskSecondaryIdCode = null;
+    public $MaskSecondaryIdCode = null;
 
     /**
      * @var StringLength1to128 $SecurityQuestion1
      */
-    protected $SecurityQuestion1 = null;
+    public $SecurityQuestion1 = null;
 
     /**
      * @var StringLength1to128 $SecurityAnswer1
      */
-    protected $SecurityAnswer1 = null;
+    public $SecurityAnswer1 = null;
 
     /**
      * @var StringLength1to128 $SecurityQuestion2
      */
-    protected $SecurityQuestion2 = null;
+    public $SecurityQuestion2 = null;
 
     /**
      * @var StringLength1to128 $SecurityAnswer2
      */
-    protected $SecurityAnswer2 = null;
+    public $SecurityAnswer2 = null;
 
     /**
      * @param typeRef $Key

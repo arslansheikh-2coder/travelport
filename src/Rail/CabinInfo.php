@@ -8,37 +8,37 @@ class CabinInfo
     /**
      * @var StringLength1to3 $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var StringLength1to5 $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var StringLength1 $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var StringLength1to12 $RelativeLocation
      */
-    protected $RelativeLocation = null;
+    public $RelativeLocation = null;
 
     /**
      * @var StringLength1to15 $DeckName
      */
-    protected $DeckName = null;
+    public $DeckName = null;
 
     /**
      * @var StringLength1to10 $BedConfiguration
      */
-    protected $BedConfiguration = null;
+    public $BedConfiguration = null;
 
     /**
      * @var boolean $SmokingIndicator
      */
-    protected $SmokingIndicator = null;
+    public $SmokingIndicator = null;
 
     /**
      * @param StringLength1to3 $Category

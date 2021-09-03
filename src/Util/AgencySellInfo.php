@@ -8,32 +8,32 @@ class AgencySellInfo
     /**
      * @var typeIATA $IataCode
      */
-    protected $IataCode = null;
+    public $IataCode = null;
 
     /**
      * @var typeCountry $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var typeCurrency $CurrencyCode
      */
-    protected $CurrencyCode = null;
+    public $CurrencyCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var typeIATACode $CityCode
      */
-    protected $CityCode = null;
+    public $CityCode = null;
 
     /**
      * @param typeIATA $IataCode

@@ -8,7 +8,7 @@ class AirSearchAsynchModifiers
     /**
      * @var InitialAsynchResult $InitialAsynchResult
      */
-    protected $InitialAsynchResult = null;
+    public $InitialAsynchResult = null;
 
     
     public function __construct()

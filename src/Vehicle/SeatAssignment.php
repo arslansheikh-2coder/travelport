@@ -8,47 +8,47 @@ class SeatAssignment
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeStatusCode $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $Seat
      */
-    protected $Seat = null;
+    public $Seat = null;
 
     /**
      * @var typeSeatTypeCode $SeatTypeCode
      */
-    protected $SeatTypeCode = null;
+    public $SeatTypeCode = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var typeRef $FlightDetailsRef
      */
-    protected $FlightDetailsRef = null;
+    public $FlightDetailsRef = null;
 
     /**
      * @var string $RailCoachNumber
      */
-    protected $RailCoachNumber = null;
+    public $RailCoachNumber = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeRef $Key

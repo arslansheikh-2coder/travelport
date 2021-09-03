@@ -8,17 +8,17 @@ class VehicleLocationDetailRsp extends BaseRsp
     /**
      * @var VendorInfo $VendorInfo
      */
-    protected $VendorInfo = null;
+    public $VendorInfo = null;
 
     /**
      * @var LocationInfo $LocationInfo
      */
-    protected $LocationInfo = null;
+    public $LocationInfo = null;
 
     /**
      * @var VehiclePolicy $VehiclePolicy
      */
-    protected $VehiclePolicy = null;
+    public $VehiclePolicy = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

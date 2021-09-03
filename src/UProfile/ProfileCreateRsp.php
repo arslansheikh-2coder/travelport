@@ -8,7 +8,7 @@ class ProfileCreateRsp extends BaseRsp
     /**
      * @var Profile $Profile
      */
-    protected $Profile = null;
+    public $Profile = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

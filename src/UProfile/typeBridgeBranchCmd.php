@@ -8,12 +8,12 @@ class typeBridgeBranchCmd
     /**
      * @var typeProfileID $BranchID
      */
-    protected $BranchID = null;
+    public $BranchID = null;
 
     /**
      * @var typeProvisioningCode $BranchCode
      */
-    protected $BranchCode = null;
+    public $BranchCode = null;
 
     /**
      * @param typeProfileID $BranchID

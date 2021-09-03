@@ -8,12 +8,12 @@ class NameCriteria
     /**
      * @var anonymous1409 $FirstName
      */
-    protected $FirstName = null;
+    public $FirstName = null;
 
     /**
      * @var anonymous1410 $LastName
      */
-    protected $LastName = null;
+    public $LastName = null;
 
     /**
      * @param anonymous1409 $FirstName

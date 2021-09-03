@@ -8,7 +8,7 @@ class AckScheduleChangeRsp extends BaseRsp
     /**
      * @var UniversalRecord $UniversalRecord
      */
-    protected $UniversalRecord = null;
+    public $UniversalRecord = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

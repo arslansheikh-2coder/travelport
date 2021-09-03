@@ -8,7 +8,7 @@ class RetrieveEntry
     /**
      * @var typeCacheKey $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typeCacheKey $Key

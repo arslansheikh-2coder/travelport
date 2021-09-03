@@ -8,22 +8,22 @@ class AirPrePayRsp extends BaseRsp
     /**
      * @var PrePayProfileInfo $PrePayProfileInfo
      */
-    protected $PrePayProfileInfo = null;
+    public $PrePayProfileInfo = null;
 
     /**
      * @var typeMaxResults $MaxResults
      */
-    protected $MaxResults = null;
+    public $MaxResults = null;
 
     /**
      * @var boolean $MoreIndicator
      */
-    protected $MoreIndicator = null;
+    public $MoreIndicator = null;
 
     /**
      * @var string $MoreDataStartIndex
      */
-    protected $MoreDataStartIndex = null;
+    public $MoreDataStartIndex = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

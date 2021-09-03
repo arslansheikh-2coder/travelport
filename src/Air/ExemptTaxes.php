@@ -8,27 +8,27 @@ class ExemptTaxes
     /**
      * @var typeCountry[] $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var string[] $TaxCategory
      */
-    protected $TaxCategory = null;
+    public $TaxCategory = null;
 
     /**
      * @var boolean $AllTaxes
      */
-    protected $AllTaxes = null;
+    public $AllTaxes = null;
 
     /**
      * @var anonymous803 $TaxTerritory
      */
-    protected $TaxTerritory = null;
+    public $TaxTerritory = null;
 
     /**
      * @var anonymous804 $CompanyName
      */
-    protected $CompanyName = null;
+    public $CompanyName = null;
 
     /**
      * @param boolean $AllTaxes

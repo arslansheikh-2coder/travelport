@@ -8,12 +8,12 @@ class RailSolutionChangedInfo
     /**
      * @var RailPricingSolution $RailPricingSolution
      */
-    protected $RailPricingSolution = null;
+    public $RailPricingSolution = null;
 
     /**
      * @var anonymous1326 $ReasonCode
      */
-    protected $ReasonCode = null;
+    public $ReasonCode = null;
 
     /**
      * @param RailPricingSolution $RailPricingSolution

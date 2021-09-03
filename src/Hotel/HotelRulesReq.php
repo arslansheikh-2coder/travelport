@@ -8,12 +8,12 @@ class HotelRulesReq extends BaseReq
     /**
      * @var typeLocatorCode $HotelReservationLocatorCode
      */
-    protected $HotelReservationLocatorCode = null;
+    public $HotelReservationLocatorCode = null;
 
     /**
      * @var HotelRulesLookup $HotelRulesLookup
      */
-    protected $HotelRulesLookup = null;
+    public $HotelRulesLookup = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

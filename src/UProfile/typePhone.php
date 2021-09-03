@@ -8,37 +8,37 @@ class typePhone extends typeKeyElement
     /**
      * @var typePhoneType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var anonymous821 $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var anonymous822 $AreaCode
      */
-    protected $AreaCode = null;
+    public $AreaCode = null;
 
     /**
      * @var anonymous823 $LocalNumber
      */
-    protected $LocalNumber = null;
+    public $LocalNumber = null;
 
     /**
      * @var anonymous824 $Extension
      */
-    protected $Extension = null;
+    public $Extension = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeCityOrAirport $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @param typeRef $Key

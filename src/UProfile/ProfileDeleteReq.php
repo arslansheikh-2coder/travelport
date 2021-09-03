@@ -8,22 +8,22 @@ class ProfileDeleteReq extends BaseReq
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var ProvisioningCode $ProvisioningCode
      */
-    protected $ProvisioningCode = null;
+    public $ProvisioningCode = null;
 
     /**
      * @var UniqueProfileID $UniqueProfileID
      */
-    protected $UniqueProfileID = null;
+    public $UniqueProfileID = null;
 
     /**
      * @var boolean $Force
      */
-    protected $Force = null;
+    public $Force = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

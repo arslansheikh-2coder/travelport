@@ -8,17 +8,17 @@ class AgencyCriteria extends typeProfileSearchCriteria
     /**
      * @var typeWildcard $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeWildcard $AgencyCode
      */
-    protected $AgencyCode = null;
+    public $AgencyCode = null;
 
     /**
      * @var typeWildcard $IataNumber
      */
-    protected $IataNumber = null;
+    public $IataNumber = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

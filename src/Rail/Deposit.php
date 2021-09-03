@@ -8,17 +8,17 @@ class Deposit
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var date $DueDate
      */
-    protected $DueDate = null;
+    public $DueDate = null;
 
     /**
      * @var date $ReceivedDate
      */
-    protected $ReceivedDate = null;
+    public $ReceivedDate = null;
 
     /**
      * @param typeMoney $Amount

@@ -8,62 +8,62 @@ class AirTicketingModifiers
     /**
      * @var DocumentModifiers $DocumentModifiers
      */
-    protected $DocumentModifiers = null;
+    public $DocumentModifiers = null;
 
     /**
      * @var AirPricingInfoRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var TourCode $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var TicketEndorsement $TicketEndorsement
      */
-    protected $TicketEndorsement = null;
+    public $TicketEndorsement = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var CreditCardAuth $CreditCardAuth
      */
-    protected $CreditCardAuth = null;
+    public $CreditCardAuth = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @var boolean $TicketedFareOverride
      */
-    protected $TicketedFareOverride = null;
+    public $TicketedFareOverride = null;
 
     /**
      * @var boolean $SuppressTaxAndFee
      */
-    protected $SuppressTaxAndFee = null;
+    public $SuppressTaxAndFee = null;
 
     /**
      * @var boolean $NoComparisonSFQ
      */
-    protected $NoComparisonSFQ = null;
+    public $NoComparisonSFQ = null;
 
     /**
      * @param DocumentModifiers $DocumentModifiers

@@ -8,7 +8,7 @@ class ServiceAssociations
     /**
      * @var ApplicableSegment[] $ApplicableSegment
      */
-    protected $ApplicableSegment = null;
+    public $ApplicableSegment = null;
 
     /**
      * @param ApplicableSegment[] $ApplicableSegment

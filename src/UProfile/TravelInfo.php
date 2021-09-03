@@ -8,12 +8,12 @@ class TravelInfo
     /**
      * @var anonymous279 $TripName
      */
-    protected $TripName = null;
+    public $TripName = null;
 
     /**
      * @var anonymous280 $TravelPurpose
      */
-    protected $TravelPurpose = null;
+    public $TravelPurpose = null;
 
     /**
      * @param anonymous279 $TripName

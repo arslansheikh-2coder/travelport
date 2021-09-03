@@ -8,22 +8,22 @@ class ProfileCreateHierarchyLevelReq extends BaseReq
     /**
      * @var typeProfileID $ParentHierarchyLevelID
      */
-    protected $ParentHierarchyLevelID = null;
+    public $ParentHierarchyLevelID = null;
 
     /**
      * @var typeCreateHierarchyLevel $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var typeHierarchyName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

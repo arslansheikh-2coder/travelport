@@ -8,12 +8,12 @@ class PricedEquip
     /**
      * @var Equipment $Equipment
      */
-    protected $Equipment = null;
+    public $Equipment = null;
 
     /**
      * @var Charge $Charge
      */
-    protected $Charge = null;
+    public $Charge = null;
 
     /**
      * @param Equipment $Equipment

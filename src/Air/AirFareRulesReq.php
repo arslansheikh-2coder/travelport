@@ -8,37 +8,37 @@ class AirFareRulesReq extends BaseReq
     /**
      * @var AirReservationSelector $AirReservationSelector
      */
-    protected $AirReservationSelector = null;
+    public $AirReservationSelector = null;
 
     /**
      * @var FareRuleLookup $FareRuleLookup
      */
-    protected $FareRuleLookup = null;
+    public $FareRuleLookup = null;
 
     /**
      * @var FareRuleKey $FareRuleKey
      */
-    protected $FareRuleKey = null;
+    public $FareRuleKey = null;
 
     /**
      * @var AirFareDisplayRuleKey $AirFareDisplayRuleKey
      */
-    protected $AirFareDisplayRuleKey = null;
+    public $AirFareDisplayRuleKey = null;
 
     /**
      * @var AirFareRulesModifier $AirFareRulesModifier
      */
-    protected $AirFareRulesModifier = null;
+    public $AirFareRulesModifier = null;
 
     /**
      * @var FareRulesFilterCategory[] $FareRulesFilterCategory
      */
-    protected $FareRulesFilterCategory = null;
+    public $FareRulesFilterCategory = null;
 
     /**
      * @var typeFareRuleType $FareRuleType
      */
-    protected $FareRuleType = null;
+    public $FareRuleType = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

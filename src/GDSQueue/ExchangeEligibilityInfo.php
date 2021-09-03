@@ -8,22 +8,22 @@ class ExchangeEligibilityInfo
     /**
      * @var ExchangePenaltyInfo $ExchangePenaltyInfo
      */
-    protected $ExchangePenaltyInfo = null;
+    public $ExchangePenaltyInfo = null;
 
     /**
      * @var string $EligibleFares
      */
-    protected $EligibleFares = null;
+    public $EligibleFares = null;
 
     /**
      * @var string $RefundableFares
      */
-    protected $RefundableFares = null;
+    public $RefundableFares = null;
 
     /**
      * @var boolean $PassedAutomationChecks
      */
-    protected $PassedAutomationChecks = null;
+    public $PassedAutomationChecks = null;
 
     /**
      * @param ExchangePenaltyInfo $ExchangePenaltyInfo

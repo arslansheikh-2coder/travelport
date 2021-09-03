@@ -8,7 +8,7 @@ class VehicleSearchId
     /**
      * @var string $MediaLinksSearchId
      */
-    protected $MediaLinksSearchId = null;
+    public $MediaLinksSearchId = null;
 
     /**
      * @param string $MediaLinksSearchId

@@ -8,7 +8,7 @@ class PassengerType extends typePassengerType
     /**
      * @var FareGuaranteeInfo $FareGuaranteeInfo
      */
-    protected $FareGuaranteeInfo = null;
+    public $FareGuaranteeInfo = null;
 
     /**
      * @param Name $Name

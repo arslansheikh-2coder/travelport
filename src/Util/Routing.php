@@ -8,22 +8,22 @@ class Routing
     /**
      * @var DirectionInfo[] $DirectionInfo
      */
-    protected $DirectionInfo = null;
+    public $DirectionInfo = null;
 
     /**
      * @var boolean $RoutingConstructedInd
      */
-    protected $RoutingConstructedInd = null;
+    public $RoutingConstructedInd = null;
 
     /**
      * @var string $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var string $RoutingRestriction
      */
-    protected $RoutingRestriction = null;
+    public $RoutingRestriction = null;
 
     /**
      * @param boolean $RoutingConstructedInd

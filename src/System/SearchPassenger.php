@@ -8,7 +8,7 @@ class SearchPassenger extends typePassengerType
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param Name $Name

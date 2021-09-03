@@ -8,37 +8,37 @@ class EMDSummaryInfo
     /**
      * @var EMDSummary $EMDSummary
      */
-    protected $EMDSummary = null;
+    public $EMDSummary = null;
 
     /**
      * @var EMDTravelerInfo $EMDTravelerInfo
      */
-    protected $EMDTravelerInfo = null;
+    public $EMDTravelerInfo = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param EMDSummary $EMDSummary

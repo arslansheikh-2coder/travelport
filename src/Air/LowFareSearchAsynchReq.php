@@ -8,7 +8,7 @@ class LowFareSearchAsynchReq extends BaseLowFareSearchReq
     /**
      * @var AirSearchAsynchModifiers $AirSearchAsynchModifiers
      */
-    protected $AirSearchAsynchModifiers = null;
+    public $AirSearchAsynchModifiers = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

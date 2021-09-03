@@ -8,7 +8,7 @@ class typeUnstructuredAddress
     /**
      * @var Address[] $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @param Address[] $Address

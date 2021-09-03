@@ -8,37 +8,37 @@ class FareRulesFilter
     /**
      * @var Refundability $Refundability
      */
-    protected $Refundability = null;
+    public $Refundability = null;
 
     /**
      * @var \DateTime $LatestTicketingTime
      */
-    protected $LatestTicketingTime = null;
+    public $LatestTicketingTime = null;
 
     /**
      * @var CHGType $CHG
      */
-    protected $CHG = null;
+    public $CHG = null;
 
     /**
      * @var MINType $MIN
      */
-    protected $MIN = null;
+    public $MIN = null;
 
     /**
      * @var MAXType $MAX
      */
-    protected $MAX = null;
+    public $MAX = null;
 
     /**
      * @var ADVType $ADV
      */
-    protected $ADV = null;
+    public $ADV = null;
 
     /**
      * @var OTHType $OTH
      */
-    protected $OTH = null;
+    public $OTH = null;
 
     
     public function __construct()

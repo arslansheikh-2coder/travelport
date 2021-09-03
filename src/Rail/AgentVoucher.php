@@ -8,7 +8,7 @@ class AgentVoucher
     /**
      * @var string $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @param string $Number

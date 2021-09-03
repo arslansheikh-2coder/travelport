@@ -8,42 +8,42 @@ class HierarchyLevel
     /**
      * @var DefaultTemplate $DefaultTemplate
      */
-    protected $DefaultTemplate = null;
+    public $DefaultTemplate = null;
 
     /**
      * @var typeHierarchyName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var int $LevelNumber
      */
-    protected $LevelNumber = null;
+    public $LevelNumber = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeTemplateID $TemplateID
      */
-    protected $TemplateID = null;
+    public $TemplateID = null;
 
     /**
      * @var typeVersion $TemplateVersion
      */
-    protected $TemplateVersion = null;
+    public $TemplateVersion = null;
 
     /**
      * @var typeID $HierarchyLevelID
      */
-    protected $HierarchyLevelID = null;
+    public $HierarchyLevelID = null;
 
     /**
      * @var typeProfileType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param DefaultTemplate $DefaultTemplate

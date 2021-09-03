@@ -8,7 +8,7 @@ class SplitTicketingSearch
     /**
      * @var int $RoundTrip
      */
-    protected $RoundTrip = null;
+    public $RoundTrip = null;
 
     /**
      * @param int $RoundTrip

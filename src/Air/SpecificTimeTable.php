@@ -8,27 +8,27 @@ class SpecificTimeTable
     /**
      * @var FlightOrigin $FlightOrigin
      */
-    protected $FlightOrigin = null;
+    public $FlightOrigin = null;
 
     /**
      * @var FlightDestination $FlightDestination
      */
-    protected $FlightDestination = null;
+    public $FlightDestination = null;
 
     /**
      * @var string $StartDate
      */
-    protected $StartDate = null;
+    public $StartDate = null;
 
     /**
      * @var typeCarrier $Carrier
      */
-    protected $Carrier = null;
+    public $Carrier = null;
 
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @param string $StartDate

@@ -8,7 +8,7 @@ class DriverInfo
     /**
      * @var anonymous1154 $Age
      */
-    protected $Age = null;
+    public $Age = null;
 
     /**
      * @param anonymous1154 $Age

@@ -8,7 +8,7 @@ class BrandList
     /**
      * @var Brand $Brand
      */
-    protected $Brand = null;
+    public $Brand = null;
 
     /**
      * @param Brand $Brand

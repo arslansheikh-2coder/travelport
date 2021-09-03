@@ -8,17 +8,17 @@ class ProfileModifyTemplateReq extends BaseReq
     /**
      * @var TemplateModifyCmd $TemplateModifyCmd
      */
-    protected $TemplateModifyCmd = null;
+    public $TemplateModifyCmd = null;
 
     /**
      * @var typeTemplateID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeVersion $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

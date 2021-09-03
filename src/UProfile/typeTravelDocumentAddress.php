@@ -8,32 +8,32 @@ class typeTravelDocumentAddress
     /**
      * @var StringLength1to128 $AddressLine
      */
-    protected $AddressLine = null;
+    public $AddressLine = null;
 
     /**
      * @var anonymous851 $City
      */
-    protected $City = null;
+    public $City = null;
 
     /**
      * @var anonymous852 $State
      */
-    protected $State = null;
+    public $State = null;
 
     /**
      * @var StringLength1to128 $OtherStateProvince
      */
-    protected $OtherStateProvince = null;
+    public $OtherStateProvince = null;
 
     /**
      * @var anonymous853 $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var anonymous854 $Postal
      */
-    protected $Postal = null;
+    public $Postal = null;
 
     /**
      * @param StringLength1to128 $AddressLine

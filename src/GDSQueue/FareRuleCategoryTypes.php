@@ -8,17 +8,17 @@ class FareRuleCategoryTypes
     /**
      * @var ValueDetails[] $CategoryDetails
      */
-    protected $CategoryDetails = null;
+    public $CategoryDetails = null;
 
     /**
      * @var CategoryDetailsType[] $VariableCategoryDetails
      */
-    protected $VariableCategoryDetails = null;
+    public $VariableCategoryDetails = null;
 
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param string $Value

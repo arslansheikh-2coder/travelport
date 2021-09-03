@@ -8,17 +8,17 @@ class typeStringRestriction
     /**
      * @var typeFieldEnumerationValue[] $Enumeration
      */
-    protected $Enumeration = null;
+    public $Enumeration = null;
 
     /**
      * @var int $MinLength
      */
-    protected $MinLength = null;
+    public $MinLength = null;
 
     /**
      * @var int $MaxLength
      */
-    protected $MaxLength = null;
+    public $MaxLength = null;
 
     /**
      * @param int $MinLength

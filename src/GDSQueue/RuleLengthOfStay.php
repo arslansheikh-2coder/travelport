@@ -8,12 +8,12 @@ class RuleLengthOfStay
     /**
      * @var typeRestrictionLengthOfStay $MinimumStay
      */
-    protected $MinimumStay = null;
+    public $MinimumStay = null;
 
     /**
      * @var typeRestrictionLengthOfStay $MaximumStay
      */
-    protected $MaximumStay = null;
+    public $MaximumStay = null;
 
     
     public function __construct()

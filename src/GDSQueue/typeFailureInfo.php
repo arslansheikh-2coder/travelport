@@ -8,12 +8,12 @@ class typeFailureInfo
     /**
      * @var int $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $Message
      */
-    protected $Message = null;
+    public $Message = null;
 
     /**
      * @param int $Code

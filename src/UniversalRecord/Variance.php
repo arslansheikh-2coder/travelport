@@ -8,22 +8,22 @@ class Variance
     /**
      * @var typeVarianceType $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $Time
      */
-    protected $Time = null;
+    public $Time = null;
 
     /**
      * @var typeVarianceIndicator $Indicator
      */
-    protected $Indicator = null;
+    public $Indicator = null;
 
     /**
      * @var string $Reason
      */
-    protected $Reason = null;
+    public $Reason = null;
 
     /**
      * @param typeVarianceType $Type

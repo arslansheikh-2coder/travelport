@@ -8,47 +8,47 @@ class ProfileChildSearchReq extends BaseReq
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var ProvisioningCode $ProvisioningCode
      */
-    protected $ProvisioningCode = null;
+    public $ProvisioningCode = null;
 
     /**
      * @var UniqueProfileID $UniqueProfileID
      */
-    protected $UniqueProfileID = null;
+    public $UniqueProfileID = null;
 
     /**
      * @var typeWildcard $OrganizationName
      */
-    protected $OrganizationName = null;
+    public $OrganizationName = null;
 
     /**
      * @var typeWildcard $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var typeWildcard $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var ProfileSearchModifiers $ProfileSearchModifiers
      */
-    protected $ProfileSearchModifiers = null;
+    public $ProfileSearchModifiers = null;
 
     /**
      * @var anonymous978 $HierarchyType
      */
-    protected $HierarchyType = null;
+    public $HierarchyType = null;
 
     /**
      * @var boolean $IncludeAgentsAndTravelers
      */
-    protected $IncludeAgentsAndTravelers = null;
+    public $IncludeAgentsAndTravelers = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

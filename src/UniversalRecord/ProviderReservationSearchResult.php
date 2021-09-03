@@ -8,52 +8,52 @@ class ProviderReservationSearchResult
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeProductInfo[] $ProductInfo
      */
-    protected $ProductInfo = null;
+    public $ProductInfo = null;
 
     /**
      * @var AgencyInfo $AgencyInfo
      */
-    protected $AgencyInfo = null;
+    public $AgencyInfo = null;
 
     /**
      * @var string $UniversalRecordLocatorCode
      */
-    protected $UniversalRecordLocatorCode = null;
+    public $UniversalRecordLocatorCode = null;
 
     /**
      * @var string $CreatedDate
      */
-    protected $CreatedDate = null;
+    public $CreatedDate = null;
 
     /**
      * @var string $EarliestTravelDate
      */
-    protected $EarliestTravelDate = null;
+    public $EarliestTravelDate = null;
 
     /**
      * @var typeReservationTicketed $Ticketed
      */
-    protected $Ticketed = null;
+    public $Ticketed = null;
 
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var typeExternalSearchIndex $ExternalSearchIndex
      */
-    protected $ExternalSearchIndex = null;
+    public $ExternalSearchIndex = null;
 
     /**
      * @param Name $Name

@@ -8,32 +8,32 @@ class TransactionType extends typeTransactionsAllowed
     /**
      * @var Air $Air
      */
-    protected $Air = null;
+    public $Air = null;
 
     /**
      * @var typeTransactionsAllowed $Hotel
      */
-    protected $Hotel = null;
+    public $Hotel = null;
 
     /**
      * @var typeTransactionsAllowed $Rail
      */
-    protected $Rail = null;
+    public $Rail = null;
 
     /**
      * @var typeTransactionsAllowed $Vehicle
      */
-    protected $Vehicle = null;
+    public $Vehicle = null;
 
     /**
      * @var typeBookingTransactionsAllowed $Passive
      */
-    protected $Passive = null;
+    public $Passive = null;
 
     /**
      * @var typeBookingTransactionsAllowed $BackgroundPassive
      */
-    protected $BackgroundPassive = null;
+    public $BackgroundPassive = null;
 
     /**
      * @param boolean $BookingEnabled

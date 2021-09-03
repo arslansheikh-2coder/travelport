@@ -8,7 +8,7 @@ class typeSpecificTime
     /**
      * @var string $Time
      */
-    protected $Time = null;
+    public $Time = null;
 
     /**
      * @param string $Time

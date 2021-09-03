@@ -8,37 +8,37 @@ class SupportedVersions
     /**
      * @var string $urVersion
      */
-    protected $urVersion = null;
+    public $urVersion = null;
 
     /**
      * @var string $airVersion
      */
-    protected $airVersion = null;
+    public $airVersion = null;
 
     /**
      * @var string $hotelVersion
      */
-    protected $hotelVersion = null;
+    public $hotelVersion = null;
 
     /**
      * @var string $vehicleVersion
      */
-    protected $vehicleVersion = null;
+    public $vehicleVersion = null;
 
     /**
      * @var string $passiveVersion
      */
-    protected $passiveVersion = null;
+    public $passiveVersion = null;
 
     /**
      * @var string $railVersion
      */
-    protected $railVersion = null;
+    public $railVersion = null;
 
     /**
      * @var string $cruiseVersion
      */
-    protected $cruiseVersion = null;
+    public $cruiseVersion = null;
 
     /**
      * @param string $urVersion

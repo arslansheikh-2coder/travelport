@@ -8,17 +8,17 @@ class WaiverCode
     /**
      * @var typeTourCode $TourCode
      */
-    protected $TourCode = null;
+    public $TourCode = null;
 
     /**
      * @var typeTicketDesignator $TicketDesignator
      */
-    protected $TicketDesignator = null;
+    public $TicketDesignator = null;
 
     /**
      * @var anonymous717 $Endorsement
      */
-    protected $Endorsement = null;
+    public $Endorsement = null;
 
     /**
      * @param typeTourCode $TourCode

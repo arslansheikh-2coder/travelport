@@ -8,17 +8,17 @@ class ReferenceDataUpdateReq extends BaseReq
     /**
      * @var Item[] $Item
      */
-    protected $Item = null;
+    public $Item = null;
 
     /**
      * @var anonymous1214 $Action
      */
-    protected $Action = null;
+    public $Action = null;
 
     /**
      * @var typeTypeCode $TypeCode
      */
-    protected $TypeCode = null;
+    public $TypeCode = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

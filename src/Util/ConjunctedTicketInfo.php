@@ -8,32 +8,32 @@ class ConjunctedTicketInfo
     /**
      * @var string $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var typeIATA $IATANumber
      */
-    protected $IATANumber = null;
+    public $IATANumber = null;
 
     /**
      * @var \DateTime $TicketIssueDate
      */
-    protected $TicketIssueDate = null;
+    public $TicketIssueDate = null;
 
     /**
      * @var anonymous786 $TicketingAgentSignOn
      */
-    protected $TicketingAgentSignOn = null;
+    public $TicketingAgentSignOn = null;
 
     /**
      * @var typeCountry $CountryCode
      */
-    protected $CountryCode = null;
+    public $CountryCode = null;
 
     /**
      * @var typeTicketStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @param string $Number

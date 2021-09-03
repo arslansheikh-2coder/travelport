@@ -8,137 +8,137 @@ class TCR
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var BookingTraveler $BookingTraveler
      */
-    protected $BookingTraveler = null;
+    public $BookingTraveler = null;
 
     /**
      * @var PassengerTicketNumber $PassengerTicketNumber
      */
-    protected $PassengerTicketNumber = null;
+    public $PassengerTicketNumber = null;
 
     /**
      * @var AirPricingInfo $AirPricingInfo
      */
-    protected $AirPricingInfo = null;
+    public $AirPricingInfo = null;
 
     /**
      * @var AgencyInfo $AgencyInfo
      */
-    protected $AgencyInfo = null;
+    public $AgencyInfo = null;
 
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var RefundRemark $RefundRemark
      */
-    protected $RefundRemark = null;
+    public $RefundRemark = null;
 
     /**
      * @var typeTCRNumber $TCRNumber
      */
-    protected $TCRNumber = null;
+    public $TCRNumber = null;
 
     /**
      * @var typeTCRStatus $Status
      */
-    protected $Status = null;
+    public $Status = null;
 
     /**
      * @var string $ModifiedDate
      */
-    protected $ModifiedDate = null;
+    public $ModifiedDate = null;
 
     /**
      * @var string $ConfirmedDate
      */
-    protected $ConfirmedDate = null;
+    public $ConfirmedDate = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $Fees
      */
-    protected $Fees = null;
+    public $Fees = null;
 
     /**
      * @var boolean $Refundable
      */
-    protected $Refundable = null;
+    public $Refundable = null;
 
     /**
      * @var boolean $Exchangeable
      */
-    protected $Exchangeable = null;
+    public $Exchangeable = null;
 
     /**
      * @var boolean $Voidable
      */
-    protected $Voidable = null;
+    public $Voidable = null;
 
     /**
      * @var boolean $Modifiable
      */
-    protected $Modifiable = null;
+    public $Modifiable = null;
 
     /**
      * @var anonymous648 $RefundAccessCode
      */
-    protected $RefundAccessCode = null;
+    public $RefundAccessCode = null;
 
     /**
      * @var typeMoney $RefundAmount
      */
-    protected $RefundAmount = null;
+    public $RefundAmount = null;
 
     /**
      * @var typeMoney $RefundFee
      */
-    protected $RefundFee = null;
+    public $RefundFee = null;
 
     /**
      * @var typeMoney $ForfeitAmount
      */
-    protected $ForfeitAmount = null;
+    public $ForfeitAmount = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeProviderLocatorCode $ProviderLocatorCode
      */
-    protected $ProviderLocatorCode = null;
+    public $ProviderLocatorCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param FormOfPayment $FormOfPayment

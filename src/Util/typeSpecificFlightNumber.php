@@ -8,7 +8,7 @@ class typeSpecificFlightNumber
     /**
      * @var typeFlightNumber $FlightNumber
      */
-    protected $FlightNumber = null;
+    public $FlightNumber = null;
 
     /**
      * @param typeFlightNumber $FlightNumber

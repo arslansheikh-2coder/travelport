@@ -8,12 +8,12 @@ class HotelSearchError extends typeResultMessage
     /**
      * @var typeResultMessage $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeThirdPartySupplier $RateSupplier
      */
-    protected $RateSupplier = null;
+    public $RateSupplier = null;
 
     /**
      * @param string $_

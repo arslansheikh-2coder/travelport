@@ -8,12 +8,12 @@ class VehicleUpsellSearchCriteria
     /**
      * @var VehicleUpsellOfferSearchCriteria $VehicleUpsellOfferSearchCriteria
      */
-    protected $VehicleUpsellOfferSearchCriteria = null;
+    public $VehicleUpsellOfferSearchCriteria = null;
 
     /**
      * @var VehicleUpsellQualifySearchCriteria $VehicleUpsellQualifySearchCriteria
      */
-    protected $VehicleUpsellQualifySearchCriteria = null;
+    public $VehicleUpsellQualifySearchCriteria = null;
 
     /**
      * @param VehicleUpsellOfferSearchCriteria $VehicleUpsellOfferSearchCriteria

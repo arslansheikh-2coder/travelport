@@ -8,17 +8,17 @@ class typeGuestRoomInformation extends typeGuestChildInformation
     /**
      * @var int $Adults
      */
-    protected $Adults = null;
+    public $Adults = null;
 
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var Child[] $Child
      */
-    protected $Child = null;
+    public $Child = null;
 
     /**
      * @param int $Age

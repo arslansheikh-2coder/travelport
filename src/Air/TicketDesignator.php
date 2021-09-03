@@ -8,7 +8,7 @@ class TicketDesignator
     /**
      * @var typeTicketDesignator $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param typeTicketDesignator $Value

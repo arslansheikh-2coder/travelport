@@ -8,22 +8,22 @@ class Check
     /**
      * @var anonymous18 $MICRNumber
      */
-    protected $MICRNumber = null;
+    public $MICRNumber = null;
 
     /**
      * @var string $RoutingNumber
      */
-    protected $RoutingNumber = null;
+    public $RoutingNumber = null;
 
     /**
      * @var string $AccountNumber
      */
-    protected $AccountNumber = null;
+    public $AccountNumber = null;
 
     /**
      * @var string $CheckNumber
      */
-    protected $CheckNumber = null;
+    public $CheckNumber = null;
 
     /**
      * @param anonymous18 $MICRNumber

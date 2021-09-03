@@ -8,7 +8,7 @@ class TimeRsp extends BaseRsp
     /**
      * @var SystemTime $SystemTime
      */
-    protected $SystemTime = null;
+    public $SystemTime = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

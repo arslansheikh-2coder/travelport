@@ -8,7 +8,7 @@ class Carrier
     /**
      * @var typeCarrier $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeCarrier $Code

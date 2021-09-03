@@ -8,7 +8,7 @@ class PromoCodes
     /**
      * @var PromoCode $PromoCode
      */
-    protected $PromoCode = null;
+    public $PromoCode = null;
 
     /**
      * @param PromoCode $PromoCode

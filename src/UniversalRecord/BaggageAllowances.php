@@ -8,17 +8,17 @@ class BaggageAllowances
     /**
      * @var BaggageAllowanceInfo $BaggageAllowanceInfo
      */
-    protected $BaggageAllowanceInfo = null;
+    public $BaggageAllowanceInfo = null;
 
     /**
      * @var CarryOnAllowanceInfo $CarryOnAllowanceInfo
      */
-    protected $CarryOnAllowanceInfo = null;
+    public $CarryOnAllowanceInfo = null;
 
     /**
      * @var BaseBaggageAllowanceInfo $EmbargoInfo
      */
-    protected $EmbargoInfo = null;
+    public $EmbargoInfo = null;
 
     /**
      * @param BaggageAllowanceInfo $BaggageAllowanceInfo

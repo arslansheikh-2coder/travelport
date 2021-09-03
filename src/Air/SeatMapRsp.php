@@ -8,57 +8,57 @@ class SeatMapRsp extends BaseRsp
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var CabinClass $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var SearchTraveler $SearchTraveler
      */
-    protected $SearchTraveler = null;
+    public $SearchTraveler = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var Remark $Remark
      */
-    protected $Remark = null;
+    public $Remark = null;
 
     /**
      * @var Rows $Rows
      */
-    protected $Rows = null;
+    public $Rows = null;
 
     /**
      * @var PaymentRestriction $PaymentRestriction
      */
-    protected $PaymentRestriction = null;
+    public $PaymentRestriction = null;
 
     /**
      * @var SeatInformation $SeatInformation
      */
-    protected $SeatInformation = null;
+    public $SeatInformation = null;
 
     /**
      * @var string $Copyright
      */
-    protected $Copyright = null;
+    public $Copyright = null;
 
     /**
      * @var typeMoney $GroupSeatPrice
      */
-    protected $GroupSeatPrice = null;
+    public $GroupSeatPrice = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

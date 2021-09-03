@@ -8,27 +8,27 @@ class LocationInformation
     /**
      * @var typeStructuredAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var typeVehicleLocation $LocationType
      */
-    protected $LocationType = null;
+    public $LocationType = null;
 
     /**
      * @var string $AreaGroup
      */
-    protected $AreaGroup = null;
+    public $AreaGroup = null;
 
     /**
      * @var typeIATACode $Location
      */
-    protected $Location = null;
+    public $Location = null;
 
     /**
      * @var typeAreaInfo $AreaType
      */
-    protected $AreaType = null;
+    public $AreaType = null;
 
     /**
      * @param typeVehicleLocation $LocationType

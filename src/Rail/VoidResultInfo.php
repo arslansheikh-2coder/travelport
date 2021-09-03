@@ -8,22 +8,22 @@ class VoidResultInfo
     /**
      * @var string $FailureRemark
      */
-    protected $FailureRemark = null;
+    public $FailureRemark = null;
 
     /**
      * @var string $ResultType
      */
-    protected $ResultType = null;
+    public $ResultType = null;
 
     /**
      * @var StringLength1to13 $DocumentNumber
      */
-    protected $DocumentNumber = null;
+    public $DocumentNumber = null;
 
     /**
      * @var anonymous453 $DocumentType
      */
-    protected $DocumentType = null;
+    public $DocumentType = null;
 
     /**
      * @param string $ResultType

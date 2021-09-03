@@ -8,12 +8,12 @@ class HotelKeywordRsp extends BaseRsp
     /**
      * @var MarketingInformation $MarketingInformation
      */
-    protected $MarketingInformation = null;
+    public $MarketingInformation = null;
 
     /**
      * @var Keyword $Keyword
      */
-    protected $Keyword = null;
+    public $Keyword = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

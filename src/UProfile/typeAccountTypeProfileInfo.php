@@ -8,7 +8,7 @@ class typeAccountTypeProfileInfo extends typeProfileInfo
     /**
      * @var StringLength1to255 $MidOfficeID
      */
-    protected $MidOfficeID = null;
+    public $MidOfficeID = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

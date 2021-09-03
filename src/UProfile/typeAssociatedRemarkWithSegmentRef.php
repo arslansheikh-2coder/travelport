@@ -8,7 +8,7 @@ class typeAssociatedRemarkWithSegmentRef extends typeAssociatedRemark
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @param string $RemarkData

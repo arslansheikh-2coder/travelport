@@ -8,12 +8,12 @@ class Rating
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var int $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @param string $_

@@ -8,12 +8,12 @@ class VehicleSearchAvailabilityRsp extends BaseVehicleSearchAvailabilityRsp
     /**
      * @var MarketingInformation $MarketingInformation
      */
-    protected $MarketingInformation = null;
+    public $MarketingInformation = null;
 
     /**
      * @var string $MediaLinksSearchId
      */
-    protected $MediaLinksSearchId = null;
+    public $MediaLinksSearchId = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

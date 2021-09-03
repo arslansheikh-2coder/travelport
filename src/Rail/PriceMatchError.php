@@ -8,52 +8,52 @@ class PriceMatchError
     /**
      * @var string $ErrorMessage
      */
-    protected $ErrorMessage = null;
+    public $ErrorMessage = null;
 
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var typeHotelChainCode $HotelChain
      */
-    protected $HotelChain = null;
+    public $HotelChain = null;
 
     /**
      * @var typeHotelCode $HotelCode
      */
-    protected $HotelCode = null;
+    public $HotelCode = null;
 
     /**
      * @var float $ReqBase
      */
-    protected $ReqBase = null;
+    public $ReqBase = null;
 
     /**
      * @var float $RspBase
      */
-    protected $RspBase = null;
+    public $RspBase = null;
 
     /**
      * @var float $BaseDiff
      */
-    protected $BaseDiff = null;
+    public $BaseDiff = null;
 
     /**
      * @var float $ReqTotal
      */
-    protected $ReqTotal = null;
+    public $ReqTotal = null;
 
     /**
      * @var float $RspTotal
      */
-    protected $RspTotal = null;
+    public $RspTotal = null;
 
     /**
      * @var float $TotalDiff
      */
-    protected $TotalDiff = null;
+    public $TotalDiff = null;
 
     /**
      * @param string $ErrorMessage

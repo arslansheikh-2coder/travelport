@@ -8,42 +8,42 @@ class PassiveAdd
     /**
      * @var PassiveSegment $PassiveSegment
      */
-    protected $PassiveSegment = null;
+    public $PassiveSegment = null;
 
     /**
      * @var PassiveRemark $PassiveRemark
      */
-    protected $PassiveRemark = null;
+    public $PassiveRemark = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var TravelComplianceData $TravelComplianceData
      */
-    protected $TravelComplianceData = null;
+    public $TravelComplianceData = null;
 
     /**
      * @var typeLocatorCode $ReservationLocatorCode
      */
-    protected $ReservationLocatorCode = null;
+    public $ReservationLocatorCode = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param PassiveSegment $PassiveSegment

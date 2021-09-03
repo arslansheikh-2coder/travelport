@@ -8,72 +8,72 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
     /**
      * @var FareNoteList $FareNoteList
      */
-    protected $FareNoteList = null;
+    public $FareNoteList = null;
 
     /**
      * @var ExpertSolutionList $ExpertSolutionList
      */
-    protected $ExpertSolutionList = null;
+    public $ExpertSolutionList = null;
 
     /**
      * @var RouteList $RouteList
      */
-    protected $RouteList = null;
+    public $RouteList = null;
 
     /**
      * @var AlternateRouteList $AlternateRouteList
      */
-    protected $AlternateRouteList = null;
+    public $AlternateRouteList = null;
 
     /**
      * @var AlternateLocationDistanceList $AlternateLocationDistanceList
      */
-    protected $AlternateLocationDistanceList = null;
+    public $AlternateLocationDistanceList = null;
 
     /**
      * @var FareInfoMessage $FareInfoMessage
      */
-    protected $FareInfoMessage = null;
+    public $FareInfoMessage = null;
 
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var AirPricePointList $AirPricePointList
      */
-    protected $AirPricePointList = null;
+    public $AirPricePointList = null;
 
     /**
      * @var RailSegmentList $RailSegmentList
      */
-    protected $RailSegmentList = null;
+    public $RailSegmentList = null;
 
     /**
      * @var RailJourneyList $RailJourneyList
      */
-    protected $RailJourneyList = null;
+    public $RailJourneyList = null;
 
     /**
      * @var RailFareNoteList $RailFareNoteList
      */
-    protected $RailFareNoteList = null;
+    public $RailFareNoteList = null;
 
     /**
      * @var RailFareIDList $RailFareIDList
      */
-    protected $RailFareIDList = null;
+    public $RailFareIDList = null;
 
     /**
      * @var RailFareList $RailFareList
      */
-    protected $RailFareList = null;
+    public $RailFareList = null;
 
     /**
      * @var RailPricingSolution $RailPricingSolution
      */
-    protected $RailPricingSolution = null;
+    public $RailPricingSolution = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

@@ -8,32 +8,32 @@ class OverrideDefinition
     /**
      * @var typeID $TemplateFieldID
      */
-    protected $TemplateFieldID = null;
+    public $TemplateFieldID = null;
 
     /**
      * @var boolean $Hide
      */
-    protected $Hide = null;
+    public $Hide = null;
 
     /**
      * @var StringLength1to128 $Label
      */
-    protected $Label = null;
+    public $Label = null;
 
     /**
      * @var int $MinOccursOverride
      */
-    protected $MinOccursOverride = null;
+    public $MinOccursOverride = null;
 
     /**
      * @var boolean $ReadOnly
      */
-    protected $ReadOnly = null;
+    public $ReadOnly = null;
 
     /**
      * @var typeCustomFieldOrGroupType $TemplateFieldType
      */
-    protected $TemplateFieldType = null;
+    public $TemplateFieldType = null;
 
     /**
      * @param typeID $TemplateFieldID

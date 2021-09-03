@@ -8,17 +8,17 @@ class ProfileModifyBridgeBranchesReq extends BaseReq
     /**
      * @var typeProfileID $AgentID
      */
-    protected $AgentID = null;
+    public $AgentID = null;
 
     /**
      * @var StringLength1to128 $UserName
      */
-    protected $UserName = null;
+    public $UserName = null;
 
     /**
      * @var BridgeBranchCmd $BridgeBranchCmd
      */
-    protected $BridgeBranchCmd = null;
+    public $BridgeBranchCmd = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

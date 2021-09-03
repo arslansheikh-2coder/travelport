@@ -8,27 +8,27 @@ class typeVoucherInformation
     /**
      * @var typeVoucherType $VoucherType
      */
-    protected $VoucherType = null;
+    public $VoucherType = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $ConfirmationNumber
      */
-    protected $ConfirmationNumber = null;
+    public $ConfirmationNumber = null;
 
     /**
      * @var string $AccountName
      */
-    protected $AccountName = null;
+    public $AccountName = null;
 
     /**
      * @var StringLength1to16 $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @param typeVoucherType $VoucherType

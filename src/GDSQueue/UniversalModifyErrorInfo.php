@@ -8,12 +8,12 @@ class UniversalModifyErrorInfo extends typeErrorInfo
     /**
      * @var UniversalModifyCommandError $UniversalModifyCommandError
      */
-    protected $UniversalModifyCommandError = null;
+    public $UniversalModifyCommandError = null;
 
     /**
      * @var AirSegmentError $AirSegmentError
      */
-    protected $AirSegmentError = null;
+    public $AirSegmentError = null;
 
     /**
      * @param string $Code

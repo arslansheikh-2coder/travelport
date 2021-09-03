@@ -8,12 +8,12 @@ class typeEmailAddress
     /**
      * @var Email $Email
      */
-    protected $Email = null;
+    public $Email = null;
 
     /**
      * @var string $SimpleName
      */
-    protected $SimpleName = null;
+    public $SimpleName = null;
 
     /**
      * @param Email $Email

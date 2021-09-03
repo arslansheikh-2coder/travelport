@@ -8,37 +8,37 @@ class AirExchangeQuoteRsp extends BaseRsp
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var AirExchangeBundleTotal $AirExchangeBundleTotal
      */
-    protected $AirExchangeBundleTotal = null;
+    public $AirExchangeBundleTotal = null;
 
     /**
      * @var AirExchangeBundle $AirExchangeBundle
      */
-    protected $AirExchangeBundle = null;
+    public $AirExchangeBundle = null;
 
     /**
      * @var HostToken $HostToken
      */
-    protected $HostToken = null;
+    public $HostToken = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var FareRule $FareRule
      */
-    protected $FareRule = null;
+    public $FareRule = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

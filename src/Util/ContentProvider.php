@@ -8,82 +8,82 @@ class ContentProvider
     /**
      * @var string $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var string $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var anonymous1140 $AgencyCredentials
      */
-    protected $AgencyCredentials = null;
+    public $AgencyCredentials = null;
 
     /**
      * @var boolean $Active
      */
-    protected $Active = null;
+    public $Active = null;
 
     /**
      * @var boolean $Provisionable
      */
-    protected $Provisionable = null;
+    public $Provisionable = null;
 
     /**
      * @var string $MerchandisingACHAdapter
      */
-    protected $MerchandisingACHAdapter = null;
+    public $MerchandisingACHAdapter = null;
 
     /**
      * @var boolean $StaticDataCarrier
      */
-    protected $StaticDataCarrier = null;
+    public $StaticDataCarrier = null;
 
     /**
      * @var boolean $MerchandisingACHCarrier
      */
-    protected $MerchandisingACHCarrier = null;
+    public $MerchandisingACHCarrier = null;
 
     /**
      * @var boolean $MerchandisingHubCarrier
      */
-    protected $MerchandisingHubCarrier = null;
+    public $MerchandisingHubCarrier = null;
 
     /**
      * @var typeProviderSupplierCapabilityType $BookingRetrieve
      */
-    protected $BookingRetrieve = null;
+    public $BookingRetrieve = null;
 
     /**
      * @var typeProviderSupplierCapabilityType $SegmentModify
      */
-    protected $SegmentModify = null;
+    public $SegmentModify = null;
 
     /**
      * @var typeProviderSupplierCapabilityType $OptionalServicesModify
      */
-    protected $OptionalServicesModify = null;
+    public $OptionalServicesModify = null;
 
     /**
      * @var typeProviderSupplierCapabilityType $TravelerInfoModify
      */
-    protected $TravelerInfoModify = null;
+    public $TravelerInfoModify = null;
 
     /**
      * @var typeProviderSupplierCapabilityType $AdditionalPayment
      */
-    protected $AdditionalPayment = null;
+    public $AdditionalPayment = null;
 
     /**
      * @var typeProviderSupplierCapabilityType $BookingCancel
      */
-    protected $BookingCancel = null;
+    public $BookingCancel = null;
 
     /**
      * @var typeProviderSupplierCapabilityType $SeatMap
      */
-    protected $SeatMap = null;
+    public $SeatMap = null;
 
     /**
      * @param string $ProviderCode

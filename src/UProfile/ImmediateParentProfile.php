@@ -8,12 +8,12 @@ class ImmediateParentProfile
     /**
      * @var typeImmediateParentRef $ImmediateParentRef
      */
-    protected $ImmediateParentRef = null;
+    public $ImmediateParentRef = null;
 
     /**
      * @var boolean $ControlBranch
      */
-    protected $ControlBranch = null;
+    public $ControlBranch = null;
 
     /**
      * @param typeImmediateParentRef $ImmediateParentRef

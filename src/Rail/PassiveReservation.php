@@ -8,37 +8,37 @@ class PassiveReservation extends BaseReservation
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var BookingTravelerRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var PassiveSegment $PassiveSegment
      */
-    protected $PassiveSegment = null;
+    public $PassiveSegment = null;
 
     /**
      * @var PassiveRemark $PassiveRemark
      */
-    protected $PassiveRemark = null;
+    public $PassiveRemark = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var typeRef $ProviderReservationInfoRef
      */
-    protected $ProviderReservationInfoRef = null;
+    public $ProviderReservationInfoRef = null;
 
     /**
      * @param AccountingRemark $AccountingRemark

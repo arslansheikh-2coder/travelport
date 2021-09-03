@@ -8,7 +8,7 @@ class PermittedAggregators
     /**
      * @var Aggregator[] $Aggregator
      */
-    protected $Aggregator = null;
+    public $Aggregator = null;
 
     /**
      * @param Aggregator[] $Aggregator

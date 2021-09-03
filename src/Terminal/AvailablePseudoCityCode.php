@@ -8,7 +8,7 @@ class AvailablePseudoCityCode
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @param typePCC $PseudoCityCode

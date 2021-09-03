@@ -8,12 +8,12 @@ class Amenity
     /**
      * @var typeAmenity $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var anonymous1235 $AmenityType
      */
-    protected $AmenityType = null;
+    public $AmenityType = null;
 
     /**
      * @param typeAmenity $Code

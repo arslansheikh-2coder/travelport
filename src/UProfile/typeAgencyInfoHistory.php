@@ -8,32 +8,32 @@ class typeAgencyInfoHistory extends typeProfileInfo
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to8 $IataNumber
      */
-    protected $IataNumber = null;
+    public $IataNumber = null;
 
     /**
      * @var typeProvisioningCode $AgencyCode
      */
-    protected $AgencyCode = null;
+    public $AgencyCode = null;
 
     /**
      * @var boolean $UsesTemplate
      */
-    protected $UsesTemplate = null;
+    public $UsesTemplate = null;
 
     /**
      * @var anonymous716 $URSyncData
      */
-    protected $URSyncData = null;
+    public $URSyncData = null;
 
     /**
      * @var boolean $URSyncTo
      */
-    protected $URSyncTo = null;
+    public $URSyncTo = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

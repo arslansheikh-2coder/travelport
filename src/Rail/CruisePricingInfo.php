@@ -8,112 +8,112 @@ class CruisePricingInfo
     /**
      * @var Fare $Fare
      */
-    protected $Fare = null;
+    public $Fare = null;
 
     /**
      * @var Charges $Charges
      */
-    protected $Charges = null;
+    public $Charges = null;
 
     /**
      * @var Discount $Discount
      */
-    protected $Discount = null;
+    public $Discount = null;
 
     /**
      * @var Deposit $Deposit
      */
-    protected $Deposit = null;
+    public $Deposit = null;
 
     /**
      * @var Balance $Balance
      */
-    protected $Balance = null;
+    public $Balance = null;
 
     /**
      * @var Commission $Commission
      */
-    protected $Commission = null;
+    public $Commission = null;
 
     /**
      * @var CruiseFees $CruiseFees
      */
-    protected $CruiseFees = null;
+    public $CruiseFees = null;
 
     /**
      * @var CruiseBookingTravelerRef $CruiseBookingTravelerRef
      */
-    protected $CruiseBookingTravelerRef = null;
+    public $CruiseBookingTravelerRef = null;
 
     /**
      * @var typeMoney $NetFare
      */
-    protected $NetFare = null;
+    public $NetFare = null;
 
     /**
      * @var typeMoney $ReceivedAmount
      */
-    protected $ReceivedAmount = null;
+    public $ReceivedAmount = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $BasePrice
      */
-    protected $BasePrice = null;
+    public $BasePrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateBasePrice
      */
-    protected $ApproximateBasePrice = null;
+    public $ApproximateBasePrice = null;
 
     /**
      * @var typeMoney $EquivalentBasePrice
      */
-    protected $EquivalentBasePrice = null;
+    public $EquivalentBasePrice = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeMoney $Fees
      */
-    protected $Fees = null;
+    public $Fees = null;
 
     /**
      * @var typeMoney $Services
      */
-    protected $Services = null;
+    public $Services = null;
 
     /**
      * @var typeMoney $ApproximateTaxes
      */
-    protected $ApproximateTaxes = null;
+    public $ApproximateTaxes = null;
 
     /**
      * @var typeMoney $ApproximateFees
      */
-    protected $ApproximateFees = null;
+    public $ApproximateFees = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @param Fare $Fare

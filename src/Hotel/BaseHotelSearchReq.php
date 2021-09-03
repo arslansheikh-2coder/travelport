@@ -8,27 +8,27 @@ class BaseHotelSearchReq extends BaseSearchReq
     /**
      * @var HotelSearchLocation $HotelSearchLocation
      */
-    protected $HotelSearchLocation = null;
+    public $HotelSearchLocation = null;
 
     /**
      * @var HotelSearchModifiers $HotelSearchModifiers
      */
-    protected $HotelSearchModifiers = null;
+    public $HotelSearchModifiers = null;
 
     /**
      * @var HotelStay $HotelStay
      */
-    protected $HotelStay = null;
+    public $HotelStay = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var typePolicyReference $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

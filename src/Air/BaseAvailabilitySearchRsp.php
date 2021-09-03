@@ -8,42 +8,42 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
     /**
      * @var FlightDetailsList $FlightDetailsList
      */
-    protected $FlightDetailsList = null;
+    public $FlightDetailsList = null;
 
     /**
      * @var AirSegmentList $AirSegmentList
      */
-    protected $AirSegmentList = null;
+    public $AirSegmentList = null;
 
     /**
      * @var FareInfoList $FareInfoList
      */
-    protected $FareInfoList = null;
+    public $FareInfoList = null;
 
     /**
      * @var FareRemarkList $FareRemarkList
      */
-    protected $FareRemarkList = null;
+    public $FareRemarkList = null;
 
     /**
      * @var AirItinerarySolution $AirItinerarySolution
      */
-    protected $AirItinerarySolution = null;
+    public $AirItinerarySolution = null;
 
     /**
      * @var HostTokenList $HostTokenList
      */
-    protected $HostTokenList = null;
+    public $HostTokenList = null;
 
     /**
      * @var APISRequirementsList $APISRequirementsList
      */
-    protected $APISRequirementsList = null;
+    public $APISRequirementsList = null;
 
     /**
      * @var typeDistance $DistanceUnits
      */
-    protected $DistanceUnits = null;
+    public $DistanceUnits = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

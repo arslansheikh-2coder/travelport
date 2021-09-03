@@ -8,12 +8,12 @@ class AirSegmentTicketingModifiers
     /**
      * @var typeRef $AirSegmentRef
      */
-    protected $AirSegmentRef = null;
+    public $AirSegmentRef = null;
 
     /**
      * @var StringLength1to10 $BrandTier
      */
-    protected $BrandTier = null;
+    public $BrandTier = null;
 
     /**
      * @param typeRef $AirSegmentRef

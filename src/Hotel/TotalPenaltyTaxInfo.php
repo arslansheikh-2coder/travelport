@@ -8,12 +8,12 @@ class TotalPenaltyTaxInfo
     /**
      * @var typeTax[] $PenaltyTaxInfo
      */
-    protected $PenaltyTaxInfo = null;
+    public $PenaltyTaxInfo = null;
 
     /**
      * @var typeMoney $TotalPenaltyTax
      */
-    protected $TotalPenaltyTax = null;
+    public $TotalPenaltyTax = null;
 
     /**
      * @param typeMoney $TotalPenaltyTax

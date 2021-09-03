@@ -8,12 +8,12 @@ class BookingCodeInfo
     /**
      * @var string $CabinClass
      */
-    protected $CabinClass = null;
+    public $CabinClass = null;
 
     /**
      * @var string $BookingCounts
      */
-    protected $BookingCounts = null;
+    public $BookingCounts = null;
 
     /**
      * @param string $CabinClass

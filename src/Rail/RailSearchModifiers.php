@@ -8,27 +8,27 @@ class RailSearchModifiers
     /**
      * @var PreferredSuppliers $PreferredSuppliers
      */
-    protected $PreferredSuppliers = null;
+    public $PreferredSuppliers = null;
 
     /**
      * @var anonymous1320 $MaxChanges
      */
-    protected $MaxChanges = null;
+    public $MaxChanges = null;
 
     /**
      * @var typeRailDirection $Direction
      */
-    protected $Direction = null;
+    public $Direction = null;
 
     /**
      * @var string $Class
      */
-    protected $Class = null;
+    public $Class = null;
 
     /**
      * @var int $MaxSolutions
      */
-    protected $MaxSolutions = null;
+    public $MaxSolutions = null;
 
     /**
      * @param anonymous1320 $MaxChanges

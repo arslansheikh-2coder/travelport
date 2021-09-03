@@ -8,17 +8,17 @@ class ReferenceDataSearchItem
     /**
      * @var Code $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var anonymous1149 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param anonymous1149 $Type

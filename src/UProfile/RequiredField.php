@@ -8,7 +8,7 @@ class RequiredField
     /**
      * @var anonymous400 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param anonymous400 $Name

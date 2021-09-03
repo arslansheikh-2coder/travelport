@@ -8,32 +8,32 @@ class CertificateHistory
     /**
      * @var string $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typeMoney $DiscountAmount
      */
-    protected $DiscountAmount = null;
+    public $DiscountAmount = null;
 
     /**
      * @var int $DiscountPercentage
      */
-    protected $DiscountPercentage = null;
+    public $DiscountPercentage = null;
 
     /**
      * @var date $NotValidBefore
      */
-    protected $NotValidBefore = null;
+    public $NotValidBefore = null;
 
     /**
      * @var date $NotValidAfter
      */
-    protected $NotValidAfter = null;
+    public $NotValidAfter = null;
 
     /**
      * @param string $Number

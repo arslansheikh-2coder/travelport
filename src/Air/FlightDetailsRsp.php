@@ -8,12 +8,12 @@ class FlightDetailsRsp extends BaseRsp
     /**
      * @var typeBaseAirSegment $AirSegment
      */
-    protected $AirSegment = null;
+    public $AirSegment = null;
 
     /**
      * @var CO2Emissions $CO2Emissions
      */
-    protected $CO2Emissions = null;
+    public $CO2Emissions = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

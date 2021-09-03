@@ -8,12 +8,12 @@ class CreditsUsed
     /**
      * @var float $UsedCredit
      */
-    protected $UsedCredit = null;
+    public $UsedCredit = null;
 
     /**
      * @var typeCurrency $CurrencyCode
      */
-    protected $CurrencyCode = null;
+    public $CurrencyCode = null;
 
     /**
      * @param float $UsedCredit

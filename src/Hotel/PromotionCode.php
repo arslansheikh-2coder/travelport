@@ -8,12 +8,12 @@ class PromotionCode
     /**
      * @var typePromoCodeString $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @param typePromoCodeString $_

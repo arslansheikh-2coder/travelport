@@ -8,12 +8,12 @@ class MerchandisingDetails
     /**
      * @var AirItineraryDetails $AirItineraryDetails
      */
-    protected $AirItineraryDetails = null;
+    public $AirItineraryDetails = null;
 
     /**
      * @var AccountCode $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @param AirItineraryDetails $AirItineraryDetails

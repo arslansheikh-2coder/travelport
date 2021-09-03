@@ -8,7 +8,7 @@ class ProhibitedRuleCategories
     /**
      * @var FareRuleCategory $FareRuleCategory
      */
-    protected $FareRuleCategory = null;
+    public $FareRuleCategory = null;
 
     /**
      * @param FareRuleCategory $FareRuleCategory

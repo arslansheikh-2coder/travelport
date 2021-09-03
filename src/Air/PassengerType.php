@@ -8,7 +8,7 @@ class PassengerType
     /**
      * @var FareGuaranteeInfo $FareGuaranteeInfo
      */
-    protected $FareGuaranteeInfo = null;
+    public $FareGuaranteeInfo = null;
 
     /**
      * @param FareGuaranteeInfo $FareGuaranteeInfo

@@ -8,22 +8,22 @@ class ImageLocation
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var int $ImageWidth
      */
-    protected $ImageWidth = null;
+    public $ImageWidth = null;
 
     /**
      * @var int $ImageHeight
      */
-    protected $ImageHeight = null;
+    public $ImageHeight = null;
 
     /**
      * @param string $_

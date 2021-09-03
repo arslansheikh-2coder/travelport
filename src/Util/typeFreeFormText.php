@@ -8,7 +8,7 @@ class typeFreeFormText
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @param string $_

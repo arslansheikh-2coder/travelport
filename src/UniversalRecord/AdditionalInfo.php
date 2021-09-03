@@ -8,7 +8,7 @@ class AdditionalInfo
     /**
      * @var string $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @param string $Category

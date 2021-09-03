@@ -8,22 +8,22 @@ class FlexExploreModifiers
     /**
      * @var typeIATACode[] $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @var anonymous679 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var int $Radius
      */
-    protected $Radius = null;
+    public $Radius = null;
 
     /**
      * @var anonymous680 $GroupName
      */
-    protected $GroupName = null;
+    public $GroupName = null;
 
     /**
      * @param anonymous679 $Type

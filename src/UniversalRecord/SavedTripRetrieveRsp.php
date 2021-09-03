@@ -8,7 +8,7 @@ class SavedTripRetrieveRsp extends BaseRsp
     /**
      * @var SavedTrip $SavedTrip
      */
-    protected $SavedTrip = null;
+    public $SavedTrip = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

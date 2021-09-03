@@ -8,12 +8,12 @@ class AirRefundQuoteRsp extends BaseRsp
     /**
      * @var AirRefundBundle $AirRefundBundle
      */
-    protected $AirRefundBundle = null;
+    public $AirRefundBundle = null;
 
     /**
      * @var TCRRefundBundle $TCRRefundBundle
      */
-    protected $TCRRefundBundle = null;
+    public $TCRRefundBundle = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

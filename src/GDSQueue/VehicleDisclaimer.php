@@ -8,22 +8,22 @@ class VehicleDisclaimer
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeVehicleDisclaimer $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var string $SubType
      */
-    protected $SubType = null;
+    public $SubType = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param string $_

@@ -8,17 +8,17 @@ class HotelUpsellCriteria
     /**
      * @var HotelUpsellAdd $HotelUpsellAdd
      */
-    protected $HotelUpsellAdd = null;
+    public $HotelUpsellAdd = null;
 
     /**
      * @var HotelUpsellUpdate $HotelUpsellUpdate
      */
-    protected $HotelUpsellUpdate = null;
+    public $HotelUpsellUpdate = null;
 
     /**
      * @var HotelUpsellDelete $HotelUpsellDelete
      */
-    protected $HotelUpsellDelete = null;
+    public $HotelUpsellDelete = null;
 
     /**
      * @param HotelUpsellAdd $HotelUpsellAdd

@@ -8,22 +8,22 @@ class OptionalServiceApplicationLimitType
     /**
      * @var OptionalServiceApplicabilityType $ApplicableLevel
      */
-    protected $ApplicableLevel = null;
+    public $ApplicableLevel = null;
 
     /**
      * @var string $ProviderDefinedApplicableLevels
      */
-    protected $ProviderDefinedApplicableLevels = null;
+    public $ProviderDefinedApplicableLevels = null;
 
     /**
      * @var int $MaximumQuantity
      */
-    protected $MaximumQuantity = null;
+    public $MaximumQuantity = null;
 
     /**
      * @var int $MinimumQuantity
      */
-    protected $MinimumQuantity = null;
+    public $MinimumQuantity = null;
 
     /**
      * @param OptionalServiceApplicabilityType $ApplicableLevel

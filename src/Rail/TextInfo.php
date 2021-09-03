@@ -8,12 +8,12 @@ class TextInfo
     /**
      * @var typeGeneralText[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @var string $Title
      */
-    protected $Title = null;
+    public $Title = null;
 
     /**
      * @param string $Title

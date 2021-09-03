@@ -8,7 +8,7 @@ class ProfileSearchTagsReq extends BaseReq
     /**
      * @var typeProfileID $AgencyID
      */
-    protected $AgencyID = null;
+    public $AgencyID = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

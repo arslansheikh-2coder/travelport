@@ -8,12 +8,12 @@ class typeProfileInfo
     /**
      * @var StringLength1to255 $AdditionalIdentifier
      */
-    protected $AdditionalIdentifier = null;
+    public $AdditionalIdentifier = null;
 
     /**
      * @var typeDescription $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

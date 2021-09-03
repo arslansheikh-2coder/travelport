@@ -8,12 +8,12 @@ class MCORemark
     /**
      * @var string $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var boolean $AdditionalRmk
      */
-    protected $AdditionalRmk = null;
+    public $AdditionalRmk = null;
 
     /**
      * @param string $_

@@ -8,17 +8,17 @@ class AvailableSSR
     /**
      * @var SSR $SSR
      */
-    protected $SSR = null;
+    public $SSR = null;
 
     /**
      * @var ServiceRuleType[] $SSRRules
      */
-    protected $SSRRules = null;
+    public $SSRRules = null;
 
     /**
      * @var IndustryStandardSSR $IndustryStandardSSR
      */
-    protected $IndustryStandardSSR = null;
+    public $IndustryStandardSSR = null;
 
     /**
      * @param SSR $SSR

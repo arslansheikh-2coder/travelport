@@ -8,17 +8,17 @@ class ProfileTemplateSummary
     /**
      * @var typeTemplateID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var UNKNOWN $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var UNKNOWN $Version
      */
-    protected $Version = null;
+    public $Version = null;
 
     /**
      * @param typeTemplateID $ID

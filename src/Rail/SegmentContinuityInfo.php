@@ -8,17 +8,17 @@ class SegmentContinuityInfo
     /**
      * @var ArvlUnknSegment $ArvlUnknSegment
      */
-    protected $ArvlUnknSegment = null;
+    public $ArvlUnknSegment = null;
 
     /**
      * @var ContinuityOverrideRemark $ContinuityOverrideRemark
      */
-    protected $ContinuityOverrideRemark = null;
+    public $ContinuityOverrideRemark = null;
 
     /**
      * @var int $ArrivalUnknownSegmentCount
      */
-    protected $ArrivalUnknownSegmentCount = null;
+    public $ArrivalUnknownSegmentCount = null;
 
     /**
      * @param ArvlUnknSegment $ArvlUnknSegment

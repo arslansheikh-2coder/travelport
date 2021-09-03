@@ -8,22 +8,22 @@ class ApplicationLevel
     /**
      * @var ApplicationLimits $ApplicationLimits
      */
-    protected $ApplicationLimits = null;
+    public $ApplicationLimits = null;
 
     /**
      * @var ServiceData $ServiceData
      */
-    protected $ServiceData = null;
+    public $ServiceData = null;
 
     /**
      * @var anonymous321 $ApplicableLevels
      */
-    protected $ApplicableLevels = null;
+    public $ApplicableLevels = null;
 
     /**
      * @var string $ProviderDefinedApplicableLevels
      */
-    protected $ProviderDefinedApplicableLevels = null;
+    public $ProviderDefinedApplicableLevels = null;
 
     /**
      * @param ServiceData $ServiceData

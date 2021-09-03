@@ -8,7 +8,7 @@ class FlightDetailsList
     /**
      * @var FlightDetails $FlightDetails
      */
-    protected $FlightDetails = null;
+    public $FlightDetails = null;
 
     /**
      * @param FlightDetails $FlightDetails

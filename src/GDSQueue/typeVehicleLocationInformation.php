@@ -8,47 +8,47 @@ class typeVehicleLocationInformation
     /**
      * @var typeStructuredAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @var string $OperationTime
      */
-    protected $OperationTime = null;
+    public $OperationTime = null;
 
     /**
      * @var string $LocationName
      */
-    protected $LocationName = null;
+    public $LocationName = null;
 
     /**
      * @var string $CounterLocation
      */
-    protected $CounterLocation = null;
+    public $CounterLocation = null;
 
     /**
      * @var typeSupplierCode $VendorCode
      */
-    protected $VendorCode = null;
+    public $VendorCode = null;
 
     /**
      * @var typeIATACode $LocationCode
      */
-    protected $LocationCode = null;
+    public $LocationCode = null;
 
     /**
      * @var typeVehicleLocation $LocationType
      */
-    protected $LocationType = null;
+    public $LocationType = null;
 
     /**
      * @var StringLength3 $LocationNumber
      */
-    protected $LocationNumber = null;
+    public $LocationNumber = null;
 
     /**
      * @param PhoneNumber $PhoneNumber

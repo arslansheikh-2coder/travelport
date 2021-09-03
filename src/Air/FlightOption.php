@@ -8,22 +8,22 @@ class FlightOption
     /**
      * @var Option $Option
      */
-    protected $Option = null;
+    public $Option = null;
 
     /**
      * @var typeRef $LegRef
      */
-    protected $LegRef = null;
+    public $LegRef = null;
 
     /**
      * @var typeIATACode $Origin
      */
-    protected $Origin = null;
+    public $Origin = null;
 
     /**
      * @var typeIATACode $Destination
      */
-    protected $Destination = null;
+    public $Destination = null;
 
     /**
      * @param Option $Option

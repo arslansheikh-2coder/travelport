@@ -8,12 +8,12 @@ class ARCPayment
     /**
      * @var anonymous50 $ARCIdentifier
      */
-    protected $ARCIdentifier = null;
+    public $ARCIdentifier = null;
 
     /**
      * @var anonymous51 $ARCPassword
      */
-    protected $ARCPassword = null;
+    public $ARCPassword = null;
 
     /**
      * @param anonymous50 $ARCIdentifier

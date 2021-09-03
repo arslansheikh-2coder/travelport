@@ -8,12 +8,12 @@ class CityOrAirport extends Location
     /**
      * @var typeIATACode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var boolean $PreferCity
      */
-    protected $PreferCity = null;
+    public $PreferCity = null;
 
     /**
      * @param typeIATACode $Code

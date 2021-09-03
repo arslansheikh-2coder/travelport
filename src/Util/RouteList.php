@@ -8,7 +8,7 @@ class RouteList
     /**
      * @var Route $Route
      */
-    protected $Route = null;
+    public $Route = null;
 
     /**
      * @param Route $Route

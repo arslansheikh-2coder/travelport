@@ -8,7 +8,7 @@ class AirExchangeMultiQuoteReq extends BaseAirExchangeMultiQuoteReq
     /**
      * @var string $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

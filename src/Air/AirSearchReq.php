@@ -8,27 +8,27 @@ class AirSearchReq extends BaseSearchReq
     /**
      * @var PointOfCommencement $PointOfCommencement
      */
-    protected $PointOfCommencement = null;
+    public $PointOfCommencement = null;
 
     /**
      * @var SearchAirLeg $SearchAirLeg
      */
-    protected $SearchAirLeg = null;
+    public $SearchAirLeg = null;
 
     /**
      * @var SearchSpecificAirSegment $SearchSpecificAirSegment
      */
-    protected $SearchSpecificAirSegment = null;
+    public $SearchSpecificAirSegment = null;
 
     /**
      * @var AirSearchModifiers $AirSearchModifiers
      */
-    protected $AirSearchModifiers = null;
+    public $AirSearchModifiers = null;
 
     /**
      * @var JourneyData $JourneyData
      */
-    protected $JourneyData = null;
+    public $JourneyData = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

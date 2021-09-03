@@ -8,22 +8,22 @@ class typeVoucherInformationHistory
     /**
      * @var typeVoucherType $VoucherType
      */
-    protected $VoucherType = null;
+    public $VoucherType = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $ConfirmationNumber
      */
-    protected $ConfirmationNumber = null;
+    public $ConfirmationNumber = null;
 
     /**
      * @var string $AccountName
      */
-    protected $AccountName = null;
+    public $AccountName = null;
 
     /**
      * @param typeVoucherType $VoucherType

@@ -8,92 +8,92 @@ class typeFormOfPaymentHistory extends typeKeyElement
     /**
      * @var typeCreditCardTypeHistory $CreditCard
      */
-    protected $CreditCard = null;
+    public $CreditCard = null;
 
     /**
      * @var typePaymentCardHistory $DebitCard
      */
-    protected $DebitCard = null;
+    public $DebitCard = null;
 
     /**
      * @var CertificateHistory $CertificateHistory
      */
-    protected $CertificateHistory = null;
+    public $CertificateHistory = null;
 
     /**
      * @var StringLength0to13 $TicketNumberHistory
      */
-    protected $TicketNumberHistory = null;
+    public $TicketNumberHistory = null;
 
     /**
      * @var Check $Check
      */
-    protected $Check = null;
+    public $Check = null;
 
     /**
      * @var Requisition $Requisition
      */
-    protected $Requisition = null;
+    public $Requisition = null;
 
     /**
      * @var MiscFormOfPaymentHistory $MiscFormOfPaymentHistory
      */
-    protected $MiscFormOfPaymentHistory = null;
+    public $MiscFormOfPaymentHistory = null;
 
     /**
      * @var typeAgencyPaymentHistory $AgencyPaymentHistory
      */
-    protected $AgencyPaymentHistory = null;
+    public $AgencyPaymentHistory = null;
 
     /**
      * @var UnitedNationsHistory $UnitedNationsHistory
      */
-    protected $UnitedNationsHistory = null;
+    public $UnitedNationsHistory = null;
 
     /**
      * @var DirectPayment $DirectPayment
      */
-    protected $DirectPayment = null;
+    public $DirectPayment = null;
 
     /**
      * @var AgentVoucherHistory $AgentVoucherHistory
      */
-    protected $AgentVoucherHistory = null;
+    public $AgentVoucherHistory = null;
 
     /**
      * @var typeGuaranteeInformationHistory $Guarantee
      */
-    protected $Guarantee = null;
+    public $Guarantee = null;
 
     /**
      * @var typeVoucherInformationHistory $Voucher
      */
-    protected $Voucher = null;
+    public $Voucher = null;
 
     /**
      * @var typeMoney $Cash
      */
-    protected $Cash = null;
+    public $Cash = null;
 
     /**
      * @var UNKNOWN $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

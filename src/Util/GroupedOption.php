@@ -8,7 +8,7 @@ class GroupedOption
     /**
      * @var typeRef $OptionalServiceRef
      */
-    protected $OptionalServiceRef = null;
+    public $OptionalServiceRef = null;
 
     /**
      * @param typeRef $OptionalServiceRef

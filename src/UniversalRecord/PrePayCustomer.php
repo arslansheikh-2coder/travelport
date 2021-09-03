@@ -8,27 +8,27 @@ class PrePayCustomer
     /**
      * @var PersonName $PersonName
      */
-    protected $PersonName = null;
+    public $PersonName = null;
 
     /**
      * @var Email $Email
      */
-    protected $Email = null;
+    public $Email = null;
 
     /**
      * @var typeStructuredAddress[] $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var RelatedTraveler $RelatedTraveler
      */
-    protected $RelatedTraveler = null;
+    public $RelatedTraveler = null;
 
     /**
      * @var LoyaltyCard $LoyaltyCard
      */
-    protected $LoyaltyCard = null;
+    public $LoyaltyCard = null;
 
     /**
      * @param PersonName $PersonName

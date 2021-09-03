@@ -8,27 +8,27 @@ class HotelUpsellQualifySearchCriteria extends UpsellSearchCriteria
     /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
-    protected $CorporateDiscountID = null;
+    public $CorporateDiscountID = null;
 
     /**
      * @var typeHotelChainCode $HotelChainCode
      */
-    protected $HotelChainCode = null;
+    public $HotelChainCode = null;
 
     /**
      * @var typeHotelCode $HotelCode
      */
-    protected $HotelCode = null;
+    public $HotelCode = null;
 
     /**
      * @var typeIATACode $HotelLocation
      */
-    protected $HotelLocation = null;
+    public $HotelLocation = null;
 
     /**
      * @var typeRatePlanType $RatePlanType
      */
-    protected $RatePlanType = null;
+    public $RatePlanType = null;
 
     /**
      * @param EffectiveDate $EffectiveDate

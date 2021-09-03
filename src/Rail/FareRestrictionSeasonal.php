@@ -8,42 +8,42 @@ class FareRestrictionSeasonal
     /**
      * @var string $Comment
      */
-    protected $Comment = null;
+    public $Comment = null;
 
     /**
      * @var string $VariationByTravelDates
      */
-    protected $VariationByTravelDates = null;
+    public $VariationByTravelDates = null;
 
     /**
      * @var string $SeasonalRange1Ind
      */
-    protected $SeasonalRange1Ind = null;
+    public $SeasonalRange1Ind = null;
 
     /**
      * @var string $SeasonalRange1StartDate
      */
-    protected $SeasonalRange1StartDate = null;
+    public $SeasonalRange1StartDate = null;
 
     /**
      * @var string $SeasonalRange1EndDate
      */
-    protected $SeasonalRange1EndDate = null;
+    public $SeasonalRange1EndDate = null;
 
     /**
      * @var string $SeasonalRange2Ind
      */
-    protected $SeasonalRange2Ind = null;
+    public $SeasonalRange2Ind = null;
 
     /**
      * @var string $SeasonalRange2StartDate
      */
-    protected $SeasonalRange2StartDate = null;
+    public $SeasonalRange2StartDate = null;
 
     /**
      * @var string $SeasonalRange2EndDate
      */
-    protected $SeasonalRange2EndDate = null;
+    public $SeasonalRange2EndDate = null;
 
     /**
      * @param string $Comment

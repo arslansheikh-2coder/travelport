@@ -8,27 +8,27 @@ class PolicyInformation
     /**
      * @var typeSegmentPolicy $AirPolicy
      */
-    protected $AirPolicy = null;
+    public $AirPolicy = null;
 
     /**
      * @var typeSegmentPolicy $RailPolicy
      */
-    protected $RailPolicy = null;
+    public $RailPolicy = null;
 
     /**
      * @var typeSegmentPolicy $HotelPolicy
      */
-    protected $HotelPolicy = null;
+    public $HotelPolicy = null;
 
     /**
      * @var typeSegmentPolicy $VehiclePolicy
      */
-    protected $VehiclePolicy = null;
+    public $VehiclePolicy = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param typeSegmentPolicy $AirPolicy

@@ -8,97 +8,97 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
     /**
      * @var CreditCard $CreditCard
      */
-    protected $CreditCard = null;
+    public $CreditCard = null;
 
     /**
      * @var typePaymentCard $DebitCard
      */
-    protected $DebitCard = null;
+    public $DebitCard = null;
 
     /**
      * @var Certificate $Certificate
      */
-    protected $Certificate = null;
+    public $Certificate = null;
 
     /**
      * @var StringLength1to13 $TicketNumber
      */
-    protected $TicketNumber = null;
+    public $TicketNumber = null;
 
     /**
      * @var Check $Check
      */
-    protected $Check = null;
+    public $Check = null;
 
     /**
      * @var Requisition $Requisition
      */
-    protected $Requisition = null;
+    public $Requisition = null;
 
     /**
      * @var MiscFormOfPayment $MiscFormOfPayment
      */
-    protected $MiscFormOfPayment = null;
+    public $MiscFormOfPayment = null;
 
     /**
      * @var typeAgencyPayment $AgencyPayment
      */
-    protected $AgencyPayment = null;
+    public $AgencyPayment = null;
 
     /**
      * @var UnitedNations $UnitedNations
      */
-    protected $UnitedNations = null;
+    public $UnitedNations = null;
 
     /**
      * @var DirectPayment $DirectPayment
      */
-    protected $DirectPayment = null;
+    public $DirectPayment = null;
 
     /**
      * @var AgentVoucher $AgentVoucher
      */
-    protected $AgentVoucher = null;
+    public $AgentVoucher = null;
 
     /**
      * @var PaymentAdvice $PaymentAdvice
      */
-    protected $PaymentAdvice = null;
+    public $PaymentAdvice = null;
 
     /**
      * @var typeGuaranteeInformation $Guarantee
      */
-    protected $Guarantee = null;
+    public $Guarantee = null;
 
     /**
      * @var typeVoucherInformation $Voucher
      */
-    protected $Voucher = null;
+    public $Voucher = null;
 
     /**
      * @var typeMoney $Cash
      */
-    protected $Cash = null;
+    public $Cash = null;
 
     /**
      * @var UNKNOWN $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var typeProfileID $OwnerID
      */
-    protected $OwnerID = null;
+    public $OwnerID = null;
 
     /**
      * @param typeRef $Key

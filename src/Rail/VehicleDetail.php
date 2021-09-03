@@ -8,67 +8,67 @@ class VehicleDetail
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $PassengerCount
      */
-    protected $PassengerCount = null;
+    public $PassengerCount = null;
 
     /**
      * @var string $NumberOfDoors
      */
-    protected $NumberOfDoors = null;
+    public $NumberOfDoors = null;
 
     /**
      * @var string $BagCount
      */
-    protected $BagCount = null;
+    public $BagCount = null;
 
     /**
      * @var typeVehicleClass $Class
      */
-    protected $Class = null;
+    public $Class = null;
 
     /**
      * @var typeVehicleCategory $Category
      */
-    protected $Category = null;
+    public $Category = null;
 
     /**
      * @var boolean $AirConditioning
      */
-    protected $AirConditioning = null;
+    public $AirConditioning = null;
 
     /**
      * @var typeVehicleTransmission $Transmission
      */
-    protected $Transmission = null;
+    public $Transmission = null;
 
     /**
      * @var string $MakeModel
      */
-    protected $MakeModel = null;
+    public $MakeModel = null;
 
     /**
      * @var typeFuel $FuelType
      */
-    protected $FuelType = null;
+    public $FuelType = null;
 
     /**
      * @var anonymous572 $AcrissVehicleCode
      */
-    protected $AcrissVehicleCode = null;
+    public $AcrissVehicleCode = null;
 
     /**
      * @var boolean $PreferredOption
      */
-    protected $PreferredOption = null;
+    public $PreferredOption = null;
 
     /**
      * @param string $Code

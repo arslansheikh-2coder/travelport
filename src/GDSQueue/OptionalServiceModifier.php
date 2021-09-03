@@ -8,32 +8,32 @@ class OptionalServiceModifier
     /**
      * @var typeMerchandisingService $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeMerchandisingService $SecondaryType
      */
-    protected $SecondaryType = null;
+    public $SecondaryType = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var string $ServiceSubCode
      */
-    protected $ServiceSubCode = null;
+    public $ServiceSubCode = null;
 
     /**
      * @var date $TravelDate
      */
-    protected $TravelDate = null;
+    public $TravelDate = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param typeMerchandisingService $Type

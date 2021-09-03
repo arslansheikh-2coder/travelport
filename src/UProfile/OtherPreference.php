@@ -8,87 +8,87 @@ class OtherPreference extends typeKeyTaggedElement
     /**
      * @var typePreferencePurpose $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @var typePriorityOrder $PriorityOrder
      */
-    protected $PriorityOrder = null;
+    public $PriorityOrder = null;
 
     /**
      * @var boolean $TripApproval
      */
-    protected $TripApproval = null;
+    public $TripApproval = null;
 
     /**
      * @var boolean $Inclusive
      */
-    protected $Inclusive = null;
+    public $Inclusive = null;
 
     /**
      * @var typeOtherPreference $OtherSupplierType
      */
-    protected $OtherSupplierType = null;
+    public $OtherSupplierType = null;
 
     /**
      * @var StringLength1to128 $SupplierName
      */
-    protected $SupplierName = null;
+    public $SupplierName = null;
 
     /**
      * @var date $BookingStartDate
      */
-    protected $BookingStartDate = null;
+    public $BookingStartDate = null;
 
     /**
      * @var date $BookingEndDate
      */
-    protected $BookingEndDate = null;
+    public $BookingEndDate = null;
 
     /**
      * @var date $UsageStartDate
      */
-    protected $UsageStartDate = null;
+    public $UsageStartDate = null;
 
     /**
      * @var date $UsageEndDate
      */
-    protected $UsageEndDate = null;
+    public $UsageEndDate = null;
 
     /**
      * @var typeGeoPoliticalAreaType $GeoPoliticalAreaType
      */
-    protected $GeoPoliticalAreaType = null;
+    public $GeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
      */
-    protected $GeoPoliticalAreaCode = null;
+    public $GeoPoliticalAreaCode = null;
 
     /**
      * @var typePreferencePaymentMethod $PreferencePaymentMethod
      */
-    protected $PreferencePaymentMethod = null;
+    public $PreferencePaymentMethod = null;
 
     /**
      * @var typeRef $PaymentDetailsRef
      */
-    protected $PaymentDetailsRef = null;
+    public $PaymentDetailsRef = null;
 
     /**
      * @var typeMoney $MaxCostAmount
      */
-    protected $MaxCostAmount = null;
+    public $MaxCostAmount = null;
 
     /**
      * @var typeCurrency $Currency
      */
-    protected $Currency = null;
+    public $Currency = null;
 
     /**
      * @var StringLength1to255 $GeneralPreference
      */
-    protected $GeneralPreference = null;
+    public $GeneralPreference = null;
 
     /**
      * @param typeRef $Key

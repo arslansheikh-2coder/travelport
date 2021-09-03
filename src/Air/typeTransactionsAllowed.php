@@ -8,12 +8,12 @@ class typeTransactionsAllowed extends typeBookingTransactionsAllowed
     /**
      * @var boolean $ShoppingEnabled
      */
-    protected $ShoppingEnabled = null;
+    public $ShoppingEnabled = null;
 
     /**
      * @var boolean $PricingEnabled
      */
-    protected $PricingEnabled = null;
+    public $PricingEnabled = null;
 
     /**
      * @param boolean $BookingEnabled

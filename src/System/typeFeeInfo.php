@@ -8,77 +8,77 @@ class typeFeeInfo
     /**
      * @var TaxInfoRef[] $TaxInfoRef
      */
-    protected $TaxInfoRef = null;
+    public $TaxInfoRef = null;
 
     /**
      * @var typeMoney $BaseAmount
      */
-    protected $BaseAmount = null;
+    public $BaseAmount = null;
 
     /**
      * @var string $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var string $SubCode
      */
-    protected $SubCode = null;
+    public $SubCode = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @var string $FeeToken
      */
-    protected $FeeToken = null;
+    public $FeeToken = null;
 
     /**
      * @var typeRef $PaymentRef
      */
-    protected $PaymentRef = null;
+    public $PaymentRef = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typePTC $PassengerTypeCode
      */
-    protected $PassengerTypeCode = null;
+    public $PassengerTypeCode = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var typeElementStatus $ElStat
      */
-    protected $ElStat = null;
+    public $ElStat = null;
 
     /**
      * @var boolean $KeyOverride
      */
-    protected $KeyOverride = null;
+    public $KeyOverride = null;
 
     /**
      * @param typeMoney $BaseAmount

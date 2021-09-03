@@ -8,12 +8,12 @@ class typeTravelerGroupInfoHistory extends typeAccountTypeProfileInfo
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to128 $LocalLanguageName
      */
-    protected $LocalLanguageName = null;
+    public $LocalLanguageName = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

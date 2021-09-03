@@ -8,7 +8,7 @@ class CollectionAddress extends typeStructuredAddress
     /**
      * @var PhoneNumber $PhoneNumber
      */
-    protected $PhoneNumber = null;
+    public $PhoneNumber = null;
 
     /**
      * @param State $State

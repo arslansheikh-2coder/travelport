@@ -8,17 +8,17 @@ class DefaultTemplate
     /**
      * @var typeHierarchyOverrideType $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @var typeTemplateID $TemplateID
      */
-    protected $TemplateID = null;
+    public $TemplateID = null;
 
     /**
      * @var typeVersion $TemplateVersion
      */
-    protected $TemplateVersion = null;
+    public $TemplateVersion = null;
 
     /**
      * @param typeHierarchyOverrideType $ProfileType

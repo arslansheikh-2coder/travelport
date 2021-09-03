@@ -8,12 +8,12 @@ class FaxDetailsInformation
     /**
      * @var AirPricingInfoRef $AirPricingInfoRef
      */
-    protected $AirPricingInfoRef = null;
+    public $AirPricingInfoRef = null;
 
     /**
      * @var FaxDetails $FaxDetails
      */
-    protected $FaxDetails = null;
+    public $FaxDetails = null;
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef

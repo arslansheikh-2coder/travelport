@@ -8,52 +8,52 @@ class SolutionGroup
     /**
      * @var PermittedAccountCodes $PermittedAccountCodes
      */
-    protected $PermittedAccountCodes = null;
+    public $PermittedAccountCodes = null;
 
     /**
      * @var PreferredAccountCodes $PreferredAccountCodes
      */
-    protected $PreferredAccountCodes = null;
+    public $PreferredAccountCodes = null;
 
     /**
      * @var ProhibitedAccountCodes $ProhibitedAccountCodes
      */
-    protected $ProhibitedAccountCodes = null;
+    public $ProhibitedAccountCodes = null;
 
     /**
      * @var PermittedPointOfSales $PermittedPointOfSales
      */
-    protected $PermittedPointOfSales = null;
+    public $PermittedPointOfSales = null;
 
     /**
      * @var ProhibitedPointOfSales $ProhibitedPointOfSales
      */
-    protected $ProhibitedPointOfSales = null;
+    public $ProhibitedPointOfSales = null;
 
     /**
      * @var int $Count
      */
-    protected $Count = null;
+    public $Count = null;
 
     /**
      * @var typeTripType $TripType
      */
-    protected $TripType = null;
+    public $TripType = null;
 
     /**
      * @var typeDiversity $Diversification
      */
-    protected $Diversification = null;
+    public $Diversification = null;
 
     /**
      * @var anonymous644 $Tag
      */
-    protected $Tag = null;
+    public $Tag = null;
 
     /**
      * @var boolean $Primary
      */
-    protected $Primary = null;
+    public $Primary = null;
 
     /**
      * @param int $Count

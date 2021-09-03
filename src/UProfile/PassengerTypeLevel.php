@@ -8,22 +8,22 @@ class PassengerTypeLevel
     /**
      * @var typePTC $TravelerType
      */
-    protected $TravelerType = null;
+    public $TravelerType = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var typePercentageWithDecimal $Percentage
      */
-    protected $Percentage = null;
+    public $Percentage = null;
 
     /**
      * @var typeMoney $CommissionCap
      */
-    protected $CommissionCap = null;
+    public $CommissionCap = null;
 
     /**
      * @param typePTC $TravelerType

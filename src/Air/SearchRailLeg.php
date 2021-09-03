@@ -8,32 +8,32 @@ class SearchRailLeg
     /**
      * @var typeSearchLocation[] $SearchOrigin
      */
-    protected $SearchOrigin = null;
+    public $SearchOrigin = null;
 
     /**
      * @var typeSearchLocation[] $SearchDestination
      */
-    protected $SearchDestination = null;
+    public $SearchDestination = null;
 
     /**
      * @var RailSegmentList $RailSegmentList
      */
-    protected $RailSegmentList = null;
+    public $RailSegmentList = null;
 
     /**
      * @var typeFlexibleTimeSpec[] $SearchDepTime
      */
-    protected $SearchDepTime = null;
+    public $SearchDepTime = null;
 
     /**
      * @var typeTimeSpec[] $SearchArvTime
      */
-    protected $SearchArvTime = null;
+    public $SearchArvTime = null;
 
     /**
      * @var RailLegModifiers $RailLegModifiers
      */
-    protected $RailLegModifiers = null;
+    public $RailLegModifiers = null;
 
     /**
      * @param typeSearchLocation[] $SearchOrigin

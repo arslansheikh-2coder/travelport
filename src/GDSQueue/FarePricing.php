@@ -8,47 +8,47 @@ class FarePricing
     /**
      * @var typePTC $PassengerType
      */
-    protected $PassengerType = null;
+    public $PassengerType = null;
 
     /**
      * @var typeMoney $TotalFareAmount
      */
-    protected $TotalFareAmount = null;
+    public $TotalFareAmount = null;
 
     /**
      * @var boolean $PrivateFare
      */
-    protected $PrivateFare = null;
+    public $PrivateFare = null;
 
     /**
      * @var boolean $NegotiatedFare
      */
-    protected $NegotiatedFare = null;
+    public $NegotiatedFare = null;
 
     /**
      * @var boolean $AutoPriceable
      */
-    protected $AutoPriceable = null;
+    public $AutoPriceable = null;
 
     /**
      * @var typeMoney $TotalNetFareAmount
      */
-    protected $TotalNetFareAmount = null;
+    public $TotalNetFareAmount = null;
 
     /**
      * @var typeMoney $BaseFare
      */
-    protected $BaseFare = null;
+    public $BaseFare = null;
 
     /**
      * @var typeMoney $Taxes
      */
-    protected $Taxes = null;
+    public $Taxes = null;
 
     /**
      * @var typeRef $MMid
      */
-    protected $MMid = null;
+    public $MMid = null;
 
     /**
      * @param typePTC $PassengerType

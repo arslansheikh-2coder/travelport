@@ -8,7 +8,7 @@ class typeTicketModifierPercentType
     /**
      * @var typePercentageWithDecimal $Percent
      */
-    protected $Percent = null;
+    public $Percent = null;
 
     /**
      * @param typePercentageWithDecimal $Percent

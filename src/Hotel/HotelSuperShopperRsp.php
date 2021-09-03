@@ -8,22 +8,22 @@ class HotelSuperShopperRsp extends BaseSearchRsp
     /**
      * @var VendorLocation $VendorLocation
      */
-    protected $VendorLocation = null;
+    public $VendorLocation = null;
 
     /**
      * @var CurrencyRateConversion $CurrencyRateConversion
      */
-    protected $CurrencyRateConversion = null;
+    public $CurrencyRateConversion = null;
 
     /**
      * @var HotelSuperShopperResults $HotelSuperShopperResults
      */
-    protected $HotelSuperShopperResults = null;
+    public $HotelSuperShopperResults = null;
 
     /**
      * @var QuickResponse $QuickResponse
      */
-    protected $QuickResponse = null;
+    public $QuickResponse = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

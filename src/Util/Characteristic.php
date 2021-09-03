@@ -8,22 +8,22 @@ class Characteristic
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typePosition $Position
      */
-    protected $Position = null;
+    public $Position = null;
 
     /**
      * @var typeRowLocation $RowLocation
      */
-    protected $RowLocation = null;
+    public $RowLocation = null;
 
     /**
      * @var StringLength1to99 $PADISCode
      */
-    protected $PADISCode = null;
+    public $PADISCode = null;
 
     /**
      * @param string $Value

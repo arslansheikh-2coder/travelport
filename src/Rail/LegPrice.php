@@ -8,22 +8,22 @@ class LegPrice
     /**
      * @var LegDetail $LegDetail
      */
-    protected $LegDetail = null;
+    public $LegDetail = null;
 
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var typeMoney $TotalPrice
      */
-    protected $TotalPrice = null;
+    public $TotalPrice = null;
 
     /**
      * @var typeMoney $ApproximateTotalPrice
      */
-    protected $ApproximateTotalPrice = null;
+    public $ApproximateTotalPrice = null;
 
     /**
      * @param LegDetail $LegDetail

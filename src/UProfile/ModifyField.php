@@ -8,102 +8,102 @@ class ModifyField extends typeStringRestriction
     /**
      * @var FreeformTextRestriction $FreeformTextRestriction
      */
-    protected $FreeformTextRestriction = null;
+    public $FreeformTextRestriction = null;
 
     /**
      * @var WholeNumberRestriction $WholeNumberRestriction
      */
-    protected $WholeNumberRestriction = null;
+    public $WholeNumberRestriction = null;
 
     /**
      * @var DecimalRestriction $DecimalRestriction
      */
-    protected $DecimalRestriction = null;
+    public $DecimalRestriction = null;
 
     /**
      * @var TextRestriction $TextRestriction
      */
-    protected $TextRestriction = null;
+    public $TextRestriction = null;
 
     /**
      * @var AlphaNumericRestriction $AlphaNumericRestriction
      */
-    protected $AlphaNumericRestriction = null;
+    public $AlphaNumericRestriction = null;
 
     /**
      * @var PercentageRestriction $PercentageRestriction
      */
-    protected $PercentageRestriction = null;
+    public $PercentageRestriction = null;
 
     /**
      * @var typeFieldID $ID
      */
-    protected $ID = null;
+    public $ID = null;
 
     /**
      * @var typeAction $Action
      */
-    protected $Action = null;
+    public $Action = null;
 
     /**
      * @var boolean $Force
      */
-    protected $Force = null;
+    public $Force = null;
 
     /**
      * @var typeFieldName $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var StringLength1to255 $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @var typeCustomFieldDataFormat $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var boolean $Encrypted
      */
-    protected $Encrypted = null;
+    public $Encrypted = null;
 
     /**
      * @var typeMasked $Masked
      */
-    protected $Masked = null;
+    public $Masked = null;
 
     /**
      * @var StringLength1to255 $DefaultValue
      */
-    protected $DefaultValue = null;
+    public $DefaultValue = null;
 
     /**
-     * @var boolean $Protected
+     * @var boolean $public
      */
-    protected $Protected = null;
+    public $public = null;
 
     /**
      * @var int $DisplayOrder
      */
-    protected $DisplayOrder = null;
+    public $DisplayOrder = null;
 
     /**
      * @var boolean $Inheritable
      */
-    protected $Inheritable = null;
+    public $Inheritable = null;
 
     /**
      * @var int $MinOccurs
      */
-    protected $MinOccurs = null;
+    public $MinOccurs = null;
 
     /**
      * @var int $MaxOccurs
      */
-    protected $MaxOccurs = null;
+    public $MaxOccurs = null;
 
     /**
      * @param int $MinLength
@@ -117,13 +117,13 @@ class ModifyField extends typeStringRestriction
      * @param boolean $Encrypted
      * @param typeMasked $Masked
      * @param StringLength1to255 $DefaultValue
-     * @param boolean $Protected
+     * @param boolean $public
      * @param int $DisplayOrder
      * @param boolean $Inheritable
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($MinLength = null, $MaxLength = null, $ID = null, $Action = null, $Force = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $Protected = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
+    public function __construct($MinLength = null, $MaxLength = null, $ID = null, $Action = null, $Force = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $public = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
     {
       parent::__construct($MinLength, $MaxLength);
       $this->ID = $ID;
@@ -135,7 +135,7 @@ class ModifyField extends typeStringRestriction
       $this->Encrypted = $Encrypted;
       $this->Masked = $Masked;
       $this->DefaultValue = $DefaultValue;
-      $this->Protected = $Protected;
+      $this->public = $public;
       $this->DisplayOrder = $DisplayOrder;
       $this->Inheritable = $Inheritable;
       $this->MinOccurs = $MinOccurs;
@@ -415,18 +415,18 @@ class ModifyField extends typeStringRestriction
     /**
      * @return boolean
      */
-    public function getProtected()
+    public function getpublic()
     {
-      return $this->Protected;
+      return $this->public;
     }
 
     /**
-     * @param boolean $Protected
+     * @param boolean $public
      * @return \FilippoToso\Travelport\UProfile\ModifyField
      */
-    public function setProtected($Protected)
+    public function setpublic($public)
     {
-      $this->Protected = $Protected;
+      $this->public = $public;
       return $this;
     }
 

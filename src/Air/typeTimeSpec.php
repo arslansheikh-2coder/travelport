@@ -8,17 +8,17 @@ class typeTimeSpec
     /**
      * @var typeTimeRange $TimeRange
      */
-    protected $TimeRange = null;
+    public $TimeRange = null;
 
     /**
      * @var typeSpecificTime $SpecificTime
      */
-    protected $SpecificTime = null;
+    public $SpecificTime = null;
 
     /**
      * @var string $PreferredTime
      */
-    protected $PreferredTime = null;
+    public $PreferredTime = null;
 
     /**
      * @param string $PreferredTime

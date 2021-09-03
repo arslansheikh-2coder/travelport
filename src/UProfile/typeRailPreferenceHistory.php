@@ -8,132 +8,132 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
     /**
      * @var typeRailCabin $CabinType
      */
-    protected $CabinType = null;
+    public $CabinType = null;
 
     /**
      * @var int $DomesticTripJourneyHours
      */
-    protected $DomesticTripJourneyHours = null;
+    public $DomesticTripJourneyHours = null;
 
     /**
      * @var anonymous674 $EndingTrainNumber
      */
-    protected $EndingTrainNumber = null;
+    public $EndingTrainNumber = null;
 
     /**
      * @var int $InternationalTripJourneyHours
      */
-    protected $InternationalTripJourneyHours = null;
+    public $InternationalTripJourneyHours = null;
 
     /**
      * @var int $MaxEmployeesPerTrain
      */
-    protected $MaxEmployeesPerTrain = null;
+    public $MaxEmployeesPerTrain = null;
 
     /**
      * @var typeMoney $MaxFareAmount
      */
-    protected $MaxFareAmount = null;
+    public $MaxFareAmount = null;
 
     /**
      * @var typeRailGenderCompartment $GenderCompartmentType
      */
-    protected $GenderCompartmentType = null;
+    public $GenderCompartmentType = null;
 
     /**
      * @var typeRailCoachCompartment $CoachCompartmentType
      */
-    protected $CoachCompartmentType = null;
+    public $CoachCompartmentType = null;
 
     /**
      * @var typeRailSeatArrangement $SeatArrangementType
      */
-    protected $SeatArrangementType = null;
+    public $SeatArrangementType = null;
 
     /**
      * @var typeRailSeating $SeatingType
      */
-    protected $SeatingType = null;
+    public $SeatingType = null;
 
     /**
      * @var boolean $Smoking
      */
-    protected $Smoking = null;
+    public $Smoking = null;
 
     /**
      * @var anonymous675 $StartingTrainNumber
      */
-    protected $StartingTrainNumber = null;
+    public $StartingTrainNumber = null;
 
     /**
      * @var typeRailTicketFulfillmentOption $TicketFulfillmentType
      */
-    protected $TicketFulfillmentType = null;
+    public $TicketFulfillmentType = null;
 
     /**
      * @var anonymous882 $AccountCode
      */
-    protected $AccountCode = null;
+    public $AccountCode = null;
 
     /**
      * @var typeGeoPoliticalAreaType $ArrivalGeoPoliticalAreaType
      */
-    protected $ArrivalGeoPoliticalAreaType = null;
+    public $ArrivalGeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $ArrivalGeoPoliticalAreaCode
      */
-    protected $ArrivalGeoPoliticalAreaCode = null;
+    public $ArrivalGeoPoliticalAreaCode = null;
 
     /**
      * @var typeMoney $BenchMarkAmount
      */
-    protected $BenchMarkAmount = null;
+    public $BenchMarkAmount = null;
 
     /**
      * @var typeGeoPoliticalAreaType $ConnectionGeoPoliticalAreaType
      */
-    protected $ConnectionGeoPoliticalAreaType = null;
+    public $ConnectionGeoPoliticalAreaType = null;
 
     /**
      * @var typeGeoPoliticalAreaCode $ConnectionGeoPoliticalAreaCode
      */
-    protected $ConnectionGeoPoliticalAreaCode = null;
+    public $ConnectionGeoPoliticalAreaCode = null;
 
     /**
      * @var anonymous883 $ContractCode
      */
-    protected $ContractCode = null;
+    public $ContractCode = null;
 
     /**
      * @var anonymous884 $CorporateID
      */
-    protected $CorporateID = null;
+    public $CorporateID = null;
 
     /**
      * @var typePCC $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @var date $TravelStartDate
      */
-    protected $TravelStartDate = null;
+    public $TravelStartDate = null;
 
     /**
      * @var date $TravelEndDate
      */
-    protected $TravelEndDate = null;
+    public $TravelEndDate = null;
 
     /**
      * @var anonymous885 $SeatPositionMiscTravel
      */
-    protected $SeatPositionMiscTravel = null;
+    public $SeatPositionMiscTravel = null;
 
     /**
      * @var anonymous886 $SeatPositionRefCategory
      */
-    protected $SeatPositionRefCategory = null;
+    public $SeatPositionRefCategory = null;
 
     /**
      * @param typeRef $Key

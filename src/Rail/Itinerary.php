@@ -8,17 +8,17 @@ class Itinerary
     /**
      * @var typeItinerary $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeItineraryOption $Option
      */
-    protected $Option = null;
+    public $Option = null;
 
     /**
      * @var boolean $SeparateIndicator
      */
-    protected $SeparateIndicator = null;
+    public $SeparateIndicator = null;
 
     /**
      * @param typeItinerary $Type

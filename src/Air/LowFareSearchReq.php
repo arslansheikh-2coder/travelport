@@ -8,7 +8,7 @@ class LowFareSearchReq extends BaseLowFareSearchReq
     /**
      * @var typePolicyReference $PolicyReference
      */
-    protected $PolicyReference = null;
+    public $PolicyReference = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

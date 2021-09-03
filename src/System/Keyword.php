@@ -8,7 +8,7 @@ class Keyword extends typeKeyword
     /**
      * @var string[] $Text
      */
-    protected $Text = null;
+    public $Text = null;
 
     /**
      * @param anonymous391 $Name

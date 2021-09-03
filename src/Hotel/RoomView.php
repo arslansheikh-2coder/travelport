@@ -8,7 +8,7 @@ class RoomView
     /**
      * @var typeOTACode $Code
      */
-    protected $Code = null;
+    public $Code = null;
 
     /**
      * @param typeOTACode $Code

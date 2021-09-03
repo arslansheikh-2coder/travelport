@@ -8,7 +8,7 @@ class ProductInfo
     /**
      * @var Name $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @param Name $Name

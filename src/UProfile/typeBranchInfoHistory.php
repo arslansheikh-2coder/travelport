@@ -8,47 +8,47 @@ class typeBranchInfoHistory extends typeProfileInfo
     /**
      * @var typeProviderInfoHistory[] $ProviderInfo
      */
-    protected $ProviderInfo = null;
+    public $ProviderInfo = null;
 
     /**
      * @var StringLength1to128 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var typeGeoCityCode $GeoCityCode
      */
-    protected $GeoCityCode = null;
+    public $GeoCityCode = null;
 
     /**
      * @var boolean $Control
      */
-    protected $Control = null;
+    public $Control = null;
 
     /**
      * @var typeProvisioningCode $BranchCode
      */
-    protected $BranchCode = null;
+    public $BranchCode = null;
 
     /**
      * @var typeCurrency $Currency
      */
-    protected $Currency = null;
+    public $Currency = null;
 
     /**
      * @var boolean $URSyncTo
      */
-    protected $URSyncTo = null;
+    public $URSyncTo = null;
 
     /**
      * @var boolean $ProfileSyncTo
      */
-    protected $ProfileSyncTo = null;
+    public $ProfileSyncTo = null;
 
     /**
      * @var boolean $ProfileSyncFrom
      */
-    protected $ProfileSyncFrom = null;
+    public $ProfileSyncFrom = null;
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier

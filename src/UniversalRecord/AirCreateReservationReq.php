@@ -8,122 +8,122 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     /**
      * @var SupplierLocator $SupplierLocator
      */
-    protected $SupplierLocator = null;
+    public $SupplierLocator = null;
 
     /**
      * @var ThirdPartyInformation $ThirdPartyInformation
      */
-    protected $ThirdPartyInformation = null;
+    public $ThirdPartyInformation = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @var AirPricingSolution $AirPricingSolution
      */
-    protected $AirPricingSolution = null;
+    public $AirPricingSolution = null;
 
     /**
      * @var ActionStatus $ActionStatus
      */
-    protected $ActionStatus = null;
+    public $ActionStatus = null;
 
     /**
      * @var Payment $Payment
      */
-    protected $Payment = null;
+    public $Payment = null;
 
     /**
      * @var DeliveryInfo $DeliveryInfo
      */
-    protected $DeliveryInfo = null;
+    public $DeliveryInfo = null;
 
     /**
      * @var AutoSeatAssignment $AutoSeatAssignment
      */
-    protected $AutoSeatAssignment = null;
+    public $AutoSeatAssignment = null;
 
     /**
      * @var SpecificSeatAssignment $SpecificSeatAssignment
      */
-    protected $SpecificSeatAssignment = null;
+    public $SpecificSeatAssignment = null;
 
     /**
      * @var AssociatedRemark $AssociatedRemark
      */
-    protected $AssociatedRemark = null;
+    public $AssociatedRemark = null;
 
     /**
      * @var PocketItineraryRemark $PocketItineraryRemark
      */
-    protected $PocketItineraryRemark = null;
+    public $PocketItineraryRemark = null;
 
     /**
      * @var ReviewBooking $ReviewBooking
      */
-    protected $ReviewBooking = null;
+    public $ReviewBooking = null;
 
     /**
      * @var AirPricingTicketingModifiers $AirPricingTicketingModifiers
      */
-    protected $AirPricingTicketingModifiers = null;
+    public $AirPricingTicketingModifiers = null;
 
     /**
      * @var typeRetainReservation $RetainReservation
      */
-    protected $RetainReservation = null;
+    public $RetainReservation = null;
 
     /**
      * @var anonymous1520 $Source
      */
-    protected $Source = null;
+    public $Source = null;
 
     /**
      * @var boolean $OverrideMCT
      */
-    protected $OverrideMCT = null;
+    public $OverrideMCT = null;
 
     /**
      * @var boolean $RestrictWaitlist
      */
-    protected $RestrictWaitlist = null;
+    public $RestrictWaitlist = null;
 
     /**
      * @var boolean $CreatePassiveForHold
      */
-    protected $CreatePassiveForHold = null;
+    public $CreatePassiveForHold = null;
 
     /**
      * @var anonymous1521 $ChannelId
      */
-    protected $ChannelId = null;
+    public $ChannelId = null;
 
     /**
      * @var anonymous1522 $NSCC
      */
-    protected $NSCC = null;
+    public $NSCC = null;
 
     /**
      * @var anonymous1523 $CheckPriceVarianceType
      */
-    protected $CheckPriceVarianceType = null;
+    public $CheckPriceVarianceType = null;
 
     /**
      * @var float $CheckPriceVarianceValue
      */
-    protected $CheckPriceVarianceValue = null;
+    public $CheckPriceVarianceValue = null;
 
     /**
      * @var boolean $SplitReservation
      */
-    protected $SplitReservation = null;
+    public $SplitReservation = null;
 
     /**
      * @var boolean $PreferCompleteItinerary
      */
-    protected $PreferCompleteItinerary = null;
+    public $PreferCompleteItinerary = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

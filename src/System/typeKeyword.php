@@ -8,22 +8,22 @@ class typeKeyword
     /**
      * @var typeSubKey[] $SubKey
      */
-    protected $SubKey = null;
+    public $SubKey = null;
 
     /**
      * @var anonymous391 $Name
      */
-    protected $Name = null;
+    public $Name = null;
 
     /**
      * @var UNKNOWN $Number
      */
-    protected $Number = null;
+    public $Number = null;
 
     /**
      * @var UNKNOWN $Description
      */
-    protected $Description = null;
+    public $Description = null;
 
     /**
      * @param anonymous391 $Name

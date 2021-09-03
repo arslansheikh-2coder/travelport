@@ -8,37 +8,37 @@ class typeProfileLinkHistory
     /**
      * @var typeProfileID $TravelerID
      */
-    protected $TravelerID = null;
+    public $TravelerID = null;
 
     /**
      * @var typeProfileLinkRelationship $Relationship
      */
-    protected $Relationship = null;
+    public $Relationship = null;
 
     /**
      * @var StringLength1to128 $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var StringLength1to128 $OtherName
      */
-    protected $OtherName = null;
+    public $OtherName = null;
 
     /**
      * @var StringLength1to128 $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var StringLength1to128 $Nickname
      */
-    protected $Nickname = null;
+    public $Nickname = null;
 
     /**
      * @var StringLength1to128 $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @param typeProfileID $TravelerID

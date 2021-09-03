@@ -8,12 +8,12 @@ class typeTicketModifierValueType
     /**
      * @var string $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var boolean $NetFareValue
      */
-    protected $NetFareValue = null;
+    public $NetFareValue = null;
 
     /**
      * @param string $Value

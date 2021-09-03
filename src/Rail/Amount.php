@@ -8,12 +8,12 @@ class Amount
     /**
      * @var anonymous1268 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeMoney $AmountDuePaid
      */
-    protected $AmountDuePaid = null;
+    public $AmountDuePaid = null;
 
     /**
      * @param anonymous1268 $Type

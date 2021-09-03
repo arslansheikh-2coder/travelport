@@ -8,12 +8,12 @@ class TicketAgency
     /**
      * @var UNKNOWN $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var UNKNOWN $PseudoCityCode
      */
-    protected $PseudoCityCode = null;
+    public $PseudoCityCode = null;
 
     /**
      * @param UNKNOWN $ProviderCode

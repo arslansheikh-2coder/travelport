@@ -8,22 +8,22 @@ class AgentCriteria extends typeProfileSearchCriteria
     /**
      * @var typeWildcard $Username
      */
-    protected $Username = null;
+    public $Username = null;
 
     /**
      * @var typeWildcard $GivenName
      */
-    protected $GivenName = null;
+    public $GivenName = null;
 
     /**
      * @var typeWildcard $Surname
      */
-    protected $Surname = null;
+    public $Surname = null;
 
     /**
      * @var typeAlternateAgentID $AlternateAgentID
      */
-    protected $AlternateAgentID = null;
+    public $AlternateAgentID = null;
 
     /**
      * @param typeWildcard $AdditionalIdentifier

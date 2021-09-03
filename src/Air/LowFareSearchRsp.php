@@ -8,12 +8,12 @@ class LowFareSearchRsp extends AirSearchRsp
     /**
      * @var BrandList $BrandList
      */
-    protected $BrandList = null;
+    public $BrandList = null;
 
     /**
      * @var typeCurrency $CurrencyType
      */
-    protected $CurrencyType = null;
+    public $CurrencyType = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

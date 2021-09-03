@@ -8,37 +8,37 @@ class APISRequirements
     /**
      * @var Document $Document
      */
-    protected $Document = null;
+    public $Document = null;
 
     /**
      * @var UNKNOWN $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var string $Level
      */
-    protected $Level = null;
+    public $Level = null;
 
     /**
      * @var boolean $GenderRequired
      */
-    protected $GenderRequired = null;
+    public $GenderRequired = null;
 
     /**
      * @var boolean $DateOfBirthRequired
      */
-    protected $DateOfBirthRequired = null;
+    public $DateOfBirthRequired = null;
 
     /**
      * @var string $RequiredDocuments
      */
-    protected $RequiredDocuments = null;
+    public $RequiredDocuments = null;
 
     /**
      * @var boolean $NationalityRequired
      */
-    protected $NationalityRequired = null;
+    public $NationalityRequired = null;
 
     /**
      * @param Document $Document

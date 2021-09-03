@@ -8,12 +8,12 @@ class typeFormOfPaymentPNRReference
     /**
      * @var typeRef $Key
      */
-    protected $Key = null;
+    public $Key = null;
 
     /**
      * @var boolean $ProviderReservationLevel
      */
-    protected $ProviderReservationLevel = null;
+    public $ProviderReservationLevel = null;
 
     /**
      * @param typeRef $Key

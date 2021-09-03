@@ -8,97 +8,97 @@ class BaseAirPriceReq extends BaseCoreReq
     /**
      * @var AirItinerary $AirItinerary
      */
-    protected $AirItinerary = null;
+    public $AirItinerary = null;
 
     /**
      * @var AirPricingModifiers $AirPricingModifiers
      */
-    protected $AirPricingModifiers = null;
+    public $AirPricingModifiers = null;
 
     /**
      * @var SearchPassenger $SearchPassenger
      */
-    protected $SearchPassenger = null;
+    public $SearchPassenger = null;
 
     /**
      * @var AirPricingCommand $AirPricingCommand
      */
-    protected $AirPricingCommand = null;
+    public $AirPricingCommand = null;
 
     /**
      * @var AirReservationLocatorCode $AirReservationLocatorCode
      */
-    protected $AirReservationLocatorCode = null;
+    public $AirReservationLocatorCode = null;
 
     /**
      * @var OptionalServices $OptionalServices
      */
-    protected $OptionalServices = null;
+    public $OptionalServices = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var PCC $PCC
      */
-    protected $PCC = null;
+    public $PCC = null;
 
     /**
      * @var SSR $SSR
      */
-    protected $SSR = null;
+    public $SSR = null;
 
     /**
      * @var string $CheckOBFees
      */
-    protected $CheckOBFees = null;
+    public $CheckOBFees = null;
 
     /**
      * @var typeFareRuleType $FareRuleType
      */
-    protected $FareRuleType = null;
+    public $FareRuleType = null;
 
     /**
      * @var typeSupplierCode $SupplierCode
      */
-    protected $SupplierCode = null;
+    public $SupplierCode = null;
 
     /**
      * @var date $TicketDate
      */
-    protected $TicketDate = null;
+    public $TicketDate = null;
 
     /**
      * @var boolean $CheckFlightDetails
      */
-    protected $CheckFlightDetails = null;
+    public $CheckFlightDetails = null;
 
     /**
      * @var boolean $ReturnMM
      */
-    protected $ReturnMM = null;
+    public $ReturnMM = null;
 
     /**
      * @var anonymous1147 $NSCC
      */
-    protected $NSCC = null;
+    public $NSCC = null;
 
     /**
      * @var boolean $SplitPricing
      */
-    protected $SplitPricing = null;
+    public $SplitPricing = null;
 
     /**
      * @var boolean $MostRestrictivePenalties
      */
-    protected $MostRestrictivePenalties = null;
+    public $MostRestrictivePenalties = null;
 
     /**
      * @var string $PricingPreference
      */
-    protected $PricingPreference = null;
+    public $PricingPreference = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

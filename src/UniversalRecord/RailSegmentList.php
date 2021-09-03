@@ -8,7 +8,7 @@ class RailSegmentList
     /**
      * @var RailSegment $RailSegment
      */
-    protected $RailSegment = null;
+    public $RailSegment = null;
 
     /**
      * @param RailSegment $RailSegment

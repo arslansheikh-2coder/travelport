@@ -8,17 +8,17 @@ class BaseHotelDetailsReq extends BaseReq
     /**
      * @var HotelProperty $HotelProperty
      */
-    protected $HotelProperty = null;
+    public $HotelProperty = null;
 
     /**
      * @var HotelDetailsModifiers $HotelDetailsModifiers
      */
-    protected $HotelDetailsModifiers = null;
+    public $HotelDetailsModifiers = null;
 
     /**
      * @var PointOfSale $PointOfSale
      */
-    protected $PointOfSale = null;
+    public $PointOfSale = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

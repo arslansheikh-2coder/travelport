@@ -8,32 +8,32 @@ class IssuanceModifiers
     /**
      * @var FormOfPaymentRef $FormOfPaymentRef
      */
-    protected $FormOfPaymentRef = null;
+    public $FormOfPaymentRef = null;
 
     /**
      * @var FormOfPayment $FormOfPayment
      */
-    protected $FormOfPayment = null;
+    public $FormOfPayment = null;
 
     /**
      * @var CustomerReceiptInfo $CustomerReceiptInfo
      */
-    protected $CustomerReceiptInfo = null;
+    public $CustomerReceiptInfo = null;
 
     /**
      * @var EMDEndorsement $EMDEndorsement
      */
-    protected $EMDEndorsement = null;
+    public $EMDEndorsement = null;
 
     /**
      * @var EMDCommission $EMDCommission
      */
-    protected $EMDCommission = null;
+    public $EMDCommission = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
      */
-    protected $PlatingCarrier = null;
+    public $PlatingCarrier = null;
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef

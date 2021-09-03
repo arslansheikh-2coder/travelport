@@ -8,12 +8,12 @@ class ProfileSummaryErrorInfo extends typeErrorInfo
     /**
      * @var ProfileSummary[] $ProfileSummary
      */
-    protected $ProfileSummary = null;
+    public $ProfileSummary = null;
 
     /**
      * @var int $NumberOfChildren
      */
-    protected $NumberOfChildren = null;
+    public $NumberOfChildren = null;
 
     /**
      * @param string $Code

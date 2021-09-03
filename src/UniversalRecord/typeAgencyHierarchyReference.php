@@ -8,12 +8,12 @@ class typeAgencyHierarchyReference
     /**
      * @var typeProfileID $ProfileID
      */
-    protected $ProfileID = null;
+    public $ProfileID = null;
 
     /**
      * @var typeAgencyProfileLevel $ProfileType
      */
-    protected $ProfileType = null;
+    public $ProfileType = null;
 
     /**
      * @param typeProfileID $ProfileID

@@ -8,7 +8,7 @@ class GdsQueueCountRsp extends BaseRsp
     /**
      * @var QueueInfo $QueueInfo
      */
-    protected $QueueInfo = null;
+    public $QueueInfo = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

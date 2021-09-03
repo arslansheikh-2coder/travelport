@@ -8,12 +8,12 @@ class typeWeight
     /**
      * @var int $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @var typeUnitWeight $Unit
      */
-    protected $Unit = null;
+    public $Unit = null;
 
     /**
      * @param int $Value

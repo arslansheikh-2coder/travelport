@@ -8,22 +8,22 @@ class GdsExitQueueReq extends BaseReq
     /**
      * @var QueuePseudoCitySelector $QueuePseudoCitySelector
      */
-    protected $QueuePseudoCitySelector = null;
+    public $QueuePseudoCitySelector = null;
 
     /**
      * @var string $QueueSessionToken
      */
-    protected $QueueSessionToken = null;
+    public $QueueSessionToken = null;
 
     /**
      * @var typeProviderCode $ProviderCode
      */
-    protected $ProviderCode = null;
+    public $ProviderCode = null;
 
     /**
      * @var boolean $RemoveCurrent
      */
-    protected $RemoveCurrent = null;
+    public $RemoveCurrent = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

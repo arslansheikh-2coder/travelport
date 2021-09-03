@@ -8,7 +8,7 @@ class TicketEndorsement
     /**
      * @var typeEndorsement $Value
      */
-    protected $Value = null;
+    public $Value = null;
 
     /**
      * @param typeEndorsement $Value

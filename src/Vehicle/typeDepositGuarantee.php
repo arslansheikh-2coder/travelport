@@ -8,47 +8,47 @@ class typeDepositGuarantee
     /**
      * @var typeReserveRequirement $Purpose
      */
-    protected $Purpose = null;
+    public $Purpose = null;
 
     /**
      * @var anonymous591 $Type
      */
-    protected $Type = null;
+    public $Type = null;
 
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var float $Percent
      */
-    protected $Percent = null;
+    public $Percent = null;
 
     /**
      * @var date $DueDate
      */
-    protected $DueDate = null;
+    public $DueDate = null;
 
     /**
      * @var int $NumberOfDays
      */
-    protected $NumberOfDays = null;
+    public $NumberOfDays = null;
 
     /**
      * @var anonymous592 $OptionType
      */
-    protected $OptionType = null;
+    public $OptionType = null;
 
     /**
      * @var boolean $Required
      */
-    protected $Required = null;
+    public $Required = null;
 
     /**
      * @var boolean $RequirementPassed
      */
-    protected $RequirementPassed = null;
+    public $RequirementPassed = null;
 
     /**
      * @param typeReserveRequirement $Purpose

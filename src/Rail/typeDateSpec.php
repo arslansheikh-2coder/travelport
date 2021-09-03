@@ -8,12 +8,12 @@ class typeDateSpec
     /**
      * @var typeDateRange $DateRange
      */
-    protected $DateRange = null;
+    public $DateRange = null;
 
     /**
      * @var date $SpecificDate
      */
-    protected $SpecificDate = null;
+    public $SpecificDate = null;
 
     
     public function __construct()

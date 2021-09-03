@@ -8,27 +8,27 @@ class RailSpecificSeatAssignment
     /**
      * @var string $CoachLabel
      */
-    protected $CoachLabel = null;
+    public $CoachLabel = null;
 
     /**
      * @var string $PlaceLabel
      */
-    protected $PlaceLabel = null;
+    public $PlaceLabel = null;
 
     /**
      * @var string $Assignment
      */
-    protected $Assignment = null;
+    public $Assignment = null;
 
     /**
      * @var typeRef $RailSegmentRef
      */
-    protected $RailSegmentRef = null;
+    public $RailSegmentRef = null;
 
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @param string $CoachLabel

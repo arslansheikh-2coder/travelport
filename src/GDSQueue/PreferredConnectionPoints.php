@@ -8,7 +8,7 @@ class PreferredConnectionPoints
     /**
      * @var typeLocation $ConnectionPoint
      */
-    protected $ConnectionPoint = null;
+    public $ConnectionPoint = null;
 
     /**
      * @param typeLocation $ConnectionPoint

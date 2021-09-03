@@ -8,7 +8,7 @@ class Rules
     /**
      * @var string $RulesText
      */
-    protected $RulesText = null;
+    public $RulesText = null;
 
     
     public function __construct()

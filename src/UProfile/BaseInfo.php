@@ -8,12 +8,12 @@ class BaseInfo
     /**
      * @var AgencyBaseInfo $AgencyBaseInfo
      */
-    protected $AgencyBaseInfo = null;
+    public $AgencyBaseInfo = null;
 
     /**
      * @var BranchBaseInfo $BranchBaseInfo
      */
-    protected $BranchBaseInfo = null;
+    public $BranchBaseInfo = null;
 
     /**
      * @param AgencyBaseInfo $AgencyBaseInfo

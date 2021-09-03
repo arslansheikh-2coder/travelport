@@ -8,42 +8,42 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
     /**
      * @var string $ExtendedPayment
      */
-    protected $ExtendedPayment = null;
+    public $ExtendedPayment = null;
 
     /**
      * @var string $CustomerReference
      */
-    protected $CustomerReference = null;
+    public $CustomerReference = null;
 
     /**
      * @var boolean $AcceptanceOverride
      */
-    protected $AcceptanceOverride = null;
+    public $AcceptanceOverride = null;
 
     /**
      * @var boolean $ThirdPartyPayment
      */
-    protected $ThirdPartyPayment = null;
+    public $ThirdPartyPayment = null;
 
     /**
      * @var string $BankName
      */
-    protected $BankName = null;
+    public $BankName = null;
 
     /**
      * @var typeCountry $BankCountryCode
      */
-    protected $BankCountryCode = null;
+    public $BankCountryCode = null;
 
     /**
      * @var boolean $ExtractIndicator
      */
-    protected $ExtractIndicator = null;
+    public $ExtractIndicator = null;
 
     /**
      * @var boolean $Active
      */
-    protected $Active = null;
+    public $Active = null;
 
     /**
      * @param PhoneNumberHistory $PhoneNumberHistory

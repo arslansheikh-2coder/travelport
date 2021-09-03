@@ -8,17 +8,17 @@ class AirMerchandisingDetailsReq extends BaseReq
     /**
      * @var MerchandisingDetails $MerchandisingDetails
      */
-    protected $MerchandisingDetails = null;
+    public $MerchandisingDetails = null;
 
     /**
      * @var OptionalServiceModifiers $OptionalServiceModifiers
      */
-    protected $OptionalServiceModifiers = null;
+    public $OptionalServiceModifiers = null;
 
     /**
      * @var MerchandisingAvailabilityDetails $MerchandisingAvailabilityDetails
      */
-    protected $MerchandisingAvailabilityDetails = null;
+    public $MerchandisingAvailabilityDetails = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

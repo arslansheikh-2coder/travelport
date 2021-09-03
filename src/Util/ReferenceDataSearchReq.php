@@ -8,12 +8,12 @@ class ReferenceDataSearchReq extends BaseReq
     /**
      * @var ReferenceDataSearchModifiers $ReferenceDataSearchModifiers
      */
-    protected $ReferenceDataSearchModifiers = null;
+    public $ReferenceDataSearchModifiers = null;
 
     /**
      * @var ReferenceDataSearchItem $ReferenceDataSearchItem
      */
-    protected $ReferenceDataSearchItem = null;
+    public $ReferenceDataSearchItem = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

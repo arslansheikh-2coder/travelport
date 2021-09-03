@@ -8,12 +8,12 @@ class Restriction
     /**
      * @var string $Operation
      */
-    protected $Operation = null;
+    public $Operation = null;
 
     /**
      * @var string $Reason
      */
-    protected $Reason = null;
+    public $Reason = null;
 
     /**
      * @param string $Operation

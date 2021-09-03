@@ -8,17 +8,17 @@ class AlternateContact
     /**
      * @var typeTaggableAddress $Address
      */
-    protected $Address = null;
+    public $Address = null;
 
     /**
      * @var typeTaggablePhone $Phone
      */
-    protected $Phone = null;
+    public $Phone = null;
 
     /**
      * @var typeTaggableElectronicAddress $ElectronicAddress
      */
-    protected $ElectronicAddress = null;
+    public $ElectronicAddress = null;
 
     /**
      * @param typeTaggableAddress $Address

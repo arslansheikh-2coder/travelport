@@ -8,42 +8,42 @@ class ProfileTypeSearch
     /**
      * @var AgencyGroupCriteria $AgencyGroupCriteria
      */
-    protected $AgencyGroupCriteria = null;
+    public $AgencyGroupCriteria = null;
 
     /**
      * @var AgencyCriteria $AgencyCriteria
      */
-    protected $AgencyCriteria = null;
+    public $AgencyCriteria = null;
 
     /**
      * @var BranchCriteria $BranchCriteria
      */
-    protected $BranchCriteria = null;
+    public $BranchCriteria = null;
 
     /**
      * @var BranchGroupCriteria $BranchGroupCriteria
      */
-    protected $BranchGroupCriteria = null;
+    public $BranchGroupCriteria = null;
 
     /**
      * @var AgentCriteria $AgentCriteria
      */
-    protected $AgentCriteria = null;
+    public $AgentCriteria = null;
 
     /**
      * @var AccountCriteria $AccountCriteria
      */
-    protected $AccountCriteria = null;
+    public $AccountCriteria = null;
 
     /**
      * @var TravelerCriteria $TravelerCriteria
      */
-    protected $TravelerCriteria = null;
+    public $TravelerCriteria = null;
 
     /**
      * @var TravelerGroupCriteria $TravelerGroupCriteria
      */
-    protected $TravelerGroupCriteria = null;
+    public $TravelerGroupCriteria = null;
 
     /**
      * @param AgencyGroupCriteria $AgencyGroupCriteria

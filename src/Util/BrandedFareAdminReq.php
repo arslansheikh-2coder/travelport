@@ -8,17 +8,17 @@ class BrandedFareAdminReq extends BaseReq
     /**
      * @var FareFamilyAdd $FareFamilyAdd
      */
-    protected $FareFamilyAdd = null;
+    public $FareFamilyAdd = null;
 
     /**
      * @var FareFamilyUpdate $FareFamilyUpdate
      */
-    protected $FareFamilyUpdate = null;
+    public $FareFamilyUpdate = null;
 
     /**
      * @var FareFamilyDelete $FareFamilyDelete
      */
-    protected $FareFamilyDelete = null;
+    public $FareFamilyDelete = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo

@@ -8,7 +8,7 @@ class ProfileModifyTemplateRsp extends BaseRsp
     /**
      * @var ProfileTemplate $ProfileTemplate
      */
-    protected $ProfileTemplate = null;
+    public $ProfileTemplate = null;
 
     /**
      * @param ResponseMessage $ResponseMessage

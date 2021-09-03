@@ -8,17 +8,17 @@ class typeHotelReferencePoint
     /**
      * @var typeReferencePoint $_
      */
-    protected $_ = null;
+    public $_ = null;
 
     /**
      * @var typeCountry $Country
      */
-    protected $Country = null;
+    public $Country = null;
 
     /**
      * @var typeState $State
      */
-    protected $State = null;
+    public $State = null;
 
     /**
      * @param typeReferencePoint $_

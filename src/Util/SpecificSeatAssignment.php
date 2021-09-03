@@ -8,27 +8,27 @@ class SpecificSeatAssignment
     /**
      * @var typeRef $BookingTravelerRef
      */
-    protected $BookingTravelerRef = null;
+    public $BookingTravelerRef = null;
 
     /**
      * @var typeRef $SegmentRef
      */
-    protected $SegmentRef = null;
+    public $SegmentRef = null;
 
     /**
      * @var typeRef $FlightDetailRef
      */
-    protected $FlightDetailRef = null;
+    public $FlightDetailRef = null;
 
     /**
      * @var string $SeatId
      */
-    protected $SeatId = null;
+    public $SeatId = null;
 
     /**
      * @var anonymous718 $RailCoachNumber
      */
-    protected $RailCoachNumber = null;
+    public $RailCoachNumber = null;
 
     /**
      * @param typeRef $BookingTravelerRef

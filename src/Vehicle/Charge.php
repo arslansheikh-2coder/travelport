@@ -8,17 +8,17 @@ class Charge
     /**
      * @var typeMoney $Amount
      */
-    protected $Amount = null;
+    public $Amount = null;
 
     /**
      * @var string $RatePeriod
      */
-    protected $RatePeriod = null;
+    public $RatePeriod = null;
 
     /**
      * @var boolean $IncludedInEstTotalInd
      */
-    protected $IncludedInEstTotalInd = null;
+    public $IncludedInEstTotalInd = null;
 
     /**
      * @param typeMoney $Amount

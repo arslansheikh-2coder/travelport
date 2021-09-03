@@ -8,7 +8,7 @@ class RailExchangeSolution extends typeRailPricingSolution
     /**
      * @var RailExchangeInfo $RailExchangeInfo
      */
-    protected $RailExchangeInfo = null;
+    public $RailExchangeInfo = null;
 
     /**
      * @param RailJourney $RailJourney
