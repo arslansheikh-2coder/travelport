@@ -36,9 +36,10 @@ class SearchAirLeg
      * @param typeTimeSpec[] $SearchArvTime
      * @param AirLegModifiers $AirLegModifiers
      */
-    public function __construct(array $SearchOrigin = null, array $SearchDepTime = null, array $SearchArvTime = null, $AirLegModifiers = null)
+    public function __construct(array $SearchOrigin = null,array $SearchDestination = null, array $SearchDepTime = null, array $SearchArvTime = null, $AirLegModifiers = null)
     {
       $this->SearchOrigin = $SearchOrigin;
+      $this->SearchDestination = $SearchDestination;
       $this->SearchDepTime = $SearchDepTime;
       $this->SearchArvTime = $SearchArvTime;
       $this->AirLegModifiers = $AirLegModifiers;
